@@ -1,0 +1,14 @@
+.zoom{
+	overflow: hidden;
+	padding-bottom: 100%;
+}
+.zoom img{
+	position: fixed;
+	top: -5%;
+	left: 50%;
+	max-width: 200%;
+	width: 90%;
+	transform: translateX(-50%);
+	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
+	will-change: -webkit-filter, filter, transform; */
+}
