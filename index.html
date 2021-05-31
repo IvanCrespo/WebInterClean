@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/misionvision.css">
     <link rel="stylesheet" href="css/mapa.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/busquedas.css">
 
     <!-- AOS: animacion CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -123,7 +124,7 @@
     </div>
     
 
-    <div class="Imagen">
+    <div class="Imagen" style="visibility: hidden;">
         <img id="Imagen"  src="/img/LogoIC150x150.png" alt="Imagen">
     </div>
 
@@ -196,6 +197,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-md-6 offset-md-1 contenidoNosotros">
+
                             <h1 class="titulosIC" data-aos="fade-right" data-aos-duration="2600">
                                 <div class="contenedorTitulo">
                                     <img class="img-fluid" src="img/hojachica_interclean.png">NOSOTROS
@@ -257,7 +259,7 @@
                                                 alt="second slide" width="auto" height="360rem">
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col ">
                                         <h1 class="titempl">
                                             <div class="TextoTamaño"><img class="img-fluid"
                                                     src="img/hojachica_interclean.png">Visión</div>
@@ -415,10 +417,60 @@
             </div>
         </section> -->
 
+        <!-- BUSQUEDAS -->
+        <section class="container-fluid" style="padding: 2rem;">
+            <div class="container ">
+                    
+                        <div class="row">
+                            <div class="ajustado">
+                                <div class="Fondo_titulo" data-aos="zoom-in-down" data-aos-duration="2600">
+                                    <h1 class="tituloNR">
+                                        <img class="img-fluid" src="img/hojachica_interclean.png">
+                                        NUESTROS RESULTADOS
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="fondo1 row">
+
+                                            <div class="col-sm-4 col-md-4  estados" data-aos="fade-left" data-aos-duration="2000" >
+                                                <div onmouseover="contador()">
+
+                                                <img class="country" src="img/iconos/outline_location_on_black_24dp.png" alt="edificio" style="width: 35%;">
+                                                    <div class="counter" data-target="32">0</div>
+                                                    <h3>Estados</h3>
+
+                                                </div>
+                                           </div>
+                                            
+                                           <div class="col-sm-4 col-md-4  clientes" data-aos="fade-left" data-aos-duration="2000">
+                                                <div onmouseover="contador()">
+                                            
+                                                    <img class="customer" src="img/iconos/outline_mood_black_24dp.png" alt="edificio" style="width: 35%;">
+                                                        <div class="counter" data-target="3200">0 <span>+</span></div>
+                                                        <h3>Clientes</h3>
+                                               </div>
+                                          </div>
+
+                                          <div class="col-sm-4 col-md-4  equipo" data-aos="fade-left" data-aos-duration="2000">
+                                               <div onmouseover="contador()">
+                                            
+                                                    <img class="team" src="img/iconos/outline_groups_black_24dp.png" alt="edificio" style="width: 35%;">
+                                                        <div class="counter" data-target="3200">0  <span>+</span> </div>
+                                                        <h3>Nuestro Equipo</h3>
+                                            </div>
+                                        </div>
+
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+
+
     </main>
 
-
-
+   
 
 
 
@@ -438,7 +490,8 @@
 
     <!-- --------- Mapa --------- -->
     <script src="js/mapa/mapa.js" type="text/javascript"></script>
-
+    <!-- CONTADOR DE VISITAS -->
+    <script src="js/Contador/contador.js"></script>
     
 <!--SCROLL MENU-->
 <style type="text/css">

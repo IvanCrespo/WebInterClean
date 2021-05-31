@@ -9,6 +9,7 @@
 	max-width: 200%;
 	width: 100%;
 	transform: translateX(-50%);
+	z-index: -999;
 	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
 	will-change: -webkit-filter, filter, transform; */
 }
