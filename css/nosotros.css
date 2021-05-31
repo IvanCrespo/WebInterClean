@@ -1,17 +1,41 @@
 .contenidoNosotros {
-    margin-top: 6%;
+    padding-top: 5%;
+}
+.titulosICN {
+    width: 450px;
+    height: 85px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #1A455D;
+    border-radius: 3.3rem 0rem 3.3rem 0rem;
+    box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+}
+.letraTitulo {
+    margin-top: 30%;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 5px;
+    padding-top: 11px;
+}
+.hojaNosotros {
+    margin-left: 42px;
+    margin-top: -22px;
 }
 .textoIC {
     padding: 2rem;
     background-color:transparent;
     color: rgb(26, 69, 93);
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     text-align: justify;
 }
 .imagenNosotros {
     margin-top: 5%;
+}
+.imagenNosotros {
+    margin-top: 9%;
 }
 .animacion {
     height: 487px;
