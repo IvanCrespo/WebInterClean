@@ -1,0 +1,30 @@
+.contenidoNosotros {
+    margin-top: 6%;
+}
+.textoIC {
+    padding: 2rem;
+    background-color:transparent;
+    color: rgb(26, 69, 93);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.imagenNosotros {
+    margin-top: 5%;
+}
+.animacion {
+    height: 487px;
+    width: 415.6px;
+    background: url("../img/nosotros_interclean.png");
+    margin: 0 auto;
+    animation: correr 5s steps(3) infinite;
+}
+@keyframes correr {
+    0% {
+        background-position: 0px;
+    }
+    100% {
+        background-position: -1247px;
+    }
+}

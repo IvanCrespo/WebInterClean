@@ -1,4 +1,4 @@
-.container {
+.container-servicios {
     max-width: 1200px;
     width: 90%;
     margin: 20px auto;
@@ -28,11 +28,18 @@
     margin: auto;
     margin-bottom: 2rem;
 }
+.circulo .card-img-top {
+    width: auto;
+    height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .card-title {
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: 49px;
+    line-height: 34px;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -42,7 +49,7 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
-    text-align: justified;
+    text-align: justify;
 }
 .boton {
     display: flex;
@@ -55,6 +62,7 @@
     padding: 5px;
     text-decoration: none;
     border: 3px solid #fff;
+    font-size: 20px;
 }
 .boton:hover {
     background: white;

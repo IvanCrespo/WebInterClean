@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="css/estilos_principal.css">
     <link rel="stylesheet" href="css/zoom.css">
     <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/fondos.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+
+    <!-- AOS: animacion CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>InterClean</title>
 </head>
@@ -29,15 +35,16 @@
     <main role="main">
 
         <!-- SECCION SERVICIOS -->
-        <section class="section">
-            <div class="container">
+        <section class="container-fluid">
+            <div class="container-servicios">
                 <div class="zoom_servicios">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title ">Limpieza</h5>
+                            <h3 class="card-title ">Limpieza</h3>
                             <hr class="hr">
                             <div class="circulo ">
-                                <img class="card-img-top" src="img/servicios/limpieza-industrial_interclean.png" alt="Card image cap" style="height: 16rem;">
+                                <img class="card-img-top" src="img/servicios/limpieza-industrial_interclean.png"
+                                    alt="Card image cap" style="height: 16rem;">
                             </div>
                             <p class=" card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                                 explicabo veniam impedit libero. Explicabo aliquam eaque, fugiat sed impedit sunt? Ut
@@ -49,10 +56,11 @@
                 <div class="zoom_servicios">
                     <div class="card ">
                         <div class="card-body ">
-                            <h5 class="card-title ">Mantenimiento</h5>
+                            <h3 class="card-title ">Mantenimiento</h3>
                             <hr class="hr ">
                             <div class="circulo ">
-                                <img class="card-img-top " src="img/servicios/jardineria-areasverdes_interclean.png" alt="Card image cap " style="height: 16rem;">
+                                <img class="card-img-top " src="img/servicios/jardineria-areasverdes_interclean.png"
+                                    alt="Card image cap " style="height: 16rem;">
                             </div>
                             <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                                 explicabo veniam impedit libero. Explicabo aliquam eaque, fugiat sed impedit sunt? Ut
@@ -64,10 +72,11 @@
                 <div class="zoom_servicios">
                     <div class="card ">
                         <div class="card-body ">
-                            <h5 class="card-title ">Desinfección</h5>
+                            <h3 class="card-title ">Desinfección</h3>
                             <hr class="hr ">
                             <div class="circulo ">
-                                <img class="card-img-top " src="img/servicios/sanitizacion2_interclean.png" alt="Card image cap " style="height: 16rem; ">
+                                <img class="card-img-top " src="img/servicios/sanitizacion2_interclean.png"
+                                    alt="Card image cap " style="height: 16rem; ">
                             </div>
                             <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                                 explicabo veniam impedit libero. Explicabo aliquam eaque, fugiat sed impedit sunt? Ut
@@ -78,6 +87,36 @@
                 </div>
             </div>
         </section>
+
+        <!-- SECCION NOSOTROS -->
+        <section class="container-fluid">
+            <div class="fNosotros" data-aos="fade-right" data-aos-duration="3000">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1 contenidoNosotros">
+                            <h1 class="titulosIC" data-aos="fade-right" data-aos-duration="2600">
+                                <div class="contenedorTitulo">
+                                    <img class="img-fluid" src="img/hojachica_interclean.png">NOSOTROS
+                                </div>
+                            </h1>
+                            <p class="textoIC" data-aos="fade-right" data-aos-duration="2400">&nbsp;&nbsp;Somos una
+                                <b>empresa 100% Mexicana e innovadora</b> que se esmera por mejorar la calidad,
+                                casándose en la excelencia del personal, del servicio y los productos que ofrecemos,
+                                para no solo cumplir,
+                                sino superar las expectativas de los clientes, respaldado por nuestra capacidad de
+                                respuesta y atención continúa cimentando todos nuestros procesos en la
+                                <b>Ingeniería DEL SERVICIO.</b>
+                            </p>
+                        </div>
+                        <div class="col-md-5 imagenNosotros" data-aos="fade-left" data-aos-duration="2600">
+                            <div class="animacion"></div>
+                            <hr class="lineaHImagenes">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
     </main>
 
@@ -103,6 +142,7 @@
 
     <!-- JS de la Web -->
     <script src="js/zoom/zoom.js"></script>
+    <script src="js/aos/aos.js"></script>
 
 </body>
 

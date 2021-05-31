@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,8 +15,18 @@ main{
 	height: 100%;
 	width: 100%;
 }
-.section {
+/*.section {
 	padding-left: 0 !important;
   	padding-right: 0 !important;
   	width: 100% !important;
 }
+*/
+
+/*---------------------- LINEAS HORIZONTALES ---------------------*/
+.lineaHImagenes {
+	border-top: 14px solid rgb(127, 164, 57);
+	max-width: 425px;
+	margin: 0px auto 0 auto;
+	border-radius: 10px;
+}
+
