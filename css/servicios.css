@@ -72,12 +72,13 @@
     color: #7FA439;
     text-decoration: none;
 }
-.hr-servicios {
+.hr-servicios{
     border-top: 3px solid #7FA439;
     height: 5px;
     width: 35%;
     margin: auto;
     margin-bottom: 1rem;
+    opacity: inherit;
 }
 .zoom_servicios {
     transition: 1s ease;
@@ -113,9 +114,6 @@
     margin-left: 42px;
     margin-top: -22px;
 }
-
-
-
 a.boton{
     color: white !important;
 }

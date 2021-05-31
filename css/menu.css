@@ -7,12 +7,12 @@ a{
 }
 
 .active {
-    color: #8fc42c!important;
-    border-bottom: 5px solid #8fc42c!important;
+    color: #7FA439!important;
+    border-bottom: 5px solid #7FA439!important;
     
 }
 .coticeActive{
-    background-color:#8fc42c!important;
+    background-color:#7FA439!important;
     color: white!important;
     border-radius: 2rem;
     padding: 5px 18px !important;
@@ -26,7 +26,7 @@ li{
 }
 
 .miMenu li ul a:hover{
-    background-color: #8fc42c!important;
+    background-color: #7FA439!important;
     color: white!important;
 }
 
@@ -44,7 +44,7 @@ rgb(127, 164, 57); verde
 
 .dropdown-item.active,
 .cotice:hover{
-    background-color:#8fc42c!important;
+    background-color:#7FA439!important;
     color: white!important;
 }
 .cotice a{
@@ -52,10 +52,10 @@ rgb(127, 164, 57); verde
 }
 
 a:hover{
-    color: #8fc42c!important;
+    color: #7FA439!important;
 }
  .miMenu a:hover{
-    border-bottom: 5px solid #8fc42c!important;
+    border-bottom: 5px solid #7FA439!important;
     font-weight: bold;
 }
 
@@ -77,7 +77,7 @@ a:hover{
     #main_nav {
         position: absolute;
         background-color: rgb(255, 255, 255);
-        border:1px solid rgb(0, 255, 0);
+        border:1px solid #7FA439;
         border-radius: 2rem;
         margin-top: 13rem;
    }

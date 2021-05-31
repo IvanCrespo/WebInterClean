@@ -28,6 +28,7 @@ main{
 	max-width: 425px;
 	margin: 0px auto 0 auto;
 	border-radius: 10px;
+	opacity: inherit;
 }
 
 /* ---------------------------------------------------- */
