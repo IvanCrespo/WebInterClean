@@ -1,20 +1,13 @@
-#control_map {
-    float: left;
-	width: 955px;
-    margin-top: 180px;
-    margin-bottom: 40px;
-	z-index: 999;
-}
 .cobertura {
 	padding-top: 80px;
 }
-#control_map{                    
+/* #control_map{                    
 	float: left;
 	width: 955px;
     margin-top: 180px;
     margin-bottom: 40px;
 	z-index: 999;
-}
+} */
 .img-cobertura {
 	float: left;
 	padding-top: 40px;

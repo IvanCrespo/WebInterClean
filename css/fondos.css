@@ -6,3 +6,11 @@
     background-position-y: -7px;
     height: 98vh;
 }
+.fCobertura {
+    background-image: url('../img/fondo/fondo-cobertura_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: right;
+    background-position-y: -7px;
+    height: 98vh;
+}
