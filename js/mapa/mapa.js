@@ -69,63 +69,63 @@ var state_class = new Array();
     state_class[30]="VER";
     state_class[31]="YUC";
     state_class[32]="ZAC";
-$(function () {
-    $('.listaEdos').mouseover(function(e) {                
-        $($(this).data('parent-map')).mouseover();
-    }).mouseout(function(e) {                
-        $($(this).data('parent-map')).mouseout();                    
-    }).click(function(e) { 
-        e.preventDefault(); 
-        $($(this).data('parent-map')).click(); 
-    });
+    $(function () {
+        $('.listaEdos').mouseover(function(e) {                
+            $($(this).data('parent-map')).mouseover();
+        }).mouseout(function(e) {                
+            $($(this).data('parent-map')).mouseout();                    
+        }).click(function(e) { 
+            e.preventDefault(); 
+            $($(this).data('parent-map')).click(); 
+        });
+        
     
-
-    $('.area').hover(function () {
-        var id_estado = $(this).data('id-estado');
-        var meid = $(this).attr('id');
-        $('#edo').html(state_names[id_estado]);                
-        $('#letras'+meid).addClass('listaEdosHover');
-        $('.escudo').addClass('escudo_img');
-        if(last_selected_id_estado!==null){
-            $('.escudo').removeClass(state_class[last_selected_id_estado]);
-        }
-        $('.escudo').addClass(meid);
-    }).mouseout(function () {
-        var meid = $(this).attr('id');
-        $('#letras'+meid).removeClass('listaEdosHover');
-        $('.escudo').removeClass(meid);
-        if(last_selected_id_estado!==null){
-            $('#edo').html(state_names[last_selected_id_estado]);
-            $('.escudo').addClass(state_class[last_selected_id_estado]);
-        }else{                    
-            $('#edo').html("&nbsp;");
-            $('.escudo').removeClass('escudo_img');
-            //$('.escudo').attr('class','escudo');
-        }
-    });
-    //$('#map_ID').imageMapResize();//funciona perfectamente
-    var areaLastClicked=null;
-    var last_selected_id_estado=null;
-    $('.area').click(function (e) {
-            e.preventDefault();
-            var $area = $(this);
-            var meid = $area.attr('id');
-            //$('.area').mouseout();
-            var data = $area.data('maphilight') || {};                    
-            if(areaLastClicked!==null){                        
-                var lastData = areaLastClicked.data('maphilight') || {};
-                lastData.alwaysOn=false;
-                $('#letras'+areaLastClicked.attr('id')).removeClass('listaEdosActive');
+        $('.area').hover(function () {
+            var id_estado = $(this).data('id-estado');
+            var meid = $(this).attr('id');
+            $('#edo').html(state_names[id_estado]);                
+            $('#letras'+meid).addClass('listaEdosHover');
+            $('.escudo').addClass('escudo_img');
+            if(last_selected_id_estado!==null){
                 $('.escudo').removeClass(state_class[last_selected_id_estado]);
             }
-            $('#letras'+meid).addClass('listaEdosActive');
-            areaLastClicked=$area;
-            //data.alwaysOn = !data.alwaysOn;
-            data.alwaysOn = true;
-            $(this).data('maphilight', data).trigger('alwaysOn.maphilight');
-            last_selected_id_estado = $(this).data('id-estado');
-            cargarEstado(last_selected_id_estado);
+            $('.escudo').addClass(meid);
+        }).mouseout(function () {
+            var meid = $(this).attr('id');
+            $('#letras'+meid).removeClass('listaEdosHover');
+            $('.escudo').removeClass(meid);
+            if(last_selected_id_estado!==null){
+                $('#edo').html(state_names[last_selected_id_estado]);
+                $('.escudo').addClass(state_class[last_selected_id_estado]);
+            }else{                    
+                $('#edo').html("&nbsp;");
+                $('.escudo').removeClass('escudo_img');
+                //$('.escudo').attr('class','escudo');
+            }
+        });
+        //$('#map_ID').imageMapResize();//funciona perfectamente
+        var areaLastClicked=null;
+        var last_selected_id_estado=null;
+        $('.area').click(function (e) {
+                e.preventDefault();
+                var $area = $(this);
+                var meid = $area.attr('id');
+                //$('.area').mouseout();
+                var data = $area.data('maphilight') || {};                    
+                if(areaLastClicked!==null){                        
+                    var lastData = areaLastClicked.data('maphilight') || {};
+                    lastData.alwaysOn=false;
+                    $('#letras'+areaLastClicked.attr('id')).removeClass('listaEdosActive');
+                    $('.escudo').removeClass(state_class[last_selected_id_estado]);
+                }
+                $('#letras'+meid).addClass('listaEdosActive');
+                areaLastClicked=$area;
+                //data.alwaysOn = !data.alwaysOn;
+                data.alwaysOn = true;
+                $(this).data('maphilight', data).trigger('alwaysOn.maphilight');
+                last_selected_id_estado = $(this).data('id-estado');
+                cargarEstado(last_selected_id_estado);
+        });
+                                
+        $('.map').maphilight({ fade: true,strokeColor: 'dbdbdb', fillColor: 'dbdbdb', fillOpacity: 0.3 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
     });
-                            
-    $('.map').maphilight({ fade: true,strokeColor: '1F00FF', fillColor: '1F00FF', fillOpacity: 0.5 });                        
-});

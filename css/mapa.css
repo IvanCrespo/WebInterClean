@@ -1,3 +1,97 @@
 .cobertura {
 	padding-top: 5%;
 }
+#control_map{                    
+	/* float: left; */
+	width: 955px;
+    margin-top: 180px;
+    margin-bottom: 40px;
+	z-index: 999;
+}
+.content_list_states{
+	float:left;
+	color: rgb(85, 85, 85);                    
+}
+.listaEdos{          
+	cursor:pointer;
+	margin: 11px 0px;
+	display: block;
+	font-size: 14px;
+}
+/* Lista de estados */
+.listaEdos:hover,.listaEdosHover{
+	color: #00954f;
+	font-weight: 600;
+}
+/* Dejar color letra */
+.listaEdosActive{
+	color: #00954f;
+	font-weight: 600;
+}
+#edo{/*letras del estado*/
+    position: relative; 
+    font-size: 2.3em;
+	background: -webkit-linear-gradient(0deg, rgba(26,69,93,1) 2%, rgba(35,91,122,1) 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	text-align:start;
+	width: 490px;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	z-index: 999;
+}
+.escudo{                    
+	position: relative; 
+	top: 30%;
+	width:250px;
+	height:250px;
+	float: left;       
+}
+.escudo_img{
+	background: transparent url(../img/estados_interclean.png);
+	z-index: 9999;                 
+}
+.AGU{background-position: 2000px 1000px;}
+.BCN{background-position: 1750px 1000px;}
+.BCS{background-position: 1500px 1000px;}
+.CAM{background-position: 1250px 1000px;}
+.COA{background-position: 1000px 1000px;}
+.COL{background-position: 750px 1000px;}
+.CHP{background-position: 500px 1000px;}
+.CHH{background-position: 250px 1000px;}
+.DIF{background-position: 2000px 750px;}
+.DUR{background-position: 1750px 750px;}
+.GUA{background-position: 1500px 750px;}
+.GRO{background-position: 1250px 750px;}
+.HID{background-position: 1000px 750px;}
+.JAL{background-position: 750px 750px;}
+.MEX{background-position: 500px 750px;}
+.MIC{background-position: 250px 750px;}
+.MOR{background-position: 2000px 500px;}
+.NAY{background-position: 1750px 500px;}
+.NLE{background-position: 1500px 500px;}
+.OAX{background-position: 1250px 500px;}
+.PUE{background-position: 1000px 500px;}
+.QUE{background-position: 750px 500px;}
+.ROO{background-position: 500px 500px;}
+.SLP{background-position: 250px 500px;}
+.SIN{background-position: 2000px 250px;}
+.SON{background-position: 1750px 250px;}
+.TAB{background-position: 1500px 250px;}
+.TAM{background-position: 1250px 250px;}
+.TLA{background-position: 1000px 250px;}
+.VER{background-position: 750px 250px;}
+.YUC{background-position: 500px 250px;}
+.ZAC{background-position: 250px 250px;}
+
+.LV{
+	border: none;
+    border-left: 6px solid rgb(127, 164, 57);
+    height: 10vh;
+    width: 1px;    
+	border-radius: 35px;
+	position: absolute;   
+	margin-top: 0px;
+	z-index: 999;
+}
+
