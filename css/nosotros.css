@@ -29,10 +29,7 @@
     text-align: justify;
 }
 .imagenNosotros {
-    margin-top: 5%;
-}
-.imagenNosotros {
-    margin-top: 9%;
+    margin-top: 3%;
 }
 .animacion {
     height: 487px;
@@ -48,6 +45,9 @@
     100% {
         background-position: -1247px;
     }
+}
+.contenedorNosotros {
+    padding-top: 7%; 
 }
 
 
