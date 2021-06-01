@@ -15,6 +15,9 @@ main{
 	height: 100%;
 	width: 100%;
 }
+html, body {
+	width: 100%;
+}
 /*.section {
 	padding-left: 0 !important;
   	padding-right: 0 !important;
@@ -35,3 +38,8 @@ main{
 .offset-md-1 {
     margin-left: 2.6%;
 }
+.seccionTamaño {
+    width: 100% !important;
+	height: 100vh;
+}
+
