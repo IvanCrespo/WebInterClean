@@ -1,12 +1,9 @@
-.cobertura {
-	padding-top: 5%;
-}
 #control_map{                    
-	/* float: left; */
-	width: 955px;
+    width: auto;
     margin-top: 180px;
     margin-bottom: 40px;
-	z-index: 999;
+    z-index: 999;
+	margin-left: 20%;
 }
 .content_list_states{
 	float:left;
@@ -27,25 +24,6 @@
 .listaEdosActive{
 	color: #00954f;
 	font-weight: 600;
-}
-#edo{/*letras del estado*/
-    position: relative; 
-    font-size: 2.3em;
-	background: -webkit-linear-gradient(0deg, rgba(26,69,93,1) 2%, rgba(35,91,122,1) 100%);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-	text-align:start;
-	width: 490px;
-    font-family: 'Poppins', sans-serif;
-	font-weight: 900;
-	z-index: 999;
-}
-.escudo{                    
-	position: relative; 
-	top: 30%;
-	width:250px;
-	height:250px;
-	float: left;       
 }
 .escudo_img{
 	background: transparent url(../img/estados_interclean.png);
@@ -84,8 +62,31 @@
 .YUC{background-position: 500px 250px;}
 .ZAC{background-position: 250px 250px;}
 
+
+#edo{/*letras del estado*/
+    position: absolute; 
+    font-size: 2.3em;
+	background: -webkit-linear-gradient(0deg, rgba(26,69,93,1) 2%, rgba(35,91,122,1) 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	text-align:start;
+	width: 540px;
+	height: 28%;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	z-index: 999;
+	padding-top: 115px;
+	margin-left: 30%;
+}
+.escudo{                    
+	position: relative;
+    top: 6%;
+    width: 250px;
+    height: 250px;
+    margin-left: 4%;     
+}
 .LV{
-	border: none;
+	/* border: none; */
     border-left: 6px solid rgb(127, 164, 57);
     height: 10vh;
     width: 1px;    
@@ -94,4 +95,37 @@
 	margin-top: 0px;
 	z-index: 999;
 }
+.titulosICCN {
+	width: 88%;
+    height: 85px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #1A455D;
+    border-radius: 3.3rem 0rem 3.3rem 0rem;
+    box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+}
+.letraTituloCob {
+    margin-top: 13%;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 5px;
+    padding-top: 11px;
+}
+.infoCobertura {
+	margin-left: -3%;
+}
+#tilt {
+	display: block;
+    height: 190px;
+    width: 280px;
+    position: absolute;
+    margin-top: 6%;
+    background-image: url(../img/32estados_interclean.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 33%;
+  }
+
 

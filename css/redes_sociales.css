@@ -1,0 +1,36 @@
+.social-icons li a {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#social-icons {
+    padding:0;
+    position: fixed;
+    top: 67%;
+    transform: translateY(-50%);
+    right:0;
+    z-index: 199;
+    border-radius: 25px;
+}
+.social-icons {
+    margin: 15px;
+    padding: 15px;
+    list-style:none;
+}
+.social-icons li {
+    display: block;
+    margin: 12px 0px;
+    border-radius: 100px;
+}
+.social-icons li a {
+    display:inline-block;
+    line-height:45px;
+    text-align:center;
+    font-size:15px;
+    filter: grayscale(100%);
+}
+.social-icons li a:hover {
+    border-radius: 100px;
+    transform:  translateX(-1px) scale(1.3);
+    filter: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
