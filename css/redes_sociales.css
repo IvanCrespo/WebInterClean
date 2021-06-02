@@ -22,6 +22,8 @@
     border-radius: 100px;
 }
 .social-icons li a {
+    /* width:70%;
+    height:70%; */
     display:inline-block;
     line-height:45px;
     text-align:center;
@@ -33,4 +35,8 @@
     transform:  translateX(-1px) scale(1.3);
     filter: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .icono-RS {
+    width: 60px !important;
+    height: auto;
 }

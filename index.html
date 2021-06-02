@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/nosotros.css">
     <link rel="stylesheet" href="css/mapa.css">
     <link rel="stylesheet" href="css/redes_sociales.css">
+    <link rel="stylesheet" href="css/menu.css">
 
     <!-- AOS: animacion CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -35,6 +36,62 @@
 </head>
 
 <body>
+    <header>
+        <!-- ============= MENU ============== -->
+        <nav id="navvbarTotal"
+            class="autohide navbar navbar-expand-sm navbar-expand-md navbar-expand-lg  navbar-expand-xl miMenu">
+            <div class="container-fluid">
+                <!-- LOGO -->
+                <div role="button" href="#" id="logo" title="INTERCLEAN">
+                    <img src="img/logopng_interclean.png" width="140" height="140" class="lgs menu-wrapper-icono" />
+                </div>
+                <!--FIN LOGO -->
+
+                <!--MENU HAMBURGUESA-->
+                <button class="navbar-toggler ms-auto navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span>
+                </button>
+                <!--FIN HAMBURGUESA-->
+
+                <!-- MENU-->
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav mx-auto navbar-brand">
+                        <li class="nav-item separacion"><a class="nav-link active color-menu" href="../index.html"> Inicio </a></li>
+                        <li class="nav-item dropdown separacion"><a class="nav-link  letras dropdown-toggle color-menu" role="button" aria-haspopup="true"arial-expanded="false" href="#" data-toggle="dropdown"> Servicios </a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="separacion"><a class="dropdown-item color-menu" href="../www/limpieza.html"> Limpieza </a></li>
+                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Desinfeccion</a></li>
+                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Mantenimiento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown separacion"><a class="nav-link letras dropdown-toggle color-menu" role="button" aria-haspopup="true"arial-expanded="false" href="#" data-toggle="dropdown"> Acerca de </a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Vision </a></li>
+                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Mision </a></li>
+                                <div class="dropdown-divider line"></div>
+                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Nosotros </a></li>
+                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Cobertura </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item separacion"><a class="nav-link color-menu" href="./sites/Empleos/empleos.html"> Empleos </a></li>
+                        <li class="nav-item separacion"><a class="nav-link cotice btnServicios" href="./sites/Cotizaciones/cotice.html"> Cotice Ahora</a></li>
+                    </ul>
+                </div>
+                <!-- FIN MENU-->
+
+                <!-- navbar-collapse.// -->
+                <!-- Telefono -->
+                <div role="button" id="tel" href="tel:+222 496 1185" style="margin-left: 20px;">
+                    <img src="gif/celular_interclean.gif" alt="tel" width="100" height="100"
+                        class="celular menu-wrapper-tel" />
+                </div>
+                <!--Fin Telefono -->
+            </div> <!-- container-fluid.// -->
+        </nav>
+        <!-- ============= FIN MENU// ============== -->
+    </header>
+
 
     <!-- ZOOM principal -->
     <div class="zoom" id="logoZoom">
@@ -269,15 +326,15 @@
         <div id="social-icons">
             <div class="text-right">
                 <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/Intercleanmx2020" title="Facebook"><img
-                                src="botones/boton-fb-02.png" /> </a></li>
-                    <li><a href="https://twitter.com/Interclean_Mx" title="Twitter"><img
+                    <li><a href="https://www.facebook.com/Intercleanmx2020" title="Facebook"><img class="icono-RS"
+                                src="botones/boton-fb-02.png"/> </a></li>
+                    <li><a href="https://twitter.com/Interclean_Mx" title="Twitter"><img class="icono-RS"
                                 src="botones/boton-tw-02.png" /> </a></li>
-                    <li><a href="" title=""><img src="botones/boton-ig-02.png" /></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCmK3psKZwhamHkEqNk3MhyA" title=""><img
+                    <li><a href="" title=""><img class="icono-RS" src="botones/boton-ig-02.png" /></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCmK3psKZwhamHkEqNk3MhyA" title=""><img class="icono-RS"
                                 src="botones/boton-yt-02.png" /></a></li>
-                    <li><a href="mailto:contacto@interclean.mx" title=""><img src="botones/boton-em-02.png" /></a></li>
-                    <li><a href="https://wa.me/525584690368" title=""><img src="botones/boton-wt-02.png" /></a></li>
+                    <li><a href="mailto:contacto@interclean.mx" title=""><img class="icono-RS" src="botones/boton-em-02.png" /></a></li>
+                    <li><a href="https://wa.me/525584690368" title=""><img class="icono-RS" src="botones/boton-wt-02.png" /></a></li>
                 </ul>
             </div>
         </div>
