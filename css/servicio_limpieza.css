@@ -21,12 +21,21 @@ body{
 }
 /*====FIN DISEÑO LINEA====*/
 
+/*==== TAMAÑO CARRUSEL ====*/
+.carousel{
+    background-color: rgba(4, 4, 4, 0.83);
+}
 .carousel-control-prev,
-.carousel-control-next,
+.carousel-control-next{
+    width: 100%;
+    max-height: 25rem;
+    opacity: rgba(63, 63, 63, 0.254);
+}
 .carousel-inner img{
     width: 100%;
-    max-height: 460px;
+    max-height: 41rem;
 }
+/*==== FIN TAMAÑO CARRUSEL ====*/
 
   /*==== MANIPULACION DE LETRAS ====*/
 .TituloServ{    
@@ -55,7 +64,8 @@ body{
 }
 .subtituloL{
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
+    -webkit-text-stroke: 1px rgb(19, 19, 19);
     font-weight: bolder;
     pointer-events: none;
     text-align:justify;
@@ -63,6 +73,14 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.ColorIzq{
+    background-color: blue;
+    color:blue;
+}
+.ColorDer{
+    background-color: blue;
+    color:blue;
 }
 .letraI{
     color: #7FA439;
