@@ -13,23 +13,48 @@
     <link rel="stylesheet" href="css/servicios.css">
     <link rel="stylesheet" href="css/formularios.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/servicio_limpieza.css">
     <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
     <title>InterClean</title>
 </head>
 <body>
     <!-- Secciones -->
-        <section class="section">
-            <div class="container">
-                <div class = "tituloempleo" style="margin-left: -10%;">
-                    <div class = "fondoEmp">
-                        <div class="tituloPrinc"> 
-                            <h1 class="tituloempl">
-                            <img  style="width: 4%;" src="img/hojachica_interclean.png">                           
-                                Empleo
-                            </h1>                          
-                        </div>
+        <section class = "section">
+            <div class="container-fluid"> 
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./www/img_pruebas/carousel1.png" class="opacity-100 w-100" alt="...">                            
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./www/img_pruebas/carousel2.png" class="opacity-100 w-100" alt="...">                            
+                            </div>
+                            <div class="carousel-item " >
+                                <img    src="./www/img_pruebas/carousel3.png" class="opacity-100 w-100" alt="...">
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1 class="TituloServ" style="margin-left: -10rem;">
+                                    <img src="./img/hojachica_interclean.png" style="width: auto;" alt="intercleanhoja">
+                                    Empleo</h1>                                        
+                                <div class="espaciado"></div>
+                                <div class="espaciado"></div>
+                            </div>
                     </div>
-                </div>
+            </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" id="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Atras</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" id="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+                <div class="espaciado"></div>
             </div>
         </section>
         <section class="section">            
