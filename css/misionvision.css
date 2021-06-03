@@ -28,7 +28,7 @@
 .cuadro {
     background: rgba(26, 69, 93, 0.32);
     width: 35rem;
-    height: 22.5rem;
+    height: 23.5rem;
     box-shadow: 2px 2px 5px #999;
     margin-top: 17%;
     position: absolute;
@@ -36,10 +36,13 @@
 .imagenMV {
     position: absolute;
 }
+.apostrofe {
+    margin-left: 6%;
+}
 .logo {
     color: #1A455D;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 26px;
     margin: 0 auto;
 }
 .hojaMV {
@@ -58,14 +61,17 @@
     justify-content: end;
     background-color: #1A455D;
     color: #ffff;
-    padding: 5px;
+    padding: 14px;
     border: 3px solid #fff;
 }
 
 .boton-mv:hover {
-    background: white;
+    background: #7FA439;
     border: 2px solid #1A455D;
-    color: #7FA439;
     text-decoration: none;
     box-shadow: 2px 2px 5px #999;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 25px;
+    height: 25px;
 }
