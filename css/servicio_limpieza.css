@@ -3,7 +3,9 @@ body{
     
 }
 
-
+.TextoTamaño{
+    padding-top: 0.5rem;
+}
 /*====DISEÑO LINEA ====*/
 .linea_izquierda hr {
     height: 5px;
@@ -19,7 +21,12 @@ body{
 }
 /*====FIN DISEÑO LINEA====*/
 
-
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-inner img{
+    width: 100%;
+    max-height: 460px;
+}
 
   /*==== MANIPULACION DE LETRAS ====*/
 .TituloServ{    
@@ -36,6 +43,7 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    margin-left: -8rem;
 }
 .titulosh3{
     font-weight: bolder;
