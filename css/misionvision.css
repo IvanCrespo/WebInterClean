@@ -1,3 +1,21 @@
+.titulosICMV {
+	width: 63%;
+    height: 85px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #1A455D;
+    border-radius: 3.3rem 0rem 3.3rem 0rem;
+    box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+}
+.letraTituloMV {
+    margin-top: 2%;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 5px;
+    padding-top: 11px;
+}
 .container-mv {
     max-width: 1200px;
     width: 90%;
@@ -7,48 +25,29 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-h2 {
-    font-size: 1rem;
-    text-align: center;
-    text-justify: auto;
-    padding: 10px;
-}
-
-.titempl {
-    width: 22rem;
-    height: 5.2rem;
-    background-color: #1A455D;
-    color: #fff;
-    font-size: 14px;
-    border-radius: 2rem 0rem 2rem 0rem;
-    margin-left: 6rem;
-}
-
-.TextoTamaño {
-    text-align: center;
-}
-
-.titempl {
-    color: #fff;
-    font-weight: 700;
-    font-size: 34px;
-    box-shadow: 2px 2px 5px #999;
-}
-
 .cuadro {
     background-color: #999;
     width: 30rem;
     height: 22.5rem;
     box-shadow: 2px 2px 5px #999;
+    margin-top: 17%;
+    position: absolute;
 }
-
+.imagenMV {
+    position: absolute;
+}
 .logo {
-    color: #000000;
+    color: #1A455D;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
+    margin: 0 auto;
 }
-
+.hojaMV {
+    margin-left: 42px;
+    margin-top: -22px;
+    width: 5%;
+    height: auto;
+}
 .botones {
     display: flex;
     justify-content: end;
