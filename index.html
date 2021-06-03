@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/mapa.css">
     <link rel="stylesheet" href="css/redes_sociales.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/misionvision.css">
 
     <!-- AOS: animacion CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -36,6 +38,13 @@
 </head>
 
 <body>
+
+    <!-- Loader -->
+    <!-- <div class="loader-container">
+        <div id="loading"></div>
+      </div> -->
+    <!-- FIN LOADER -->
+
     <header>
         <!-- ============= MENU ============== -->
         <nav id="navvbarTotal"
@@ -48,8 +57,8 @@
                 <!--FIN LOGO -->
 
                 <!--MENU HAMBURGUESA-->
-                <button class="navbar-toggler ms-auto navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"><span
+                <button class="navbar-toggler ms-auto navbar-dark bg-dark" type="button" data-toggle="collapse"
+                    data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"><span
                         class="navbar-toggler-icon"></span>
                 </button>
                 <!--FIN HAMBURGUESA-->
@@ -200,7 +209,85 @@
         </section>
 
         <!-- SECCION VISION MISION -->
-        
+        <section class="container-fluid">
+            <div class="container-mv">
+                <div class="carrusel">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="cuadro">
+                                            <img src="img/servicios/bolsatrabajo_interclean.png" alt="First slide" width="360rem" height="360rem">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <h1 class="titempl">
+                                            <div class="TextoTamaño"><img class="img-fluid" src="img/hojachica_interclean.png">Misión</div>
+                                        </h1>
+                                        <br><br>
+                                        <h2>Aorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam soluta labore, qui voluptatem maiores debitis ex, ipsam nesciunt, consequuntur veritatis explicabo natus iste ullam eligendi incidunt eaque quae ipsa illo.</h2>
+                                        </h2>
+                                        <div class="logo">
+                                            <img class="img-fluid" src="img/hojachica_interclean.png">Interclean
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="cuadro">
+                                            <img src="img/servicios/bolsatrabajo_interclean.png" alt="second slide" width="360rem" height="360rem">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <h1 class="titempl">
+                                            <div class="TextoTamaño"><img class="img-fluid" src="img/hojachica_interclean.png">Visión</div>
+                                        </h1>
+                                        <br><br>
+                                        <h2>Borem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam soluta labore, qui voluptatem maiores debitis ex, ipsam nesciunt, consequuntur veritatis explicabo natus iste ullam eligendi incidunt eaque quae ipsa illo.</h2>
+                                        <div class="logo">
+                                            <img class="img-fluid" src="img/hojachica_interclean.png">Interclean
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="cuadro">
+                                            <img src="img/servicios/bolsatrabajo_interclean.png" alt="three slide" width="360rem" height="360rem">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <h1 class="titempl">
+                                            <div class="TextoTamaño"><img class="img-fluid" src="img/hojachica_interclean.png">Pendiente nombre</div>
+                                        </h1>
+                                        <br><br>
+                                        <h2>Corem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam soluta labore, qui voluptatem maiores debitis ex, ipsam nesciunt, consequuntur veritatis explicabo natus iste ullam eligendi incidunt eaque quae ipsa illo.</h2>
+                                        <div class="logo">
+                                            <img class="img-fluid" src="img/hojachica_interclean.png">Interclean
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="botones">
+                            <boton class="boton-mv" href="#carouselExampleFade" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </boton>
+                            <boton class="boton-mv" href="#carouselExampleFade" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </boton>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- SECCION COBERTURA NACIONAL -->
         <section class="container-fluid seccionTamaño">
@@ -365,14 +452,16 @@
     <!-- Mapa JS -->
     <script src="js/mapa/mapa.js" type="text/javascript"></script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-    </script>
+    
 
     <!-- JS de la Web -->
+    <!-- <script src="js/loader/loader.js"></script> -->
     <script src="js/zoom/zoom.js"></script>
     <script src="js/aos/aos.js"></script>
     <script src="js/32estados/32estados.js"></script>
