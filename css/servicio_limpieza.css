@@ -269,7 +269,7 @@ body{
     color: #1A455D;
 }
 
-.card-text {
+.card-text1 {
     font-family: Poppins;
     font-size: 29px;
     font-style: normal;
@@ -297,7 +297,7 @@ body{
     /* Opera */
 }
 
-.zoom:hover {
+.zoom1:hover {
     transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
