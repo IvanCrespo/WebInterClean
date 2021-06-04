@@ -48,71 +48,57 @@
 
     <header>
         <!-- ============= MENU ============== -->
-        <nav id="navvbarTotal"
-            class="autohide navbar navbar-expand-sm navbar-expand-md navbar-expand-lg  navbar-expand-xl miMenu">
-            <div class="container-fluid">
-                <!-- LOGO -->
-                <div role="button" href="#" id="logo" title="INTERCLEAN">
-                    <img src="img/logopng_interclean.png" width="140" height="140" class="lgs menu-wrapper-icono" />
-                </div>
-                <!--FIN LOGO -->
+        <nav class="autohide navbar navbar-expand-sm navbar-expand-md navbar-expand-lg  navbar-expand-xl ">
+                <div class="container-fluid">   
 
-                <!--MENU HAMBURGUESA-->
-                <button class="navbar-toggler ms-auto navbar-dark bg-dark" type="button" data-toggle="collapse"
-                    data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span>
-                </button>
-                <!--FIN HAMBURGUESA-->
+                    <div class="Contenedor-Logo" role="button" href="#" id="logo" title="INTERCLEAN">
+                        <img src="./img/logopng_interclean.png" width="140" height="140" class="lgs menu-wrapper-icono" />
+                    </div>
 
-                <!-- MENU-->
-                <div class="collapse navbar-collapse" id="main_nav">
-                    <ul class="navbar-nav mx-auto navbar-brand">
-                        <li class="nav-item separacion"><a class="nav-link active color-menu" href="../index.html">
-                                Inicio </a></li>
-                        <li class="nav-item dropdown separacion"><a class="nav-link  letras dropdown-toggle color-menu"
-                                role="button" aria-haspopup="true" arial-expanded="false" href="#"
-                                data-toggle="dropdown"> Servicios </a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li class="separacion"><a class="dropdown-item color-menu" href="../www/limpieza.html">
-                                        Limpieza </a></li>
-                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Desinfeccion</a>
-                                </li>
-                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Mantenimiento</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown separacion"><a class="nav-link letras dropdown-toggle color-menu"
-                                role="button" aria-haspopup="true" arial-expanded="false" href="#"
-                                data-toggle="dropdown"> Acerca de </a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Vision </a></li>
-                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Mision </a></li>
-                                <div class="dropdown-divider line"></div>
-                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Nosotros </a></li>
-                                <li class="separacion"><a class="dropdown-item color-menu" href="#"> Cobertura </a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item separacion"><a class="nav-link color-menu"
-                                href="./sites/Empleos/empleos.html"> Empleos </a></li>
-                        <li class="nav-item separacion"><a class="nav-link cotice btnServicios"
-                                href="./sites/Cotizaciones/cotice.html"> Cotice Ahora</a></li>
-                    </ul>
-                </div>
-                <!-- FIN MENU-->
+                    <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <!-- navbar-collapse.// -->
-                <!-- Telefono -->
-                <div role="button" id="tel" href="tel:+222 496 1185" style="margin-left: 20px;">
-                    <img src="gif/celular_interclean.gif" alt="tel" width="100" height="100"
-                        class="celular menu-wrapper-tel" />
+                    <div class="collapse navbar-collapse" id="main_nav">
+                        <ul class="navbar-nav mx-auto  Fondo-menu-central"> <!--mx-auto-->
+                            <li class="nav-item FondoLetras">
+                                <a class="nav-link activado Seleccionado Separacion-Menu" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle activado Separacion-Menu" role="button" aria-haspopup="true" arial-expanded="false" href="#"  data-toggle="dropdown"> Servicios </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class=" color-menu dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="./www/limpieza.html"> Limpieza </a>
+                                        <a class=" color-menu dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="./www/desinfeccion.html"> Desinfeccion</a>
+                                        <a class=" color-menu dropdown-item activado" href="./www/mantenimiento.html"> Mantenimiento</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle Letras-Default-Menu Seleccionado Separacion-Menu"  href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acerca de</a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class=" Seleccionado dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Vision </a>
+                                        <a class="Seleccionado  dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Mision </a>
+                                        <div class="dropdown-divider line"></div>
+                                        <a class="Seleccionado  dropdown-item Letras-Default-Menu-Dropdown Seleccionado " href="#"> Nosotros </a>
+                                        <a class="Seleccionado  dropdown-item Letras-Default-Menu-Dropdown Seleccionado " href="#"> Cobertura </a>
+                                </div>
+                            </li>
+                            <li class="nav-item "><a class="nav-link Letras-Default-Menu Seleccionado Separacion-Menu" href="./sites/Empleos/empleos.html"> Empleos </a></li>
+                            <li class="nav-item "> <a class="nav-link Seleccionado-Boton Separacion-Menu" href="./sites/Cotizaciones/cotice.html"> Cotice Ahora</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Contenedor-Telefono" role="button" id="tel" href="tel:+222 496 1185">
+                        <img src="./gif/celular_interclean.gif" alt="tel" width="100" height="100" class="celular menu-wrapper-tel" />
+                    </div>
+
                 </div>
-                <!--Fin Telefono -->
-            </div> <!-- container-fluid.// -->
-        </nav>
+          </nav>
         <!-- ============= FIN MENU// ============== -->
     </header>
 
 
+
+  
     <!-- ZOOM principal -->
     <div class="zoom" id="logoZoom">
         <img src="img/zoom_interclean.svg">
@@ -502,10 +488,16 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
 
+
+    <!-- Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
 
     <!-- JS de la Web -->
     <!-- <script src="js/loader/loader.js"></script> -->

@@ -1,99 +1,80 @@
-.color-menu{
+
+.Contenedor-Logo{
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.Contenedor-Telefono{
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+.Fondo-menu-central{
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.FondoLetras{
+    background-color: transparent;
+}
+.Seleccionado:hover{
+    font-weight: bolder;
+    color: #7FA439!important;
+    border-block-end: 4px solid #7FA439!important;
+}
+.Letras-Default-Menu{
+    font-weight: bolder;
+    font-size: large;
     color: rgb(26, 69, 93) !important;
-    font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 20px !important; 
+    border-block-end: 4px solid #1A455D;
 }
- .actived {
+.Letras-Default-Menu-Dropdown{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(26, 69, 93) !important;
+}
+
+.activado{
+    font-weight: bolder;
+    font-size: large;
     color: #7FA439!important;
-    border-bottom: 5px solid #7FA439!important;
+    border-block-end: 4px solid #7FA439!important;
+}
+
+.Seleccionado-Boton {
+    background-image: 
+    linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+.Seleccionado-Boton:hover {
+    background-image: 
+    linear-gradient(to right, #3a5531 0%, #4ada26  51%, #315531  100%)
+}
+.Seleccionado-Boton {
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   font-weight: bolder;
+   box-shadow: 0 0 20px #eee;
+   border-radius: 2rem;
+   display: block;
+   border: 4px inset #01a6ff;
+   box-shadow: 13px 11px 15px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 13px 11px 15px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 13px 11px 15px 0px rgba(0,0,0,0.55);
     
-}
-.coticeActive{
-    background-color:#7FA439!important;
-    color: white!important;
-    border-radius: 2rem;
-    padding: 5px 18px !important;
-}
-.separacion{
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    margin: 2px;
-}
-.miMenu li ul a:hover{
-    background-color: #7FA439!important;
-    color: white!important;
-}
-.cotice{
-    background-color: rgb(26, 69, 93);
-    color: white!important;
-    border-radius: 2rem;
-    padding: 5px 18px !important;
-}
+ }
 
-.dropdown-item.active,
-.cotice:hover{
-    background-color:#7FA439!important;
-    color: white!important;
-}
-.cotice a{
-    color: white !important;
-}
+ .Seleccionado-Boton:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   border: 4px inset#90da08!important;
+   text-decoration: none;
+   font-weight: bolder;
+ }
 
-.color-menu:hover{
-    color: #7FA439!important;
-}
- .miMenu a:hover{
-    border-bottom: 5px solid #7FA439!important;
-    font-weight: bold;
-}
-
-
-@media screen and (max-width: 768px){
-
-    #logo{
-        visibility: hidden;
-    }
-  
-    #tel{
-        visibility: hidden;
-        z-index: 2;
-    }
-    #div #main_nav .navbar-collapse .collapse.show{
-        
-        padding-top: 20rem !important;
-    }
-    #main_nav {
-        position: absolute;
-        background-color: rgb(255, 255, 255);
-        border:1px solid #7FA439;
-        border-radius: 2rem;
-        margin-top: 13rem;
-   }
-    #logoZoom{
-        visibility: hidden;
-        z-index: -999;
-    }
-
-    .separacion{
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        margin: 2px;
-    }
-    ul .navbar-nav {
-        margin: -54px !important;
-        padding: 70px 85px 78px 28px !important;
-    }
-    .Img_Static  #Img_Static{
-        
-        margin-right: 100px !important;
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-    }
-
-  img #Imagen{
-      visibility:hidden;
-  }
-}
-
+ .Separacion-Menu{
+     margin-left: 1.2rem;
+ }
