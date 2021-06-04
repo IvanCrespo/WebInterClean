@@ -302,7 +302,8 @@ border-radius: 10px;
 .titemapsub{
     width: 49rem;
     height: 7.2rem;
-    margin-left: 32.6rem;
+    /* margin-left: 32.6rem; */
+    margin-left: auto;
     background-color: #1A455D;
     color: #fff;
     font-weight: 700;
