@@ -1,3 +1,8 @@
+/* body{
+    padding-top: 0px !important;
+    
+} */
+
 /* ---------------------------------- COLORES FORMULARIOS --------------------------------- */
 #nomemp::placeholder {color:white;} #nomemp::-webkit-input-placeholder {color: white;} #nomemp::-moz-placeholder {color: white;} #nomemp:-ms-input-placeholder {color: white;} #nomemp:-moz-placeholder {color: white;} #nomemp::placeholder {color:white;}
  
@@ -405,3 +410,8 @@ main {
 
 .carousel .carousel-indicators li {background-color: #1A455D }
 .carousel .carousel-indicators li.active {background-color: #32769b}
+
+.Seleccionado-Boton{
+    box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);;
+}
