@@ -22,6 +22,9 @@
 
 #mensaje::-webkit-input-placeholder {color: white;} #mensaje::-moz-placeholder {color: white;} #mensaje:-ms-input-placeholder {color: white;} #mensaje:-moz-placeholder {color: white;}
 
+.imghojaMov{
+    display: none;
+}
 .titempleo {
     margin-top: 15px;
     font-size: 58px;
@@ -91,8 +94,8 @@
 }
 
 .tituloempl {
-    width: 77rem;
-    height: 18.5rem;
+    /* width: 77rem;
+    height: 18.5rem; */
     margin-left: -15.1rem;
     color: #1A455D;
     font-weight: 697;
@@ -234,6 +237,9 @@ border-radius: 10px;
 
 }
 
+.imghoja{
+    width: auto;    
+}
 
 .tituloPrinc{
 	color: #1A455D;
@@ -409,6 +415,8 @@ main {
     width: 100% !important;
 }
 
+
+
 .carousel .carousel-indicators li {background-color: #1A455D }
 .carousel .carousel-indicators li.active {background-color: #32769b}
 
@@ -416,3 +424,44 @@ main {
     box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);
     -webkit-box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);;
 }
+
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .carousel-inner img{
+        width: 100%;
+        /* max-height: 575px; */
+        height: 60vh;
+    } 
+    .d-none{
+
+        display: block !important
+    }
+    .tituloempl{      
+        margin-left: -32%;
+        color: #1A455D;
+        font-weight: 693;
+        font-family: 'Poppins', sans-serif;
+        font-size: 33px;
+    }
+    .carousel-caption{
+        left: -9%;
+    }   
+    .imghoja{
+        width: 10%;
+        height: 17%;
+    }
+    .imghojaMov{
+        display: block;
+    }
+    .imghoja{
+        display: none;
+    }
+    #columimagtitlemp{
+        height: 351px;
+    }   
+     
+   
+}
+
+
