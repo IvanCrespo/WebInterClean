@@ -21,12 +21,11 @@
 }
 
 .Seleccionado-Boton {
-    background-image: 
-    linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
 }
 .Seleccionado-Boton:hover {
-    background-image: 
-    linear-gradient(to right, #3a5531 0%, #4ada26  51%, #315531  100%)
+    background-image: linear-gradient(to right, #3a5531 0%, #7FA439  51%, #315531  100%);
+    
 }
 
 .Seleccionado-Boton {
@@ -36,7 +35,7 @@
    background-size: 200% auto;
    color: white;            
    font-weight: bolder;
-   box-shadow: 0 0 20px #eee;
+   box-shadow: 0 0 20px #FFFFFF;
    border-radius: 2rem;
    display: block;
    border: 3px inset #01a6ff;
@@ -49,17 +48,17 @@
 
  .Seleccionado-Boton:hover {
    background-position: right center; /* change the direction of the change here */
-   color: rgba(255, 255, 255, 0.809);
-   border: 3px inset #69d426;
+   color: #FFFFFF;
+   border: 3px inset #7FA439;
    text-decoration: none;
    font-weight: bolder;
  }
 
 
  .activebutton{
-   color: rgba(255, 255, 255, 0.809);
-   border: 3px inset #69d426;
-   background-image:  linear-gradient(to right, #3a5531 0%, #4ada26  51%, #315531  100%);
+   color: #FFFFFF;
+   border: 3px inset #7FA439;
+   background-image:  linear-gradient(90deg, rgba(106,134,52,1) 0%, rgba(127,164,57,1) 35%, rgba(141,185,58,1) 100%);
  }
  /*ANIMACION MENU*/
 
@@ -75,7 +74,6 @@
     color: inherit;
     text-decoration: none;
 }
-
 .Linea_Menu a::before{
   content: '';
   position: absolute;
@@ -83,7 +81,7 @@
   left: 0;
   width: 100%;
   height: 4px;
-  background-image: linear-gradient(to right, #8ff64d, #8ff144, #90eb3a, #90e62f, #90e122, #88db1a, #7fd510, #77cf03, #63c701, #4ebf01, #34b602, #04ae04);
+  background-image: linear-gradient(to right, #719233, #739534, #769835, #789c36, #7b9f37, #7ea438, #82a938, #85ae39, #8ab539, #8ebc39, #93c438, #98cb38);
   z-index: 1;
   transform: scaleX(0);
   transform-origin: left;
@@ -96,9 +94,6 @@
   .Linea_Menu[data-animation="bonus"] a::before {
     transform-origin: right;
   }
-
-
-
   .activado a::before{
     content: '';
     position: absolute;
@@ -106,9 +101,8 @@
     left: 0;
     width: 100%;
     height: 4px;
-    color: #2fc908 !important;
-    background-image: linear-gradient(to right, #8ff64d, #8ff144, #90eb3a, #90e62f, #90e122, #88db1a, #7fd510, #77cf03, #63c701, #4ebf01, #34b602, #04ae04);
-    z-index: 1;
+    color: #7FA439 !important;
+    background-image: linear-gradient(to right, #719233, #739534, #769835, #789c36, #7b9f37, #7ea438, #82a938, #85ae39, #8ab539, #8ebc39, #93c438, #98cb38);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.5s ease-in-out;
@@ -121,24 +115,24 @@
     }
 
 .activado2 a.nav-link.Letras-Default-Menu.Seleccionado.Separacion-Menu{
-        color: #90e62f !important;
+        color: #7FA439 !important;
         font-weight: bolder;
 }
 
 .activadoInicio a.nav-link.Letras-Default-Menu.Seleccionado{
-    color: #90e62f !important;
+    color: #7FA439 !important;
     font-weight: bolder;
 }
 
 .activeDD {
     margin-block-end: -10px;
-    color: #90e62f !important;
+    color: #7FA439 !important;
     font-weight: bolder;
-    border-block-end: 2px solid #90e62f !important;
+    border-block-end: 2px solid #7FA439 !important;
 }
 
 .letrasG:hover {
-  color: #2fc908;
+  color: #7FA439;
 }
 
 .dropdown-item.active {  
