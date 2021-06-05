@@ -1,3 +1,5 @@
+/*https://webdevtrick.com/demos/water-filling-text/*/
+
 p{
     background-color: rgba(136, 133, 133, 0.020);
     border-radius: 2rem;
@@ -38,7 +40,7 @@ p{
 }
 .carousel-inner img{
     width: 100%;
-    max-height: 41rem;
+    max-height: 41rem;               
 }
 /*==== FIN TAMAÑO CARRUSEL ====*/
 
@@ -157,10 +159,9 @@ p{
         color: white;            
         border-radius: 2rem;
         border: 6px inset #106aa5;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
+    }
+    .btnhidden{
+        visibility: hidden;
     }
     .btnServicios:hover {
         background-position: right center; /* Direccion del efecto hover */
@@ -213,26 +214,31 @@ p{
 
 /*====Fondo de los anuncios finales====*/
 .rellenoP {
-    border: 5px solid #557813;
-    height: 232px;
-    border-radius: 2rem;
+    border: 6px solid #557813;
+    height: 40vh;
+    width: 50vh;
+    margin-left: 7rem;
+    border-radius: 1rem;
     margin-right: 2.6rem;
     -webkit-box-shadow: 9px 5px 11px -1px #557813;
     box-shadow: 9px 5px 11px -1px #557813;
+    z-index: 2;
 }
 .rellenob{
-    border: 5px solid;
+    height: 25vh;
+    width: 40vh;  
+    border: 4px solid;
     border-top-color: #1A455D;
     border-right-color: #1A455D;
     border-bottom-color: #1A455D;
-    border-left-color: #1A455D;
+    border-left-color: transparent;
     -webkit-box-shadow: 9px 5px 11px -1px #1A455D; 
     box-shadow: 9px 5px 11px -1px #1A455D;
-    height: 150px;
-    border-radius: 2rem 2rem 2rem 2rem;
-    width: 60%;
-    margin-top: 3rem;
-    margin-left: -0.8rem;
+   
+    border-radius: 0rem 2rem 2rem 0rem;
+    margin-top: 3.2rem;
+    margin-left: -2.5rem;
+    z-index: -1;
 }
 /*====FIN Fondo de los anuncios finales====*/
 
@@ -333,3 +339,114 @@ p{
     -moz-transform: scale(1.1);
 }
 
+/* Para 480px */  
+@media only screen and (max-width: 500px) and (min-width: 320px) {  
+    /*Servicios Limpieza*/
+    .carousel-control-prev,
+    .carousel-control-next{
+        /* max-height: 55vh; */
+        height: 95vh;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+    .carousel-inner img{
+        width: 100%;
+        min-width: 150vh;
+        background-position-x: 50%;
+        height: 100vh;
+        /* max-height: 55vh;                */
+    }
+
+
+    .iconoT{
+            width: 45%;
+            margin-left: 30%;
+    }
+    .titulosh3{
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .letraI{
+        color: #7FA439;
+        font-size: 2.5rem;
+    }
+
+    div#main_nav.navbar-collapse.collapse.show{
+        border: 4px solid #7FA439;
+    }
+
+
+    .navbar-collapse{
+        border: 6px solid #7FA439;
+    }
+    .collapse{
+        border: 6px solid #7FA439;
+    }
+    .show{
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.987);
+    }
+
+    .rellenoP {
+        border: 4px solid #557813;
+        height: 30vh;
+        width: 40vh;
+        margin-left: 1rem;
+        border-radius: 1rem;
+        margin-right: 0rem;
+        -webkit-box-shadow: 9px 5px 11px -1px #557813;
+        box-shadow: 9px 5px 11px -1px #557813;
+        z-index: 2;
+    }
+    .rellenob{
+        position: fixed;
+
+    }
+    .textofin {
+        color: #1A455D;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-align:center;
+        margin-right: 1rem;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .hojac{
+        width: 15%;
+        margin-left: -2rem;
+        margin-top: -1rem;
+    }
+    .btnhidden{
+        visibility: visible;
+         margin: 0;
+         padding: 0;
+    }
+    .btnServicios {
+        background-image: 
+        linear-gradient(
+            to right,
+            #314755 0%,
+            #26a0da  51%,
+            #1A455D 100%);
+            
+        }
+        .btnServicios { /*Contenido interno y estilo del boton*/
+            padding: 5px 35px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.7s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 1rem;
+            border: 4px inset #106aa5;
+        }
+  .btnposicionado{
+        margin-top: 2rem;
+        margin-left: 5rem;
+        -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
+        box-shadow: 9px 5px 11px -1px #1A455D;   
+    }
+}
