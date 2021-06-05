@@ -96,7 +96,7 @@
 	z-index: 999;
 }
 .titulosICCN {
-	width: 88%;
+	width: 85%;
     height: 85px;
     margin: 0 auto;
     color: #FFFFFF;
@@ -126,6 +126,9 @@
     background-size: 100%;
     background-repeat: no-repeat;
     margin-left: 33%;
+  }
+  .contenedorCN {
+      padding-top: 5%;
   }
 
 

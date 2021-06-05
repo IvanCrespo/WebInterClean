@@ -32,9 +32,15 @@
     box-shadow: 2px 2px 5px #999;
     margin-top: 17%;
     position: absolute;
+    border-radius: 20px;
 }
 .imagenMV {
     position: absolute;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 .apostrofe {
     margin-left: 6%;
@@ -74,4 +80,7 @@
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 25px;
     height: 25px;
+}
+.contenedorMV {
+    padding-top: 8%;
 }
