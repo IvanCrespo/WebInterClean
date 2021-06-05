@@ -28,12 +28,19 @@ html, body {
 */
 
 /*---------------------- LINEAS HORIZONTALES ---------------------*/
-.lineaHImagenes {
-	border-top: 14px solid rgb(127, 164, 57);
+/* .lineaHImagenes {
+	border-top: 14px solid #1A455D;
 	max-width: 425px;
 	margin: 0px auto 0 auto;
 	border-radius: 10px;
 	opacity: inherit;
+} */
+.lineaHImagenes {
+    border-top: 6px solid #1A455D;
+    width: 217px;
+    margin: 0px auto 2rem auto;
+    border-radius: 10px;
+    opacity: inherit;
 }
 
 /* ---------------------------------------------------- */

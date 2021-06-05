@@ -10,7 +10,7 @@
     -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
 }
 .letraTitulo {
-    margin-top: 30%;
+    margin-top: 16%;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 5px;
@@ -29,23 +29,28 @@
     text-align: justify;
 }
 .imagenNosotros {
-    margin-top: 3%;
+    margin-top: 6%;
 }
-.animacion {
+.imgnosotrosIC {
+    height: auto;
+    width: 98%;
+    margin: 0 auto;
+}
+/* .animacion {
     height: 487px;
     width: 415.6px;
     background: url("../img/nosotros_interclean.png");
     margin: 0 auto;
     animation: correr 5s steps(3) infinite;
-}
-@keyframes correr {
+} */
+/* @keyframes correr {
     0% {
         background-position: 0px;
     }
     100% {
         background-position: -1247px;
     }
-}
+} */
 .contenedorNosotros {
     padding-top: 7%; 
 }
