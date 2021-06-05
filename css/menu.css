@@ -28,6 +28,7 @@
     background-image: 
     linear-gradient(to right, #3a5531 0%, #4ada26  51%, #315531  100%)
 }
+
 .Seleccionado-Boton {
    text-align: center;
    text-transform: uppercase;
@@ -52,6 +53,13 @@
    border: 3px inset #69d426;
    text-decoration: none;
    font-weight: bolder;
+ }
+
+
+ .activebutton{
+   color: rgba(255, 255, 255, 0.809);
+   border: 3px inset #69d426;
+   background-image:  linear-gradient(to right, #3a5531 0%, #4ada26  51%, #315531  100%);
  }
  /*ANIMACION MENU*/
 
