@@ -5,6 +5,7 @@
 
 
 /*______________________________________________________*/
+
 .autohide {
     position: fixed;
     top: 0;
@@ -25,6 +26,16 @@
 }
 
 /*_____________________________________________________-*/
+
+.social-icons1 li a {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.social-icons1 li a:hover {
+    transform:  translateX(-1px) scale(1.3);
+ }
+
+/*--------------------------------------------------------*/
 
 .Fondo-menu-central{
     background-color: rgba(255, 255, 255, 0.212);
