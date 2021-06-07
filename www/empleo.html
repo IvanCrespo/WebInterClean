@@ -130,41 +130,46 @@
         <section class="section" style="margin-top: 4%;">             
             <div class="container">
                 <div class="formempleo">
-                    <div class="row">
-                        <div class="col-sm-6 col-xs-12" id="busctrab">                      
-                        <h1 class="titempleo">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-6 col" id="busctrab">                      
+                        <h1 class="titempleo justify-content-center align-items-center">
                             <div class="TextoTamañoEmpl">
-                                <img src="../img/hojachica_interclean.png">¿Buscas Trabajo?
+                                <img class = "imghojaFormeEM" src="../img/hojachica_interclean.png">¿Buscas Trabajo?
                             </div>
                         </h1>
                         <img id="imgcemp" class="img-fluid-emp" src="../img/servicios/bolsatrabajo_interclean.png">
                         <hr class="LH1" style="margin-left: -22%;">
-                        </div>         
-                        <div class="col-sm-6 col-xs-12" id="empleo" style="border-radius: 18px;right: 2%;">                        
-                        <div class="col-sm-6 col-xs-12" id="busctrabTabl" data-aos="fade-right" data-aos-duration="2600">                                                      
+                        </div>   
+                              
+                        <div class="col-md-6 col" id="empleo">                        
+                            <h1 class="titledatosEmpl justify-content-center align-items-center">Dejanos tus datos</h1>
+                            <h4 class = "subtitledatosEmpl">CAMPOS MARCADOS CON * SON REQUERIDOS</h4>
+                            <hr class="LH2">
+                            <form class = "formemp">
+                                <div class="form-groupFroms">
+                                <input type="text" class="form-control formularioEmp" placeholder="Nombre Completo*" id="nomemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+                                </div>
+                                <div class="form-groupFroms">    
+                                <input type="text" class="form-control formularioEmp" placeholder="Telefono*" id="telemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+                                </div>
+                                <div class="form-groupFroms">    
+                                <input type="text" class="form-control formularioEmp" placeholder="Ciudad" id="ciudademp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+                                </div>  
+                                <div class="form-groupFroms">    
+                                <input type="text" class="form-control formularioEmp" placeholder="Estado" id="estadoemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+                                </div>  
+                                <div class="form-groupFroms">    
+                                <input type="text" class="form-control formularioEmp" placeholder="Vacante" id="antemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+                                </div>
+                                <button type="submit" id="empleos" class="btn btn-primary" >Postularme</button>
+                            </form>
                         </div>
-                        <h1 class="titledatosEmpl">Dejanos tus datos</h1>
-                        <h4 class = "subtitledatosEmpl">CAMPOS MARCADOS CON * SON REQUERIDOS</h4>
-                        <hr class="LH2">
-                        <form class = "formemp">
-                            <div class="form-groupFroms">
-                            <input type="text" class="form-control formularioEmp" placeholder="Nombre Completo*" id="nomemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
-                            </div>
-                            <div class="form-groupFroms">    
-                            <input type="text" class="form-control formularioEmp" placeholder="Telefono*" id="telemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
-                            </div>
-                            <div class="form-groupFroms">    
-                            <input type="text" class="form-control formularioEmp" placeholder="Ciudad" id="ciudademp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
-                            </div>  
-                            <div class="form-groupFroms">    
-                            <input type="text" class="form-control formularioEmp" placeholder="Estado" id="estadoemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
-                            </div>  
-                            <div class="form-groupFroms">    
-                            <input type="text" class="form-control formularioEmp" placeholder="Vacante" id="antemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
-                            </div>
-                            <button type="submit" id="empleos" class="btn btn-primary" >Postularme</button>
-                        </form>
-                        </div>
+                        <!-- <div class="col-md-6 col" id="busctrabTabl" data-aos="fade-right" data-aos-duration="2600">                                                      
+                            
+                        </div> -->
+                        
+                        
+                        
                     </div>
                 </div>                
             </div>
@@ -173,7 +178,7 @@
             <div class="coticeahora">
                     <div class="tituloservlimp">
                         <div class="row">                            
-                            <div class = "col-lg-9">
+                            <div class = "col-md-12">
                                 <h1 class="titecotize">
                                 <img style="width: 4%;" src="../img/hojachica_interclean.png">
                                 Servicios de limpieza y sanitizacion

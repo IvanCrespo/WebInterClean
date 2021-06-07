@@ -431,7 +431,7 @@ main {
     .carousel-inner img{
         width: 100%;
         /* max-height: 575px; */
-        height: 60vh;
+        height: 80vh;
     } 
     .d-none{
 
@@ -460,6 +460,88 @@ main {
     #columimagtitlemp{
         height: 351px;
     }   
+
+    .titempleo {
+        width: 18rem;
+        height: 4.2rem;
+        font-size: 14px;
+        margin-right: 5%;
+        margin: 0 auto;
+    }
+    .TextoTamañoEmpl{
+        font-size: 23px;
+        padding-top: 12.5px;
+        margin-left: 10%;
+    }
+
+    .imghojaFormeEM{
+        width: 10%;
+    }
+    #imgcemp {
+        display: none;
+    }
+    .LH1 {
+        display: none;
+    }
+
+    .titledatosEmpl{
+        font-size: 30px;
+        margin-left: 0px;
+        margin: 0 auto;
+
+    }
+
+    .tituloservlimp{
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        margin: 0 auto;       
+        width: 300px;
+        position: absolute;
+        top: 25%;       
+        opacity: 0.9;
+        left: 0;
+        width: 300px;
+
+
+    }
+    .titecotize{
+        width: 18rem;
+        height: 5.5rem;
+        background-image: linear-gradient(to right, white , rgb(127, 164, 57));
+        color: #1A455D;
+        font-weight: 697;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;      
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+        box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+        -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+        -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);       
+        margin: 0 auto;
+    }
+    #empleocotize{
+        background-color: rgb(247, 247, 247);
+        border-color: #1A455D;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 23px;
+        margin-bottom: 40px;        
+        color: #1A455D;
+        margin-left: 28px;
+        width: 144px;
+        font-size: 15px;
+    }
+
+    #empleocotize{
+        background-color: rgb(247, 247, 247);
+        border-color: #1A455D;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 23px;
+        margin-bottom: 40px;
+    }
+
      
    
 }
