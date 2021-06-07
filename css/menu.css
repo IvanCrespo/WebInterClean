@@ -1,4 +1,10 @@
 /*______________________________________________________*/
+                      /* Index*/
+
+
+
+
+/*______________________________________________________*/
 .autohide {
     position: fixed;
     top: 0;
@@ -19,9 +25,7 @@
 }
 
 /*_____________________________________________________-*/
-.TituloLimpieza{
-  
-}
+
 .Fondo-menu-central{
     background-color: rgba(255, 255, 255, 0.212);
     padding: 1rem;
@@ -163,3 +167,13 @@
    color: red !important; 
    background-color: darkviolet !important; 
   }
+
+
+  
+/* Para 480px */  
+@media only screen and (max-width: 500px) and (min-width: 320px) {  
+
+    .logoZoom{
+      visibility: hidden;
+    }
+}
