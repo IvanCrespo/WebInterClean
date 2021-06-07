@@ -3,14 +3,68 @@
         opacity: 0;
         transform: translateY(100px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
 .ocultar {
     opacity: 0;
 }
+
 .animar {
     animation: aparecer 1.3s;
+}
+
+.card-resultados {
+    width: 100%;
+}
+
+.titulosICNR {
+    width: 75%;
+    height: 85px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #1A455D;
+    border-radius: 3.3rem 0rem 3.3rem 0rem;
+    box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
+}
+
+.iconoSize {
+    width: 95%;
+    height: auto;
+    margin-left: 23%;
+}
+
+.iconoContador {
+    margin: 0 auto;
+}
+
+.card-body {
+    border: none !important;
+    /* border:#FFFFFF; */
+    /* border-radius: 16px;
+    box-shadow: 2px 2px 5px #999; */
+    background: #FFFFFF;
+    box-shadow: 0px 48px 100px rgba(26, 69, 93, 0.45);
+    border-radius: 24px;
+}
+.numeroContador {
+    color: #1A455D;
+    font-size: 53px;
+    font-weight: 800;
+}
+.textoContador {
+    margin-top: 6%;
+    color: #1A455D;
+    font-size: 27px;
+    font-weight: 500;
+}
+.contador {
+    margin-top: 5%;
+    text-align: center;
 }
