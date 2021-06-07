@@ -44,7 +44,7 @@
     margin: 0 auto;
 }
 
-.card-body {
+.contenidoNR {
     border: none !important;
     /* border:#FFFFFF; */
     /* border-radius: 16px;
@@ -61,7 +61,7 @@
 .textoContador {
     margin-top: 6%;
     color: #1A455D;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 500;
 }
 .contador {
