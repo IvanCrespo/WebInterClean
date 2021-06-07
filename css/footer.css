@@ -78,3 +78,10 @@
     margin-top: -12px;
     margin-right: 2px;
 }
+
+/* Para 480px TELEFONOS */  
+@media only screen and (max-width: 500px) and (min-width: 320px) { 
+    .ml-5, .mx-5 {
+        margin-left: 0rem!important;
+    }
+}

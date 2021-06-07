@@ -67,7 +67,6 @@
    border-radius: 2rem;
    display: block;
    border: 3px inset #01a6ff;
-   
    box-shadow: 4px 5px 6px -2px rgba(0,0,0,0.75);
    -webkit-box-shadow: 4px 5px 6px -2px rgba(0,0,0,0.75);
    -moz-box-shadow: 4px 5px 6px -2px rgba(0,0,0,0.75);
@@ -98,7 +97,7 @@
 .Linea_Menu a{
     position: relative;
     display: block;
-    padding: 5px;
+    padding: 10px;
     color: inherit;
     text-decoration: none;
 }
@@ -176,4 +175,37 @@
     .logoZoom{
       visibility: hidden;
     }
+    .navbar-nav .nav-link{
+      padding: 20px 0px 16px 0px;
+    }
+    .Seleccionado-Boton {
+      margin-left: 27px;
+      margin-right: 40px;
+      margin-top: 10px;
+  }
+  .Contenedor-Telefono{
+    text-align: end;
+  }
+
+
+  
+  .bg-light {background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)}
+  .bg-light {
+     padding: 10px 10px;
+     text-align: center;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: rgb(255, 255, 255);            
+     box-shadow: 0 0 5px rgb(0, 148, 8);
+     border-radius: 10px;
+   }
+
+   .bg-light:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
+
+  
 }
