@@ -284,60 +284,10 @@
     </script>
     <!-- JS de la Web -->
     <script src="js/zoom/zoom.js"></script>
-    <!--SCROLL MENU-->
-    <style type="text/css">
-        .autohide {
-            position: fixed;
-            top: 0;
-            right: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1030;
-        }
+   <!--Menu Oculto-->
+   <script src="../js/Menu/Hide.js"></script>
 
-        .scrolled-down {
-            transform: translateY(-100%);
-            transition: all 0.3s ease-in-out;
-        }
 
-        .scrolled-up {
-            transform: translateY(0);
-            transition: all 0.3s ease-in-out;
-        }
-    </style>
-    <!--SCROLL MENU-->
-
-    <!-- Hidde menu-->
-    <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function () {
-
-            el_autohide = document.querySelector('.autohide');
-            // agrega padding-top para el body (si es necesario)
-            
-
-            if (el_autohide) {
-                var last_scroll_top = 0;
-
-                window.addEventListener('scroll', function () {
-                    let scroll_top = window.scrollY;
-                    if (scroll_top < last_scroll_top) {
-                        el_autohide.classList.remove('scrolled-down');
-                        el_autohide.classList.add('scrolled-up');
-                    } else {
-                        el_autohide.classList.remove('scrolled-up');
-                        el_autohide.classList.add('scrolled-down');
-                    }
-                    last_scroll_top = scroll_top;
-
-                });
-                // window.addEventListener
-
-            }
-            // if
-
-        });
-        // DOMContentLoaded  fin
-    </script>
     <!-- Hidde menu-->
 </body>
 </html>

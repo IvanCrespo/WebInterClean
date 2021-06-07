@@ -1,5 +1,29 @@
+/*______________________________________________________*/
+.autohide {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/*_____________________________________________________-*/
+.TituloLimpieza{
+  
+}
 .Fondo-menu-central{
-    background-color: rgba(31, 9, 9, 0.020);
+    background-color: rgba(255, 255, 255, 0.212);
     padding: 1rem;
     border-radius: 2rem;
 }

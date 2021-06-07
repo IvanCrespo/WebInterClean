@@ -1,0 +1,31 @@
+
+/* Para 480px */  
+@media only screen and (max-width: 500px) and (min-width: 320px) {  
+
+    .rellenoP {
+        border: 6px solid #557813;
+        height: 30vh;
+        width: 35vh;
+        margin-left: 3rem;
+        border-radius: 2rem;
+        margin-right: 2.6rem;
+        margin-top: -4rem;
+        -webkit-box-shadow: 9px 5px 11px -1px #557813;
+        box-shadow: 9px 5px 11px -1px #557813;
+        z-index: 2;
+    }
+
+
+    .textofin {
+        color: #1A455D;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        text-align:center;
+        margin-right:01rem;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}
