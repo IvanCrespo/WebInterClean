@@ -74,13 +74,13 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 44px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 .subtitledatosEmpl {
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     color: #1A455D;
-    margin-left: 95px;
+    /* margin-left: 95px; */
 }
 
 .formemp {
@@ -96,7 +96,7 @@
 .tituloempl {
     /* width: 77rem;
     height: 18.5rem; */
-    margin-left: -15.1rem;
+    margin-left: -28.1rem;
     color: #1A455D;
     font-weight: 697;
     font-family: 'Poppins', sans-serif;
@@ -126,8 +126,10 @@
 .titecotize2 {
     color: #1A455D;
     font-family: 'Poppins', sans-serif;
-    font-size: 55%;
-    margin-top: -38%;
+    font-size: 95%;   
+    margin-left: -31.1rem;
+    margin-top: -14%;
+    font-weight: bold;
 }
 
 .titempleo {
@@ -194,10 +196,10 @@ border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     border-radius: 23px;
     margin-bottom: 40px;
-    margin-top: -3px;
+    margin-top: -79px;
     margin-left: 170px;
     color: #1A455D;
-    margin-left: 33px;
+    margin-left: 54%;
     width: 203px;
     font-size: 18px;
 }
@@ -244,7 +246,8 @@ border-radius: 10px;
 }
 
 .imghoja{
-    width: auto;    
+    width: auto;
+    margin-left: 29%;    
 }
 
 .tituloPrinc{
@@ -381,6 +384,10 @@ main {
     max-height: 575px;
 } 
 
+#secFormEmpl {
+    margin-top: 4%;
+}
+
  .carousel-control-prev{
     width: 10%;
     max-height: 600px;
@@ -491,10 +498,10 @@ main {
     }
 
     .titledatosEmpl{
-        font-size: 30px;
+        font-size: 37px;
         margin-left: 0px;
-        margin: 0 auto;
-
+        /* margin: 0 auto; */
+        margin-top: 8%;
     }
 
     .tituloservlimp{
@@ -530,6 +537,9 @@ main {
         font-family: 'Poppins', sans-serif;
         font-size: 55%;      
         margin-top: -38%;
+        margin-left:0em;
+        font-weight: bold;
+
     }
 
 
@@ -547,9 +557,36 @@ main {
     }
     #empleos{
         margin: 0 auto;
+        margin-left:auto;
     }
 
- 
+    .tituloDivEmpl{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subtitledatosEmpl{
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        color: #1A455D;
+        margin-left:0%;
+    }
+
+    .LH2 {
+        margin-top:8%
+    }
+
+    .divSubtLin{
+        margin-top: 4%;
+    }
+
+    .coticeahora{
+        margin-top: 8%;
+    }
+    #secFormEmpl {
+        margin-top: 13%;
+    }
+    
 
      
    
