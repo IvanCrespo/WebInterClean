@@ -244,6 +244,13 @@
      text-decoration: none;
    }
 
+   .navbar-collapse {
+    border: 4px solid #7fa439;
+    border-radius: 1rem;
+}
 
+  .social-icons {
+    visibility: hidden; 
+  }
   
 }
