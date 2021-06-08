@@ -52,26 +52,35 @@
     width: 60px !important;
     height: auto;
 }
-  .iconos-RS {
-    width: 60px !important;
-    height: auto;
+
+.iconos-RS {
+    width: 50% !important;
+    height: auto !important;
 }
 
 #social-iconos{
     display: none !important;
 }
-
+    .Social-Net{
+        display: none !important;
+    }
 
 /* Para 480px */  
 @media only screen and (max-width: 640px) and (min-width: 360px) {  
+    .Social-Net{
+        display:contents !important;
+    }
+
     #social-icons{
         display: none !important;
     }
-    #social-iconos{
-        display:block !important;
+    .columnasXD{
+       position:sticky;
     }
-    .text-right {
-        display: none !important;
-        text-align: right!important;
+    .TamañoIconoSW{
+        width: 40px!important;
+        height: auto !important;
     }
+
+
 }
