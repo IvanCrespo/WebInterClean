@@ -109,7 +109,7 @@
         display: none;
     }
     .contenedorMV .textoIC {
-        margin-top: 9rem;
+        margin-top: 13rem;
         padding: 1rem 0 0 0;
         font-size: 0.9rem;
     }
@@ -132,6 +132,13 @@
     .espacioMV {
         margin-bottom: 10rem;
     }
+    .titulosICMV {
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }    
+
 }
 
 
