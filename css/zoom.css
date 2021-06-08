@@ -13,3 +13,16 @@
 	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
 	will-change: -webkit-filter, filter, transform; */
 }
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+	.zoom {
+		padding-bottom: 100%;
+		margin-bottom: 27rem;
+	}
+	.zoom img {
+		top: 8%;
+		left: 50%;
+		max-width: 200%;
+		width: 44rem;
+	}
+}

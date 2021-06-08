@@ -84,4 +84,8 @@
     .ml-5, .mx-5 {
         margin-left: 0rem!important;
     }
+    .texto-logo {
+        display: block;
+        font-size: 16px;
+    }
 }

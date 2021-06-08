@@ -87,4 +87,28 @@
         margin-top: -16px;
         width: 8%;
     }
+    .card-resultados {
+        width: 100%;
+        margin: 16px auto;
+    }
+    .iconoSize {
+        width: 35%;
+        height: auto;
+        margin: 5px auto 18px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .numeroContador {
+        font-size: 42px;
+    }
+    .textoContador {
+        margin-top: 4%;
+        font-size: 20px;
+    }
+    .seccionTamañoResultados {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 10rem auto;
+    }
 }
