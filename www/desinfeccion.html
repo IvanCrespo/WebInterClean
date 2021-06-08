@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../css//menu.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/bugs.css">
+    <link rel="stylesheet" href="../css/redes_sociales.css">
 
     <!-- AOS: animacion CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -29,67 +30,82 @@
 
 <body>
 
+ 
     <header>
         <!-- ============= MENU ============== -->
         <nav class="autohide navbar navbar-expand-sm navbar-expand-md navbar-expand-lg  navbar-expand-xl ">
                 <div class="container-fluid">   
-
                     <div class="Contenedor-Logo" role="button" href="#" id="logo" title="INTERCLEAN">
                         <img src="../img/logopng_interclean.png" width="140" height="140" class="lgs menu-wrapper-icono " />
                     </div>
-
                     <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav mx-auto  Fondo-menu-central"> <!--mx-auto-->
 
-                            <ul class="Linea_Menu" data-animation="bonus">
-                                <li class="nav-item "> <!-- Para active de Inicio es activado activadoInicio-->
-                                    <a class="nav-link Letras-Default-Menu Seleccionado" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
-                                </li>
-                            </ul>
-
-                            <ul class="Linea_Menu" data-animation="bonus">
-                                <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle Letras-Default-Menu Seleccionado activeDD" role="button" aria-haspopup="true" arial-expanded="false" href="#"  data-toggle="dropdown"> Servicios </a>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado activeDD activeDDLinea" href="./desinfeccion.html"> Desinfeccion</a>
-                                        <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado "  href="./limpieza.html"> Limpieza </a> 
-                                        <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="./mantenimiento.html"> Mantenimiento</a> 
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <ul class="Linea_Menu" data-animation="bonus">
+                             <div id="social-icon1">
+                             <ul class="Linea_Menu social-icons1"  data-animation="bonus">
+                                <li class="nav-item">
+                                    <a class="nav-link Letras-Default-Menu Seleccionado"  href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                                    </li>
+                                </ul>
+                              </div>
+                            
+                              <div id="social-icon1">
+                                <ul class="Linea_Menu social-icons1" data-animation="bonus">
                                     <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle Letras-Default-Menu Seleccionado"  href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acerca de</a>
+                                            <a class="nav-link dropdown-toggle Letras-Default-Menu Seleccionado activeDD" role="button" aria-haspopup="true" arial-expanded="false" href="#"  data-toggle="dropdown"> Servicios </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Vision </a>
-                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Mision </a>
-                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Nosotros </a>
-                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Cobertura </a>
+                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado activeDD activeDDLinea" href="./desinfeccion.html"> Desinfeccion</a>
+                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado"  href="limpieza.html"> Limpieza </a> 
+                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="mantenimiento.html"> Mantenimiento</a> 
                                         </div>
                                     </li>
-                            </ul>
-
-                    <ul class="Linea_Menu" data-animation="bonus">
-                        
-                            <li class="nav-item "> <!-- Para marcar Empleos poner activado activado2-->
-                                    <a class="nav-link Letras-Default-Menu Seleccionado Separacion-Menu" href="empleo.html"> Empleos </a>
-                            </li>
-
-                    </ul>
-
-                            <li class="nav-item"><a class="nav-link Seleccionado-Boton Separacion-Menu" href="cotizaciones.html"> Cotice Ahora</a></li>
+                                </ul>
+                            </div>
+                            <div id="social-icon1">
+                                <ul class="Linea_Menu social-icons1" data-animation="bonus">
+                                        <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle Letras-Default-Menu Seleccionado nav-link" href="#" id="navbarDropdownMenuLink"
+                                        role="button" tabindex="-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-disabled="true">Acerca de</a> <!--activeDD-->
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Vision </a>
+                                                <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Mision </a>
+                                                <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Nosotros </a>
+                                                <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="#"> Cobertura </a>
+                                            </div>
+                                        </li>
+                                </ul>
+                            </div>
+                            <div id="social-icon1">
+                                <ul class="Linea_Menu social-icons1" data-animation="bonus">
+                                        <li class="nav-item "> <!-- Para marcar Empleos poner activado activado2-->
+                                                <a class="nav-link Letras-Default-Menu Seleccionado Separacion-Menu" href="empleo.html"> Empleos </a>
+                                        </li>
+                                </ul>
+                            </div>
+                            <div dir="social-icons1">
+                                <ul class="social-icons1" data-animation="bonus">
+                                    <li class="nav-item" style="list-style:none;">
+                                        <a class="nav-link Seleccionado-Boton Separacion-Menu"  href="cotizaciones.html"> Cotice Ahora</a>
+                                    </li>
+                                </ul>
+                            </div> 
 
                         </ul>
-                        <div class="Contenedor-Telefono" role="button" id="tel" href="tel:+222 496 1185">
-                            <img src="../gif/celular_interclean.gif" alt="tel" width="100" height="100" class="celular menu-wrapper-tel" />
-                        </div>
-                    </div>
-
+                        <div class="Contenedor-Telefono">
+                            <div class="Social-Net">
+                                <a href="https://www.facebook.com/Intercleanmx2020" title="Facebook"><img class="TamañoIconoSW" src="/botones/boton-fb-02.png"/> </a>
+                                <a href="https://twitter.com/Interclean_Mx" title="Twitter"><img class="TamañoIconoSW" src="/botones/boton-tw-02.png" /> </a> 
+                                <a href="" title=""><img class="TamañoIconoSW" src="/botones/boton-ig-02.png" /></a>
+                                <a href="https://www.youtube.com/channel/UCmK3psKZwhamHkEqNk3MhyA" title=""><img class="TamañoIconoSW" src="/botones/boton-yt-02.png" /></a> 
+                                <a href="mailto:contacto@interclean.mx" title=""><img class="TamañoIconoSW" src="/botones/boton-em-02.png" /></a>
+                                <a href="https://wa.me/525584690368" title=""><img" class="TamañoIconoSW" src="/botones/boton-wt-02.png" /></a>      
+                             </div>
+                            <img role="button" id="tel" href="tel:+222 496 1185" src="../gif/celular_interclean.gif" alt="tel" width="80" height="80" class="celular menu-wrapper-tel"/>
+                        </div> 
                 </div>
           </nav>
         <!-- ============= FIN MENU// ============== -->
@@ -127,9 +143,9 @@
                         <div class="carousel-caption d-none d-md-block">
                             <div class="DesinfeccionT">
 
-                                <h1 class="TituloServ">Desinfeccion, Sanitizacion y Fumigacion</h1>
+                                <h1 class="TituloServ DesinfeccionT">Desinfeccion, Sanitizacion y Fumigacion</h1>
                             </div>
-                              <p class="subtituloL">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur saepe earum optio atque exercitationem inventore eligendi voluptate neque ducimus.Veritatis, aspernatur saepe earum optio atque exercitationem  inventore eligendi voluptate neque ducimus. </p>
+                              <p class="subtituloL">Lorem ipsum dolor sit, here´s come to amet la consectetur adipisicing Very elit. Ducimus voluptas </p>
                             <div class="espaciado"></div>
                             <Button role="button" href="#1" class="btnServicios sombreado"> Ver Servicios. </Button>
                             <div class="espaciado"></div>
@@ -167,16 +183,13 @@
                             <h2 class="titempl">
                                 <div class="TextoTamaño"><img class="img-fluid" src="../www/img_pruebas/hv.png">Sanitizacion COVID-19</div>
                             </h2>
-                            <p style="text-align:justify; margin-left: 2rem;">
+                            <p style="text-align:justify; margin-left: 2rem;  font-family: 'Poppins'; width: auto;">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                                 Ab voluptate soluta qui, modi beatae magni amet, eius quis sapiente
-                                quasi corrupti recusandae quia odio ratione accusamus inventore. Qui, commodi illum?
                             </p>
-                            <p style="text-align:justify; margin-left: 2rem;">
+                            <p style="text-align:justify; margin-left: 2rem;  font-family: 'Poppins'; width: auto;">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fugit
-                                in error dignissimos velit commodi excepturi, suscipit animi ea tenetur
-                                deserunt asperiores dolore molestiae veritatis, atque nam natus reprehenderit
-                                possimus harum perspiciatis? Rerum id eos nihil! Cupiditate eum aliquam voluptas!</p>
+                                in error dignissimos velit commodi excepturi, suscipit animi ea tenetur!</p>
                             </div>
                 <div>
              </div>
@@ -196,13 +209,13 @@
         <div class="container">
             <div class="row">
                     <div class="texto-superior espaciado">
-                        <p style="text-align:justify;">
+                        <p style="text-align:justify;text-align:justify;  font-family: 'Poppins';">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur,
                            amet praesentium quis enim maiores reiciendis iure doloremque eaque vero
                             omnis delectus eius dolores laudantium optio corporis cupiditate libero cumque itaque,
                              exercitationem, sit ducimus? Ducimus laborum praesentium vel ab molestiae.
                         </p>
-                        <p style="text-align:justify;">
+                        <p style="text-align:justify;   font-family: 'Poppins';">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
                              obcaecati iusto. Fugit, voluptates corrupti repellat dolore modi nisi iste temporibus.
                         </p>
