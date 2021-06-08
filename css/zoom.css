@@ -26,3 +26,16 @@
 		width: 44rem;
 	}
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {  
+	.zoom {
+		padding-bottom: 100%;
+		margin-bottom: 27rem;
+	}
+	.zoom img {
+		top: 5%;
+		left: 50%;
+		max-width: 200%;
+		width: 87rem;
+	}	
+}

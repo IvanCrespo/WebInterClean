@@ -54,6 +54,7 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: justify;
+    color: #1A455D;
 }
 .boton {
     display: flex;
@@ -147,3 +148,14 @@
         width: 168px;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {  
+    .container-servicios {
+        max-width: 100%;
+        width: 100%;
+    }
+    .card {
+        width: 21rem;
+    }
+}
+

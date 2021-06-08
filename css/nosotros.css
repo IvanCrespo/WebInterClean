@@ -84,11 +84,23 @@
         padding: 1rem 0 0 0;
         font-size: 0.9rem;
     }
-    #posicionMapa {
-        order: 2;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {  
+    .fNosotros {
+        background-image: none;
+    }        
+    .espacioNosotros {
+        margin-top: 37rem;
     }
-    #posicionTitulo {
-        order: 1;
+    .imgnosotrosIC {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .textoIC {
+        padding: 2rem 1rem 0.2rem 1rem;
     }
 }
 

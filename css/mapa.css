@@ -37,134 +37,100 @@
 }
 
 .AGU {
-    background-position: 2000px 1000px;
-}
-
+    background-position: 2000px 1000px;}
 .BCN {
     background-position: 1750px 1000px;
 }
-
 .BCS {
     background-position: 1500px 1000px;
 }
-
 .CAM {
     background-position: 1250px 1000px;
 }
-
 .COA {
     background-position: 1000px 1000px;
 }
-
 .COL {
     background-position: 750px 1000px;
 }
-
 .CHP {
     background-position: 500px 1000px;
 }
-
 .CHH {
     background-position: 250px 1000px;
 }
-
 .DIF {
     background-position: 2000px 750px;
 }
-
 .DUR {
     background-position: 1750px 750px;
 }
-
 .GUA {
     background-position: 1500px 750px;
 }
-
 .GRO {
     background-position: 1250px 750px;
 }
-
 .HID {
     background-position: 1000px 750px;
 }
-
 .JAL {
     background-position: 750px 750px;
 }
-
 .MEX {
     background-position: 500px 750px;
 }
-
 .MIC {
     background-position: 250px 750px;
 }
-
 .MOR {
     background-position: 2000px 500px;
 }
-
 .NAY {
     background-position: 1750px 500px;
 }
-
 .NLE {
     background-position: 1500px 500px;
 }
-
 .OAX {
     background-position: 1250px 500px;
 }
-
 .PUE {
     background-position: 1000px 500px;
 }
-
 .QUE {
     background-position: 750px 500px;
 }
-
 .ROO {
     background-position: 500px 500px;
 }
-
 .SLP {
     background-position: 250px 500px;
 }
-
 .SIN {
     background-position: 2000px 250px;
 }
-
 .SON {
     background-position: 1750px 250px;
 }
-
 .TAB {
     background-position: 1500px 250px;
 }
-
 .TAM {
     background-position: 1250px 250px;
 }
-
 .TLA {
     background-position: 1000px 250px;
 }
-
 .VER {
     background-position: 750px 250px;
 }
-
 .YUC {
     background-position: 500px 250px;
 }
-
 .ZAC {
     background-position: 250px 250px;
 }
-
-
 #edo {
     /*letras del estado*/
     position: absolute;
@@ -181,7 +147,6 @@
     padding-top: 115px;
     margin-left: 30%;
 }
-
 .escudo {
     position: relative;
     top: 6%;
@@ -189,7 +154,6 @@
     height: 250px;
     margin-left: 4%;
 }
-
 .LV {
     /* border: none; */
     border-left: 6px solid rgb(127, 164, 57);
@@ -200,7 +164,6 @@
     margin-top: 0px;
     z-index: 999;
 }
-
 .titulosICCN {
     width: 85%;
     height: 85px;
@@ -212,7 +175,6 @@
     -webkit-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
     -moz-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
 }
-
 .letraTituloCob {
     margin-top: 13%;
     font-weight: 700;
@@ -220,11 +182,9 @@
     letter-spacing: 5px;
     padding-top: 11px;
 }
-
 .infoCobertura {
     margin-left: -3%;
 }
-
 #tilt {
     display: block;
     height: 190px;
@@ -236,7 +196,6 @@
     background-repeat: no-repeat;
     margin-left: 33%;
 }
-
 .contenedorCN {
     padding-top: 5%;
 }
@@ -274,5 +233,43 @@
     }
     .datosEstados, .escudo, #tilt {
         display: none;
+    }
+    #posicionMapa {
+        order: 2;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {  
+    #control_map {
+        width: auto;
+        margin-top: 12px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .infoCobertura {
+        margin-left: 0%;
+    }
+    .titulosICCN {
+        width: 96%;
+    }
+    .letraTituloCob {
+        font-size: 49px;
+        padding-top: 15px;
+    }
+    .hojaNosotros {
+        margin-left: 31px;
+        margin-top: -22px;
+    }
+    #posicionMapa {
+        order: 2;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    .fCobertura {
+        background-image: none;
     }
 }
