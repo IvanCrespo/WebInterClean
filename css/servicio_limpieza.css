@@ -1,5 +1,7 @@
 /*https://webdevtrick.com/demos/water-filling-text/*/
-
+.row{
+	overflow-x: hidden;
+}
 p{
     background-color: rgba(136, 133, 133, 0.010);
     border-radius: 2rem;
@@ -150,10 +152,10 @@ p{
         #1A455D 100%);
         
     }
-    .btnServicios { /*Contenido interno y estilo del boton*/
-        color: white;            
+    .btnServicios {
+        color: white;
         transition: 0.7s;
-        padding: 5px 35px;
+        padding: 0px 15px;
         text-align: center;
         border-radius: 2rem;
         text-transform: uppercase;
@@ -509,8 +511,8 @@ p{
             border: 4px inset #106aa5;
         }
      .btnposicionado{
-        margin-top: 2rem;
-        margin-left: 5rem;
+        margin-top: 1rem;
+        margin-left: 4rem;
         -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
         box-shadow: 9px 5px 11px -1px #1A455D;   
     }
@@ -549,5 +551,11 @@ p{
         position: relative;
         margin-top: -3.4rem;
         margin-left: 4rem;
+    }
+ 
+
+    .carousel-inner.carousel-item IMG{
+        background-color: green;
+        height: 100vh;
     }
 }
