@@ -238,6 +238,7 @@
 
 .contenedorCN {
     padding-top: 5%;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
@@ -296,7 +297,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     #control_map {
         width: auto;
         margin-top: 1rem;
@@ -480,17 +481,47 @@
     }
 
     #edo {
-        padding-top: 5rem;
-    }
-
-    #edo {
         position: absolute;
         font-size: 2em;
         width: 62%;
         height: 49%;
+        padding-top: 5rem;
     }
 
     #tilt {
         display: none;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {  
+    #posicionMapa {
+        order: 2;
+    }
+
+    #posicionTitulo {
+        order: 1;
+    }
+    .fCobertura {
+        background-image: none;
+    }
+    .letraTituloCob {
+        margin-top: 0%;
+    }
+    #content_mapa {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    #control_map {
+        margin-top: 1%;
+        margin-left: 0%;
+    }
+    #tilt {
+        margin-top: 32rem;
+    }
+    .escudo {
+        margin-top: 5%;
+    }
+    #edo {
+        height: 59%;
     }
 }

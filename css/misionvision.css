@@ -119,7 +119,7 @@
     }
     
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {  
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
     .apostrofe {
         margin-top: 29rem;
     }
@@ -140,6 +140,25 @@
         justify-content: center;
     }    
 
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {  
+    .contenedorMV {
+        padding-top: 0%;
+    }
+    .cuadro {
+        width: 29rem;
+        height: 18.5rem;
+        margin-top: 22%;
+    }
+    .imagenMV {
+        margin-top: 10%;
+    }
+    .titulosICMV {
+        width: 76%;
+    }
+    .apostrofe {
+        margin-left: 3%;
+    }
 }
 
 
