@@ -83,6 +83,15 @@ p{
     -ms-user-select: none;
     user-select: none;
 }
+.titempl2 {
+    margin-left: -5.4rem;
+    width: 33rem;
+    height: 5rem;
+    background-color: #1A455D;
+    color: #fff;
+    border-radius: 2rem 0rem 2rem 0rem;
+    box-shadow: 2px 2px 5px #999;
+}
 .ColorIzq{
     background-color: blue;
     color:blue;
@@ -141,7 +150,10 @@ p{
 /*====FIN MANIPULACION DE LETRAS====*/
 
 
-
+.saniti{
+    width: 90%;
+    margin-left: 0rem;
+}
 /*====Estilos, Tamaños de los Botones====*/
 .btnServicios {
     background-image: 
