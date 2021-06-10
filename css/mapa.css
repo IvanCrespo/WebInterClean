@@ -586,4 +586,38 @@
     }
 }
 
+@media only screen and (min-width: 1367px) and (max-width: 1920px) {  
+    #content_mapa {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    #control_map {
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    .contenedorCN {
+        padding-top: 2%;;
+    }
+    .titulosICCN .letraTituloCob {
+        margin-top: 1%;
+    }
+    .titulosICCN {
+        width: 100%;
+        height: 3%;
+    }
+    #edo {
+        font-size: 1.6em;
+        width: 400px;
+        margin-left: 42%;
+        height: 60%;
+    }
+    .letraTituloCob {
+        margin-top: 13%;
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+}
+
+
 
