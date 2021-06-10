@@ -39,3 +39,12 @@
 		width: 87rem;
 	}	
 }
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {  
+	.zoom img {
+		top: 0%;
+		left: 50%;
+		max-width: 200%;
+		width: 100rem;
+	}
+}
+

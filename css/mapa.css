@@ -487,7 +487,6 @@
         height: 49%;
         padding-top: 5rem;
     }
-
     #tilt {
         display: none;
     }
@@ -516,8 +515,7 @@
         margin-left: 0%;
     }
     #tilt {
-        margin-top: 32rem;
-        margin-left: 37%
+        display: none;
     }
     .escudo {
         margin-top: 5%;
@@ -526,3 +524,66 @@
         height: 59%;
     }
 }
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {  
+    #posicionMapa {
+        order: 2;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    #edo {
+        height: 60%;
+    }
+    #content_mapa {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    #control_map {
+        margin-top: 1%;
+        margin-left: 0%;
+    }
+    #tilt {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {  
+    #content_mapa {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    #control_map {
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    #tilt {
+        display: none;
+    }
+    #posicionMapa {
+        order: 2;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    .infoCobertura {
+        margin-left: 1%;
+    }
+    .titulosICCN {
+        height: 3%; 
+        width: 142%;
+        margin-left: -4rem;
+    }
+    .escudo {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    #edo {
+        height: 50%;
+        margin-left: 43%;
+        font-size: 2em;
+    }
+}
+
+
