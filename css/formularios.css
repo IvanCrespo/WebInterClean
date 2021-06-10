@@ -42,6 +42,11 @@
     margin-left: 23%;
 }
 
+#TitleHoraCont{
+    font-weight: bold;
+    line-height: 45px;
+}
+
 .TextoTamañoMap {
     font-size: 36px;
     padding-top: 26.5px;
@@ -374,6 +379,16 @@ border-radius: 10px;
     box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
     -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
     -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+}
+
+.textTelCotiz{
+    font-weight: bold;
+    line-height: 45px;
+
+}
+
+.textMailCotiz{
+    line-height: 45px;
 }
 
 #btnSubir {
@@ -772,13 +787,13 @@ main {
 
     #imgcot{
         width: 62%;
-        margin-left:35%; 
+        margin-left:45%; 
     }
 
-    /* .LHCOTIZ{
-        max-width: 420px;
-        margin: 0px -88px 0 auto;
-    } */
+    .LHCOTIZ{
+        max-width: 382px;
+        margin: 0px -54px 0 auto;
+    } 
 
     .titecotiza{
         width: 39rem;
@@ -790,5 +805,56 @@ main {
     #cotizaciones{
         margin: 0 auto;
     }
+
+
+    #textTelCotiz{
+        font-weight: bold;
+        line-height: 45px;
+        margin-left: -25%;
+    }
+    
+    #textMailCotiz{
+        line-height: 45px;
+        margin-left: -26%;
+        
+    }
+    .titemapsub {
+        width: 98%;
+        height: auto
+    }
+
+    .TextoTamañoMap{
+        font-size:34px;
+    }
+
+    #imgcalendar{
+        margin-left: 23%;
+        height: 80%;
+    }
+
+    #telefonoIconFormCotz{
+        width: 15%;
+        margin-left: 63%;
+        margin-top: -11%;   
+    }
+
+    #MailIconFormCotz{
+        margin-left: 64%;
+        margin-top: -15%
+    }
+
+    .TextoCotizacion{
+        margin-left:6%;
+    }
+
+    #TitleHoraCont{
+        font-weight: bold;
+        line-height: 45px;
+        font-size: 78%;
+    }
+
+    
+    
+
 }
 
