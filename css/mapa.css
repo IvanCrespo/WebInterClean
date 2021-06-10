@@ -593,7 +593,7 @@
         justify-content: center;
     }
     #control_map {
-        margin-top: 3%;
+        margin-top: 8rem;
         margin-left: 0%;
     }
     .contenedorCN {
@@ -616,6 +616,19 @@
         margin-top: 13%;
         font-size: 50px;
         letter-spacing: 1px;
+    }
+    .infoCobertura {
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        text-align: center;
+        margin-top: -17%;
+    }
+    .hojaNosotros {
+        margin-left: 2px;
+    }
+    .fCobertura {
+        background-size: 86%;
     }
 }
 
