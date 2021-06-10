@@ -347,18 +347,273 @@ p{
     
 }   
 
-/* Para 480px TELEFONOS */  
-@media only screen and (max-width: 500px) and (min-width: 320px) { 
+/* Para 480px Tablets 7p */  
+@media only screen and (max-width: 1366px) and (min-width: 1025px) { 
+ 
     
+
 }
 
+/* Para 480px Tablets 10p */  
+@media only screen and (max-width: 1024px) and (min-width: 768px) { 
+ 
+    .resolucion{
+        width: 97% !important;
+        height: auto;
+        border:1px solid black;
+        border-radius: 1rem !important;
+        box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
+        -webkit-box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
+        -moz-box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
+    }
+    .LimpiezaT h1{
+        font-size: 5rem!important;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        color: #1A455D;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+    }
+    .DesinfeccionT h1{
+
+        font-size: 1.8rem!important;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        color: #1A455D;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+    }
+    .MantenimientoT h1{
+        font-size: 1.7rem!important;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        color: #1A455D;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+    }
+    .subtituloL{
+        color: #000000 !important;
+        text-shadow: #000000;
+        color: #ffffff !important;
+        background-color: rgba(0, 0, 0, 0.01) !important;
+        text-align: justify !important;
+        letter-spacing: 1px;
+    }
+    .subtituloLI{
+        font-size: 1rem;
+        text-align: justify !important;
+        background-color: rgba(1, 1, 1, 0.01);
+    }
+    .d-md-block{
+        display: block !important;
+    }
+    .TextoTamaño{
+        padding-top: 5px;
+        font-size: 2rem;
+    }
+    
+    .circulo-fum {
+        width: 25rem;
+        height: 25rem;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        margin: 1rem 1rem 1rem 6.5rem;
+        margin-bottom: 2rem;
+        box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+    }
+    div .DesinfeccionT{
+        font-size: 3rem !important;
+    }
+
+    .card-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 48px!important;
+        font-style: normal;
+        font-weight: bolder;
+        line-height: 49px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #1A455D;
+    }
+    /*Servicios Limpieza*/
+    .carousel-control-prev,
+    .carousel-control-next{
+        /* max-height: 55vh; */
+        height: 95vh;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+    .carousel-inner img{
+        width: 100%;
+        min-width: 150vh;
+        background-position-x: 50%;
+        height: 100vh;
+        /* max-height: 55vh;  */
+    }
+    .saniti{
+        width: 50%;
+        margin-left: 9rem;
+    }
+
+    .iconoT{
+        width: 0;
+        padding: 0px;
+        margin: 0px;
+        visibility: hidden;
+    }
+    .titulosh3{
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .letraI{
+        color: #7FA439;
+        font-size: 2.5rem;
+    }
+
+    div#main_nav.navbar-collapse.collapse.show{
+        border: 4px solid #7FA439;
+    }
 
 
+    .navbar-collapse{
+        border: 6px solid #7FA439;
+    }
+    .collapse{
+        border: 6px solid #7FA439;
+    }
+    .show{
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.987);
+    }
 
+    .rellenoP {
+        border: 4px solid #557813;
+        height: 25vh;
+        width: 51vh;
+        margin-left: 2rem;
+        border-radius: 2rem;
+        -webkit-box-shadow: 9px 5px 11px -1px #557813;
+        box-shadow: 9px 5px 11px -1px #557813;
+        z-index: 2;
+    }
 
+    .rellenob{
+        position: fixed;
+
+    }
+    .textofin {
+        color: #1A455D;
+        font-size: 2.3rem;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        text-align:center;
+        margin-right: 1rem;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .hojac{
+        width: 15%;
+        margin-left: -2.9rem;
+        margin-top: -1rem;
+    }
+    .btnhidden{
+        visibility: visible;
+         margin: 0;
+         padding: 0;
+    }
+    .btnServicios {
+        background-image: 
+        linear-gradient(
+            to right,
+            #314755 0%,
+            #26a0da  51%,
+            #1A455D 100%);
+            
+        }
+        .btnServicios { /*Contenido interno y estilo del boton*/
+            padding: 5px 35px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.7s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 1rem;
+            border: 4px inset #106aa5;
+        }
+     .btnposicionado{
+        margin-top: 1rem;
+        margin-left: 15rem;
+        -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
+        box-shadow: 9px 5px 11px -1px #1A455D;   
+    }
+  .titempl {
+    margin-left: 8.6rem;
+    width: 27rem;
+    height: 5rem;
+    background-color: #1A455D;
+    color: #fff;
+    border-radius: 2rem 0rem 2rem 0rem;
+    box-shadow: 2px 2px 5px #999;
+}
+.titempl2 {
+    margin-left: -5.4rem;
+    width: 27rem;
+    height: 5rem;
+    background-color: #1A455D;
+    color: #fff;
+    border-radius: 2rem 0rem 2rem 0rem;
+    box-shadow: 2px 2px 5px #999;
+}
+    .titempl {
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 30px;
+        box-shadow: 2px 2px 5px #999;
+    }
+
+    .TextoCarousel{
+        visibility: visible;
+        z-index: 150;
+        margin-top: -33rem;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .TituloServ{
+        z-index: 100;
+        font-size: 1.7rem;
+        margin-top: 2rem;
+    }
+    .TituloServ2{
+        z-index: 100;
+        font-size: 3.7rem;
+        margin-top: 2rem;
+    }
+    .txtposicion{
+        position: relative;
+        margin-top: -3.4rem;
+        margin-left: 4rem;
+    }
+ 
+
+    .carousel-inner.carousel-item IMG{
+        background-color: green;
+        height: 100vh;
+    }
+}
+
+/*                                              
 
 /* Para 480px TELEFONOS */  
-@media only screen and (max-width: 500px) and (min-width: 320px) {  
+@media only screen and (max-width: 500px) and (min-width: 360px) {  
 
     .LimpiezaT h1{
         font-size: 3rem!important;
@@ -456,7 +711,7 @@ p{
 
     .rellenoP {
         border: 4px solid #557813;
-        height: 30vh;
+        height: 25vh;
         width: 40vh;
         margin-left: 1rem;
         border-radius: 1rem;
