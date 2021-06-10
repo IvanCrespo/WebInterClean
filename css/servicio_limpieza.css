@@ -360,14 +360,51 @@ p{
 }   
 
 /* Para 480px Tablets 7p */  
-@media only screen and (max-width: 1366px) and (min-width: 1025px) { 
+@media only screen and (max-width: 1366px) and (min-width: 1000px) { 
  
-    
+    .rellenob {
+        z-index: -1;
+        width: 37vh;
+        height: 24vh;
+        margin-top: 4.2rem;
+        margin-left: 2.3rem;
+        border: 4px solid;
+        border-top-color: #1A455D;
+        border-right-color: #1A455D;
+        border-bottom-color: #1A455D;
+        border-left-color: transparent;
+        border-radius: 0rem 2rem 2rem 0rem;
+        box-shadow: 9px 5px 11px -1px #1a455d;
+        -webkit-box-shadow: 9px 5px 11px -1px #1a455d;
+    }
+    .btnposicionado {
+        margin-top: 4.5rem;
+        margin-left: 3.5rem;
+        margin-right: 2.5rem;
+        margin-block-end: 3rem;
+        box-shadow: 9px 5px 11px -1px #1a455d;
+        -webkit-box-shadow: 9px 5px 11px -1px hsl(0deg 0% 0%);
+    }
+    .textofin {
+        color: #1A455D;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        line-height: 4rem;
+    }
 
 }
 
 /* Para 480px Tablets 10p */  
-@media only screen and (max-width: 1024px) and (min-width: 768px) { 
+@media only screen and (max-width: 999px) and (min-width: 768px) { 
  
     .resolucion{
         width: 97% !important;
@@ -507,7 +544,7 @@ p{
 
     .rellenoP {
         border: 4px solid #557813;
-        height: 25vh;
+        height: 22vh;
         width: 51vh;
         margin-left: 2rem;
         border-radius: 2rem;
@@ -748,7 +785,7 @@ p{
 
     .rellenoP {
         border: 4px solid #557813;
-        height: 25vh;
+        height: 28vh;
         width: 40vh;
         margin-left: 1rem;
         border-radius: 1rem;
