@@ -240,6 +240,19 @@ border-radius: 10px;
 	min-height: 370px;	
 }
 
+#telefonoIconFormCotz{
+    width: 15%;
+    margin-left: 73%;
+    margin-top: -11%;    
+}
+
+
+#MailIconFormCotz{
+    width: 48px;
+    margin-left: 74%;
+    margin-top: -11%;
+}
+
 .tituloservlimp{
 	color: #fff;
     font-size: 36px;
@@ -451,6 +464,7 @@ main {
     box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);
     -webkit-box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);;
 }
+
 
 
 
@@ -724,6 +738,22 @@ main {
     height: auto !important;
     margin-top: -40px;
 }
+
+#imgcalendar{
+    margin-left: 31%;
+    height: 67%;
+}
+
+#telefonoIconFormCotz{
+    width: 14%;
+    margin-left: 37%;
+    margin-top: 0%;
+}
+#MailIconFormCotz{
+    width: 58px;
+    margin-left: 38%;
+    margin-top: 0%;
+}
   
      
    .file-chosen{
@@ -731,4 +761,34 @@ main {
    }
 }
 
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .tituloempl1{
+        font-size: 50px;
+    }   
+
+    .formcot {
+        width:99%
+    }
+
+    #imgcot{
+        width: 62%;
+        margin-left:35%; 
+    }
+
+    .LHCOTIZ{
+        max-width: 420px;
+        margin: 0px -88px 0 auto;
+    }
+
+    .titecotiza{
+        width: 39rem;
+    }
+
+    .TextoTamañoCotiza{
+        margin-left: 17%;
+    }
+    #cotizaciones{
+        margin: 0 auto;
+    }
+}
 
