@@ -113,6 +113,14 @@ hojitasc{
     background-color: blue;
     color:blue;
 }
+.btnposicionado {
+    margin-top: 3.5rem;
+    margin-left: 3.5rem;
+    margin-right: 2.5rem;
+    margin-block-end: 3rem;
+    box-shadow: 9px 5px 11px -1px #1a455d;
+    -webkit-box-shadow: 9px 5px 11px -1px hsl(0deg 0% 0%);
+}
 .letraI{
     color: #7FA439;
     font-weight: bolder;
@@ -383,7 +391,11 @@ hojitasc{
 
 /* Escritorios FHD, 2K */  
 @media only screen and (max-width: 1920px) and (min-width: 1367px) { 
- 
+    
+    .PosicionImgPC{
+        margin: 60px -90px -27px -102px;
+    }
+
     .rellenob {
         z-index: -1;
         width: 35vh;
@@ -400,7 +412,7 @@ hojitasc{
         -webkit-box-shadow: 9px 5px 11px -1px #1a455d;
     }
     .btnposicionado {
-        margin-top: 4.5rem;
+        margin-top: 3.5rem;
         margin-left: 3.5rem;
         margin-right: 2.5rem;
         margin-block-end: 3rem;
@@ -424,13 +436,15 @@ hojitasc{
     }
 
 }
+
 /* TABLETAS 10 pulgadas */  
 @media only screen and (max-width: 1366px) and (min-width: 1025px) { 
  
+ 
     .rellenob {
         z-index: -1;
-        width: 37vh;
-        height: 24vh;
+        width: 45vh;
+        height: 25vh;
         margin-top: 4.2rem;
         margin-left: -2.3rem;
         border: 4px solid;
@@ -443,7 +457,7 @@ hojitasc{
         -webkit-box-shadow: 9px 5px 11px -1px #1a455d;
     }
     .btnposicionado {
-        margin-top: 4.5rem;
+        margin-top: 2.5rem;
         margin-left: 3.5rem;
         margin-right: 2.5rem;
         margin-block-end: 3rem;
@@ -467,9 +481,38 @@ hojitasc{
     }
 
 }
+/*ICONOS*/
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+    .iconoT{
+
+        width: 0;
+        padding: 0px;
+        margin: 0px;
+        display: block !important;
+    }
+}
 /* TABLETAS 7 pulgadas */  
 @media only screen and (max-width: 1024px) and (min-width: 768px) { 
  
+    .navbar-nav .dropdown-menu {
+        position: static;
+        float: none;
+        margin-left: 46px;
+        border: none;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        /* max-height: 55vh; */
+        height: 41vh !important;
+        opacity: rgba(255, 255, 255, 0.953) !important;
+    }
+    .iconoT{
+
+        width: 0;
+        padding: 0px;
+        margin: 0px;
+        display: block !important;
+    }
+    
     .circulo-fum {
         width: 25rem;
         height: 25rem;
@@ -578,7 +621,7 @@ hojitasc{
         width: 100%;
         /* min-width: 150vh; */
         background-position-x: 50%;
-        height: 100vh;
+        height: auto;
         max-height: 55vh; 
     }
     .saniti{
@@ -743,7 +786,15 @@ hojitasc{
 }
 /* SURFACE DUO */
 /* Para 480px TELEFONOS */  
-@media only screen and (max-width: 720px) and (min-width: 501px) {  
+@media only screen and (max-width: 767px) and (min-width: 641px) {  
+
+
+    .navbar-nav .dropdown-menu {
+        position: static;
+        float: none;
+        margin-left: 25px;
+        border: none;
+    }
 
     .circulo-fum {
         width: 15rem;
@@ -802,12 +853,12 @@ hojitasc{
     
     }
     .subtituloL{
-        color: #000000 !important;
-        text-shadow: #000000;
-        color: #ffffff !important;
-        background-color: rgba(0, 0, 0, 0.01) !important;
+        color: #0051ff;
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        background-color: rgba(255, 255, 255, 0.104) !important;
         text-align: justify !important;
-        letter-spacing: 1px;
+        border-radius: 2rem;
     }
     .subtituloLI{
         font-size: 1rem;
@@ -827,10 +878,10 @@ hojitasc{
     }
     .carousel-inner img{
         width: 100%;
-        min-width: 150vh;
+        /* min-width: 150vh; */
         background-position-x: 50%;
-        height: 100vh;
-        /* max-height: 55vh;  */
+        height: auto;
+        max-height: 55vh; 
     }
 
 
@@ -913,15 +964,16 @@ hojitasc{
             #1A455D 100%);
             
         }
-        .btnServicios { /*Contenido interno y estilo del boton*/
-            padding: 5px 35px;
+        .btnServicios {
+            padding: -15px 1px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.7s;
             background-size: 200% auto;
-            color: white;            
+            color: white;
             border-radius: 1rem;
-            border: 4px inset #106aa5;
+            border: 2px inset #106aa5;
+            font-size: 15px;
         }
      .btnposicionado{
         margin-top: 1rem;
@@ -942,6 +994,14 @@ hojitasc{
         box-shadow: 2px 2px 5px #999;
     }
     
+    .LimpiezaT h1{
+        font-size: 2rem!important;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        color: #1A455D;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+    }
     .titempl {
         color: #fff;
         font-weight: 700;
@@ -976,12 +1036,25 @@ hojitasc{
     }
 }
 
-/* SURFACE DUO */
-/* SURFACE DUO */
-
 /* Para 480px TELEFONOS */  
-@media only screen and (max-width: 500px) and (min-width: 360px) {  
+@media only screen and (max-width: 640px) and (min-width: 360px) {  
 
+    .navbar-nav .dropdown-menu {
+        position: static;
+        float: none;
+        margin-left: 21px;
+        border: none;
+    }
+    .navbar-nav .nav-link {
+        padding: 11px 0px 4px 14px;
+        margin-left: 31px;
+    }
+
+    .hojitafp {
+        width: 10%;
+        height: 40px !important;
+        margin-left: 4px;
+    }
     .circulo-fum {
         width: 15rem;
         height: 15rem;
@@ -1004,8 +1077,8 @@ hojitasc{
         border-radius: 2rem 0rem 2rem 0rem;
     }
     .TextoTamaño {
-        padding-top: -0.5rem;
-        font-size: 19px;
+        padding-top: -0.1rem;
+        font-size: 18px;
     }
     .titempl2 {
         margin-left: -5.4rem;
@@ -1070,7 +1143,7 @@ hojitasc{
         min-width: 150vh;
         background-position-x: 50%;
         height: 100vh;
-        /* max-height: 55vh;  */
+        max-height: 100vh; 
     }
 
 
