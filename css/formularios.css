@@ -70,6 +70,10 @@
     height: auto;
 }
 
+#imghoja{
+    width: auto;
+}
+
 
 #imgcemp {
     width: 58%;
@@ -105,14 +109,14 @@
 .tituloempl {
     /* width: 77rem;
     height: 18.5rem; */
-    margin-left: -28.1rem;
+    /* margin-left: -28.1rem; */
     color: #1A455D;
     font-weight: 697;
     font-family: 'Poppins', sans-serif;
     font-size: 65px;
 }
 .tituloempl1 {
-    margin-left: -100%;
+    /* margin-left: -100%; */
     color: #1A455D;
     font-weight: 693;
     font-family: 'Poppins', sans-serif;
@@ -517,14 +521,14 @@ main {
         display: block !important
     }
     .tituloempl1 {
-        margin-left: 1%;
+        margin-left: 16%;
         color: #1A455D;
         font-weight: 700;
         font-family: 'Poppins', sans-serif;
-        font-size: 33px;
+        font-size: 31px;
     }
     .tituloempl {
-        margin-left: 0%;
+        margin-left: 25%;
         color: #1A455D;
         font-weight: 693;
         font-family: 'Poppins', sans-serif;
@@ -551,7 +555,7 @@ main {
         margin-top: -30px;
     }
     .imghoja{
-        display: none;
+        /* display: none; */
     }
     #columimagtitlemp{
         height: 351px;
@@ -578,6 +582,11 @@ main {
     }
     .LH1 {
         display: none;
+    }
+
+    #imghoja{
+        width: 13%;
+        height: 13%;
     }
 
     .titledatosEmpl{
@@ -865,9 +874,7 @@ main {
         font-weight: bold;
     }
 
-    .tituloempl{
-        margin-left: -27.5rem;
-    }
+   
 
 }
 
@@ -904,6 +911,19 @@ main {
     .titemapsub{
         margin-right: 0%;
     }
+
+    .titecotize{
+        width: 75rem;
+        margin-left: -28.1rem;
+    }
+
+    .titecotize2{
+        margin-left: -41.1rem;
+        font-size: 100%;
+
+    }
+
+    
 
 
 }
