@@ -927,3 +927,9 @@ main {
 
 
 }
+@media (min-width: 1681px) and (max-width: 1920px) {
+    .formcot{
+        margin-left: -16.3rem;
+    }
+
+}
