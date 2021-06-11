@@ -437,6 +437,13 @@ hojitasc{
 
 }
 
+
+
+
+@media only screen and (max-width: 1919px) and (min-width: 1366px) {
+
+}
+
 /* TABLETAS 10 pulgadas */  
 @media only screen and (max-width: 1366px) and (min-width: 1025px) { 
  
@@ -1039,6 +1046,11 @@ hojitasc{
 /* Para 480px TELEFONOS */  
 @media only screen and (max-width: 640px) and (min-width: 360px) {  
 
+    .carousel-control-prev, .carousel-control-next {
+        max-height: 100vh;
+        height: 211vh !important;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
     .navbar-nav .dropdown-menu {
         position: static;
         float: none;
@@ -1286,5 +1298,19 @@ hojitasc{
     .carousel-inner.carousel-item IMG{
         background-color: green;
         height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 812px) and (min-width: 375px){
+    .rellenoP {
+        border: 4px solid #557813;
+        height: 25vh;
+        width: 30vh;
+        margin-left: 1rem;
+        border-radius: 1rem;
+        margin-right: 0rem;
+        -webkit-box-shadow: 9px 5px 11px -1px #557813;
+        box-shadow: 9px 5px 11px -1px #557813;
+        z-index: 2;
     }
 }
