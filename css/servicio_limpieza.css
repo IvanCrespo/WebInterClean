@@ -1,4 +1,4 @@
-/*https://webdevtrick.com/demos/water-filling-text/*/
+
 .row{
 	overflow-x: hidden;
 }
@@ -15,6 +15,7 @@ p{
 
 .TextoTamaño{
     padding-top: 0.5rem;
+    margin-left:  1rem;
 }
 /*====DISEÑO LINEA ====*/
 .linea_izquierda hr {
@@ -85,12 +86,24 @@ p{
 }
 .titempl2 {
     margin-left: -5.4rem;
-    width: 33rem;
-    height: 5rem;
+    width: 38rem;
+    height: auto;
     background-color: #1A455D;
     color: #fff;
     border-radius: 2rem 0rem 2rem 0rem;
     box-shadow: 2px 2px 5px #999;
+}
+.hojitafp{
+    width: 10%;
+    margin: 11px;
+    height: 80px !important;
+    margin-left: 1.5rem;
+}
+hojitasc{
+    width: 10%;
+    margin: 11px;
+    height: 70px !important;
+    margin-left: 1.5rem;
 }
 .ColorIzq{
     background-color: blue;
@@ -150,9 +163,10 @@ p{
 /*====FIN MANIPULACION DE LETRAS====*/
 
 
-.saniti{
-    width: 90%;
-    margin-left: 0rem;
+
+.saniti {
+    width: 70%;
+    margin-left: 5rem;
 }
 /*====Estilos, Tamaños de los Botones====*/
 .btnServicios {
@@ -198,6 +212,12 @@ p{
         padding-top: 2rem;
         border-collapse: 1px solid black;
     }
+    .espaciados3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 8rem;
+    }
 /*====FIN Espacio entre secciones====*/
     
     
@@ -233,17 +253,16 @@ p{
     height: 40vh;
     margin-left: 7rem;
     border-radius: 1rem;
-    margin-right: 2.6rem;
+    margin-right: 3.6rem;
     border: 6px solid #557813;
     box-shadow: 9px 5px 11px -1px #557813;
     -webkit-box-shadow: 9px 5px 11px -1px #557813;
 }
 .rellenob{
-    z-index: -1;
-    width: 40vh;  
+    width: 0vh;  
     height: 25vh;
-    margin-top: 3.2rem;
-    margin-left: -2.5rem;
+    margin-top: 3rem;
+    margin-left: -3.5rem;
     border: 4px solid;
     border-top-color: #1A455D;
     border-right-color: #1A455D;
@@ -273,11 +292,11 @@ p{
 
 
 .titempl {
-    width: 26rem;
+    width: auto;
     height: 5.2rem;
     background-color: #1A455D;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     border-radius: 2rem 0rem 2rem 0rem;
     box-shadow: 2px 2px 5px #999;
 }
@@ -285,9 +304,9 @@ p{
 .titempl {
     color: #fff;
     font-weight: 700;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 34px;
     box-shadow: 2px 2px 5px #999;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -330,11 +349,11 @@ p{
 }
 
 .hr-fum {
-    border-top: 3px solid #7FA439;
     height: 5px;
     width: 60%;
     margin: auto;
     margin-bottom: 1rem;
+    border-top: 3px solid #7FA439;
 }
 
 .zoom {
@@ -359,15 +378,18 @@ p{
     
 }   
 
-/* Para 480px Tablets 7p */  
-@media only screen and (max-width: 1366px) and (min-width: 1000px) { 
+
+
+
+/* Escritorios FHD, 2K */  
+@media only screen and (max-width: 1920px) and (min-width: 1367px) { 
  
     .rellenob {
         z-index: -1;
-        width: 37vh;
-        height: 24vh;
-        margin-top: 4.2rem;
-        margin-left: 2.3rem;
+        width: 35vh;
+        height: 23vh;
+        margin-top: 5.2rem;
+        margin-left: 5.3rem;
         border: 4px solid;
         border-top-color: #1A455D;
         border-right-color: #1A455D;
@@ -402,10 +424,64 @@ p{
     }
 
 }
-
-/* Para 480px Tablets 10p */  
-@media only screen and (max-width: 999px) and (min-width: 768px) { 
+/* TABLETAS 10 pulgadas */  
+@media only screen and (max-width: 1366px) and (min-width: 1025px) { 
  
+    .rellenob {
+        z-index: -1;
+        width: 37vh;
+        height: 24vh;
+        margin-top: 4.2rem;
+        margin-left: -2.3rem;
+        border: 4px solid;
+        border-top-color: #1A455D;
+        border-right-color: #1A455D;
+        border-bottom-color: #1A455D;
+        border-left-color: transparent;
+        border-radius: 0rem 2rem 2rem 0rem;
+        box-shadow: 9px 5px 11px -1px #1a455d;
+        -webkit-box-shadow: 9px 5px 11px -1px #1a455d;
+    }
+    .btnposicionado {
+        margin-top: 4.5rem;
+        margin-left: 3.5rem;
+        margin-right: 2.5rem;
+        margin-block-end: 3rem;
+        box-shadow: 9px 5px 11px -1px #1a455d;
+        -webkit-box-shadow: 9px 5px 11px -1px hsl(0deg 0% 0%);
+    }
+    .textofin {
+        color: #1A455D;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        line-height: 2.5rem;
+    }
+
+}
+/* TABLETAS 7 pulgadas */  
+@media only screen and (max-width: 1024px) and (min-width: 768px) { 
+ 
+    .circulo-fum {
+        width: 25rem;
+        height: 25rem;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        margin: -1rem 1rem 0rem 14.5rem;
+        margin-bottom: 2rem;
+        box-shadow: 10px 7px 20px 0px rgb(0 0 0 / 75%);
+        -webkit-box-shadow: 10px 7px 20px 0px rgb(0 0 0 / 75%);
+        -moz-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+    }
     .resolucion{
         width: 97% !important;
         height: auto;
@@ -500,10 +576,10 @@ p{
     }
     .carousel-inner img{
         width: 100%;
-        min-width: 150vh;
+        /* min-width: 150vh; */
         background-position-x: 50%;
         height: 100vh;
-        /* max-height: 55vh;  */
+        max-height: 55vh; 
     }
     .saniti{
         width: 50%;
@@ -514,7 +590,7 @@ p{
         width: 0;
         padding: 0px;
         margin: 0px;
-        visibility: hidden;
+        display: block !important;
     }
     .titulosh3{
         font-weight: bolder;
@@ -602,6 +678,9 @@ p{
      .btnposicionado{
         margin-top: 1rem;
         margin-left: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
         box-shadow: 9px 5px 11px -1px #1A455D;   
     }
@@ -662,12 +741,20 @@ p{
         height: 100vh;
     }
 }
-
-/*                                              
-
+/* SURFACE DUO */
 /* Para 480px TELEFONOS */  
-@media only screen and (max-width: 500px) and (min-width: 360px) {  
+@media only screen and (max-width: 720px) and (min-width: 501px) {  
 
+    .circulo-fum {
+        width: 15rem;
+        height: 15rem;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        margin: 6rem;
+        margin-bottom: 2rem;
+        box-shadow: 2px 2px 5px #999;
+    }
     .TituloIcS{
         margin: 0rem;
         padding: 1rem;
@@ -752,10 +839,7 @@ p{
         width: 0;
         padding: 0px;
         margin: 0px;
-        visibility: hidden;
-        /* width: 20%;
-        padding: 0px 0px 20px 0px;
-        margin: 1px 0px 10% 40%; */
+        display: block !important;
     }
     .titulosh3{
         font-weight: bolder;
@@ -842,6 +926,249 @@ p{
      .btnposicionado{
         margin-top: 1rem;
         margin-left: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
+        box-shadow: 9px 5px 11px -1px #1A455D;   
+    }
+    .titempl {
+        margin-left: 1.6rem;
+        width: 18rem;
+        height: 5rem;
+        background-color: #1A455D;
+        color: #fff;
+        border-radius: 2rem 0rem 2rem 0rem;
+        box-shadow: 2px 2px 5px #999;
+    }
+    
+    .titempl {
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 30px;
+        box-shadow: 2px 2px 5px #999;
+    }
+
+    .TextoCarousel{
+        visibility: visible;
+        z-index: 150;
+        margin-top: -33rem;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .TituloServ{
+        z-index: 100;
+        font-size: 1.7rem;
+        margin-top: 2rem;
+    }
+    .txtposicion{
+        position: relative;
+        margin-top: -3.4rem;
+        margin-left: 4rem;
+    }
+ 
+
+    .carousel-inner.carousel-item IMG{
+        background-color: green;
+        height: 100vh;
+    }
+}
+
+/* SURFACE DUO */
+/* SURFACE DUO */
+
+/* Para 480px TELEFONOS */  
+@media only screen and (max-width: 500px) and (min-width: 360px) {  
+
+    .circulo-fum {
+        width: 15rem;
+        height: 15rem;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        box-shadow: 2px 2px 5px #999;
+    }
+    
+    .TituloIcS{
+        margin: 0rem;
+        padding: 1rem;
+        color: white;
+        font-weight: bold;
+        background-color: #1A455D;
+        border-radius: 2rem 0rem 2rem 0rem;
+    }
+    .TextoTamaño {
+        padding-top: -0.5rem;
+        font-size: 19px;
+    }
+    .titempl2 {
+        margin-left: -5.4rem;
+        width: 18rem;
+        height: 5rem;
+        background-color: #1A455D;
+        color: #fff;
+        border-radius: 2rem 0rem 2rem 0rem;
+        box-shadow: 2px 2px 5px #999;
+    }
+    .LimpiezaT h1{
+        font-size: 3rem!important;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        color: #1A455D;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+    }
+    .DesinfeccionT h1{
+
+        font-size: 1.8rem!important;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        color: #1A455D;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+    }
+    .MantenimientoT h1{
+        font-size: 1.7rem!important;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        color: #1A455D;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    
+    }
+    .subtituloL{
+        color: #000000 !important;
+        text-shadow: #000000;
+        color: #ffffff !important;
+        background-color: rgba(0, 0, 0, 0.01) !important;
+        text-align: justify !important;
+        letter-spacing: 1px;
+    }
+    .subtituloLI{
+        font-size: 1rem;
+        text-align: justify !important;
+        background-color: rgba(1, 1, 1, 0.01);
+    }
+    .d-md-block{
+        display: block !important;
+    }
+
+    /*Servicios Limpieza*/
+    .carousel-control-prev,
+    .carousel-control-next{
+        /* max-height: 55vh; */
+        height: 95vh;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+    .carousel-inner img{
+        width: 100%;
+        min-width: 150vh;
+        background-position-x: 50%;
+        height: 100vh;
+        /* max-height: 55vh;  */
+    }
+
+
+    .iconoT{
+
+        width: 0;
+        padding: 0px;
+        margin: 0px;
+        display: block !important;
+    }
+    .titulosh3{
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .letraI{
+        color: #7FA439;
+        font-size: 2.5rem;
+    }
+
+    div#main_nav.navbar-collapse.collapse.show{
+        border: 4px solid #7FA439;
+    }
+
+
+    .navbar-collapse{
+        border: 6px solid #7FA439;
+    }
+    .collapse{
+        border: 6px solid #7FA439;
+    }
+    .show{
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.987);
+    }
+
+    .rellenoP {
+        border: 4px solid #557813;
+        height: 28vh;
+        width: 40vh;
+        margin-left: 1rem;
+        border-radius: 1rem;
+        margin-right: 0rem;
+        -webkit-box-shadow: 9px 5px 11px -1px #557813;
+        box-shadow: 9px 5px 11px -1px #557813;
+        z-index: 2;
+    }
+    .rellenob{
+        position: fixed;
+
+    }
+    .textofin {
+        color: #1A455D;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-align:center;
+        margin-right: 1rem;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .hojac{
+        width: 15%;
+        margin-left: -2rem;
+        margin-top: -1rem;
+    }
+    .btnhidden{
+        visibility: visible;
+         margin: 0;
+         padding: 0;
+    }
+    .btnServicios {
+        background-image: 
+        linear-gradient(
+            to right,
+            #314755 0%,
+            #26a0da  51%,
+            #1A455D 100%);
+            
+        }
+        .btnServicios { /*Contenido interno y estilo del boton*/
+            padding: 5px 35px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.7s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 1rem;
+            border: 4px inset #106aa5;
+        }
+     .btnposicionado{
+        margin-top: 1rem;
+        margin-left: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
         box-shadow: 9px 5px 11px -1px #1A455D;   
     }

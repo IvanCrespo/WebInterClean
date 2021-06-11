@@ -51,12 +51,19 @@
  }
 
 /*--------------------------------------------------------*/
-
-.Fondo-menu-central{
-    background-color: rgba(255, 255, 255, 0.212);
-    padding: 1rem;
-    border-radius: 2rem;
+.Contenedor-Logo{
+  position:static;
 }
+.fondo-degradado-menu-blanco{
+  background-color: rgba(255, 255, 255, 0.542);
+}
+.fondo-degradado-menu-negro{
+  background-color: rgba(0, 0, 0, 0.304);
+}
+/* .Fondo-menu-central{
+  background-color: rgba(0, 0, 0, 0.056);
+  padding: 1rem;
+} */
 .Seleccionado:hover{
     font-weight: bolder;
 
@@ -64,9 +71,8 @@
 }
 .Letras-Default-Menu{
     font-weight: bolder;
-    font-size: large;
+    font-size:large;
     color: rgb(26, 69, 93) !important;
-    /* border-block-end: 4px solid #1A455D; */
 }
 .Letras-Default-Menu-Dropdown{
     font-size: large;
