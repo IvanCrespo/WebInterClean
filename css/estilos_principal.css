@@ -44,15 +44,15 @@ html, body {
 }
 
 /* ---------------------------------------------------- */
-.offset-md-1 {
+/* .offset-md-1 {
     margin-left: 2.6%;
-}
+} */
 /* .seccionTamaño {
     width: 100%;
 	height: 100%;
 	margin: 0 auto;
-}
-.seccionTamañoResultados {
+} */
+/* .seccionTamañoResultados {
 	width: 100%;
 	height: 65%;
 	margin: 0 auto;
@@ -68,6 +68,36 @@ html, body {
 	border-collapse: 1px solid black;
 }
 /*====FIN Espacio entre secciones====*/
+
+
+
+
+/* ----------------------------- Titulos --------------------------------- */
+.titulosIC {
+    justify-content:center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #1A455D;
+    border-radius: 3.3rem 0rem 3.3rem 0rem;
+    box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    display:inline-block;
+    text-align:center;
+}
+.letraTitulo {
+    /* margin-top: 16%; */
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 5px;
+    margin: auto;
+    /* padding-top: 11px; */
+}
+.hoja{
+    margin-top: -22px;
+}
 
 
 
