@@ -931,5 +931,32 @@ main {
     .formcot{
         margin-left: -16.3rem;
     }
+    .titecotiza{
+        margin-left: -15.3rem;
+        width: 45rem;
+    }
+    .formcot{
+        margin-left: -43%;
+        width: 122%;
+    }
+    .TextoTamañoCotiza{
+        font-size: 45px;
+        padding-top: 14.5px;
+        margin-left: 17%;
+    }
+    
+    #imgcot{
+        width: 75%;
+        margin-left: 66%;
+    }
+    .LHCOTIZ{
+        max-width: 575px;
+        margin: 0px -280px 0 auto;
+    }
+    .titemapsub{
+        margin-right: -1%;
+    }
+
+    
 
 }
