@@ -787,6 +787,89 @@ main {
    }
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+    .TextoTamañoCotiza{
+        font-size: 40px;
+        padding-top: 14.5px;
+        margin-left: 10%;
+    }
+
+    .titecotiza{
+        width: 28rem;
+        margin-left: -1.3rem
+    }
+
+    .LHCOTIZ{
+        max-width: 348px;
+        margin: 0px -136px 0 auto;
+    }
+
+    #imgcot{
+        height: auto;
+        width: 88%;
+        margin-left: 35%;
+    }
+    #textMailCotiz{
+        font-size: 85%;
+        margin-left: -53%;
+    }
+
+    #textTelCotiz{
+        margin-left: -26%;
+        font-weight: bold;
+        
+    }
+
+    .titemapsub{
+        width: 47rem;
+        margin-right:0%
+    }
+
+    .titecotizaContactanos{
+        margin-left: -5.3rem;
+    }
+
+    #imgcalendar{
+        margin-left: 0%;
+        height: auto;
+        width: 73%;
+    }
+
+    #telefonoIconFormCotz{
+        width: 29%;
+        margin-left: 28%;
+        margin-top: -9%;
+    }
+    #MailIconFormCotz{
+        width: 48px;
+        margin-left: 34%;
+        margin-top: 1%;
+    }
+
+
+
+}
+
+@media (min-width: 991px) and (max-width: 1024px){
+    .titecotiza{
+        width: 34rem;
+        margin-left: -0.3rem;
+    }
+
+    .TextoTamañoCotiza{
+        margin-left: 13%;
+    }
+
+    .titemapsub{
+        margin-left: -10.4rem
+    }
+    .LHCOTIZ{
+        max-width: 255px;
+        margin: 0px -10px 0 auto;
+    }
+    
+}
+
 @media (min-width: 1025px) and (max-width: 1366px) {
     .tituloempl1{
         font-size: 50px;
