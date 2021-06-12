@@ -1,4 +1,4 @@
-.container-servicios {
+/* .container-servicios {
     max-width: 1200px;
     width: 90%;
     margin: 20px auto;
@@ -6,20 +6,25 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
+
 .card {
     margin: 1rem;
     width: 20rem;
     border-radius: 16px;
 }
+
 .card-body {
     border: 2px solid #7FA439;
     border-radius: 16px;
     box-shadow: 2px 2px 5px #999;
 }
+
 .circulo {
     margin: 0 auto;
 }
+
+
 /* .circulo {
     width: 15rem;
     height: 15rem;
@@ -31,12 +36,14 @@
     margin-bottom: 2rem;
     box-shadow: 6px 8px 25px #999;
 } */
+
 .card-img-top {
     height: auto;
     width: 60%;
     margin: 0 auto;
-    display:block;
+    display: block;
 }
+
 .card-title {
     font-size: 30px;
     font-style: normal;
@@ -46,6 +53,7 @@
     text-align: center;
     color: #1A455D;
 }
+
 .card-text {
     font-size: 16px;
     font-style: normal;
@@ -55,6 +63,7 @@
     text-align: justify;
     color: #1A455D;
 }
+
 .boton {
     display: flex;
     align-items: center;
@@ -68,13 +77,15 @@
     border: 3px solid #fff;
     font-size: 20px;
 }
+
 .boton:hover {
     background: white;
     border: 2px solid #7FA439;
     color: #7FA439;
     text-decoration: none;
 }
-.hr-servicios{
+
+.hr-servicios {
     border-top: 3px solid #7FA439;
     height: 5px;
     width: 30%;
@@ -82,6 +93,7 @@
     margin-bottom: 1rem;
     opacity: inherit;
 }
+
 .zoom_servicios {
     transition: 1s ease;
     -moz-transition: 1s ease;
@@ -91,94 +103,8 @@
     -o-transition: 1.5s ease;
     /* Opera */
 }
+
 .zoom_servicios:hover {
     transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
-.titulosICS { /* SERVICIOS */
-    width: 450px;
-    height: 85px;
-    margin: 0 auto;
-    color: #FFFFFF;
-    background-color: #1A455D;
-    border-radius: 3.3rem 0rem 3.3rem 0rem;
-    box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-    -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-    -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-}
-.letraTitulo {
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 5px;
-    padding-top: 11px;
-}
-
-/* Para 480px */  
-/* @media only screen and (max-width: 500px) and (min-width: 320px) {  
-	.titulosICS {
-		width: 272px;
-		height: 50px;
-		margin: 0 auto;
-	}
-	.titulosICS .letraTitulo {
-		font-size: 28px;
-		padding-top: 9px;
-	}
-    .titulosICS .letraTitulo .hojaNosotros {
-        margin-top: -12px;
-        width: 8%;
-    }
-    .card-title {
-        font-size: 24px;
-    }
-    .card-text {
-        font-size: 13px;
-        line-height: 24px;
-    }
-    .boton {
-        padding: 2px;
-        font-size: 16px;
-    }
-    .card-img-top {
-        width: 50%;
-    }
-    .centradico{
-        margin-left: 1px;
-    }
-    .col{
-        position: relative;
-        width: 100%;
-        padding-right: 0;
-        padding-left: 34px;
-    }
-    
-    .lineaHImagenes {
-        border-top: 4px solid #1A455D;
-        width: 168px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {  
-    .container-servicios {
-        max-width: 100%;
-        width: 100%;
-    }
-    .card {
-        width: 21rem;
-        border: 0;
-    }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1366px) { 
-    .container-servicios {
-        max-width: 100%;
-        width: 100%;
-    }
-    .card {
-        width: 18rem;
-        border: 0;
-    }
-    .card-title {
-        font-size: 1.69rem;
-    } 
-}
- */
