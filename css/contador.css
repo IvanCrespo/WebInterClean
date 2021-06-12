@@ -87,3 +87,27 @@
         font-size: 45px;
     }
 }
+
+@media only screen and (min-width: 1681px) and (max-width: 1919px) {
+    .container-NR {
+        max-width: 88%;
+    }
+    .numeroContador {
+        font-size: 56px;
+    }
+    .textoContador {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container-NR {
+        max-width: 88%;
+    }
+    .numeroContador {
+        font-size: 60px;
+    }
+    .textoContador {
+        font-size: 32px;
+    }
+}

@@ -59,6 +59,16 @@
 
 @media only screen and (min-width: 1681px) and (max-width: 1919px) {
     .zoom img {
-        top: 0%;
+        top: -7%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .zoom img {
+        top: -13%;
+    }
+    .zoom img {
+        max-width: 200%;
+        width: 127rem;
     }
 }

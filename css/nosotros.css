@@ -61,9 +61,34 @@
     }
 }
 
-
-/* @media only screen and (min-width: 1681px) and (max-width: 1919px) {
+@media only screen and (min-width: 1681px) and (max-width: 1919px) {
     .container {
         margin-bottom: 14rem;
     }
-} */
+    .container-Nosotros {
+        max-width: 88%;
+    }
+    .letraTitulo {
+        font-size: 64px;
+    }
+    .textoIC {
+        font-size: 1.75rem;
+        line-height: 2.7rem;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container {
+        margin-bottom: 14rem;
+    }
+    .container-Nosotros {
+        max-width: 88%;
+    }
+    .letraTitulo {
+        font-size: 67px;
+    }
+    .textoIC {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+}

@@ -9,7 +9,7 @@
 }
 
 .imagenMV {
-    position: absolute;
+    position: inherit;
     width: 95%;
     height: auto;
     border-radius: 20px;
@@ -123,3 +123,45 @@
     }
 }
  */
+
+@media only screen and (min-width: 1681px) and (max-width: 1919px) {
+    .container-MV {
+        max-width: 88%;
+    }
+    .cuadro {
+        width: 98%;
+        height: 100%;
+    }
+    .logo {
+        font-size: 32px;
+    }
+    .boton-mv {
+        padding: 18px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container-MV {
+        max-width: 88%;
+    }
+    .cuadro {
+        width: 98%;
+        height: 100%;
+    }
+    .logo {
+        font-size: 32px;
+    }
+    .boton-mv {
+        padding: 18px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
