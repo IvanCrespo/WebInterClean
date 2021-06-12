@@ -254,7 +254,9 @@ border-radius: 10px;
     margin-left: 73%;
     margin-top: -11%;    
 }
-
+.LH1{
+    margin-left: -22%;
+}
 
 #MailIconFormCotz{
     width: 48px;
@@ -928,6 +930,10 @@ main {
 
 }
 @media (min-width: 1681px) and (max-width: 1920px) {
+    .container{
+        max-width: 100%;
+    }
+   
     .formcot{
         margin-left: -16.3rem;
     }
@@ -944,7 +950,11 @@ main {
         padding-top: 14.5px;
         margin-left: 17%;
     }
-    
+    .LH1{
+        margin-left: -1%;
+        margin-top: 0%;
+
+    }
     #imgcot{
         width: 75%;
         margin-left: 66%;
@@ -956,6 +966,33 @@ main {
     .titemapsub{
         margin-right: -1%;
     }
+    .titempleo {
+        width: 40rem;
+        margin-left: -0.1rem;
+    }
+
+    .TextoTamañoEmpl{
+        font-size: 47px;
+        padding-top: 5.5px;
+        margin-left: 4%;
+    }
+
+    #imgcemp {        
+        width: 41%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formemp{
+        margin-top: 39px;
+        width: 62%;
+        margin-left: 19%;
+    }
+    .tituloservlimp{
+        left: 15%;
+        margin-left: auto;
+    }
+
 
     
 
