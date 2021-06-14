@@ -17,9 +17,36 @@ p{
 div .LimpiezaT {
     margin-right: 35vh;
     margin-left: 35vh;
+
+}
+.Diseño-Letras-M {
+    font-size: 100px;
+    font-weight: 800;
+    border-radius: 4rem;
+    letter-spacing: 5.2px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #1A455D;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    background-color: rgba(238, 238, 238, 0.192);
+}
+.Diseño-Letras-DSF {
+    font-size: 80px;
+    font-weight: 800;
+    border-radius: 2rem;
+    letter-spacing: 5.2px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #1A455D;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    background-color: rgba(238, 238, 238, 0.192);
 }
 .Diseño-Letras-limpieza {
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 800;
     border-radius: 4rem;
     letter-spacing: 5.2px;
@@ -40,6 +67,9 @@ div .LimpiezaT {
     color: #ffffff;
     margin-left: 15vh;
     margin-right: 15vh;
+    font-size: 40px;
+    line-height: 2.5rem;
+    letter-spacing: 5px;
 }
 /*Carrusel contenido*/
 /*Fondo de tituos Limpieza*/
@@ -52,9 +82,9 @@ div .LimpiezaT {
     margin-left: 0rem;
 }
 .Hoja-2-D {
-    width: 7%;
+    width: 5%;
     height: auto;
-    margin-left: 1rem;
+    margin-left: 6rem;
     margin-top: 1rem;
 }
 .Txt-Letras-LPP {
@@ -539,10 +569,10 @@ margin-right: auto;
     text-align: right;
     justify-content: center;
     font-weight: 800;
-    font-size: 40.4px;
+    font-size: 49.4px;
     font-family: 'Poppins';
-    margin-right: 6rem;
-    margin-top: -3.8rem;
+    margin-right: 17rem;
+    margin-top: -4.2rem;
 }
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
@@ -778,6 +808,23 @@ margin-right: auto;
         margin-right: 5rem;
         margin-top: -4.2rem;
     }
+
+    .Hoja-2-D {
+        width: 7%;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .Txt-Letras-FumigacionP {
+        color: white;
+        text-align: right;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 40.4px;
+        font-family: 'Poppins';
+        margin-right: 4rem;
+        margin-top: -3.2rem;
+    }
 }
 
 /*Telefono*/
@@ -792,7 +839,7 @@ margin-right: auto;
         margin-left: 19px;
     }
 
-    
+
 
     
     /*FOOTER PREVIO*/
@@ -1034,15 +1081,15 @@ margin-right: auto;
                 background-color: #1A455D;
                 border-radius: 2rem 0rem 2rem 0rem;
             }
-            .Txt-Letras-FumigacionP{
+            .Txt-Letras-FumigacionP {
                 color: white;
                 text-align: right;
                 justify-content: center;
                 font-weight: 800;
-                font-size: 21.4px;
+                font-size: 20.4px;
                 font-family: 'Poppins';
-                margin-right: 2rem;
-                margin-top: -2rem;
+                margin-right: 1.5rem;
+                margin-top: 0rem;
             }
             .Hoja-2-D{
                 width: 10%;
@@ -1129,6 +1176,7 @@ margin-right: auto;
                     width: 100%;
                     margin-left: 0rem;
                 }
+        
 
             /*Parte final del cada pagina antes del footer*/
             .resolucion{
