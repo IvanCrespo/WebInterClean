@@ -100,12 +100,11 @@ div .LimpiezaT {
 /*Carrusel contenido*/
 /*Fondo de tituos Limpieza*/
 .Fondo-FumigacionP {
-    width: auto;
+    width: 129%;
     height: 13vh;
     background-color: rgb(26, 69, 93);
     border-radius: 5rem 0rem;
-    margin-right: 0rem;
-    margin-left: 0rem;
+    margin-left: -4rem;
 }
 .Fondo-FumigacionP1 {
     width: auto;
@@ -136,10 +135,10 @@ div .LimpiezaT {
     text-align: center;
     justify-content: center;
     font-weight: 800;
-    font-size: 37.5px;
+    font-size: 32;
     font-family: 'Poppins';
-    margin-right: -1.5rem;
-    margin-top: -3.9rem;
+    margin-right: 0rem;
+    margin-top: -8%;
 }
 .Hoja-2-D {
     width: 5%;
@@ -148,30 +147,30 @@ div .LimpiezaT {
     margin-top: 0.3%;
 }
 .Hoja-2-D-3 {
-    width: 10%;
+    width: 7%;
     height: auto;
-    margin-left: 3%;
-    margin-top: 0.3%;
+    margin-left: 8%;
+    margin-top: 2%;
 }
 
-.Hoja-2-D-4{
-    width: 10%;
+.Hoja-2-D-4 {
+    width: 8%;
     height: auto;
-    margin-left: 3%;
-    margin-top: 0.3%;
+    margin-left: 11%;
+    margin-top: 2.3%;
 }
 
 .Hoja-3-D {
-    width: 8%;
+    width: 7%;
     height: auto;
-    margin-left: 4%;
+    margin-left: 9%;
     margin-top: 2%;
 }
 .Hoja-4-D {
-    width: 7%;
+    width: 6%;
     height: auto;
-    margin-left: 6%;
-    margin-top: 2%;
+    margin-left: 9%;
+    margin-top: 1%;
 }
 .Hoja-5-D {
     width: 6%;
@@ -195,30 +194,32 @@ div .LimpiezaT {
     color: white;
     text-align: center;
     justify-content: center;
-    font-weight: 1000;
-    font-size: 39px;
+    font-weight: 800;
+    font-size: 32px;
     font-family: 'Poppins';
-    margin-right: -0.5rem;
-    margin-top: -3.5rem;
+    margin-right: 0%;
+    margin-top: -10%;
 }
 .Txt-Letras-LI {
     color: white;
     text-align: center;
     justify-content: center;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Poppins';
-    margin-right: -8%;
-    margin-top: -10%;
+    margin-right: -7%;
+    letter-spacing: 0px;
+    line-height: -1px;
+    margin-top: -7%;
 }
 .Txt-Letras-Lgc {
     color: white;
-    text-align: right;
+    text-align: center;
     font-weight: 800;
-    font-size: 38px;
+    font-size: 32px;
     font-family: 'Poppins';
-    margin-right: 3.5rem;
-    margin-top: -3.8rem;
+    margin-right: 0%;
+    margin-top: -7%;
 }
 /*Fondo de tituos Limpieza*/
 
