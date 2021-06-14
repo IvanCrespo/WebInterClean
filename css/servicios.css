@@ -97,4 +97,11 @@
     .lineaHImagenes {
         width: 130px;
     }
+    .card-text {
+        overflow: hidden;
+        display: inline-block;
+        width: 234px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 }
