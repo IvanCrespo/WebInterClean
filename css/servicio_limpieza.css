@@ -99,12 +99,12 @@ div .LimpiezaT {
 }
 /*Carrusel contenido*/
 /*Fondo de tituos Limpieza*/
+
 .Fondo-FumigacionP {
-    width: 129%;
+    width: auto;
     height: 13vh;
     background-color: rgb(26, 69, 93);
     border-radius: 5rem 0rem;
-    margin-left: -4rem;
 }
 .Fondo-FumigacionP1 {
     width: auto;
@@ -145,6 +145,13 @@ div .LimpiezaT {
     height: auto;
     margin-left: 15%;
     margin-top: 0.3%;
+}
+
+.Hoja-2-D-X {
+    width: 4%;
+    height: auto;
+    margin-left: 17%;
+    margin-top: 1.3%;
 }
 .Hoja-2-D-3 {
     width: 7%;
@@ -738,10 +745,10 @@ margin-right: auto;
     text-align: center;
     justify-content: center;
     font-weight: 800;
-    font-size: 42.4px;
+    font-size: 35.4px;
     font-family: 'Poppins';
     margin-right: 0%;
-    margin-top: -5%;
+    margin-top: -4%;
 }
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
