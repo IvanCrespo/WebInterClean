@@ -160,6 +160,9 @@
 #ContactosFormCotiz{
     display: block;
 }
+#ContactosFormCotizDesk{
+    display: block;
+}
 
 .titempleo {
     width: 27rem;
@@ -782,6 +785,7 @@ main {
 #imgcalendar{
     margin-left: 31%;
     height: 67%;
+    width: 25%;
 }
 
 #telefonoIconFormCotz{
@@ -791,7 +795,7 @@ main {
 }
 #MailIconFormCotz{
     width: 58px;
-    margin-left: 38%;
+    margin-left: 37%;
     margin-top: 0%;
 }
   
@@ -799,6 +803,11 @@ main {
    .file-chosen{
        font-size: 2rem !important;
    }
+
+   #ContactosFormCotizDesk{
+       display: none;
+   }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -829,7 +838,7 @@ main {
     }
 
     #textTelCotiz{
-        margin-left: -26%;
+        margin-left: -53%;
         font-weight: bold;
         
     }
@@ -902,9 +911,9 @@ main {
         width: 188px;
     }
 
-
-
-
+    .TextoCotizacion{
+        padding-top: 1rem;
+    }
 
 }
 
@@ -955,11 +964,13 @@ main {
     .formemp{
         width:90%;
     }
+    #ContactosFormCotizDesk{
+        display: none;
+    }
   
     
     
 }
-
 @media (min-width: 1025px) and (max-width: 1366px) {
     .tituloempl1{
         font-size: 50px;
@@ -1053,10 +1064,13 @@ main {
         display: inline-flex;
     }
 
+    #ContactosFormCotizDesk{
+        display: none;
+    }
+
    
 
 }
-
 @media (min-width: 1367px) and (max-width: 1680px) {
     .formcot{
         width: 125%;
@@ -1105,6 +1119,16 @@ main {
         display: inline-flex;
     }
 
+    .titecotizaContactanos{
+        margin-left: -2.3rem;
+    }
+
+    #ContactosFormCotizDesk{
+        display: flex;
+    }
+    #ContactosFormCotiz{
+        display: none;
+    }
 
 }
 @media (min-width: 1681px) and (max-width: 1920px) {
@@ -1186,9 +1210,17 @@ main {
         margin-left: -5.3rem;
     }
 
-    
+    #textTelCotiz{
+        margin-top: -6%;
+    }
 
+    #ContactosFormCotizDesk{
+        display: flex;
+    }
 
+    #ContactosFormCotiz{
+        display: none;
+    }
     
 
 }
