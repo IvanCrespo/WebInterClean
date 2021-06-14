@@ -181,12 +181,59 @@
         font-size: 30px;
     }
     .card-img-top {
-        width: 74%;
+        width: 66%;
     }
     .card-text {
         font-size: 18px;
     }
     .card {
         margin: 3rem auto 3rem auto;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+    .container {
+        margin-bottom: 13rem;
+    }
+    .card-img-top {
+        width: 66%;
+    }
+}
+
+@media only screen and (min-width: 1681px) and (max-width: 1919px) {
+    .container {
+        margin-bottom: 14rem;
+    }
+    .card-img-top {
+        width: 60%;
+    }
+    .card-title {
+        font-size: 36px;
+    }
+    .card-text {
+        font-size: 24px;
+    }
+    .card {
+        margin: 3rem auto 3rem auto;
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container {
+        margin-bottom: 14rem;
+    }
+    .container-Servicios {
+        max-width: 86%;
+    }
+    .card-title {
+        font-size: 36px;
+    }
+    .card-text {
+        font-size: 24px;
+    }
+    .card {
+        margin: 3rem auto 3rem auto;
+        width: 96%;
     }
 }
