@@ -868,6 +868,36 @@ main {
         margin-top: 18%;
     }
 
+    .formemp{
+        width: 100%;
+    }
+    .titecotize{
+        width: 69rem;
+        margin-left: -20.1rem;
+    }
+
+    .titecotize2{
+        font-size: 69%;
+        margin-left: -18.1rem;
+    }
+
+    #empleocotize{
+        margin-left: 61%;
+    }
+    .titecotize2{
+        margin-left: -15.1rem;
+        margin-top: -12%;
+    }
+    .tituloservlimp{
+        width: 767px;
+    }
+    #empleocotize{
+        margin-left: 68%;
+        width: 188px;
+    }
+
+
+
 
 
 }
@@ -905,6 +935,19 @@ main {
         font-size: 35px;
         padding-top: 26.5px;
         margin-left: 2%;
+    }
+
+    .titecotize2{
+        margin-left: -21.1rem;
+        margin-top: -12%;
+    }
+
+    .titempleo{
+        margin-left: -2.1rem;
+    }
+
+    .formemp{
+        width:90%;
     }
   
     
