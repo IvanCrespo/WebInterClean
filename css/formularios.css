@@ -515,8 +515,8 @@ main {
     .TextoTamañoMap {
         font-size: 17px;
         padding: 12px;
-        font-size: 20px;
-        margin-left: 20px;
+        font-size: 23px;
+        margin-left: -25px;
         text-align:center;
     }
     .titemapsub{
