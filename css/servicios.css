@@ -144,3 +144,49 @@
         font-size: 22px;
     }
 }
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .container {
+        margin-bottom: 11rem;
+    }
+    .container-Servicios {
+        max-width: 52%;
+    }
+    .card-title {
+        font-size: 36px;
+        letter-spacing: 0px;
+    }
+    .card {
+        width: 95%;
+    }
+    .hr-servicios {
+        width: 20%;
+    }
+    .card-text {
+        font-size: 1.3rem;
+    }
+    .boton {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .container {
+        margin-bottom: 11rem;
+    }
+    .container-Servicios {
+        max-width: 86%;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .card-img-top {
+        width: 74%;
+    }
+    .card-text {
+        font-size: 18px;
+    }
+    .card {
+        margin: 3rem auto 3rem auto;
+    }
+}
