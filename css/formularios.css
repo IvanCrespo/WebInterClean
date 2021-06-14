@@ -151,6 +151,10 @@
     font-weight: bold;
 }
 
+#ContactosFormCotiz{
+    display: block;
+}
+
 .titempleo {
     width: 27rem;
     height: 5.2rem;
@@ -283,6 +287,10 @@ border-radius: 10px;
     width: auto;
     margin-left: 0%;   
 
+}
+
+#contactosFormCotizTabl{
+    display: none;
 }
 
 .tituloPrinc{
@@ -800,8 +808,8 @@ main {
     }
 
     .LHCOTIZ{
-        max-width: 348px;
-        margin: 0px -136px 0 auto;
+        max-width: 295px;
+        margin: 0px -36px 0 auto;
     }
 
     #imgcot{
@@ -832,7 +840,7 @@ main {
     #imgcalendar{
         margin-left: 0%;
         height: auto;
-        width: 73%;
+        width: 17%;
     }
 
     #telefonoIconFormCotz{
@@ -844,6 +852,20 @@ main {
         width: 48px;
         margin-left: 34%;
         margin-top: 1%;
+    }
+
+    #cotizaciones{
+        margin-left: 0%;
+    }
+    #contactosFormCotizTabl{
+        display: block;
+        text-align: center;
+    }
+    #ContactosFormCotiz{
+        display: none;
+    }
+    #TelMailContactCotiz{
+        margin-top: 18%;
     }
 
 
@@ -861,12 +883,31 @@ main {
     }
 
     .titemapsub{
-        margin-left: -10.4rem
+        margin-left:0%;
     }
     .LHCOTIZ{
-        max-width: 255px;
+        max-width: 323px;
         margin: 0px -10px 0 auto;
     }
+
+    #imgcot {
+        height: auto;
+        width: 85%;
+        margin-left: 19%;
+    }
+    #cotizaciones{
+        margin-left:0%;
+        /* position: absolute; */
+
+    }
+
+    .TextoTamañoMap{
+        font-size: 35px;
+        padding-top: 26.5px;
+        margin-left: 2%;
+    }
+  
+    
     
 }
 
