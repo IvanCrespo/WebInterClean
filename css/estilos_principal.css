@@ -77,3 +77,34 @@ body {
 .hoja {
     margin-top: -22px;
 }
+
+
+/* ------------------------------- MOUSE --------------------------------- */
+
+.cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #7FA439;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+    z-index: 9999;
+}
+
+.cursor2 {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #7FA439;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+    z-index: 9999;
+}
