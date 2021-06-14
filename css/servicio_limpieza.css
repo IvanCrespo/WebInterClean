@@ -13,6 +13,93 @@ p{
     filter: drop-shadow(5px 5px 5px #222);
 }
 
+/*Carrusel contenido*/
+div .LimpiezaT {
+    margin-right: 35vh;
+    margin-left: 35vh;
+}
+.Diseño-Letras-limpieza {
+    font-size: 70px;
+    font-weight: 800;
+    border-radius: 4rem;
+    letter-spacing: 5.2px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #1A455D;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    background-color: rgba(238, 238, 238, 0.192);
+}
+.FormatoLetras-Carrete {
+    background-color: #ffffff1f;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #ffffff;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+/*Carrusel contenido*/
+/*Fondo de tituos Limpieza*/
+.Fondo-FumigacionP {
+    width: auto;
+    height: 13vh;
+    background-color: rgb(26, 69, 93);
+    border-radius: 2rem 0rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+.Hoja-2-D {
+    width: 7%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.Txt-Letras-LPP {
+    color: white;
+    text-align: right;
+    justify-content: left;
+    font-weight: 1000;
+    font-size: 27px;
+    font-family: 'Poppins';
+    margin-right: 4.5rem;
+    margin-top: -2.8rem;
+}
+
+.Txt-Letras-LId {
+    color: white;
+    text-align: right;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 30px;
+    font-family: 'Poppins';
+    margin-right: 8rem;
+    margin-top: -2.5rem;
+}
+.Txt-Letras-LI {
+    color: white;
+    text-align: right;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 30.4px;
+    font-family: 'Poppins';
+    margin-right: 5.5rem;
+    margin-top: -3.1rem;
+}
+.Txt-Letras-Lgc {
+    color: white;
+    text-align: right;
+    font-weight: 800;
+    font-size: 29px;
+    font-family: 'Poppins';
+    margin-right: 3.5rem;
+    margin-top: -2.8rem;
+}
+/*Fondo de tituos Limpieza*/
+
+
 .TextoTamaño{
     padding-top: 0.5rem;
     margin-left:  1rem;
@@ -41,9 +128,11 @@ p{
     max-height: 40rem;
     opacity: rgba(63, 63, 63, 0.254);
 }
-.carousel-inner img{
+
+.carousel-inner img {
     width: 100%;
-    max-height: 41rem;               
+    height: 100%;
+    max-height: 100vh;
 }
 /*==== FIN TAMAÑO CARRUSEL ====*/
 
@@ -64,9 +153,10 @@ p{
     user-select: none;
     margin-left: -8rem;
 }
+/*DESKTOP*/
 .titulosh3{
     font-weight: bolder;
-    color: #106aa5;
+    color: #1A455D;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -99,20 +189,13 @@ p{
     height: 80px !important;
     margin-left: 1.5rem;
 }
-hojitasc{
+.hojitasc{
     width: 10%;
     margin: 11px;
     height: 70px !important;
     margin-left: 1.5rem;
 }
-.ColorIzq{
-    background-color: blue;
-    color:blue;
-}
-.ColorDer{
-    background-color: blue;
-    color:blue;
-}
+
 .btnposicionado {
     margin-top: 3.5rem;
     margin-left: 3.5rem;
@@ -130,20 +213,7 @@ hojitasc{
     -ms-user-select: none;
     user-select: none;
 }
-.textofin {
-    color: #1A455D;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    pointer-events: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+
 .letrasM{
     font-weight: 600;
     text-align: justify;
@@ -158,16 +228,9 @@ hojitasc{
     background-color: #1A455D;
     border-radius: 2rem 0rem 2rem 0rem;
 }
-.letrasM{
-    font-size: medium;
 
-}
 
-.txtposicion {
-    position: relative;
-    margin-top: -4.4rem;
-    margin-left: 3rem;
-}
+
 /*====FIN MANIPULACION DE LETRAS====*/
 
 
@@ -215,30 +278,12 @@ hojitasc{
     }
 /*====FIN Estilos, Tamaños de los Botones====*/
     
-/*====Espacio entre secciones====*/
-    .espaciado{
-        padding-top: 2rem;
-        border-collapse: 1px solid black;
-    }
-    .espaciados3{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 8rem;
-    }
-/*====FIN Espacio entre secciones====*/
+
     
     
     
 /*====Tamaño de imagenes====*/
-.resolucion{
-    width: 100% !important;
-    border:1px solid black;
-    border-radius: 2rem !important;
-    box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
-    -webkit-box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
-    -moz-box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
-}
+
     .resolicion2{
         width: 90% !important;
         border:1px solid black;
@@ -255,33 +300,68 @@ hojitasc{
 
 
 /*====Fondo de los anuncios finales====*/
-.rellenoP {
-    z-index: 2;
-    width: 50vh;
+.Fondo-FondoFinal {
+    width: 80%;
     height: 40vh;
-    margin-left: 7rem;
-    border-radius: 1rem;
-    margin-right: 3.6rem;
-    border: 6px solid #557813;
-    box-shadow: 9px 5px 11px -1px #557813;
-    -webkit-box-shadow: 9px 5px 11px -1px #557813;
+    padding: 10px;
+    margin: 7px 1px 0px 144px;
+    border: 6px solid #7FA439;
+    border-radius: 2rem 2rem 2rem 2rem;
 }
-.rellenob{
-    width: 0vh;  
-    height: 25vh;
-    margin-top: 3rem;
-    margin-left: -3.5rem;
-    border: 4px solid;
-    border-top-color: #1A455D;
-    border-right-color: #1A455D;
-    border-bottom-color: #1A455D;
-    border-left-color: transparent;
-    border-radius: 0rem 2rem 2rem 0rem;
-    box-shadow: 9px 5px 11px -1px #1A455D;
-    -webkit-box-shadow: 9px 5px 11px -1px #1A455D; 
-   
- 
+.Hoja-G {
+    width: 12%;
+    height: auto;
+    margin-left: -0.2rem;
+    margin-top: 1rem;
 }
+.Txt-Letras-Preguntas {
+    color: #1A455D;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2rem;
+    line-height: 50px;
+    font-family: 'Poppins';
+    margin-right: 0rem;
+    margin-top: -1rem;
+}
+/* color: #1A455D; */
+.btn-cotice {
+    background-image: linear-gradient(
+    to right, 
+    #314755 0%, 
+    #1f8cbe  40%,
+    #1e85b5  50%,
+    #21abad 60%,
+    #12dc1c 65%,
+    #3cda15  70%,
+    #7FA439  100%)
+}
+.btn-cotice {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius:  3rem;
+   display: block;
+ }
+
+ .btn-cotice:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.Posicion-Button-Cotice-Ya{
+ display: flex;
+ justify-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+
 /*====FIN Fondo de los anuncios finales====*/
 
 /*====SOMBRAS====*/
@@ -321,16 +401,22 @@ hojitasc{
 .texto-superior {
     margin-bottom: 1rem;
 }
-
-
+.FormatoLetras {
+    text-align: justify;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    color: #1A455D;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+}
 
 .circulo-fum {
     width: 15rem;
     height: 15rem;
-    -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    border-radius: 50%;
-    margin: 1rem;
+    margin: 2rem;
     margin-bottom: 2rem;
     box-shadow: 2px 2px 5px #999;
 }
@@ -387,766 +473,462 @@ hojitasc{
 }   
 
 
+.container-fluid{
+    margin-top: 2rem;
+    margin-block-end: 2rem;
+}
 
 
-/* Escritorios FHD, 2K */  
-@media only screen and (max-width: 1920px) and (min-width: 1367px) { 
+.Img_Posicion_Limpieza{
+    margin-top: 5vh;
+}
+.resolucion{
+    width: 100%;
+    height: auto;
+    left: auto;
+    border-radius: 2rem !important;
+}
+
+.Posicionado_Texto_Limpieza{
+    margin-top: 5vh;
+}
+
+
+.Posicion-Icono-Limpieza{
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tamaño-Icono-Limpieza {
+    width: 70%;
+    height: auto;
+    border-radius: 2rem !important;
+    margin-top: 4rem;
+}
+
+
+/*Desinfeccion*/
+
+.Fondo-Sanitizacion {
+    width: auto;
+    height: 14vh;
+    background-color: #1A455D;
+    border-radius: 2rem 0rem 2rem 0rem;
+}
+
+.Hoja-1-D {
+    width: 10%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.Txt-Letras-Sanitizacion {
+    color: white;
+    text-align: right;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 35.4px;
+    font-family: 'Poppins';
+    margin-right: 2rem;
+    margin-top: -3.5rem;
+}
+.Txt-Letras-FumigacionP {
+    color: white;
+    text-align: right;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 40.4px;
+    font-family: 'Poppins';
+    margin-right: 6rem;
+    margin-top: -3.8rem;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 13%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    margin-top: 5rem;
+    transition: opacity .15s ease;
+    /* background-color: #0000001a;
+    border-radius: 2rem; */
+}
+/*Desinfeccion*/
+/*FIN CLASES SIN MEDIAS*/
+
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+    .container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    .container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+/*Tableta*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     
-    .PosicionImgPC{
-        margin: 60px -90px -27px -102px;
-    }
 
-    .rellenob {
-        z-index: -1;
-        width: 35vh;
-        height: 23vh;
-        margin-top: 5.2rem;
-        margin-left: 5.3rem;
-        border: 4px solid;
-        border-top-color: #1A455D;
-        border-right-color: #1A455D;
-        border-bottom-color: #1A455D;
-        border-left-color: transparent;
-        border-radius: 0rem 2rem 2rem 0rem;
-        box-shadow: 9px 5px 11px -1px #1a455d;
-        -webkit-box-shadow: 9px 5px 11px -1px #1a455d;
-    }
-    .btnposicionado {
-        margin-top: 3.5rem;
-        margin-left: 3.5rem;
-        margin-right: 2.5rem;
-        margin-block-end: 3rem;
-        box-shadow: 9px 5px 11px -1px #1a455d;
-        -webkit-box-shadow: 9px 5px 11px -1px hsl(0deg 0% 0%);
-    }
-    .textofin {
-        color: #1A455D;
-        font-size: 2.5rem;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 1rem;
-        margin-left: 1rem;
-        margin-right: 2rem;
-        pointer-events: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        line-height: 4rem;
-    }
-
-}
-
-
-
-
-@media only screen and (max-width: 1919px) and (min-width: 1366px) {
-
-}
-
-/* TABLETAS 10 pulgadas */  
-@media only screen and (max-width: 1366px) and (min-width: 1025px) { 
- 
- 
-    .rellenob {
-        z-index: -1;
-        width: 45vh;
-        height: 25vh;
-        margin-top: 4.2rem;
-        margin-left: -2.3rem;
-        border: 4px solid;
-        border-top-color: #1A455D;
-        border-right-color: #1A455D;
-        border-bottom-color: #1A455D;
-        border-left-color: transparent;
-        border-radius: 0rem 2rem 2rem 0rem;
-        box-shadow: 9px 5px 11px -1px #1a455d;
-        -webkit-box-shadow: 9px 5px 11px -1px #1a455d;
-    }
-    .btnposicionado {
-        margin-top: 2.5rem;
-        margin-left: 3.5rem;
-        margin-right: 2.5rem;
-        margin-block-end: 3rem;
-        box-shadow: 9px 5px 11px -1px #1a455d;
-        -webkit-box-shadow: 9px 5px 11px -1px hsl(0deg 0% 0%);
-    }
-    .textofin {
-        color: #1A455D;
-        font-size: 2rem;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 1rem;
-        margin-left: 1rem;
-        margin-right: 2rem;
-        pointer-events: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        line-height: 2.5rem;
-    }
-
-}
-/*ICONOS*/
-@media only screen and (max-width: 1200px) and (min-width: 1025px) {
-    .iconoT{
-
-        width: 0;
-        padding: 0px;
-        margin: 0px;
-        display: block !important;
-    }
-}
-/* TABLETAS 7 pulgadas */  
-@media only screen and (max-width: 1024px) and (min-width: 768px) { 
- 
-    .navbar-nav .dropdown-menu {
-        position: static;
-        float: none;
-        margin-left: 46px;
-        border: none;
+    .carousel-inner img {
+        width: auto;
+        max-height: 30rem;
     }
     .carousel-control-prev, .carousel-control-next {
-        /* max-height: 55vh; */
-        height: 41vh !important;
-        opacity: rgba(255, 255, 255, 0.953) !important;
-    }
-    .iconoT{
-
-        width: 0;
-        padding: 0px;
-        margin: 0px;
-        display: block !important;
-    }
-    
-    .circulo-fum {
-        width: 25rem;
-        height: 25rem;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        margin: -1rem 1rem 0rem 14.5rem;
-        margin-bottom: 2rem;
-        box-shadow: 10px 7px 20px 0px rgb(0 0 0 / 75%);
-        -webkit-box-shadow: 10px 7px 20px 0px rgb(0 0 0 / 75%);
-        -moz-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
-    }
-    .resolucion{
-        width: 97% !important;
-        height: auto;
-        border:1px solid black;
-        border-radius: 1rem !important;
-        box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
-        -webkit-box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
-        -moz-box-shadow: 12px -1px 16px 1px rgba(0,0,0,0.76);
-    }
-    .LimpiezaT h1{
-        font-size: 5rem!important;
-        font-weight: bolder;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
-    }
-    .DesinfeccionT h1{
-
-        font-size: 1.8rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
-    }
-    .MantenimientoT h1{
-        font-size: 1.7rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
-    }
-    .subtituloL{
-        color: #000000 !important;
-        text-shadow: #000000;
-        color: #ffffff !important;
-        background-color: rgba(0, 0, 0, 0.01) !important;
-        text-align: justify !important;
-        letter-spacing: 1px;
-    }
-    .subtituloLI{
-        font-size: 1rem;
-        text-align: justify !important;
-        background-color: rgba(1, 1, 1, 0.01);
-    }
-    .d-md-block{
-        display: block !important;
-    }
-    .TextoTamaño{
-        padding-top: 5px;
-        font-size: 2rem;
-    }
-    
-    .circulo-fum {
-        width: 25rem;
-        height: 25rem;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        margin: 1rem 1rem 1rem 6.5rem;
-        margin-bottom: 2rem;
-        box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
-    }
-    div .DesinfeccionT{
-        font-size: 3rem !important;
-    }
-    div .MantenimientoT{
-        font-size: 3.5rem !important;
-    }
-
-    .card-title {
-        font-family: 'Poppins', sans-serif;
-        font-size: 48px!important;
-        font-style: normal;
-        font-weight: bolder;
-        line-height: 49px;
-        letter-spacing: 2px;
-        text-align: center;
-        color: #1A455D;
-    }
-    /*Servicios Limpieza*/
-    .carousel-control-prev,
-    .carousel-control-next{
-        /* max-height: 55vh; */
-        height: 95vh;
-        opacity: rgba(255, 255, 255, 0.953);
-    }
-    .carousel-inner img{
-        width: 100%;
-        /* min-width: 150vh; */
-        background-position-x: 50%;
-        height: auto;
-        max-height: 55vh; 
-    }
-    .saniti{
-        width: 50%;
-        margin-left: 9rem;
-    }
-
-    .iconoT{
-        width: 0;
-        padding: 0px;
-        margin: 0px;
-        display: block !important;
-    }
-    .titulosh3{
-        font-weight: bolder;
-        text-align: center;
-    }
-
-    .letraI{
-        color: #7FA439;
-        font-size: 2.5rem;
-    }
-
-    div#main_nav.navbar-collapse.collapse.show{
-        border: 4px solid #7FA439;
-    }
-
-
-    .navbar-collapse{
-        border: 6px solid #7FA439;
-    }
-    .collapse{
-        border: 6px solid #7FA439;
-    }
-    .show{
-        border-radius: 1rem;
-        background-color: rgba(255, 255, 255, 0.987);
-    }
-
-    .rellenoP {
-        border: 4px solid #557813;
-        height: 22vh;
-        width: 51vh;
-        margin-left: 2rem;
+        max-height: 20rem;
+        opacity: rgba(63, 63, 63, 0.364);
+        background-color: rgba(0, 0, 0, 0.100);
         border-radius: 2rem;
-        -webkit-box-shadow: 9px 5px 11px -1px #557813;
-        box-shadow: 9px 5px 11px -1px #557813;
-        z-index: 2;
     }
-
-    .rellenob{
-        position: fixed;
-
+    
+    .carousel-control-next {
+        right: 0;
     }
-    .textofin {
-        color: #1A455D;
-        font-size: 2.3rem;
-        font-weight: bolder;
-        letter-spacing: 1px;
-        text-align:center;
-        margin-right: 1rem;
-        pointer-events: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-    .hojac{
-        width: 15%;
-        margin-left: -2.9rem;
-        margin-top: -1rem;
-    }
-    .btnhidden{
-        visibility: visible;
-         margin: 0;
-         padding: 0;
-    }
-    .btnServicios {
-        background-image: 
-        linear-gradient(
-            to right,
-            #314755 0%,
-            #26a0da  51%,
-            #1A455D 100%);
-            
-        }
-        .btnServicios { /*Contenido interno y estilo del boton*/
-            padding: 5px 35px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.7s;
-            background-size: 200% auto;
-            color: white;            
-            border-radius: 1rem;
-            border: 4px inset #106aa5;
-        }
-     .btnposicionado{
-        margin-top: 1rem;
-        margin-left: 15rem;
+    .carousel-control-next, .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: 7rem;
+        z-index: 1;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-pack: center;
         justify-content: center;
-        -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
-        box-shadow: 9px 5px 11px -1px #1A455D;   
+        width: 15%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s cubic-bezier(0.4, 0, 1, 1);
     }
-  .titempl {
-    margin-left: 8.6rem;
-    width: 27rem;
-    height: 5rem;
-    background-color: #1A455D;
-    color: #fff;
-    border-radius: 2rem 0rem 2rem 0rem;
-    box-shadow: 2px 2px 5px #999;
-}
-.titempl2 {
-    margin-left: -5.4rem;
-    width: 27rem;
-    height: 5rem;
-    background-color: #1A455D;
-    color: #fff;
-    border-radius: 2rem 0rem 2rem 0rem;
-    box-shadow: 2px 2px 5px #999;
-}
-    .titempl {
-        color: #fff;
-        font-weight: 700;
-        font-family: 'Titillium Web', sans-serif;
-        font-size: 30px;
+    .FormatoLetras-Carrete {
+        background-color: #ffffff1f;
+        text-align: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 28px;
+        letter-spacing: 3px;
+        font-family: 'Poppins';
+        color: #ffffff;
+        margin-left: -3vh;
+        margin-right: -3vh;
+    }
+    .Diseño-Letras-limpieza {
+        font-size: 60px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 14.2px;
+        font-style: normal;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgba(238, 238, 238, 0.192);
+    }
+    div .LimpiezaT {
+        margin-right: 4vh;
+        margin-left: 4vh;
+    }
+    .Fondo-FumigacionP {
+        width: auto;
+        height: 11vh;
+        background-color: rgb(26, 69, 93);
+        border-radius: 2rem 0rem;
+        margin-right: 34px;
+        margin-left: 19px;
+    }
+
+    .FormatoLetras {
+        font-size: 2.4rem;
+        text-align: justify;
+        justify-content: center;
+        font-weight: 600;
+        font-family: 'Poppins';
+        color: #1A455D;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .Posicion-Icono-Limpieza, .Tamaño-Icono-Limpieza {
+        display: block !important;
+    }
+    .desaparecer-icono {
+        visibility: hidden;
+        position: fixed;
+        z-index: -999;
+    }
+    
+    .Txt-Letras-LI {
+        color: white;
+        text-align: right;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 41.5px;
+        font-family: 'Poppins';
+        margin-right: 7.5rem;
+        margin-top: -3.5rem;
+    }
+
+    .resolucion {
+        width: 70%;
+        height: auto;
+        /* left: auto; */
+        border-radius: 2rem !important;
+        margin-left: 110px;
+    }
+
+    .Fondo-FondoFinal {
+        width: 60%;
+        height: 26vh;
+        padding: 10px;
+        margin: 4px 0px 22px 107px;
+        border: 6px solid #7FA439;
+        border-radius: 2rem 2rem 2rem 2rem;
+    }
+    .Txt-Letras-LI {
+        color: white;
+        text-align: right;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 42.5px;
+        font-family: 'Poppins';
+        margin-right: 4.5rem;
+        margin-top: -3.2rem;
+    }
+    .Txt-Letras-LId {
+        color: white;
+        text-align: right;
+        justify-content: center;
+        font-weight: 1000;
+        font-size: 48.2px;
+        font-family: 'Poppins';
+        margin-right: 5rem;
+        margin-top: -3.5rem;
+    }
+    .Txt-Letras-Lgc {
+        color: white;
+        text-align: right;
+        font-weight: 800;
+        font-size: 36.5px;
+        font-family: 'Poppins';
+        margin-right: 2.5rem;
+        margin-top: -3.2rem;
+    }
+
+
+    .Txt-Letras-LPP {
+        color: white;
+        text-align: right;
+        justify-content: left;
+        font-weight: 1000;
+        font-size: 40.2px;
+        font-family: 'Poppins';
+        margin-right: 1.5rem;
+        margin-top: -3.2rem;
+    }
+    .Txt-Letras-Preguntas {
+        color: #1A455D;
+        text-align: center;
+        font-weight: 1000;
+        font-size: 2rem;
+        line-height: 50px;
+        font-family: 'Poppins';
+        margin-right: 0rem;
+        margin-top: -2rem;
+    }
+
+    .circulo-fum {
+        width: 20rem;
+        height: 20rem;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        margin-left: 30%;
+        margin-right: 10%;
+        margin-bottom: 2rem;
         box-shadow: 2px 2px 5px #999;
     }
 
-    .TextoCarousel{
-        visibility: visible;
-        z-index: 150;
-        margin-top: -33rem;
-        text-align: center;
+    .Txt-Letras-Sanitizacion {
+        color: white;
+        text-align: right;
         justify-content: center;
-
-    }
- 
-    .TituloServ{
-        z-index: 100;
-        font-size: 1.7rem;
-        margin-top: 2rem;
-    }
-    .TituloServ2{
-        z-index: 100;
-        font-size: 3.7rem;
-        margin-top: 2rem;
-    }
-    .txtposicion{
-        position: relative;
-        margin-top: -3.4rem;
-        margin-left: 4rem;
-    }
- 
-
-    .carousel-inner.carousel-item IMG{
-        background-color: green;
-        height: 100vh;
+        font-weight: 800;
+        font-size: 42.4px;
+        font-family: 'Poppins';
+        margin-right: 5rem;
+        margin-top: -4.2rem;
     }
 }
-/* SURFACE DUO */
-/* Para 480px TELEFONOS */  
-@media only screen and (max-width: 767px) and (min-width: 641px) {  
 
-
-    .navbar-nav .dropdown-menu {
-        position: static;
-        float: none;
-        margin-left: 25px;
-        border: none;
+/*Telefono*/
+@media only screen and  (min-width: 320px) and (max-width: 500px) {
+    
+    .Fondo-FumigacionP {
+        width: auto;
+        height: 11vh;
+        background-color: rgb(26, 69, 93);
+        border-radius: 2rem 0rem;
+        margin-right: 34px;
+        margin-left: 19px;
     }
 
+    
+
+    
+    /*FOOTER PREVIO*/
+    .Fondo-FondoFinal {
+        width: 80%;
+        height: auto;
+        padding: -1px;
+        margin: 9px 27px 25px 17px;
+        border: 4px solid #7FA439;
+        border-radius: 2rem 2rem 2rem 2rem;
+    }
+    .Hoja-G {
+        width: 18%;
+        height: auto;
+        margin-left: -10px;
+        margin-top: 0rem;
+    }
+    .Txt-Letras-Preguntas {
+        color: #1A455D;
+        text-align: center;
+        justify-content: center;
+        font-weight: 1000;
+        font-size: 21.4px;
+        font-family: 'Poppins';
+        margin-right: 0rem;
+        margin-top: -2rem;
+    }
+    /*FIN FOOTER PREVIO*/
     .circulo-fum {
         width: 15rem;
         height: 15rem;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
         border-radius: 50%;
-        margin: 6rem;
+        margin: 1rem;
         margin-bottom: 2rem;
-        box-shadow: 2px 2px 5px #999;
+        box-shadow: 13px 5px 13px 2px #999;
     }
-    .TituloIcS{
-        margin: 0rem;
-        padding: 1rem;
-        color: white;
-        font-weight: bold;
-        background-color: #1A455D;
-        border-radius: 2rem 0rem 2rem 0rem;
-    }
-    .TextoTamaño {
-        padding-top: -0.5rem;
-        font-size: 19px;
-    }
-    .titempl2 {
-        margin-left: -5.4rem;
-        width: 18rem;
-        height: 5rem;
-        background-color: #1A455D;
-        color: #fff;
-        border-radius: 2rem 0rem 2rem 0rem;
-        box-shadow: 2px 2px 5px #999;
-    }
-    .LimpiezaT h1{
-        font-size: 3rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
-    }
-    .DesinfeccionT h1{
 
-        font-size: 1.8rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
+    h3.card-title{
+        font-weight: 800;
+        font-family: 'Poppins';
         color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
     }
-    .MantenimientoT h1{
-        font-size: 1.7rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
+    /*Titulos*/
+    div .LimpiezaT{ /*Posicion*/
+        margin-right: auto;
+        margin-left: auto;
     }
-    .subtituloL{
-        color: #0051ff;
-        color: rgb(255, 255, 255);
-        font-size: 13px;
-        background-color: rgba(255, 255, 255, 0.104) !important;
-        text-align: justify !important;
+    .Diseño-Letras-limpieza{
+        font-size: 50px;
+        font-weight: 800;
+        word-spacing: -3px;
         border-radius: 2rem;
+        letter-spacing: 0.2px;
+        font-style: normal;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgba(238, 238, 238, 0.192);
+        
     }
-    .subtituloLI{
-        font-size: 1rem;
-        text-align: justify !important;
-        background-color: rgba(1, 1, 1, 0.01);
+    div .DesinfeccionT{ /*Posicion*/
+        margin-right: auto;
+        margin-left: auto;
     }
-    .d-md-block{
+        .Diseño-Letras-DSF {
+            font-size: 34px;
+            font-weight: 800;
+            word-spacing: 3px;
+            border-radius: 2rem;
+            letter-spacing: 0.2px;
+            font-style: normal;
+            font-family: 'Poppins';
+            font-variant: small-caps;
+            text-transform: capitalize;
+            color: #1A455D;
+            -webkit-text-stroke: 1px rgb(255, 255, 255);
+            background-color: rgba(238, 238, 238, 0.192);
+        }
+    div .MantenimientoT{ /*Posicion*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Diseño-Letras-M{
+        font-size: 40px;
+        font-weight: 800;
+        word-spacing: -3px;
+        border-radius: 1rem;
+        letter-spacing: 0.2px;
+        font-style: normal;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgba(238, 238, 238, 0.192);
+    }
+    /*Titulos*/
+ /*TELEFONO - LIMPIEZA*/
+    .Posicion-Icono-Limpieza, .Tamaño-Icono-Limpieza{
+        display: block !important;
+    }
+    .Posicion-Icono-Mantenimiento, .Tamaño-Icono-Mantenimiento{
         display: block !important;
     }
 
-    /*Servicios Limpieza*/
-    .carousel-control-prev,
-    .carousel-control-next{
-        /* max-height: 55vh; */
-        height: 95vh;
-        opacity: rgba(255, 255, 255, 0.953);
-    }
-    .carousel-inner img{
-        width: 100%;
-        /* min-width: 150vh; */
-        background-position-x: 50%;
-        height: auto;
-        max-height: 55vh; 
-    }
 
-
-    .iconoT{
-
-        width: 0;
-        padding: 0px;
-        margin: 0px;
-        display: block !important;
-    }
-    .titulosh3{
-        font-weight: bolder;
-        text-align: center;
-    }
-
-    .letraI{
-        color: #7FA439;
-        font-size: 2.5rem;
-    }
-
-    div#main_nav.navbar-collapse.collapse.show{
-        border: 4px solid #7FA439;
-    }
-
-
-    .navbar-collapse{
-        border: 6px solid #7FA439;
-    }
-    .collapse{
-        border: 6px solid #7FA439;
-    }
-    .show{
-        border-radius: 1rem;
-        background-color: rgba(255, 255, 255, 0.987);
-    }
-
-    .rellenoP {
-        border: 4px solid #557813;
-        height: 28vh;
-        width: 40vh;
-        margin-left: 1rem;
-        border-radius: 1rem;
-        margin-right: 0rem;
-        -webkit-box-shadow: 9px 5px 11px -1px #557813;
-        box-shadow: 9px 5px 11px -1px #557813;
-        z-index: 2;
-    }
-    .rellenob{
-        position: fixed;
-
-    }
-    .textofin {
+    /*FIN TELEFONO - LIMPIEZA*/
+    
+    .FormatoLetras {
+        text-align: justify;
+        justify-content: center;
+        font-weight: 600;
+        font-family: 'Poppins';
         color: #1A455D;
         font-size: 1.5rem;
-        font-weight: bolder;
-        text-align:center;
-        margin-right: 1rem;
-        pointer-events: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-    .hojac{
-        width: 15%;
-        margin-left: -2rem;
-        margin-top: -1rem;
-    }
-    .btnhidden{
-        visibility: visible;
-         margin: 0;
-         padding: 0;
-    }
-    .btnServicios {
-        background-image: 
-        linear-gradient(
-            to right,
-            #314755 0%,
-            #26a0da  51%,
-            #1A455D 100%);
-            
-        }
-        .btnServicios {
-            padding: -15px 1px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.7s;
-            background-size: 200% auto;
-            color: white;
-            border-radius: 1rem;
-            border: 2px inset #106aa5;
-            font-size: 15px;
-        }
-     .btnposicionado{
-        margin-top: 1rem;
-        margin-left: 4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
-        box-shadow: 9px 5px 11px -1px #1A455D;   
-    }
-    .titempl {
-        margin-left: 1.6rem;
-        width: 18rem;
-        height: 5rem;
-        background-color: #1A455D;
-        color: #fff;
-        border-radius: 2rem 0rem 2rem 0rem;
-        box-shadow: 2px 2px 5px #999;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     
-    .LimpiezaT h1{
-        font-size: 2rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
     
-    }
-    .titempl {
-        color: #fff;
-        font-weight: 700;
-        font-family: 'Titillium Web', sans-serif;
-        font-size: 30px;
-        box-shadow: 2px 2px 5px #999;
-    }
 
-    .TextoCarousel{
-        visibility: visible;
-        z-index: 150;
-        margin-top: -33rem;
-        text-align: center;
-        justify-content: center;
-
-    }
-    .TituloServ{
-        z-index: 100;
-        font-size: 1.7rem;
-        margin-top: 2rem;
-    }
-    .txtposicion{
-        position: relative;
-        margin-top: -3.4rem;
-        margin-left: 4rem;
-    }
- 
-
-    .carousel-inner.carousel-item IMG{
-        background-color: green;
-        height: 100vh;
-    }
-}
-
-/* Para 480px TELEFONOS */  
-@media only screen and (max-width: 640px) and (min-width: 360px) {  
-
+    /*Carrusel*/
     .carousel-control-prev, .carousel-control-next {
         max-height: 100vh;
         height: 211vh !important;
         opacity: rgba(255, 255, 255, 0.953);
     }
-    .navbar-nav .dropdown-menu {
-        position: static;
-        float: none;
-        margin-left: 21px;
-        border: none;
-    }
-    .navbar-nav .nav-link {
-        padding: 11px 0px 4px 14px;
-        margin-left: 31px;
-    }
-
-    .hojitafp {
-        width: 10%;
-        height: 40px !important;
-        margin-left: 4px;
-    }
-    .circulo-fum {
-        width: 15rem;
-        height: 15rem;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 2rem;
-        box-shadow: 2px 2px 5px #999;
-    }
-    
-    .TituloIcS{
-        margin: 0rem;
-        padding: 1rem;
-        color: white;
-        font-weight: bold;
-        background-color: #1A455D;
-        border-radius: 2rem 0rem 2rem 0rem;
-    }
-    .TextoTamaño {
-        padding-top: -0.1rem;
-        font-size: 18px;
-    }
-    .titempl2 {
-        margin-left: -5.4rem;
-        width: 18rem;
-        height: 5rem;
-        background-color: #1A455D;
-        color: #fff;
-        border-radius: 2rem 0rem 2rem 0rem;
-        box-shadow: 2px 2px 5px #999;
-    }
-    .LimpiezaT h1{
-        font-size: 3rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
-    }
-    .DesinfeccionT h1{
-
-        font-size: 1.8rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
-    }
-    .MantenimientoT h1{
-        font-size: 1.7rem!important;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-        color: #1A455D;
-        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    
-    }
-    .subtituloL{
-        color: #000000 !important;
-        text-shadow: #000000;
-        color: #ffffff !important;
-        background-color: rgba(0, 0, 0, 0.01) !important;
-        text-align: justify !important;
-        letter-spacing: 1px;
-    }
-    .subtituloLI{
-        font-size: 1rem;
-        text-align: justify !important;
-        background-color: rgba(1, 1, 1, 0.01);
-    }
-    .d-md-block{
-        display: block !important;
-    }
-
     /*Servicios Limpieza*/
     .carousel-control-prev,
     .carousel-control-next{
-        /* max-height: 55vh; */
         height: 95vh;
         opacity: rgba(255, 255, 255, 0.953);
     }
@@ -1157,160 +939,211 @@ hojitasc{
         height: 100vh;
         max-height: 100vh; 
     }
-
-
-    .iconoT{
-
-        width: 0;
-        padding: 0px;
-        margin: 0px;
+    .d-md-block{
         display: block !important;
     }
-    .titulosh3{
-        font-weight: bolder;
-        text-align: center;
-    }
-
-    .letraI{
-        color: #7FA439;
-        font-size: 2.5rem;
-    }
-
-    div#main_nav.navbar-collapse.collapse.show{
-        border: 4px solid #7FA439;
-    }
-
-
-    .navbar-collapse{
-        border: 6px solid #7FA439;
-    }
-    .collapse{
-        border: 6px solid #7FA439;
-    }
-    .show{
-        border-radius: 1rem;
-        background-color: rgba(255, 255, 255, 0.987);
-    }
-
-    .rellenoP {
-        border: 4px solid #557813;
-        height: 28vh;
-        width: 40vh;
-        margin-left: 1rem;
-        border-radius: 1rem;
-        margin-right: 0rem;
-        -webkit-box-shadow: 9px 5px 11px -1px #557813;
-        box-shadow: 9px 5px 11px -1px #557813;
-        z-index: 2;
-    }
-    .rellenob{
-        position: fixed;
-
-    }
-    .textofin {
-        color: #1A455D;
-        font-size: 1.5rem;
-        font-weight: bolder;
-        text-align:center;
-        margin-right: 1rem;
-        pointer-events: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-    .hojac{
-        width: 15%;
-        margin-left: -2rem;
-        margin-top: -1rem;
-    }
-    .btnhidden{
-        visibility: visible;
-         margin: 0;
-         padding: 0;
-    }
-    .btnServicios {
-        background-image: 
-        linear-gradient(
-            to right,
-            #314755 0%,
-            #26a0da  51%,
-            #1A455D 100%);
-            
-        }
-        .btnServicios { /*Contenido interno y estilo del boton*/
-            padding: 5px 35px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.7s;
-            background-size: 200% auto;
-            color: white;            
-            border-radius: 1rem;
-            border: 4px inset #106aa5;
-        }
-     .btnposicionado{
-        margin-top: 1rem;
-        margin-left: 4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        -webkit-box-shadow: 9px 5px 11px -1px hsl(0, 0%, 100%); 
-        box-shadow: 9px 5px 11px -1px #1A455D;   
-    }
-    .titempl {
-        margin-left: 1.6rem;
-        width: 18rem;
-        height: 5rem;
-        background-color: #1A455D;
-        color: #fff;
-        border-radius: 2rem 0rem 2rem 0rem;
-        box-shadow: 2px 2px 5px #999;
-    }
-    
-    .titempl {
-        color: #fff;
-        font-weight: 700;
-        font-family: 'Titillium Web', sans-serif;
-        font-size: 30px;
-        box-shadow: 2px 2px 5px #999;
-    }
-
-    .TextoCarousel{
-        visibility: visible;
-        z-index: 150;
-        margin-top: -33rem;
+    .FormatoLetras-Carrete {
+        background-color: #ffffff1f;
         text-align: center;
         justify-content: center;
-
+        font-weight: 600;
+        font-family: 'Poppins';
+        color: #ffffff;
+        margin-left: 0vh;
+        margin-right: 0vh;
     }
-    .TituloServ{
-        z-index: 100;
-        font-size: 1.7rem;
-        margin-top: 2rem;
-    }
-    .txtposicion{
-        position: relative;
-        margin-top: -3.4rem;
-        margin-left: 4rem;
-    }
- 
-
+  
     .carousel-inner.carousel-item IMG{
         background-color: green;
         height: 100vh;
     }
-}
+        /*Carrusel*/
 
-@media only screen and (max-width: 812px) and (min-width: 375px){
-    .rellenoP {
-        border: 4px solid #557813;
-        height: 25vh;
-        width: 30vh;
-        margin-left: 1rem;
-        border-radius: 1rem;
-        margin-right: 0rem;
-        -webkit-box-shadow: 9px 5px 11px -1px #557813;
-        box-shadow: 9px 5px 11px -1px #557813;
-        z-index: 2;
-    }
+        .titulosh3{
+            font-weight: bolder;
+            text-align: center;
+        }
+        .desaparecer-icono{
+            visibility: hidden;
+            position: fixed;
+            z-index: -999;
+        }
+
+            .letraI{
+                color: #7FA439;
+                font-size: 2.5rem;
+            }
+
+           /*Mensaje Final*/
+           .rellenoP {
+               border: 4px solid #557813;
+               height: 30vh;
+               width: 40vh;
+               margin-left: 1rem;
+               border-radius: 2rem;
+               -webkit-box-shadow: 9px 5px 11px -1px #557813;
+               box-shadow: 9px 5px 11px -1px #557813;
+               z-index: 2;
+            }
+            .textofin {
+                color: #1A455D;
+                font-size: 20px;
+                font-weight: 1000;
+                text-align: justify;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .hojac{
+
+                text-align:justify;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                width: 50%;
+                height: auto;
+            }
+            /*FIN Mensaje Final*/
+
+            /*FORMATOS DE TITULO CON FONDO*/
+            .Fondo-Sanitizacion{
+                width: auto;
+                height: 14vh;
+                background-color: #1A455D;
+                border-radius: 2rem 0rem 2rem 0rem;
+            }
+            .Txt-Letras-Sanitizacion{   
+                color: white;
+                text-align: right;
+                justify-content: center;
+                font-weight: 800;
+                font-size: 21.4px;
+                font-family: 'Poppins';
+                margin-right: 2rem;
+                margin-top: -2rem;
+            }
+            .Hoja-1-D{
+                width: 10%;
+                height: auto;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            .Fondo-FumigacionP{
+                width: auto;
+                height: 14vh;
+                background-color: #1A455D;
+                border-radius: 2rem 0rem 2rem 0rem;
+            }
+            .Txt-Letras-FumigacionP{
+                color: white;
+                text-align: right;
+                justify-content: center;
+                font-weight: 800;
+                font-size: 21.4px;
+                font-family: 'Poppins';
+                margin-right: 2rem;
+                margin-top: -2rem;
+            }
+            .Hoja-2-D{
+                width: 10%;
+                height: auto;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            .Txt-Letras-LI {
+                color: white;
+                text-align: right;
+                justify-content: center;
+                font-weight: 800;
+                font-size: 19.4px;
+                font-family: 'Poppins';
+                margin-right: 6%;
+                margin-top: -1rem;
+            }
+            .Txt-Letras-LA{
+                color: white;
+                text-align: right;
+                justify-content: center;
+                font-weight: 800;
+                font-size: 21.4px;
+                font-family: 'Poppins';
+                margin-right: 1.5rem;
+                margin-top: -2rem;
+            }
+            .Txt-Letras-LId {
+                color: white;
+                text-align: right;
+                justify-content: center;
+                font-weight: 800;
+                font-size: 21.4px;
+                font-family: 'Poppins';
+                margin-right: 2rem;
+                margin-top: -0.9rem;
+            }
+            .Txt-Letras-Lgc {
+                color: white;
+                text-align: right;
+                justify-content: left;
+                font-weight: 800;
+                font-size: 23px;
+                font-family: 'Poppins';
+                margin-right: 2.2rem;
+                margin-top: -1.8rem;
+            }
+            .Txt-Letras-LPP {
+                color: white;
+                text-align: right;
+                justify-content: left;
+                font-weight: 800;
+                font-size: 24px;
+                font-family: 'Poppins';
+                margin-right: 2.5rem;
+                margin-top: -1.8rem;
+            }
+
+            .Fondo-Mantenimiento{
+                width: auto;
+                height: 14vh;
+                background-color: #1A455D;
+                border-radius: 2rem 0rem 2rem 0rem;
+            }
+            .Txt-Letras-Mantenimiento{   
+                color: white;
+                text-align: right;
+                justify-content: center;
+                font-weight: 800;
+                font-size: 24px;
+                font-family: 'Poppins';
+                margin-right: 4rem;
+                margin-top: -3rem;
+            }
+            .Hoja-1-M{
+                width: 10%;
+                height: auto;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            /*Fin formatos de titulo con fondo*/
+            
+                .saniti {
+                    width: 100%;
+                    margin-left: 0rem;
+                }
+
+            /*Parte final del cada pagina antes del footer*/
+            .resolucion{
+                margin-top: auto;
+            }
+            
+            .rellenob{
+                position: fixed;
+                
+            }
+            
+            
+      
+       
+            
+            /*Parte final del cada pagina antes del footer*/
+   
 }

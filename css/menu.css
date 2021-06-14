@@ -302,14 +302,14 @@
 
   .bg-light {background-image: linear-gradient(to right, #2a79a1 0%, #304a59 51%, #2798ce 100%);}
   .bg-light {
-     padding: 10px 10px;
-     text-align: center;
-     transition: 0.5s;
-     background-size: 200% auto;
-     color: rgb(255, 255, 255);            
-     box-shadow: 0 0 5px rgb(255, 255, 255, 10%);
-     border-radius: 10px;
-   }
+    padding: 20px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: solid white;
+    box-shadow: 0 0 5px rgb(255 255 255 / 10%);
+    border-radius: 10px;
+}
 
    
    .bg-light:hover {
@@ -360,6 +360,31 @@
 /* Para 480px */  
 @media only screen and (max-width: 500px) and (min-width: 320px) {  
 
+  .navbar-nav .nav-link {
+    padding-right: 71px;
+    padding-left: 0;
+    margin-top: 10px;
+}
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    margin-left: 21px;
+    border: none;
+}
+.navbar-nav .nav-link {
+    padding: 11px 0px 4px 14px;
+    margin-left: 31px;
+}
+.navbar-collapse{
+  border: 6px solid #7FA439;
+}
+.collapse{
+  border: 6px solid #7FA439;
+}
+.show{
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.987);
+}
   .Contenedor-Logo{
     margin-left: -34px
   }
