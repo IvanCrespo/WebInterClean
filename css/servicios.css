@@ -117,6 +117,12 @@
         padding: 5px;
         font-size: 18px;
     }
+    .card {
+        margin: 2rem auto 0.5rem auto;
+    }
+    .espacioCard {
+        margin-bottom: 2.47rem;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -131,7 +137,7 @@
         letter-spacing: 0px;
     }
     .card {
-        width: 95%;
+        width: 93%;
     }
     .hr-servicios {
         width: 20%;
@@ -142,6 +148,9 @@
     }
     .boton {
         font-size: 22px;
+    }
+    .espacioCard {
+        margin-bottom: 2.8rem;
     }
 }
 
@@ -158,6 +167,7 @@
     }
     .card {
         width: 95%;
+        margin: 2.5rem auto 0rem auto;
     }
     .hr-servicios {
         width: 20%;
@@ -167,6 +177,9 @@
     }
     .boton {
         font-size: 22px;
+    }
+    .espacioCard {
+        margin-bottom: 2.8rem;
     }
 }
 
@@ -178,7 +191,7 @@
         max-width: 86%;
     }
     .card-title {
-        font-size: 30px;
+        font-size: 29px;
     }
     .card-img-top {
         width: 66%;
@@ -188,6 +201,7 @@
     }
     .card {
         margin: 3rem auto 3rem auto;
+        width: 97%;
     }
 }
 
@@ -197,6 +211,10 @@
     }
     .card-img-top {
         width: 66%;
+    }
+    .card {
+        width: 97.6%;
+        margin: 3rem auto 2.5rem auto;
     }
 }
 
