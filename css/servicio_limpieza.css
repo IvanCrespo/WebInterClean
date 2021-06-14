@@ -78,7 +78,7 @@ div .LimpiezaT {
     width: auto;
     height: 13vh;
     background-color: rgb(26, 69, 93);
-    border-radius: 2rem 0rem;
+    border-radius: 5rem 0rem;
     margin-right: 0rem;
     margin-left: 0rem;
 }
@@ -117,11 +117,25 @@ div .LimpiezaT {
     margin-top: -3.9rem;
 }
 .Hoja-2-D {
-    width: 4%;
+    width: 5%;
     height: auto;
-    margin-left: 16%;
-    margin-top: 1.3%;
+    margin-left: 15%;
+    margin-top: 0.3%;
 }
+.Hoja-2-D-3 {
+    width: 10%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 0.3%;
+}
+
+.Hoja-2-D-4{
+    width: 10%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 0.3%;
+}
+
 .Hoja-3-D {
     width: 8%;
     height: auto;
@@ -170,7 +184,7 @@ div .LimpiezaT {
     font-size: 35px;
     font-family: 'Poppins';
     margin-right: -6%;
-    margin-top: -10%;
+    margin-top: -9%;
 }
 .Txt-Letras-Lgc {
     color: white;
@@ -413,13 +427,14 @@ div .LimpiezaT {
 .btn-cotice {
     background-image: linear-gradient(
     to right, 
-    #314755 0%, 
+    #1A455D 0%, 
     #1f8cbe  40%,
-    #1e85b5  50%,
-    #21abad 60%,
-    #12dc1c 65%,
-    #3cda15  70%,
-    #7FA439  100%)
+    #1e85b5  49%,
+    #7FA439 50%,
+    #7FA439 60%,
+    #95d41f 100%);
+    border:4px inset #02a3fa;
+    
 }
 .btn-cotice {
    margin: 10px;
@@ -432,12 +447,15 @@ div .LimpiezaT {
    box-shadow: 0 0 20px #eee;
    border-radius:  3rem;
    display: block;
+   -webkit-box-shadow: 8px 11px 12px 0px rgba(0,0,0,0.9); 
+   box-shadow: 8px 11px 12px 0px rgba(0,0,0,0.9);
  }
 
  .btn-cotice:hover {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
    text-decoration: none;
+   border:4px inset #a6ff00;
  }
 
 .Posicion-Button-Cotice-Ya{
@@ -912,23 +930,23 @@ margin-right: auto;
     }
     .Txt-Letras-LI {
         color: white;
-        text-align: right;
+        text-align: center;
         justify-content: center;
         font-weight: 800;
         font-size: 42.5px;
         font-family: 'Poppins';
-        margin-right: 4.5rem;
-        margin-top: -3.2rem;
+        margin-right: -4%;
+        margin-top: -10%;
     }
     .Txt-Letras-LId {
         color: white;
         text-align: center;
         justify-content: center;
         font-weight: 1000;
-        font-size: 39.2px;
+        font-size: 43.2px;
         font-family: 'Poppins';
         margin-right: 0rem;
-        margin-top: -3.5rem;
+        margin-top: -4.5rem;
     }
     .Txt-Letras-Lgc {
         color: white;
@@ -1019,6 +1037,19 @@ margin-right: auto;
 /*Telefono*/
 @media only screen and  (min-width: 320px) and (max-width: 500px) {
     
+    .Hoja-2-D-3 {
+        width: 10%;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 8.3%;
+        
+    }
+    .Hoja-2-D-4 {
+        width: 10%;
+        height: auto;
+        margin-left: 7%;
+        margin-top: 3.3%;
+    }
     .Fondo-FumigacionP {
         width: auto;
         height: 11vh;
