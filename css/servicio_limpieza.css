@@ -13,6 +13,31 @@ p{
     filter: drop-shadow(5px 5px 5px #222);
 }
 
+
+
+.card-group>.card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-bottom: 0;
+    border-radius: 1rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0rem;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 101%;
+    height: auto;
+}
+
+
+
+
 /*Carrusel contenido*/
 div .LimpiezaT {
     margin-right: 35vh;
@@ -181,10 +206,10 @@ div .LimpiezaT {
     text-align: center;
     justify-content: center;
     font-weight: 800;
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Poppins';
-    margin-right: -6%;
-    margin-top: -9%;
+    margin-right: -8%;
+    margin-top: -10%;
 }
 .Txt-Letras-Lgc {
     color: white;
@@ -738,6 +763,40 @@ margin-right: auto;
     border-radius: 2rem; */
 }
 /*Desinfeccion*/
+
+/*Mantenimiento*/
+.Fondo-Mantenimiento {
+    width: auto;
+    height: 14vh;
+    background-color: #1A455D;
+    border-radius: 8rem 0rem 8rem 0rem;
+}
+.Txt-Letras-Mantenimiento {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 34px;
+    font-family: 'Poppins';
+    margin-right: -6%;
+    margin-top: -5.6%;
+}
+.Hoja-1-M {
+    width: 5%;
+    height: auto;
+    margin-left: 14%;
+    margin-top: 1%;
+}
+.imagencard1{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*Mantenimiento*/
+
 /*FIN CLASES SIN MEDIAS*/
 
 
@@ -756,7 +815,17 @@ margin-right: auto;
 }
 /*Tableta*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    
+
+    .Txt-Letras-Mantenimiento {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 36px;
+        font-family: 'Poppins';
+        margin-right: -6%;
+        margin-top: -9%;
+    }
     .saniti {
         width: 75%;
         margin-left: 5rem;
@@ -808,12 +877,25 @@ margin-right: auto;
         opacity: .5;
         transition: opacity .15s cubic-bezier(0.4, 0, 1, 1);
     }
+    .Diseño-Letras-M {
+        font-size: 70px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 4.2px;
+        font-style: normal;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgba(238, 238, 238, 0.192);
+    }
     .FormatoLetras-Carrete {
         background-color: #ffffff1f;
         text-align: center;
         justify-content: center;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 15px;
         line-height: 28px;
         letter-spacing: 3px;
         font-family: 'Poppins';
@@ -933,10 +1015,10 @@ margin-right: auto;
         text-align: center;
         justify-content: center;
         font-weight: 800;
-        font-size: 42.5px;
+        font-size: 30.5px;
         font-family: 'Poppins';
-        margin-right: -4%;
-        margin-top: -10%;
+        margin-right: -6%;
+        margin-top: -11%;
     }
     .Txt-Letras-LId {
         color: white;
@@ -1217,11 +1299,11 @@ margin-right: auto;
         font-family: 'Poppins';
         color: #ffffff;
         margin-left: 0vh;
-        font-size: 17px;
-        margin-top: 16rem;
+        font-size: 14px;
+        margin-top: 4rem;
         margin-right: 0vh;
-        letter-spacing: 2px;
-        line-height: 2;
+        letter-spacing: 0px;
+        line-height: 25px;
     }
   
     .carousel-inner.carousel-item IMG{
@@ -1353,8 +1435,8 @@ margin-right: auto;
                 font-weight: 800;
                 font-size: 18.4px;
                 font-family: 'Poppins';
-                margin-right: 7%;
-                margin-top: -2rem;
+                margin-right: 9%;
+                margin-top: -16%;
             }
             .Txt-Letras-LA {
                 color: white;
@@ -1480,7 +1562,23 @@ margin-right: auto;
             
       
        
-            
+            .resolucion {
+                width: 70%;
+                height: auto;
+                left: auto;
+                margin-top: 0rem;
+                margin-left: 15%;
+                border-radius: 2rem !important;
+            }
+            .resolucion1 {
+                width: 70%;
+                height: auto;
+                /* left: auto; */
+                margin-top: 0rem;
+                margin-left: 15%;
+                border-radius: 2rem !important;
+            }
+
             /*Parte final del cada pagina antes del footer*/
    
 }
