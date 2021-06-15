@@ -26,6 +26,11 @@
     font-size: 58px;
 }
 
+
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .TextoTamañoEmpl {
     font-size: 39px;
     padding-top: 5.5px;
