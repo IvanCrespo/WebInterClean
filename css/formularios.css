@@ -500,8 +500,14 @@ main {
 @media (min-width: 320px) and (max-width: 500px) {
     .carousel-inner img{
         width: 100%;        
-        height: 84vh;
-    } 
+        height: 90vh;
+        max-height: 595px;
+    }
+    
+    .boton{
+        margin-left: -57%;
+        margin-top: 36%;
+    }
     .TextoTamañoMap {
         font-size: 17px;
         padding: 12px;
@@ -801,7 +807,9 @@ main {
         width: 13%;
         height: 13%;
     }
-    
+    .boton{
+        margin-left: 19%;
+    }
     .TextoTamañoCotiza{
         font-size: 40px;
         padding-top: 14.5px;
@@ -1105,6 +1113,9 @@ main {
     #imghoja{
         width: 5%;
         height: 5%;
+    }
+    .boton{
+        margin-left: 6%;
     }
     
     .container{
