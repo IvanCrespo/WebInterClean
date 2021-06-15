@@ -38,7 +38,13 @@
     color: #1A455D;
 }
 
+
 .boton {
+    background-image: linear-gradient(to right, #3a5531 10%, #7FA439  51%, #315531  100%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;    
+    box-shadow: 0 0 20px #eee;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,17 +54,28 @@
     margin-top: 2rem;
     padding: 8px;
     text-decoration: none;
-    border: 3px solid #fff;
     font-size: 22px;
+    border: 4px inset #7FA439;
 }
+ .boton:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   background-image: linear-gradient(
+    to right,
+     #314755 0%,
+      #26a0da  51%,
+       #314755  100%);
+       border: 4px inset #0986c9;
+ }
 
-.boton:hover {
+/* .boton:hover {
     background: white;
     border: 2px solid #7FA439;
     color: #7FA439;
     text-decoration: none;
 }
-
+ */
 .hr-servicios {
     border-top: 3px solid #7FA439;
     height: 5px;
