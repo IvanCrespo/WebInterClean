@@ -46,10 +46,7 @@
 </head>
 
 <body>
-
-    <!-- Loader -->
-    <!-- <div id="loading"></div> -->
-    <!-- </div> -->
+    <div class="preloader"></div>
     <!-- FIN LOADER -->
 
     <div class="cursor"></div>
@@ -638,17 +635,28 @@
     <!--Menu Oculto-->
     <script src="js/Menu/Hide.js"></script>
 
-    <!-- <script>
-        $(document).ready(function() {
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript">
+        // $(window).load(function() { // makes sure the whole site is loaded
+        //     $('#status').fadeOut(); // will first fade out the loading animation
+        //     $('#preloader').delay(500).fadeOut(800); // will fade out the white DIV that covers the website.
+        //     $('body').delay(500).css({
+        //         'overflow': 'visible'
+        //     });
+        // })
+        // $(window).load(function() {
+        //     $('.preloader').fadeOut('slow');
+        // });
 
-            // preloader
-            $(window).load(function() {
-                $(".preloader").delay(3500).fadeOut(500).stopp();
+        // $(window).on('load', function() {
+        //     $('.outer-loader').delay(7000).fadeOut('slow');
+        // });
 
-            })
-
-        })
-    </script> -->
+        $(window).on('load', function() {
+            $('.preloader').delay(7000).fadeOut('slow')
+        });
+    </script>
 
 </body>
 
