@@ -3,9 +3,9 @@
         overflow-x: hidden;
     }
     p{
-        background-color: rgba(136, 133, 133, 0.010);
+        background-color: rgb(131 131 131 / 8%);
         border-radius: 2rem;
-        padding: 11px;
+        padding: 20px;
     }
     .Traslado-XY {
         margin-left: 4px;
@@ -430,6 +430,8 @@
         text-transform: uppercase;
         background-size: 200% auto;
         border: 6px inset #106aa5;
+        scroll-behavior: smooth;
+        scroll-snap-type:y mandatory;
     }
     .btnhidden{
         visibility: hidden;
@@ -476,6 +478,7 @@
     width: 80%;
     height: 40vh;
     padding: 10px;
+    background-color: white;
     margin: 7px 1px 0px 144px;
     border: 6px solid #7FA439;
     border-radius: 2rem 2rem 2rem 2rem;
@@ -578,18 +581,7 @@ margin-right: auto;
 .texto-superior {
     margin-bottom: 1rem;
 }
-.FormatoLetras {
-    font-size: 22px;
-    text-align: justify;
-    justify-content: center;
-    font-weight: 500;
-    font-family: 'Poppins';
-    color: #1A455D;
-    line-height: 28px;
-    letter-spacing: 2.5px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 .Txt-Letras-Preguntas {
     color: rgb(26, 69, 93);
     text-align: center;
@@ -601,19 +593,31 @@ margin-right: auto;
     margin-top: -8%;
 }
 .FormatoLetras {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     justify-content: center;
     font-weight: 500;
     font-family: Poppins;
     color: rgb(26, 69, 93);
-    line-height: 28px;
-    letter-spacing: 2.5px;
+    line-height: 25px;
+    letter-spacing: -1.5px;
     margin-left: 50px;
     margin-right: 50px;
 }
+.FormatoLetrasLista {
+    font-size: 20px;
+    text-align: justify;
+    justify-content: center;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #1A455D;
+    line-height: 13px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-right: 50px;
+}
 .FormatoLetras2 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     justify-content: center;
     font-weight: 500;
@@ -624,8 +628,20 @@ margin-right: auto;
     margin-left: 50px;
     margin-right: 50px;
 }
+.FormatoLetras2s {
+    font-size: 20px;
+    text-align: justify;
+    justify-content: center;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #1A455D;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .FormatoLetras3 {
-    font-size: 26px;
+    font-size: 20px;
     text-align: justify;
     justify-content: center;
     font-weight: 500;
@@ -688,34 +704,41 @@ margin-right: auto;
     margin-top: 5vh;
 }
 .resolucion {
-    width: 70%;
+    width: 90%;
     height: auto;
     left: auto;
-    margin-top: 5rem;
-    margin-left: 6rem;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    border-radius: 2rem !important;
+}
+.resolucionZ {
+    width: 75%;
+    height: auto;
+    left: auto;
+    margin-top: 0rem;
+    margin-left: 5rem;
     border-radius: 2rem !important;
 }
 .resolucion1 {
-    width: 70%;
+    width: 90%;
     height: auto;
-    /* left: auto; */
-    margin-top: 2rem;
+    margin-top: 0rem;
     border-radius: 2rem !important;
 }
 .resolucion2 {
-    width: 100%;
+    width: 90%;
     height: auto;
-    /* left: auto; */
-    margin-top: 6rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
     border-radius: 2rem !important;
 }
 .resolucion3 {
-    width: 104%;
+    width: 90%;
     height: auto;
-    margin-top: 10rem;
+    margin-top: 11rem;
+    margin-left: -1rem;
     border-radius: 2rem !important;
 }
-
 .Posicionado_Texto_Limpieza{
     margin-top: 5vh;
 }
@@ -844,12 +867,35 @@ margin-right: auto;
     }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+/*TABLETS GRANDES Y PC */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .container {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
+
+
+
+
 }
+
+/*MEDIDAS VARIADAS TABLET Y LAPTOP CON BAJA RESOLUCION*/
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
 /*Tableta*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   
