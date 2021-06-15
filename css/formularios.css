@@ -500,7 +500,7 @@ main {
 @media (min-width: 320px) and (max-width: 500px) {
     .carousel-inner img{
         width: 100%;        
-        height: 80vh;
+        height: 84vh;
     } 
     .TextoTamañoMap {
         font-size: 17px;
