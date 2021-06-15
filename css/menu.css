@@ -111,6 +111,37 @@
     
 }
 
+
+
+.animacionTel{
+
+  height: 85px;
+  width: 85px;
+  background: url("../img/telefono/t6vi6-lfknr.svg");
+  margin: 0 auto;
+  animation: sonar 3s steps(3) infinite;
+
+}
+
+@keyframes sonar {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -672px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 .Seleccionado-Boton {
    text-align: center;
    text-transform: uppercase;

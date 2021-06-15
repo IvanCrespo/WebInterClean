@@ -219,7 +219,7 @@
         width: 6%;
         height: auto;
         margin-left: 6%;
-        margin-top: 2%;
+        margin-top: 1%;
     }
 
     .Txt-Letras-LPP {
@@ -771,7 +771,7 @@ margin-right: auto;
     width: 10%;
     height: auto;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 1%;
 }
 
 .Txt-Letras-Sanitizacion {
@@ -782,7 +782,7 @@ margin-right: auto;
     font-size: 35.4px;
     font-family: 'Poppins';
     margin-right: 2rem;
-    margin-top: -12%;
+    margin-top: -10%;
 }
 
 .carousel-control-next, .carousel-control-prev {
