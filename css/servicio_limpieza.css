@@ -33,14 +33,7 @@
         border-radius: 1rem 1rem 0rem 0rem;
     }
     .card-group>.card:not(:last-child) {
-        border-top-right-radius: 2;
-        border-bottom-right-radius: 2;
-        border-top-left-radius: 2;
-        border-bottom-left-radius: 2;
-    }
-    .card-group>.card:not(:first-child) {
-        border-top-left-radius: 1;
-        border-bottom-left-radius: 1;
+        border-radius: 1rem;
     }
     .card-text1 {
         font-family: Poppins;
