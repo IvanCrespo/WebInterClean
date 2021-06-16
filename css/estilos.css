@@ -1,3 +1,91 @@
+/* --------------------------- Estilos ZOOM ---------------------------------- */
+
+.zoom {
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+
+.zoom img {
+    position: fixed;
+    top: -9%;
+    left: 50%;
+    max-width: 200%;
+    width: 100%;
+    height: auto;
+    transform: translateX(-50%);
+    z-index: -999;
+}
+
+
+/* --------------------------- Estilos Redes Sociales ---------------------------------- */
+
+.social-iconos li a,
+.social-icons li a {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#social-iconos,
+#social-icons {
+    padding: 0;
+    position: fixed;
+    top: 67%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 199;
+    border-radius: 25px;
+}
+
+.social-iconos,
+.social-icons {
+    margin: 15px;
+    padding: 15px;
+    list-style: none;
+}
+
+.social-iconos li,
+.social-icons li {
+    display: block;
+    margin: 12px 0px;
+    border-radius: 100px;
+}
+
+.social-iconos li a,
+.social-icons li a {
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    font-size: 15px;
+    filter: grayscale(100%);
+}
+
+.social-iconos li a:hover,
+.social-icons li a:hover {
+    border-radius: 100px;
+    transform: translateX(-1px) scale(1.3);
+    filter: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icono-RS {
+    width: 60px !important;
+    height: auto;
+}
+
+.iconos-RS {
+    width: 50% !important;
+    height: auto !important;
+}
+
+#social-iconos {
+    display: none !important;
+}
+
+.Social-Net {
+    display: none !important;
+}
+
+
 /* --------------------------- Estilos Preloader ---------------------------------- */
 
 .preloader {
@@ -737,6 +825,21 @@
         font-size: 24px;
     }
     /* -------------------- FIN Seccion Contador ----------------- */
+    /* -------------------- Seccion Redes Sociales ----------------- */
+    .Social-Net {
+        display: contents !important;
+    }
+    #social-icons {
+        display: none !important;
+    }
+    .columnasXD {
+        position: sticky;
+    }
+    .TamañoIconoSW {
+        width: 40px!important;
+        height: auto !important;
+    }
+    /* -------------------- FIN Seccion Redes Sociales ----------------- */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -856,6 +959,21 @@
         font-size: 45px;
     }
     /* -------------------- FIN Seccion Contador ----------------- */
+    /* -------------------- Seccion Redes Sociales ----------------- */
+    #social-icons {
+        display: none !important;
+    }
+    .columnasXD {
+        position: sticky;
+    }
+    .TamañoIconoSW {
+        width: 60px!important;
+        height: auto !important;
+    }
+    .Social-Net {
+        display: contents!important;
+    }
+    /* -------------------- FIN Seccion Redes Sociales ----------------- */
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
@@ -1210,93 +1328,7 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-/* --------------------------- Estilos Redes Sociales ---------------------------------- */
-
-.social-iconos li a,
-.social-icons li a {
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-#social-iconos,
-#social-icons {
-    padding: 0;
-    position: fixed;
-    top: 67%;
-    transform: translateY(-50%);
-    right: 0;
-    z-index: 199;
-    border-radius: 25px;
-}
-
-.social-iconos,
-.social-icons {
-    margin: 15px;
-    padding: 15px;
-    list-style: none;
-}
-
-.social-iconos li,
-.social-icons li {
-    display: block;
-    margin: 12px 0px;
-    border-radius: 100px;
-}
-
-.social-iconos li a,
-.social-icons li a {
-    /* width:70%;
-    height:70%; */
-    display: inline-block;
-    line-height: 45px;
-    text-align: center;
-    font-size: 15px;
-    filter: grayscale(100%);
-}
-
-.social-iconos li a:hover,
-.social-icons li a:hover {
-    border-radius: 100px;
-    transform: translateX(-1px) scale(1.3);
-    filter: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.icono-RS {
-    width: 60px !important;
-    height: auto;
-}
-
-.iconos-RS {
-    width: 50% !important;
-    height: auto !important;
-}
-
-#social-iconos {
-    display: none !important;
-}
-
-.Social-Net {
-    display: none !important;
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
-    #social-icons {
-        display: none !important;
-    }
-    .columnasXD {
-        position: sticky;
-    }
-    .TamañoIconoSW {
-        width: 60px!important;
-        height: auto !important;
-    }
-    .Social-Net {
-        display: contents!important;
-    }
-}
-
-@media only screen and (max-width: 640px) and (min-width: 360px) {
+/* @media only screen and (max-width: 640px) and (min-width: 360px) {
     .Social-Net {
         display: contents !important;
     }
@@ -1310,26 +1342,7 @@
         width: 40px!important;
         height: auto !important;
     }
-}
-
-
-/* --------------------------- Estilos ZOOM ---------------------------------- */
-
-.zoom {
-    overflow: hidden;
-    padding-bottom: 100%;
-}
-
-.zoom img {
-    position: fixed;
-    top: -9%;
-    left: 50%;
-    max-width: 200%;
-    width: 100%;
-    height: auto;
-    transform: translateX(-50%);
-    z-index: -999;
-}
+} */
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
     .zoom {
