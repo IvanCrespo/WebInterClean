@@ -53,11 +53,10 @@
         border-radius: 1rem;
     }
 
-    .card-body {
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-        min-height: 1px;
-        padding: 0rem;
+    .card-body-Servicios {
+        border: 2px solid #7FA439;
+        border-radius: 16px;
+        box-shadow: 2px 2px 5px #999;
     }
     .card-img, .card-img-bottom, .card-img-top {
         -ms-flex-negative: 0;
@@ -66,7 +65,15 @@
         height: auto;
     }
 
-
+    .centrado-imagen{
+        margin: -15% 0 0 -25%;
+      }
+       
+      .centrado-imagen > div{
+        height: 300px;
+        background-color: #EEE;
+        position: relative;
+      }
 
 
     /*Carrusel contenido*/
@@ -475,6 +482,40 @@ margin-left: auto;
 margin-right: auto;
 }
 
+
+
+/*BTN FINAL*/
+.btn-preg {
+    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #1A455D;
+    color: #ffff;
+    margin-top: 5rem;
+    padding: 28px 4px 32px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    border: 4px inset #1A455D;
+}
+.btn-preg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
+    border: 4px inset #7FA439;
+}
+
+/*BTN FINAL*/
+
 /*====FIN Fondo de los anuncios finales====*/
 
 /*====SOMBRAS====*/
@@ -550,16 +591,9 @@ margin-right: auto;
 
 
 
-.Img_Posicion_Limpieza{
-    margin-top: 5vh;
-}
+
 .resolucion {
-    width: 90%;
-    height: auto;
-    left: auto;
-    margin-top: 0rem;
-    margin-left: 2rem;
-    border-radius: 2rem !important;
+    width: 80%;
 }
 .resolucionZ {
     width: 75%;
