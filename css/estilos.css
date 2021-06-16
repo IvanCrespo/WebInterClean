@@ -676,3 +676,384 @@
         height: 32px;
     }
 }
+
+
+/* --------------------------- Estilos Cobertura Nacional ---------------------------------- */
+
+.container-custom {
+    max-width: 90%;
+}
+
+#control_map {
+    width: auto;
+    margin-top: 180px;
+    margin-bottom: 40px;
+    z-index: 999;
+}
+
+.content_list_states {
+    float: left;
+    color: rgb(85, 85, 85);
+}
+
+.listaEdos {
+    cursor: pointer;
+    margin: 11px 0px;
+    display: block;
+    font-size: 14px;
+}
+
+.listaEdos:hover,
+.listaEdosHover {
+    color: #00954f;
+    font-weight: 600;
+}
+
+.listaEdosActive {
+    color: #00954f;
+    font-weight: 600;
+}
+
+.escudo_img {
+    background: transparent url(../img/estadosMinInterclean.png);
+    z-index: 9999;
+}
+
+.AGU {
+    background-position: 1200px 600px;
+}
+
+.BCN {
+    background-position: 1050px 600px;
+}
+
+.BCS {
+    background-position: 900px 600px;
+}
+
+.CAM {
+    background-position: 750px 600px;
+}
+
+.COA {
+    background-position: 600px 600px;
+}
+
+.COL {
+    background-position: 450px 600px;
+}
+
+.CHP {
+    background-position: 300px 600px;
+}
+
+.CHH {
+    background-position: 150px 600px;
+}
+
+.DIF {
+    background-position: 1200px 450px;
+}
+
+.DUR {
+    background-position: 1050px 450px;
+}
+
+.GUA {
+    background-position: 900px 450px;
+}
+
+.GRO {
+    background-position: 750px 450px;
+}
+
+.HID {
+    background-position: 600px 450px;
+}
+
+.JAL {
+    background-position: 450px 450px;
+}
+
+.MEX {
+    background-position: 300px 450px;
+}
+
+.MIC {
+    background-position: 150px 450px;
+}
+
+.MOR {
+    background-position: 1200px 300px;
+}
+
+.NAY {
+    background-position: 1050px 300px;
+}
+
+.NLE {
+    background-position: 900px 300px;
+}
+
+.OAX {
+    background-position: 750px 300px;
+}
+
+.PUE {
+    background-position: 600px 300px;
+}
+
+.QUE {
+    background-position: 450px 300px;
+}
+
+.ROO {
+    background-position: 300px 300px;
+}
+
+.SLP {
+    background-position: 150px 300px;
+}
+
+.SIN {
+    background-position: 1200px 150px;
+}
+
+.SON {
+    background-position: 1050px 150px;
+}
+
+.TAB {
+    background-position: 900px 150px;
+}
+
+.TAM {
+    background-position: 750px 150px;
+}
+
+.TLA {
+    background-position: 600px 150px;
+}
+
+.VER {
+    background-position: 450px 150px;
+}
+
+.YUC {
+    background-position: 300px 150px;
+}
+
+.ZAC {
+    background-position: 150px 150px;
+}
+
+.escudo {
+    position: relative;
+    margin-top: 7%;
+    width: 150px;
+    height: 150px;
+    margin-left: 4%;
+}
+
+#edo {
+    position: absolute;
+    font-size: 2.3em;
+    background: -webkit-linear-gradient(0deg, rgba(26, 69, 93, 1) 2%, rgba(35, 91, 122, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    width: 540px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    z-index: 999;
+    padding-top: 10%;
+    margin-left: 27%;
+}
+
+.LV {
+    /* border: none; */
+    border-left: 6px solid rgb(127, 164, 57);
+    height: 10vh;
+    width: 1px;
+    border-radius: 35px;
+    position: absolute;
+    margin-top: 0px;
+    z-index: 999;
+}
+
+#tilt {
+    display: block;
+    height: 190px;
+    width: 280px;
+    margin-top: 6%;
+    background-image: url(../img/TDestadosInterclean.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 33%;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+    .fCobertura {
+        background-image: none;
+    }
+    .map_ID {
+        width: 100%;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #posicionMapa {
+        order: 2;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    #tilt {
+        height: 160px;
+        width: 56%;
+        margin-top: 14%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedorEstados {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #control_map {
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #posicionMapa {
+        order: 2;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    .fCobertura {
+        background-image: none;
+    }
+    #edo {
+        position: absolute;
+        font-size: 2.1em;
+        width: 490px;
+        height: 100%;
+        padding-top: 10%;
+        margin-left: 27%;
+    }
+    #tilt {
+        display: none;
+    }
+    .escudo {
+        position: relative;
+        margin-top: 6%;
+        width: 150px;
+        height: 150px;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    #posicionMapa {
+        order: 2;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 3rem;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fCobertura {
+        background-image: none;
+    }
+    #edo {
+        padding-top: 10%;
+        margin-left: 27%;
+    }
+    #tilt {
+        display: none;
+    }
+    .escudo {
+        margin-top: 6%;
+        margin-left: 9%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .container-custom {
+        max-width: 98%;
+    }
+    #posicionMapa {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tilt {
+        height: 168px;
+        width: 40%;
+        margin-top: 14%;
+    }
+    #edo {
+        position: absolute;
+        font-size: 2.3rem;
+        width: 390px;
+    }
+    .escudo {
+        margin-top: 4%;
+        margin-left: 1%;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+    .container-custom {
+        max-width: 98%;
+    }
+    #posicionMapa {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .escudo {
+        margin-left: 1%;
+        margin-top: 4%;
+    }
+    #edo {
+        font-size: 2em;
+        width: 480px;
+        margin-left: 23%;
+    }
+}
