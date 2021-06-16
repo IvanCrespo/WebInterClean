@@ -101,6 +101,7 @@
     width: 52%;
     margin: 0 auto;
     display: block;
+    margin-top: 2rem;
 }
 
 .card-title {
@@ -123,7 +124,6 @@
     text-align: justify;
     color: #1A455D;
     margin: 2rem;
-    margin-bottom: -1.5rem;
 }
 
 .boton {
