@@ -1,3 +1,42 @@
+/* --------------------------- Estilos Preloader ---------------------------------- */
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url('../gif/loading_interclean.gif');
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+}
+
+
+/* --------------------------- Estilos Fondos página ---------------------------------- */
+
+.fNosotros {
+    background-image: url('../img/fondo/fondo-nosotros_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: left;
+    background-position-y: -7px;
+    height: 98vh;
+    width: 100%;
+}
+
+.fCobertura {
+    background-image: url('../img/fondo/fondo-cobertura_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: right;
+    background-position-y: -7px;
+    height: 98vh;
+    width: 100%;
+}
+
+
 /* ----------------------------- Titulos --------------------------------- */
 
 .titulosIC {
@@ -176,272 +215,6 @@
     -moz-transform: scale(1.1);
 }
 
-@media only screen and (max-width: 500px) and (min-width: 320px) {
-    /* -------------------- Seccion Servicios ----------------- */
-    .container {
-        margin-bottom: 6rem;
-    }
-    .card-title {
-        font-size: 22px;
-        letter-spacing: 0px;
-    }
-    .card-img-top {
-        width: 90%;
-    }
-    .lineaHImagenes {
-        width: 130px;
-        border-top: 4px solid #1A455D;
-    }
-    .card-text {
-        overflow: hidden;
-        display: inline-block;
-        width: 100%;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        text-align: center;
-        justify-content: center;
-        margin: 0 auto;
-        font-size: 1rem;
-    }
-    .hr-servicios {
-        height: 2px;
-        width: 40%;
-    }
-    .boton {
-        padding: 5px;
-        font-size: 18px;
-    }
-    .card {
-        margin: 2rem auto 0.5rem auto;
-    }
-    .espacioCard {
-        margin-bottom: 2.47rem;
-    }
-    /* -------------------- FIN Seccion Servicios ----------------- */
-    /* -------------------- Seccion Nosotros ----------------- */
-    .fNosotros {
-        background-image: none;
-    }
-    .textoIC {
-        padding: 1rem 0 0 0;
-        font-size: 0.9rem;
-    }
-    .letraTitulo {
-        font-size: 38px;
-    }
-    .hoja {
-        width: 9%;
-    }
-    .container {
-        margin-bottom: 6rem;
-    }
-    .cursor,
-    .cursor2 {
-        display: none;
-    }
-    /* -------------------- FIN Seccion Nosotros ----------------- */
-    /* -------------------- Seccion Vision/Mision ----------------- */
-    .apostrofe {
-        display: none;
-    }
-    .contenedorMV {
-        margin-top: -2rem;
-    }
-    .cuadro {
-        display: none;
-    }
-    .imagenMV {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-    }
-    .espacioMVTitulo {
-        margin-top: 2%;
-    }
-    .logo {
-        display: none;
-    }
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        width: 21px;
-        height: 21px;
-    }
-    .boton-mv {
-        padding: 10px;
-    }
-    .titulosIC {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-    }
-    /* -------------------- FIN Seccion Vision/Mision ----------------- */
-    /* -------------------- Seccion Cobertura Nacional ----------------- */
-    .fCobertura {
-        background-image: none;
-    }
-    .map_ID {
-        width: 100%;
-    }
-    #control_map {
-        width: auto;
-        margin-top: 60px;
-        margin-bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    #posicionMapa {
-        order: 2;
-    }
-    #posicionTitulo {
-        order: 1;
-    }
-    #posicionTitulo #tilt {
-        height: 160px;
-        width: 56%;
-        margin-top: 14%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .contenedorEstados {
-        display: none;
-    }
-    /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-        margin-bottom: 11rem;
-    }
-    .container-Servicios {
-        max-width: 82%;
-    }
-    .card-title {
-        font-size: 38px;
-        letter-spacing: 0px;
-    }
-    .card {
-        width: 93%;
-    }
-    .hr-servicios {
-        width: 20%;
-    }
-    .card-text {
-        font-size: 1.5rem;
-        padding: 1rem 2rem 1rem 2rem;
-    }
-    .boton {
-        font-size: 22px;
-    }
-    .espacioCard {
-        margin-bottom: 2.8rem;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
-    .container {
-        margin-bottom: 11rem;
-    }
-    .container-Servicios {
-        max-width: 52%;
-    }
-    .card-title {
-        font-size: 36px;
-        letter-spacing: 0px;
-    }
-    .card {
-        width: 95%;
-        margin: 2.5rem auto 0rem auto;
-    }
-    .hr-servicios {
-        width: 20%;
-    }
-    .card-text {
-        font-size: 1.3rem;
-    }
-    .boton {
-        font-size: 22px;
-    }
-    .espacioCard {
-        margin-bottom: 2.8rem;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
-    .container {
-        margin-bottom: 11rem;
-    }
-    .container-Servicios {
-        max-width: 86%;
-    }
-    .card-title {
-        font-size: 29px;
-    }
-    .card-img-top {
-        width: 66%;
-    }
-    .card-text {
-        font-size: 18px;
-    }
-    .card {
-        margin: 3rem auto 3rem auto;
-        width: 97%;
-    }
-}
-
-@media only screen and (min-width: 1367px) and (max-width: 1680px) {
-    .container {
-        margin-bottom: 13rem;
-    }
-    .card-img-top {
-        width: 66%;
-    }
-    .card {
-        width: 97.6%;
-        margin: 3rem auto 2.5rem auto;
-    }
-}
-
-@media only screen and (min-width: 1681px) and (max-width: 1919px) {
-    .container {
-        margin-bottom: 14rem;
-    }
-    .card-img-top {
-        width: 60%;
-    }
-    .card-title {
-        font-size: 36px;
-    }
-    .card-text {
-        font-size: 24px;
-    }
-    .card {
-        margin: 3rem auto 3rem auto;
-        width: 96%;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    .container {
-        margin-bottom: 14rem;
-    }
-    .container-Servicios {
-        max-width: 86%;
-    }
-    .card-title {
-        font-size: 36px;
-    }
-    .card-text {
-        font-size: 24px;
-    }
-    .card {
-        margin: 3rem auto 3rem auto;
-        width: 96%;
-    }
-}
-
 
 /* --------------------------- Estilos Nosotros ---------------------------------- */
 
@@ -464,67 +237,6 @@
     margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-        margin-bottom: 11rem;
-    }
-    .fNosotros {
-        background-image: none;
-        display: unset;
-    }
-    .textoIC {
-        padding: 2rem 1rem 0.2rem 1rem;
-    }
-    .cursor,
-    .cursor2 {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1366px) {
-    .container {
-        margin-bottom: 11rem;
-    }
-}
-
-@media only screen and (min-width: 1367px) and (max-width: 1680px) {
-    .container {
-        margin-bottom: 13rem;
-    }
-}
-
-@media only screen and (min-width: 1681px) and (max-width: 1919px) {
-    .container {
-        margin-bottom: 14rem;
-    }
-    .container-Nosotros {
-        max-width: 88%;
-    }
-    .letraTitulo {
-        font-size: 64px;
-    }
-    .textoIC {
-        font-size: 1.75rem;
-        line-height: 2.7rem;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    .container {
-        margin-bottom: 14rem;
-    }
-    .container-Nosotros {
-        max-width: 88%;
-    }
-    .letraTitulo {
-        font-size: 67px;
-    }
-    .textoIC {
-        font-size: 1.8rem;
-        line-height: 2.7rem;
-    }
-}
-
 
 /* --------------------------- Estilos Misión y Visión ---------------------------------- */
 
@@ -533,7 +245,6 @@
     width: 98%;
     height: 90%;
     box-shadow: 2px 2px 5px #999;
-    /* margin-top: 17%; */
     position: absolute;
     border-radius: 20px;
 }
@@ -543,8 +254,6 @@
     width: 95%;
     height: auto;
     border-radius: 20px;
-    /* margin-left: 3%;
-    margin-top: 5%; */
     margin: 0 auto;
 }
 
@@ -592,122 +301,6 @@
 .carousel-control-prev-icon {
     width: 25px;
     height: 25px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .cuadro {
-        display: none;
-    }
-    .imagenMV {
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-    }
-    .apostrofe {
-        display: none;
-    }
-    .contenedorMV {
-        margin-top: -2.28rem;
-    }
-    .titulosIC {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-    }
-    .espacioMVTitulo {
-        margin-top: 2%;
-    }
-    .hojaMV {
-        margin-left: 0px;
-        margin-top: -22px;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
-    .cuadro {
-        display: none;
-    }
-    .imagenMV {
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-    }
-    .apostrofe {
-        display: none;
-    }
-    .contenedorMV {
-        margin-top: -2.28rem;
-    }
-    .hojaMV {
-        margin-left: 0px;
-    }
-    .espacioMVTitulo {
-        margin-top: 2%;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
-    .imagenMV {
-        width: 100%;
-    }
-    .imagenMVcustom {
-        padding-top: 4%;
-    }
-}
-
-@media only screen and (min-width: 1367px) and (max-width: 1680px) {
-    .imagenMV {
-        width: 100%;
-    }
-    .imagenMVcustom {
-        padding-top: 4%;
-    }
-    .cuadro {
-        width: 97%;
-        height: 86%;
-    }
-}
-
-@media only screen and (min-width: 1681px) and (max-width: 1919px) {
-    .container-MV {
-        max-width: 88%;
-    }
-    .cuadro {
-        width: 94%;
-        height: 100%;
-    }
-    .logo {
-        font-size: 32px;
-    }
-    .boton-mv {
-        padding: 18px;
-    }
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        width: 32px;
-        height: 32px;
-    }
-}
-
-@media only screen and (min-width: 1920px) {
-    .container-MV {
-        max-width: 88%;
-    }
-    .cuadro {
-        width: 98%;
-        height: 100%;
-    }
-    .logo {
-        font-size: 32px;
-    }
-    .boton-mv {
-        padding: 18px;
-    }
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        width: 32px;
-        height: 32px;
-    }
 }
 
 
@@ -905,7 +498,6 @@
 }
 
 .LV {
-    /* border: none; */
     border-left: 6px solid rgb(127, 164, 57);
     height: 10vh;
     width: 1px;
@@ -924,136 +516,6 @@
     background-size: 100%;
     background-repeat: no-repeat;
     margin-left: 33%;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    #control_map {
-        width: auto;
-        margin-top: 1rem;
-        margin-bottom: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #posicionMapa {
-        order: 2;
-        margin-right: auto;
-        margin-left: auto;
-        display: flex;
-    }
-    #posicionTitulo {
-        order: 1;
-    }
-    .fCobertura {
-        background-image: none;
-    }
-    #edo {
-        position: absolute;
-        font-size: 2.1em;
-        width: 490px;
-        height: 100%;
-        padding-top: 10%;
-        margin-left: 27%;
-    }
-    #tilt {
-        display: none;
-    }
-    .escudo {
-        position: relative;
-        margin-top: 6%;
-        width: 150px;
-        height: 150px;
-        margin-left: 4%;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
-    #posicionMapa {
-        order: 2;
-        margin-right: auto;
-        margin-left: auto;
-        display: flex;
-    }
-    #posicionTitulo {
-        order: 1;
-    }
-    #control_map {
-        width: auto;
-        margin-top: 3rem;
-        margin-bottom: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .fCobertura {
-        background-image: none;
-    }
-    #edo {
-        padding-top: 10%;
-        margin-left: 27%;
-    }
-    #tilt {
-        display: none;
-    }
-    .escudo {
-        margin-top: 6%;
-        margin-left: 9%;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
-    .container-custom {
-        max-width: 98%;
-    }
-    #posicionMapa {
-        margin-right: auto;
-        margin-left: auto;
-        display: flex;
-    }
-    #control_map {
-        width: auto;
-        margin-top: 8rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #tilt {
-        height: 168px;
-        width: 40%;
-        margin-top: 14%;
-    }
-    #edo {
-        position: absolute;
-        font-size: 2.3rem;
-        width: 390px;
-    }
-    .escudo {
-        margin-top: 4%;
-        margin-left: 1%;
-    }
-}
-
-@media only screen and (min-width: 1367px) and (max-width: 1680px) {
-    .container-custom {
-        max-width: 98%;
-    }
-    #posicionMapa {
-        margin-right: auto;
-        margin-left: auto;
-        display: flex;
-    }
-    #control_map {
-        width: auto;
-        margin-top: 8rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .escudo {
-        margin-left: 1%;
-        margin-top: 4%;
-    }
-    #edo {
-        font-size: 2em;
-        width: 480px;
-        margin-left: 23%;
-    }
 }
 
 
@@ -1095,9 +557,6 @@
 
 .contenidoNR {
     border: none !important;
-    /* border:#FFFFFF; */
-    /* border-radius: 16px;
-    box-shadow: 2px 2px 5px #999; */
     background: #FFFFFF;
     box-shadow: 0px 48px 100px rgba(26, 69, 93, 0.45);
     border-radius: 24px;
@@ -1121,7 +580,143 @@
     text-align: center;
 }
 
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 @media only screen and (max-width: 500px) and (min-width: 320px) {
+    /* -------------------- Seccion Servicios ----------------- */
+    .container {
+        margin-bottom: 6rem;
+    }
+    .card-title {
+        font-size: 22px;
+        letter-spacing: 0px;
+    }
+    .card-img-top {
+        width: 90%;
+    }
+    .lineaHImagenes {
+        width: 130px;
+        border-top: 4px solid #1A455D;
+    }
+    .card-text {
+        overflow: hidden;
+        display: inline-block;
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+    .hr-servicios {
+        height: 2px;
+        width: 40%;
+    }
+    .boton {
+        padding: 5px;
+        font-size: 18px;
+    }
+    .card {
+        margin: 2rem auto 0.5rem auto;
+    }
+    .espacioCard {
+        margin-bottom: 2.47rem;
+    }
+    /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Nosotros ----------------- */
+    .fNosotros {
+        background-image: none;
+    }
+    .textoIC {
+        padding: 1rem 0 0 0;
+        font-size: 0.9rem;
+    }
+    .letraTitulo {
+        font-size: 38px;
+    }
+    .hoja {
+        width: 9%;
+    }
+    .container {
+        margin-bottom: 6rem;
+    }
+    .cursor,
+    .cursor2 {
+        display: none;
+    }
+    /* -------------------- FIN Seccion Nosotros ----------------- */
+    /* -------------------- Seccion Vision/Mision ----------------- */
+    .apostrofe {
+        display: none;
+    }
+    .contenedorMV {
+        margin-top: -2rem;
+    }
+    .cuadro {
+        display: none;
+    }
+    .imagenMV {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .espacioMVTitulo {
+        margin-top: 2%;
+    }
+    .logo {
+        display: none;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 21px;
+        height: 21px;
+    }
+    .boton-mv {
+        padding: 10px;
+    }
+    .titulosIC {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    /* -------------------- FIN Seccion Vision/Mision ----------------- */
+    /* -------------------- Seccion Cobertura Nacional ----------------- */
+    .fCobertura {
+        background-image: none;
+    }
+    .map_ID {
+        width: 100%;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #posicionMapa {
+        order: 2;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    #tilt {
+        height: 160px;
+        width: 56%;
+        margin-top: 14%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedorEstados {
+        display: none;
+    }
+    /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
+    /* -------------------- Seccion Contador ----------------- */
     .card-resultados {
         width: 100%;
         margin: 16px auto;
@@ -1141,15 +736,397 @@
         margin-top: 4%;
         font-size: 24px;
     }
+    /* -------------------- FIN Seccion Contador ----------------- */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* -------------------- Seccion Servicios ----------------- */
+    .container {
+        margin-bottom: 11rem;
+    }
+    .container-Servicios {
+        max-width: 82%;
+    }
+    .card-title {
+        font-size: 38px;
+        letter-spacing: 0px;
+    }
+    .card {
+        width: 93%;
+    }
+    .hr-servicios {
+        width: 20%;
+    }
+    .card-text {
+        font-size: 1.5rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .boton {
+        font-size: 22px;
+    }
+    .espacioCard {
+        margin-bottom: 2.8rem;
+    }
+    /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Nosotros ----------------- */
+    .container {
+        margin-bottom: 11rem;
+    }
+    .fNosotros {
+        background-image: none;
+        display: unset;
+    }
+    .textoIC {
+        padding: 2rem 1rem 0.2rem 1rem;
+    }
+    .cursor,
+    .cursor2 {
+        display: none;
+    }
+    /* -------------------- FIN Seccion Nosotros ----------------- */
+    /* -------------------- Seccion Vision/Mision ----------------- */
+    .cuadro {
+        display: none;
+    }
+    .imagenMV {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .apostrofe {
+        display: none;
+    }
+    .contenedorMV {
+        margin-top: -2.28rem;
+    }
+    .titulosIC {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .espacioMVTitulo {
+        margin-top: 2%;
+    }
+    .hojaMV {
+        margin-left: 0px;
+        margin-top: -22px;
+    }
+    /* -------------------- FIN Seccion Vision/Mision ----------------- */
+    /* -------------------- Seccion Cobertura Nacional ----------------- */
+    #control_map {
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #posicionMapa {
+        order: 2;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    .fCobertura {
+        background-image: none;
+    }
+    #edo {
+        position: absolute;
+        font-size: 2.1em;
+        width: 490px;
+        height: 100%;
+        padding-top: 10%;
+        margin-left: 27%;
+    }
+    #tilt {
+        display: none;
+    }
+    .escudo {
+        position: relative;
+        margin-top: 6%;
+        width: 150px;
+        height: 150px;
+        margin-left: 4%;
+    }
+    /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
+    /* -------------------- Seccion Contador ----------------- */
     .numeroContador {
         font-size: 45px;
     }
+    /* -------------------- FIN Seccion Contador ----------------- */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    /* -------------------- Seccion Servicios ----------------- */
+    .container {
+        margin-bottom: 11rem;
+    }
+    .container-Servicios {
+        max-width: 52%;
+    }
+    .card-title {
+        font-size: 36px;
+        letter-spacing: 0px;
+    }
+    .card {
+        width: 95%;
+        margin: 2.5rem auto 0rem auto;
+    }
+    .hr-servicios {
+        width: 20%;
+    }
+    .card-text {
+        font-size: 1.3rem;
+    }
+    .boton {
+        font-size: 22px;
+    }
+    .espacioCard {
+        margin-bottom: 2.8rem;
+    }
+    /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Mision/Vision ----------------- */
+    .cuadro {
+        display: none;
+    }
+    .imagenMV {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .apostrofe {
+        display: none;
+    }
+    .contenedorMV {
+        margin-top: -2.28rem;
+    }
+    .hojaMV {
+        margin-left: 0px;
+    }
+    .espacioMVTitulo {
+        margin-top: 2%;
+    }
+    /* -------------------- FIN Seccion Mision/Vision ----------------- */
+    /* -------------------- Seccion Cobertura Nacional ----------------- */
+    #posicionMapa {
+        order: 2;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #posicionTitulo {
+        order: 1;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 3rem;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fCobertura {
+        background-image: none;
+    }
+    #edo {
+        padding-top: 10%;
+        margin-left: 27%;
+    }
+    #tilt {
+        display: none;
+    }
+    .escudo {
+        margin-top: 6%;
+        margin-left: 9%;
+    }
+    /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    /* -------------------- Seccion Servicios ----------------- */
+    .container {
+        margin-bottom: 11rem;
+    }
+    .container-Servicios {
+        max-width: 86%;
+    }
+    .card-title {
+        font-size: 29px;
+    }
+    .card-img-top {
+        width: 66%;
+    }
+    .card-text {
+        font-size: 18px;
+    }
+    .card {
+        margin: 3rem auto 3rem auto;
+        width: 97%;
+    }
+    /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Mision/Vision ----------------- */
+    .imagenMV {
+        width: 100%;
+    }
+    .imagenMVcustom {
+        padding-top: 4%;
+    }
+    /* -------------------- FIN Seccion Mision/Vision ----------------- */
+    /* -------------------- Seccion Cobertura Nacional ----------------- */
+    .container-custom {
+        max-width: 98%;
+    }
+    #posicionMapa {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #tilt {
+        height: 168px;
+        width: 40%;
+        margin-top: 14%;
+    }
+    #edo {
+        position: absolute;
+        font-size: 2.3rem;
+        width: 390px;
+    }
+    .escudo {
+        margin-top: 4%;
+        margin-left: 1%;
+    }
+    /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
+}
+
+
+/* --------------------------- Estilos Nosotros ---------------------------------- */
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    /* -------------------- Seccion Nosotros ----------------- */
+    .container {
+        margin-bottom: 11rem;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+    /* -------------------- Seccion Servicios ----------------- */
+    .container {
+        margin-bottom: 13rem;
+    }
+    .card-img-top {
+        width: 66%;
+    }
+    .card {
+        width: 97.6%;
+        margin: 3rem auto 2.5rem auto;
+    }
+    /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Nosotros ----------------- */
+    .container {
+        margin-bottom: 13rem;
+    }
+    /* -------------------- FIN Seccion Nosotros ----------------- */
+    /* -------------------- Seccion Mision/Vision ----------------- */
+    .imagenMV {
+        width: 100%;
+    }
+    .imagenMVcustom {
+        padding-top: 4%;
+    }
+    .cuadro {
+        width: 97%;
+        height: 86%;
+    }
+    /* -------------------- FIN Seccion Mision/Vision ----------------- */
+    /* -------------------- Seccion Cobertura Nacional ----------------- */
+    .container-custom {
+        max-width: 98%;
+    }
+    #posicionMapa {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
+    #control_map {
+        width: auto;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .escudo {
+        margin-left: 1%;
+        margin-top: 4%;
+    }
+    #edo {
+        font-size: 2em;
+        width: 480px;
+        margin-left: 23%;
+    }
+    /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
 }
 
 @media only screen and (min-width: 1681px) and (max-width: 1919px) {
+    /* -------------------- Seccion Servicios ----------------- */
+    .container {
+        margin-bottom: 14rem;
+    }
+    .card-img-top {
+        width: 60%;
+    }
+    .card-title {
+        font-size: 36px;
+    }
+    .card-text {
+        font-size: 24px;
+    }
+    .card {
+        margin: 3rem auto 3rem auto;
+        width: 96%;
+    }
+    /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Nosotros ----------------- */
+    .container {
+        margin-bottom: 14rem;
+    }
+    .container-Nosotros {
+        max-width: 88%;
+    }
+    .letraTitulo {
+        font-size: 64px;
+    }
+    .textoIC {
+        font-size: 1.75rem;
+        line-height: 2.7rem;
+    }
+    /* -------------------- FIN Seccion Nosotros ----------------- */
+    /* -------------------- Seccion Mision/Vision ----------------- */
+    .container-MV {
+        max-width: 88%;
+    }
+    .cuadro {
+        width: 94%;
+        height: 100%;
+    }
+    .logo {
+        font-size: 32px;
+    }
+    .boton-mv {
+        padding: 18px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 32px;
+        height: 32px;
+    }
+    /* -------------------- FIN Seccion Mision/Vision ----------------- */
+    /* -------------------- Seccion Contador ----------------- */
     .container-NR {
         max-width: 88%;
     }
@@ -1159,9 +1136,64 @@
     .textoContador {
         font-size: 29px;
     }
+    /* -------------------- FIN Seccion Contador ----------------- */
 }
 
 @media only screen and (min-width: 1920px) {
+    /* -------------------- Seccion Servicios ----------------- */
+    .container {
+        margin-bottom: 14rem;
+    }
+    .container-Servicios {
+        max-width: 86%;
+    }
+    .card-title {
+        font-size: 36px;
+    }
+    .card-text {
+        font-size: 24px;
+    }
+    .card {
+        margin: 3rem auto 3rem auto;
+        width: 96%;
+    }
+    /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Nosotros ----------------- */
+    .container {
+        margin-bottom: 14rem;
+    }
+    .container-Nosotros {
+        max-width: 88%;
+    }
+    .letraTitulo {
+        font-size: 67px;
+    }
+    .textoIC {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+    /* -------------------- FIN Seccion Nosotros ----------------- */
+    /* -------------------- Seccion Mision/Vision ----------------- */
+    .container-MV {
+        max-width: 88%;
+    }
+    .cuadro {
+        width: 98%;
+        height: 100%;
+    }
+    .logo {
+        font-size: 32px;
+    }
+    .boton-mv {
+        padding: 18px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 32px;
+        height: 32px;
+    }
+    /* -------------------- FIN Seccion Mision/Vision ----------------- */
+    /* -------------------- Seccion Contador ----------------- */
     .container-NR {
         max-width: 88%;
     }
@@ -1171,7 +1203,11 @@
     .textoContador {
         font-size: 32px;
     }
+    /* -------------------- FIN Seccion Contador ----------------- */
 }
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 /* --------------------------- Estilos Redes Sociales ---------------------------------- */
@@ -1333,43 +1369,4 @@
         max-width: 200%;
         width: 127rem;
     }
-}
-
-
-/* --------------------------- Estilos Preloader ---------------------------------- */
-
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-image: url('../gif/loading_interclean.gif');
-    background-repeat: no-repeat;
-    background-color: #FFF;
-    background-position: center;
-}
-
-
-/* --------------------------- Estilos Fondos página ---------------------------------- */
-
-.fNosotros {
-    background-image: url('../img/fondo/fondo-nosotros_interclean.png');
-    background-repeat: no-repeat;
-    background-size: 89%;
-    background-position-x: left;
-    background-position-y: -7px;
-    height: 98vh;
-    width: 100%;
-}
-
-.fCobertura {
-    background-image: url('../img/fondo/fondo-cobertura_interclean.png');
-    background-repeat: no-repeat;
-    background-size: 89%;
-    background-position-x: right;
-    background-position-y: -7px;
-    height: 98vh;
-    width: 100%;
 }
