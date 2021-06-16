@@ -1246,9 +1246,6 @@
     display: none !important;
 }
 
-
-/* Para 480px Tablets 10p */
-
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     #social-icons {
         display: none !important;
@@ -1265,9 +1262,6 @@
     }
 }
 
-
-/* Para 480px */
-
 @media only screen and (max-width: 640px) and (min-width: 360px) {
     .Social-Net {
         display: contents !important;
@@ -1282,4 +1276,102 @@
         width: 40px!important;
         height: auto !important;
     }
+}
+
+
+/* --------------------------- Estilos ZOOM ---------------------------------- */
+
+.zoom {
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+
+.zoom img {
+    position: fixed;
+    top: -9%;
+    left: 50%;
+    max-width: 200%;
+    width: 100%;
+    height: auto;
+    transform: translateX(-50%);
+    z-index: -999;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+    .zoom {
+        margin-bottom: 34rem;
+    }
+    .zoom img {
+        top: 14%;
+        left: 50%;
+        width: 44rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .zoom {
+        padding-bottom: 100%;
+        margin-bottom: 27rem;
+    }
+    .zoom img {
+        top: 5%;
+        left: 50%;
+        max-width: 200%;
+        width: 87rem;
+    }
+}
+
+@media only screen and (min-width: 1681px) and (max-width: 1919px) {
+    .zoom img {
+        top: -7%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .zoom img {
+        top: -13%;
+    }
+    .zoom img {
+        max-width: 200%;
+        width: 127rem;
+    }
+}
+
+
+/* --------------------------- Estilos Preloader ---------------------------------- */
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url('../gif/loading_interclean.gif');
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+}
+
+
+/* --------------------------- Estilos Fondos página ---------------------------------- */
+
+.fNosotros {
+    background-image: url('../img/fondo/fondo-nosotros_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: left;
+    background-position-y: -7px;
+    height: 98vh;
+    width: 100%;
+}
+
+.fCobertura {
+    background-image: url('../img/fondo/fondo-cobertura_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: right;
+    background-position-y: -7px;
+    height: 98vh;
+    width: 100%;
 }
