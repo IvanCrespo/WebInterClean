@@ -1352,3 +1352,26 @@
     background-color: #FFF;
     background-position: center;
 }
+
+
+/* --------------------------- Estilos Fondos página ---------------------------------- */
+
+.fNosotros {
+    background-image: url('../img/fondo/fondo-nosotros_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: left;
+    background-position-y: -7px;
+    height: 98vh;
+    width: 100%;
+}
+
+.fCobertura {
+    background-image: url('../img/fondo/fondo-cobertura_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: right;
+    background-position-y: -7px;
+    height: 98vh;
+    width: 100%;
+}
