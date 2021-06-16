@@ -18,6 +18,7 @@
         margin-top: 7%;
         z-index: -1;
     }
+
     .FondoIcono{
         -webkit-filter: drop-shadow(5px 5px 5px #222 );
         filter: drop-shadow(5px 5px 5px #222);
@@ -130,36 +131,6 @@
     /*Carrusel contenido*/
     /*Fondo de tituos Limpieza*/
 
-    .Fondo-FumigacionP {
-        width: auto;
-        height: 13vh;
-        background-color: rgb(26, 69, 93);
-        border-radius: 5rem 0rem;
-    }
-    .Fondo-FumigacionP1 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
-    .Fondo-FumigacionP2 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
-    .Fondo-FumigacionP3 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
-    .Fondo-FumigacionP4 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
     .Txt-Letras-LA {
         color: white;
         text-align: center;
@@ -424,15 +395,7 @@
 
 
 /*====Fondo de los anuncios finales====*/
-.Fondo-FondoFinal {
-    width: 80%;
-    height: 40vh;
-    padding: 10px;
-    background-color: white;
-    margin: 7px 1px 0px 144px;
-    border: 6px solid #7FA439;
-    border-radius: 2rem 2rem 2rem 2rem;
-}
+
 .Txt-Letras-Preguntas {
     color: #1A455D;
     text-align: center;
@@ -513,95 +476,18 @@ margin-right: auto;
     box-shadow: 2px 2px 5px #999;
 }
 
-.titempl {
-    color: #fff;
-    font-weight: 700;
-    font-size: 34px;
-    box-shadow: 2px 2px 5px #999;
-    font-family: 'Titillium Web', sans-serif;
-}
 
 
-.texto-superior {
-    margin-bottom: 1rem;
-}
 
-.Txt-Letras-Preguntas {
-    color: rgb(26, 69, 93);
-    text-align: center;
-    font-weight: 600;
-    font-size: 2.4rem;
-    line-height: 50px;
-    font-family: Poppins;
-    margin-right: 0%;
-    margin-top: -8%;
-}
-.FormatoLetras {
-    font-size: 20px;
-    text-align: justify;
-    justify-content: center;
-    font-weight: 500;
-    font-family: Poppins;
-    color: rgb(26, 69, 93);
-    line-height: 25px;
-    letter-spacing: -1.5px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.FormatoLetrasLista {
-    font-size: 20px;
-    text-align: justify;
-    justify-content: center;
-    font-weight: 400;
-    font-family: 'Poppins';
-    color: #1A455D;
-    line-height: 13px;
-    letter-spacing: 1px;
-    margin-left: 2px;
-    margin-right: 50px;
-}
-.FormatoLetras2 {
-    font-size: 20px;
-    text-align: justify;
-    justify-content: center;
-    font-weight: 500;
-    font-family: 'Poppins';
-    color: #1A455D;
-    line-height: 24px;
-    letter-spacing: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.FormatoLetras2s {
-    font-size: 20px;
-    text-align: justify;
-    justify-content: center;
-    font-weight: 500;
-    font-family: 'Poppins';
-    color: #1A455D;
-    line-height: 30px;
-    letter-spacing: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.FormatoLetras3 {
-    font-size: 20px;
-    text-align: justify;
-    justify-content: center;
-    font-weight: 500;
-    font-family: 'Poppins';
-    color: #1A455D;
-    line-height: 34px;
-    letter-spacing: 2.5px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
+
+
+
 .circulo-fum {
     width: 15rem;
     height: 15rem;
     -webkit-border-radius: 50%;
-    margin: 2rem;
-    margin-bottom: 2rem;
+    margin: 3rem;
     box-shadow: 2px 2px 5px #999;
 }
 
@@ -704,12 +590,6 @@ margin-right: auto;
 
 /*Desinfeccion*/
 
-.Fondo-Sanitizacion {
-    width: auto;
-    height: 14vh;
-    background-color: #1A455D;
-    border-radius: 2rem 0rem 2rem 0rem;
-}
 
 
 
@@ -747,12 +627,7 @@ margin-right: auto;
 /*Desinfeccion*/
 
 /*Mantenimiento*/
-.Fondo-Mantenimiento {
-    width: auto;
-    height: 14vh;
-    background-color: #1A455D;
-    border-radius: 8rem 0rem 8rem 0rem;
-}
+
 .Txt-Letras-Mantenimiento {
     color: white;
     text-align: center;
@@ -845,12 +720,7 @@ margin-right: auto;
         z-index: -1;
     }
 
-    .Fondo-Mantenimiento {
-        width: auto;
-        height: 14vh;
-        background-color: #1A455D;
-        border-radius: 3rem 0rem 3rem 0rem;
-    }
+
     .card-title {
         font-family: 'Poppins', sans-serif;
         font-size: 17px!important;
@@ -980,38 +850,7 @@ margin-right: auto;
         margin-right: 4vh;
         margin-left: 4vh;
     }
-    .Fondo-FumigacionP {
-        width: auto;
-        height: 11vh;
-        background-color: rgb(26, 69, 93);
-        border-radius: 2rem 0rem;
-        margin-right: 34px;
-        margin-left: 19px;
-    }
-    .Fondo-FumigacionP1 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
-    .Fondo-FumigacionP2 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
-    .Fondo-FumigacionP3 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
-    .Fondo-FumigacionP4 {
-        width: auto;
-        height: 12vh;
-        background-color: #1A455D;
-        border-radius: 4rem 0rem 4rem 0rem;
-    }
+
     .Txt-Letras-LA {
         color: white;
         text-align: center;
@@ -1060,14 +899,7 @@ margin-right: auto;
         margin-left: 110px;
     }
 
-    .Fondo-FondoFinal {
-        width: 60%;
-        height: 26vh;
-        padding: 10px;
-        margin: 4px 0px 22px 107px;
-        border: 6px solid #7FA439;
-        border-radius: 2rem 2rem 2rem 2rem;
-    }
+
     .Txt-Letras-LI {
         color: white;
         text-align: center;
@@ -1211,27 +1043,12 @@ margin-right: auto;
         box-shadow: 8px 11px 12px 0px rgb(0 0 0 / 50%);
     }
 
-    .Fondo-FumigacionP {
-        width: auto;
-        height: 11vh;
-        background-color: rgb(26, 69, 93);
-        border-radius: 2rem 0rem;
-        margin-right: 34px;
-        margin-left: 19px;
-    }
-
+ 
 
 
     
     /*FOOTER PREVIO*/
-    .Fondo-FondoFinal {
-        width: 80%;
-        height: auto;
-        padding: -1px;
-        margin: 9px 27px 25px 17px;
-        border: 4px solid #7FA439;
-        border-radius: 2rem 2rem 2rem 2rem;
-    }
+
 
     .Txt-Letras-Preguntas {
         color: #1A455D;
@@ -1426,12 +1243,7 @@ margin-right: auto;
             /*FIN Mensaje Final*/
 
             /*FORMATOS DE TITULO CON FONDO*/
-            .Fondo-Sanitizacion{
-                width: auto;
-                height: 14vh;
-                background-color: #1A455D;
-                border-radius: 2rem 0rem 2rem 0rem;
-            }
+
             .Txt-Letras-Sanitizacion{   
                 color: white;
                 text-align: right;
@@ -1442,37 +1254,7 @@ margin-right: auto;
                 margin-right: 2rem;
                 margin-top: -2rem;
             }
-   
-            .Fondo-FumigacionP {
-                width: auto;
-                height: 10vh;
-                background-color: #1A455D;
-                border-radius: 2rem 0rem 2rem 0rem;
-            }
-            .Fondo-FumigacionP1 {
-                width: auto;
-                height: 10vh;
-                background-color: #1A455D;
-                border-radius: 4rem 0rem 4rem 0rem;
-            }
-            .Fondo-FumigacionP2 {
-                width: auto;
-                height: 11vh;
-                background-color: #1A455D;
-                border-radius: 4rem 0rem 4rem 0rem;
-            }
-            .Fondo-FumigacionP3 {
-                width: auto;
-                height: 13vh;
-                background-color: #1A455D;
-                border-radius: 4rem 0rem 4rem 0rem;
-            }
-            .Fondo-FumigacionP4 {
-                width: auto;
-                height: 14vh;
-                background-color: #1A455D;
-                border-radius: 4rem 0rem 4rem 0rem;
-            }
+
 
             .Txt-Letras-FumigacionP {
                 color: white;
@@ -1539,12 +1321,7 @@ margin-right: auto;
                 margin-top: -16%;
             }
 
-            .Fondo-Mantenimiento{
-                width: auto;
-                height: 14vh;
-                background-color: #1A455D;
-                border-radius: 2rem 0rem 2rem 0rem;
-            }
+
             .Txt-Letras-Mantenimiento{   
                 color: white;
                 text-align: right;
