@@ -480,6 +480,14 @@ main {
     width: 100% !important;
 }
 
+.btnverm{
+    margin-left: 60%;
+    margin-top: -12%;
+}
+.btnverm{
+    margin-top: -9%;
+}
+
 
 
 .carousel .carousel-indicators li {background-color: #1A455D }
@@ -812,6 +820,20 @@ main {
     text-align: center;
 }
 
+.boton vermas{
+    margin-left: -59%;
+}
+
+.btnverm{
+    margin-left: 60%;
+    margin-top: 0%;
+}
+
+.vermas{
+    margin-left: -65%;
+}
+
+
 
 
 
@@ -919,6 +941,7 @@ main {
     .TextoCotizacion{
         padding-top: 1rem;
     }
+    
 
 }
 @media (min-width: 991px) and (max-width: 1024px){
