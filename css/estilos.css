@@ -350,15 +350,6 @@ nav >.container-fluid {
 
 /* --------------------------- Estilos Misión y Visión ---------------------------------- */
 
-.cuadro {
-    background: rgba(26, 69, 93, 0.32);
-    width: 98%;
-    height: 90%;
-    box-shadow: 2px 2px 5px #999;
-    position: absolute;
-    border-radius: 20px;
-}
-
 .imagenMV {
     position: inherit;
     width: 95%;
@@ -376,13 +367,6 @@ nav >.container-fluid {
     font-weight: 700;
     font-size: 26px;
     margin: 0 auto;
-}
-
-.hojaMV {
-    margin-left: 42px;
-    margin-top: -22px;
-    width: 5%;
-    height: auto;
 }
 
 .botones {
@@ -741,9 +725,6 @@ nav >.container-fluid {
     .contenedorMV {
         margin-top: -2rem;
     }
-    .cuadro {
-        display: none;
-    }
     .imagenMV {
         width: 90%;
         margin: 0 auto;
@@ -897,9 +878,6 @@ nav >.container-fluid {
     }
     /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Vision/Mision ----------------- */
-    .cuadro {
-        display: none;
-    }
     .imagenMV {
         width: 80%;
         margin: 0 auto;
@@ -918,10 +896,6 @@ nav >.container-fluid {
     }
     .espacioMVTitulo {
         margin-top: 2%;
-    }
-    .hojaMV {
-        margin-left: 0px;
-        margin-top: -22px;
     }
     /* -------------------- FIN Seccion Vision/Mision ----------------- */
     /* -------------------- Seccion Cobertura Nacional ----------------- */
@@ -1027,9 +1001,6 @@ nav >.container-fluid {
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
-    .cuadro {
-        display: none;
-    }
     .imagenMV {
         width: 80%;
         margin: 0 auto;
@@ -1040,9 +1011,6 @@ nav >.container-fluid {
     }
     .contenedorMV {
         margin-top: -2.28rem;
-    }
-    .hojaMV {
-        margin-left: 0px;
     }
     .espacioMVTitulo {
         margin-top: 2%;
@@ -1179,10 +1147,6 @@ nav >.container-fluid {
     .imagenMVcustom {
         padding-top: 4%;
     }
-    .cuadro {
-        width: 97%;
-        height: 86%;
-    }
     /* -------------------- FIN Seccion Mision/Vision ----------------- */
     /* -------------------- Seccion Cobertura Nacional ----------------- */
     .container-custom {
@@ -1248,10 +1212,6 @@ nav >.container-fluid {
     /* -------------------- Seccion Mision/Vision ----------------- */
     .container-MV {
         max-width: 88%;
-    }
-    .cuadro {
-        width: 94%;
-        height: 100%;
     }
     .logo {
         font-size: 32px;
@@ -1320,10 +1280,6 @@ nav >.container-fluid {
     /* -------------------- Seccion Mision/Vision ----------------- */
     .container-MV {
         max-width: 88%;
-    }
-    .cuadro {
-        width: 98%;
-        height: 100%;
     }
     .logo {
         font-size: 32px;
