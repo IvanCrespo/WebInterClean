@@ -7,6 +7,7 @@
         border-radius: 2rem;
         padding: 20px;
     }
+
     .Traslado-XY {
         margin-left: 4px;
         width: 68%;
@@ -169,51 +170,7 @@
         margin-right: 0rem;
         margin-top: -8%;
     }
-    .Hoja-2-D {
-        width: 5%;
-        height: auto;
-        margin-left: 15%;
-        margin-top: 0.3%;
-    }
 
-    .Hoja-2-D-X {
-        width: 4%;
-        height: auto;
-        margin-left: 17%;
-        margin-top: 1.3%;
-    }
-    .Hoja-2-D-3 {
-        width: 7%;
-        height: auto;
-        margin-left: 6%;
-        margin-top: 3%;
-    }
-
-    .Hoja-2-D-4 {
-        width: 8%;
-        height: auto;
-        margin-left: 11%;
-        margin-top: 2.3%;
-    }
-
-    .Hoja-3-D {
-        width: 7%;
-        height: auto;
-        margin-left: 12%;
-        margin-top: 1%;
-    }
-    .Hoja-4-D {
-        width: 6%;
-        height: auto;
-        margin-left: 9%;
-        margin-top: 1%;
-    }
-    .Hoja-5-D {
-        width: 6%;
-        height: auto;
-        margin-left: 6%;
-        margin-top: 1%;
-    }
 
     .Txt-Letras-LPP {
         color: white;
@@ -475,12 +432,6 @@
     margin: 7px 1px 0px 144px;
     border: 6px solid #7FA439;
     border-radius: 2rem 2rem 2rem 2rem;
-}
-.Hoja-G {
-    width: 12%;
-    height: auto;
-    margin-left: -0.2rem;
-    margin-top: 1rem;
 }
 .Txt-Letras-Preguntas {
     color: #1A455D;
@@ -760,12 +711,7 @@ margin-right: auto;
     border-radius: 2rem 0rem 2rem 0rem;
 }
 
-.Hoja-1-D {
-    width: 10%;
-    height: auto;
-    margin-left: 1rem;
-    margin-top: 1%;
-}
+
 
 .Txt-Letras-Sanitizacion {
     color: white;
@@ -817,12 +763,7 @@ margin-right: auto;
     margin-right: -6%;
     margin-top: -5.6%;
 }
-.Hoja-1-M {
-    width: 5%;
-    height: auto;
-    margin-left: 11%;
-    margin-top: 1%;
-}
+
 .imagencard1{
     width: 100%;
     height: 100%;
@@ -921,12 +862,6 @@ margin-right: auto;
         color: #1A455D;
     }
 
-    .Hoja-1-M {
-        width: 8%;
-        height: auto;
-        margin-left: 5%;
-        margin-top: 6%;
-    }
 .FormatoLetras-MPC {
     font-size: 25px;
     text-align: justify;
@@ -949,24 +884,7 @@ margin-right: auto;
         margin-right: -6%;
         margin-top: -12%;
     }
-    .Hoja-3-D {
-        width: 7%;
-        height: auto;
-        margin-left: 12%;
-        margin-top: 2%;
-    }
-    .Hoja-4-D {
-        width: 8%;
-        height: auto;
-        margin-left: 7%;
-        margin-top: 2%;
-    }
-    .Hoja-5-D {
-        width: 7%;
-        height: auto;
-        margin-left: 6%;
-        margin-top: 4%;
-    }
+
     .saniti {
         width: 75%;
         margin-left: 5rem;
@@ -1214,12 +1132,6 @@ margin-right: auto;
         margin-top: -4.2rem;
     }
 
-    .Hoja-2-D {
-        width: 7%;
-        height: auto;
-        margin-left: 2rem;
-        margin-top: 1rem;
-    }
     .Txt-Letras-FumigacionP {
         color: white;
         text-align: center;
@@ -1230,12 +1142,7 @@ margin-right: auto;
         margin-right: 0%;
         margin-top: -7%;
     }
-    .Hoja-2-D-X {
-        width: 7%;
-        height: auto;
-        margin-left: 4%;
-        margin-top: 3.3%;
-    }
+
     .FormatoLetras2 {
         font-size: 25px;
         text-align: justify;
@@ -1260,12 +1167,7 @@ margin-right: auto;
         background-size: 200% auto;
         border: 6px inset #106aa5;
     }
-    .Hoja-G {
-        width: 12%;
-        height: auto;
-        margin-left: 0%;
-        margin-top: 0%;
-    }
+
     .Txt-Letras-Preguntas {
         color: #1A455D;
         text-align: center;
@@ -1308,32 +1210,7 @@ margin-right: auto;
         -webkit-box-shadow: 8px 11px 12px 0px rgb(0 0 0 / 50%);
         box-shadow: 8px 11px 12px 0px rgb(0 0 0 / 50%);
     }
-    .Hoja-3-D {
-        width: 7%;
-        height: auto;
-        margin-left: 9%;
-        margin-top: 5%;
-    }
-    .Hoja-2-D-3 {
-        width: 10%;
-        height: auto;
-        margin-left: 3%;
-        margin-top: 8.3%;
-        
-    }
-    .Hoja-2-D-4 {
-        width: 10%;
-        height: auto;
-        margin-left: 7%;
-        margin-top: 3.3%;
-    }
 
-    .Hoja-2-D-X {
-        width: 11%;
-        height: auto;
-        margin-left: 2%;
-        margin-top: 6.3%;
-    }
     .Fondo-FumigacionP {
         width: auto;
         height: 11vh;
@@ -1355,12 +1232,7 @@ margin-right: auto;
         border: 4px solid #7FA439;
         border-radius: 2rem 2rem 2rem 2rem;
     }
-    .Hoja-G {
-        width: 18%;
-        height: auto;
-        margin-left: -10px;
-        margin-top: 0rem;
-    }
+
     .Txt-Letras-Preguntas {
         color: #1A455D;
         text-align: center;
@@ -1550,15 +1422,7 @@ margin-right: auto;
                 justify-content: center;
                 align-items: center;
             }
-            .hojac{
-
-                text-align:justify;
-                display: flex;
-                justify-content: center;
-                align-items: center; 
-                width: 50%;
-                height: auto;
-            }
+   
             /*FIN Mensaje Final*/
 
             /*FORMATOS DE TITULO CON FONDO*/
@@ -1578,12 +1442,7 @@ margin-right: auto;
                 margin-right: 2rem;
                 margin-top: -2rem;
             }
-            .Hoja-1-D{
-                width: 10%;
-                height: auto;
-                margin-left: 1rem;
-                margin-top: 1rem;
-            }
+   
             .Fondo-FumigacionP {
                 width: auto;
                 height: 10vh;
@@ -1625,12 +1484,7 @@ margin-right: auto;
                 margin-right: 6%;
                 margin-top: -14%;
             }
-            .Hoja-2-D{
-                width: 10%;
-                height: auto;
-                margin-left: 1rem;
-                margin-top: 1rem;
-            }
+
             .Txt-Letras-LI {
                 color: white;
                 text-align: right;
@@ -1673,18 +1527,7 @@ margin-right: auto;
                 margin-right: 0.2rem;
                 margin-top: -1.9rem;
             }
-            .Hoja-4-D {
-                width: 10%;
-                height: auto;
-                margin-left: 7%;
-                margin-top: 4%;
-            }
-            .Hoja-5-D {
-                width: 10%;
-                height: auto;
-                margin-left: 2%;
-                margin-top: 10%;
-            }
+       
             .Txt-Letras-LPP {
                 color: white;
                 text-align: center;
@@ -1712,12 +1555,7 @@ margin-right: auto;
                 margin-right: 4rem;
                 margin-top: -3rem;
             }
-            .Hoja-1-M{
-                width: 10%;
-                height: auto;
-                margin-left: 1rem;
-                margin-top: 1rem;
-            }
+
 
             .resolucion2 {
                 width: 80%;
