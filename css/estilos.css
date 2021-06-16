@@ -453,3 +453,224 @@
         line-height: 2.7rem;
     }
 }
+
+
+/* --------------------------- Estilos Misión y Visión ---------------------------------- */
+
+.cuadro {
+    background: rgba(26, 69, 93, 0.32);
+    width: 98%;
+    height: 90%;
+    box-shadow: 2px 2px 5px #999;
+    /* margin-top: 17%; */
+    position: absolute;
+    border-radius: 20px;
+}
+
+.imagenMV {
+    position: inherit;
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+    /* margin-left: 3%;
+    margin-top: 5%; */
+    margin: 0 auto;
+}
+
+.apostrofe {
+    margin-left: 6%;
+}
+
+.logo {
+    color: #1A455D;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+.hojaMV {
+    margin-left: 42px;
+    margin-top: -22px;
+    width: 5%;
+    height: auto;
+}
+
+.botones {
+    display: flex;
+    justify-content: end;
+}
+
+.boton-mv {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-color: #1A455D;
+    color: #ffff;
+    padding: 14px;
+    border: 3px solid #fff;
+}
+
+.boton-mv:hover {
+    background: #7FA439;
+    border: 2px solid #1A455D;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 25px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+    .apostrofe {
+        display: none;
+    }
+    .contenedorMV {
+        margin-top: -2rem;
+    }
+    .cuadro {
+        display: none;
+    }
+    .imagenMV {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .espacioMVTitulo {
+        margin-top: 2%;
+    }
+    .logo {
+        display: none;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 21px;
+        height: 21px;
+    }
+    .boton-mv {
+        padding: 10px;
+    }
+    .titulosIC {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .cuadro {
+        display: none;
+    }
+    .imagenMV {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .apostrofe {
+        display: none;
+    }
+    .contenedorMV {
+        margin-top: -2.28rem;
+    }
+    .titulosIC {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .espacioMVTitulo {
+        margin-top: 2%;
+    }
+    .hojaMV {
+        margin-left: 0px;
+        margin-top: -22px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .cuadro {
+        display: none;
+    }
+    .imagenMV {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .apostrofe {
+        display: none;
+    }
+    .contenedorMV {
+        margin-top: -2.28rem;
+    }
+    .hojaMV {
+        margin-left: 0px;
+    }
+    .espacioMVTitulo {
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .imagenMV {
+        width: 100%;
+    }
+    .imagenMVcustom {
+        padding-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+    .imagenMV {
+        width: 100%;
+    }
+    .imagenMVcustom {
+        padding-top: 4%;
+    }
+    .cuadro {
+        width: 97%;
+        height: 86%;
+    }
+}
+
+@media only screen and (min-width: 1681px) and (max-width: 1919px) {
+    .container-MV {
+        max-width: 88%;
+    }
+    .cuadro {
+        width: 94%;
+        height: 100%;
+    }
+    .logo {
+        font-size: 32px;
+    }
+    .boton-mv {
+        padding: 18px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container-MV {
+        max-width: 88%;
+    }
+    .cuadro {
+        width: 98%;
+        height: 100%;
+    }
+    .logo {
+        font-size: 32px;
+    }
+    .boton-mv {
+        padding: 18px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
