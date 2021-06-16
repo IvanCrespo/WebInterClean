@@ -21,10 +21,7 @@
     border-radius: 1.5rem;
 }
 /*______________________________________________________*/
-.container-fluid {
-  margin-top: 0rem;
-  margin-block-end: 0rem;
-}
+
 .autohide {
     position: fixed;
     top: 0;

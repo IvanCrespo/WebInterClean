@@ -144,7 +144,12 @@
     letter-spacing: 5px;
     margin: auto;
 }
-
+.letraTitulo > .Limpieza {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin: auto;
+}
 .hoja {
     margin-top: -22px;
 }
@@ -203,9 +208,21 @@
 
 /* --------------------------- Estilos Servicios ---------------------------------- */
 
+.row{
+    overflow-x: hidden;
+}
+
+
 .container-Servicios {
     max-width: 80%;
 }
+
+nav >.container-fluid {
+    margin-top: 0rem;
+    margin-block-end: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 
 .card {
     width: 100%;
@@ -218,7 +235,17 @@
     border-radius: 16px;
     box-shadow: 2px 2px 5px #999;
 }
-
+.card-body-M {
+    border: none;
+    border-radius: 0rem 0rem 1rem 0rem;
+    box-shadow: 0px;
+    height: 4rem;
+}
+.card-body-Servicios {
+    border:none;
+    border-radius: none;
+    box-shadow: none;
+}
 .card-img-top {
     height: auto;
     width: 52%;
@@ -304,7 +331,7 @@
 
 .textoIC {
     padding: 2rem;
-    background-color: transparent;
+    background-color: #00000003;
     color: rgb(26, 69, 93);
     font-weight: 400;
     font-size: 1.5rem;
@@ -1351,4 +1378,3 @@
         width: 40px!important;
         height: auto !important;
     }
-} */
