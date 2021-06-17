@@ -144,12 +144,7 @@
     letter-spacing: 5px;
     margin: auto;
 }
-.letraTitulo > .Limpieza {
-    font-weight: 700;
-    font-size: 32px;
-    letter-spacing: 5px;
-    margin: auto;
-}
+
 .hoja {
     margin-top: -22px;
 }
@@ -208,13 +203,9 @@
 
 /* --------------------------- Estilos Servicios ---------------------------------- */
 
-
-
 .container-Servicios {
     max-width: 80%;
 }
-
-
 
 .card {
     width: 100%;
@@ -222,29 +213,25 @@
     margin: 3rem auto 0rem auto;
 }
 
-
-nav >.container-fluid {
-    margin-top: 0rem;
-    margin-block-end: 0rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
 .card-body {
     border: 2px solid #7FA439;
     border-radius: 16px;
     box-shadow: 2px 2px 5px #999;
 }
+
 .card-body-M {
     border: none;
     border-radius: 0rem 0rem 1rem 0rem;
     box-shadow: 0px;
     height: 4rem;
 }
+
 .card-body-Servicios {
-    border:none;
+    border: none;
     border-radius: none;
     box-shadow: none;
 }
+
 .card-img-top {
     height: auto;
     width: 52%;
@@ -710,9 +697,6 @@ nav >.container-fluid {
     .hoja {
         width: 9%;
     }
-    .container {
-        margin-bottom: 6rem;
-    }
     .cursor,
     .cursor2 {
         display: none;
@@ -862,9 +846,6 @@ nav >.container-fluid {
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Nosotros ----------------- */
-    .container {
-        margin-bottom: 11rem;
-    }
     .fNosotros {
         background-image: none;
         display: unset;
@@ -1135,11 +1116,6 @@ nav >.container-fluid {
         margin: 3rem auto 2.5rem auto;
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
-    /* -------------------- Seccion Nosotros ----------------- */
-    .container {
-        margin-bottom: 13rem;
-    }
-    /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
     .imagenMV {
         width: 100%;
@@ -1195,9 +1171,6 @@ nav >.container-fluid {
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Nosotros ----------------- */
-    .container {
-        margin-bottom: 14rem;
-    }
     .container-Nosotros {
         max-width: 88%;
     }
@@ -1263,9 +1236,6 @@ nav >.container-fluid {
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Nosotros ----------------- */
-    .container {
-        margin-bottom: 14rem;
-    }
     .container-Nosotros {
         max-width: 88%;
     }
@@ -1314,22 +1284,3 @@ nav >.container-fluid {
     }
     /* -------------------- FIN Seccion Zoom ----------------- */
 }
-
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-
-/* @media only screen and (max-width: 640px) and (min-width: 360px) {
-    .Social-Net {
-        display: contents !important;
-    }
-    #social-icons {
-        display: none !important;
-    }
-    .columnasXD {
-        position: sticky;
-    }
-    .TamañoIconoSW {
-        width: 40px!important;
-        height: auto !important;
-    }
