@@ -67,18 +67,17 @@
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     background-color: rgb(0 0 0 / 50%);
 }
+
 .Diseño-Letras-limpieza {
-    font-size: 70px;
+    font-size: 85px;
     font-weight: 800;
-    border-radius: 2rem;
+    border-radius: 4rem;
     letter-spacing: 10.2px;
     font-style: normal;
     font-family: 'Poppins';
     font-variant: small-caps;
     text-transform: capitalize;
     color: #1A455D;
-    margin-left: auto;
-    margin-right: auto;
     -webkit-text-stroke: 0.7px rgb(255, 255, 255);
     background-color: rgb(0 0 0 / 50%);
 }
@@ -108,7 +107,7 @@
 
 .carousel-control-prev,
 .carousel-control-next{
-    max-height: 40rem;
+    max-height: 86vh;
     opacity: rgba(63, 63, 63, 0.137);
 }
 
@@ -239,20 +238,19 @@
     }
     /*Carrusel contenido*/
     div .LimpiezaT {
-        margin-right: 35vh;
-        margin-left: 35vh;
-
+        margin-right: 18%;
+        margin-left: 18%;
     }
- 
     .FormatoLetras-Carrete {
-        margin: 1rem;
+        margin: 5rem;
         padding: 1rem;
         justify-content: center;
         text-align: justify;
         border-radius: 2rem;
-        background-color: #0000004d;
+        font-size: 30px;
+        background-color: #00000000;
         letter-spacing: -1px;
-        line-height: 31px;
+        line-height: 37px;
     }
     /*Carrusel contenido*/
    
@@ -323,7 +321,49 @@
     color: #1A455D;
 }
 
+
 /*FIN CLASES SIN MEDIAS*/
+
+
+@media only screen and (min-width: 1920px) {
+
+    .container {
+        margin-bottom: 5rem;
+    }
+    
+
+
+    .FormatoLetras-Carrete {
+        margin: 1rem;
+        padding: 1rem;
+        justify-content: center;
+        text-align: justify;
+        border-radius: 2rem;
+        font-size: 35px;
+        background-color: #00000000;
+        letter-spacing: -1px;
+        line-height: 49px;
+    }
+    .Diseño-Letras-limpieza {
+        font-size: 100px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 10.2px;
+        font-style: normal;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    div .LimpiezaT {
+        margin-right: 18%;
+        margin-left: 18%;
+    }
+
+
+}
 
 
 @media only screen and (min-width: 1367px) and (max-width: 1680px) {
@@ -331,6 +371,40 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+    div .LimpiezaT {
+        margin-right: 18%;
+        margin-left: 18%;
+    }
+    .Diseño-Letras-limpieza {
+        font-size: 75px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 10.2px;
+        font-style: normal;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    .FormatoLetras-Carrete {
+        margin: 4rem;
+        padding: 1rem;
+        justify-content: center;
+        text-align: justify;
+        border-radius: 2rem;
+        font-size: 27px;
+        background-color: #00000000;
+        letter-spacing: -1px;
+        line-height: 37px;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        max-height: 67vh;
+        height: 79vh !important;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+
 }
 
 /*TABLETS GRANDES Y PC */
@@ -339,10 +413,122 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+    div .LimpiezaT {
+        margin-right: 18%;
+        margin-left: 18%;
+    }
+    .Diseño-Letras-limpieza {
+        font-size: 65px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 10.2px;
+        font-style: normal;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    .FormatoLetras-Carrete {
+        margin: 4rem;
+        padding: 1rem;
+        justify-content: center;
+        text-align: justify;
+        border-radius: 2rem;
+        font-size: 23px;
+        background-color: #00000000;
+        letter-spacing: -1px;
+        line-height: 37px;
+    }
+
+    .Diseño-Letras-DSF {
+        font-size: 37px;
+        padding: 1rem;
+        margin: -1rem;
+        font-weight: 800;
+        border-radius: 2rem;
+        letter-spacing: 4.2px;
+        line-height: 39px;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+
+}
 
 
-
-
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .container {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .Diseño-Letras-limpieza {
+        font-size: 60px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 12.2px;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.1rem;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    .FormatoLetras-Carrete {
+        margin: 5rem;
+        padding: 1rem;
+        justify-content: center;
+        text-align: justify;
+        border-radius: 2rem;
+        font-size: 20px;
+        background-color: #00000000;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    div .LimpiezaT {
+        margin-right: 18%;
+        margin-left: 18%;
+    }
+       /*Carrusel*/
+       .carousel-control-prev, .carousel-control-next {
+        max-height: 60vh;
+        height: 79vh !important;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+    /*Servicios Limpieza*/
+    .carousel-control-prev,
+    .carousel-control-next{
+        height: 95vh;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+  
+    .carousel-inner img {
+        width: 100%;
+        min-width: 100vh;
+        height: 72vh;
+        max-height: 100vh;
+    }
+    .Diseño-Letras-DSF {
+        font-size: 45px;
+        padding: 1rem;
+        margin: -1rem;
+        font-weight: 800;
+        border-radius: 2rem;
+        letter-spacing: 4.2px;
+        line-height: 39px;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
 
 }
 
@@ -352,16 +538,67 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-
-}
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
-    .container {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+    div .LimpiezaT {
+        margin-right: 18%;
+        margin-left: 18%;
+    }
+    .Diseño-Letras-limpieza {
+        font-size: 60px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 12.2px;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.1rem;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    .Diseño-Letras-DSF {
+        font-size: 50px;
+        padding: 1rem;
+        margin: -1rem;
+        font-weight: 800;
+        border-radius: 2rem;
+        letter-spacing: 4.2px;
+        line-height: 39px;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
     }
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
+    .carousel-inner img {
+        width: 100%;
+        min-width: 100vh;
+        height: auto;
+        max-height: 100vh;
+    }
+    .carousel-inner img {
+        width: 100%;
+        min-width: 100vh;
+        height: 100vh;
+        max-height: 100vh;
+    }
+    .FormatoLetras-Carrete {
+        margin: 1rem;
+        padding: 1rem;
+        justify-content: center;
+        text-align: justify;
+        border-radius: 2rem;
+        font-size: 20px;
+        background-color: #00000000;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+}
 /*Tableta*/
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
 
@@ -421,7 +658,7 @@
     }
     /*Carrusel*/
     .carousel-control-prev, .carousel-control-next {
-        max-height: 89vh;
+        max-height: 60vh;
         height: 79vh !important;
         opacity: rgba(255, 255, 255, 0.953);
     }
@@ -440,20 +677,20 @@
     }
  
     .FormatoLetras-Carrete {
-        margin: 1rem;
+        margin: 25%;
         padding: 1rem;
         justify-content: center;
         text-align: justify;
         border-radius: 2rem;
         font-size: 20px;
-        background-color: #0000004d;
+        background-color: #00000000;
         letter-spacing: 1px;
         line-height: 25px;
     }
  
     div .LimpiezaT {
-        margin-right: 4vh;
-        margin-left: 4vh;
+        margin-right: 18%;
+        margin-left: 18%;
     }
 
 
@@ -480,7 +717,52 @@
 
 }
 /*Iphone X*/
+
+
+@media only screen and (max-width: 767px) and (min-width: 501px) and (orientation: landscape){
+    .carousel-inner img {
+        width: 234vh;
+        min-width: auto;
+        height: auto;
+        max-height: initial;
+    }
+    .d-md-block {
+        display: block !important;
+    }
+    .FormatoLetras-Carrete {
+        margin: 2rem;
+        padding: 1rem;
+        justify-content: center;
+        text-align: justify;
+        border-radius: 2rem;
+        font-size: 20px;
+        background-color: #00000000;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+
+}
+
 @media only screen and (max-width: 767px) and (min-width: 501px) {
+    .Diseño-Letras-limpieza {
+        padding: 1rem;
+        font-size: 50px;
+        font-weight: 800;
+        border-radius: 1rem;
+        letter-spacing: 8.2px;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    div .LimpiezaT {
+        margin-right: auto;
+        margin-left: auto;
+    }
     .letraTitulo-Carousel {
         font-weight: 700;
         font-size: 37px;
@@ -496,13 +778,13 @@
         padding: 1rem;
     }
     .FormatoLetras-Carrete {
-        margin: 1rem;
+        margin: 30%;
         padding: 1rem;
         justify-content: center;
         text-align: justify;
         border-radius: 2rem;
-        font-size: 20px;
-        background-color: #0000004d;
+        font-size: 25px;
+        background-color: #00000000;
         letter-spacing: 1px;
         line-height: 25px;
     }
@@ -526,7 +808,21 @@
         opacity: rgba(255, 255, 255, 0.953);
     }
   
-
+    .Diseño-Letras-DSF {
+        font-size: 37px;
+        padding: 1rem;
+        margin: -1rem;
+        font-weight: 800;
+        border-radius: 2rem;
+        letter-spacing: 4.2px;
+        line-height: 39px;
+        font-family: 'Poppins';
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
     .carousel-inner img {
         width: 100%;
         min-width: 100vh;
@@ -556,7 +852,7 @@
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        -webkit-text-stroke: 0.4px rgb(255, 255, 255);
         background-color: rgb(0 0 0 / 50%);
     }
 
@@ -619,14 +915,14 @@
         display: block !important;
     }
     .FormatoLetras-Carrete {
-        margin: 0rem;
+        margin: 46%;
         padding: 1rem;
         justify-content: center;
         text-align: justify;
         border-radius: 2rem;
         font-size: 20px;
         color: #ffffff;
-        background-color: #0000004d;
+        background-color: #00000000;
         letter-spacing: -1px;
         line-height: 21px;
     }
