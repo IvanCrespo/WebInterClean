@@ -663,15 +663,7 @@
         width: 130px;
     }
     .card-text {
-        overflow: hidden;
-        display: inline-block;
-        width: 100%;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        text-align: center;
-        justify-content: center;
-        margin: 0 auto;
-        font-size: 1rem;
+        display: none;
     }
     .hr-servicios {
         height: 2px;
@@ -1021,6 +1013,7 @@
     }
     .card {
         width: 97%;
+        margin-bottom: 11%;
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
