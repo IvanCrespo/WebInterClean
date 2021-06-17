@@ -32,7 +32,8 @@
 </head>
 
 <body>
-
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
 
     <header>
         <!-- ============= MENU ============== -->
@@ -159,7 +160,8 @@
                                 <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorem voluptatibus quisquam a. Veritatis, tempora quasi omnis blanditiis in nisi nemo non expedita fuga modi? -->
                             </p>
 
-                            <a role="button" href="#1" class="btnServicios"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <a role="button" href="#1" class="btnServicios"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                   </svg> </i>
                             </a>
@@ -184,8 +186,6 @@
             </section>
             <!-- ============= FIN CARRUSEL// ============== -->
 
-            <div class="linea_izquierda">
-                <hr class="sombreadoLineas"> </div>
 
             <section id="1">
                 <div class="container-fluid">
@@ -438,7 +438,7 @@
             <section id="6">
                 <div class="container">                        
                                     <div class="row" style="overflow-y: hidden;">
-                                        <div class="col-lg-5 order0  order-lg-0">
+                                        <div class="col-lg-7 order0  order-lg-0">
                                             <div data-aos="fade-right" data-aos-offset="300"  data-aos-easing="ease-in-sine">
         
                                                 <div class="Fondo-Nesecita" style="margin-left: 2rem;">
@@ -450,22 +450,16 @@
                                             </div>
                                         </div>
         
-                                        <div class="col-lg-6 order-1 order-lg-1">
+                                        <div class="col-lg-5 order-1 order-lg-1">
                                             <div data-aos="fade-left" data-aos-offset="200"  data-aos-easing="ease-in-sine">
-        
-                                                
-                                                    <div class="zoom1">
-                                                        <div class=" border-0">
-                                                            <div dir="social-icons1">
-                                                                <ul class="social-icons1">
-        
-                                                                        <a class="btn-preg"  href="cotizaciones.html"> Cotice Ahora</a>
-                                                                        
-                                                                        
-                                                                    </ul>
-                                                                </div>
-                                                            </div> 
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="btn-posicion">
+
+                                                            <button type="button" class="btn btn-preg btn-xl">¡Cotice Ahora!</button>
                                                         </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
         
@@ -540,7 +534,8 @@
     <script src="../js/Menu/Hide.js"></script>
     <!-- Configuraciones de carrusel -->
     <script src="../js/CarruselConf/carruselConf.js"></script>
-
+  <!---CURSOR--->
+  <script src="../js/cursor/cursor.js"></script>
     <!-- AOS Initizlice-->
     <script>
         AOS.init();
