@@ -812,7 +812,6 @@
     }
     .card-title {
         font-size: 38px;
-        letter-spacing: 0px;
     }
     .card {
         width: 93%;
@@ -844,7 +843,6 @@
     /* -------------------- Seccion Vision/Mision ----------------- */
     .imagenMV {
         width: 80%;
-        margin: 0 auto;
         display: flex;
     }
     .apostrofe {
@@ -859,7 +857,6 @@
     /* -------------------- FIN Seccion Vision/Mision ----------------- */
     /* -------------------- Seccion Cobertura Nacional ----------------- */
     #control_map {
-        width: auto;
         margin-top: 1rem;
         margin-bottom: 40px;
         margin-left: auto;
@@ -887,13 +884,6 @@
     }
     #tilt {
         display: none;
-    }
-    .escudo {
-        position: relative;
-        margin-top: 6%;
-        width: 150px;
-        height: 150px;
-        margin-left: 4%;
     }
     /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
     /* -------------------- Seccion Contador ----------------- */
@@ -938,7 +928,6 @@
     }
     .card-title {
         font-size: 36px;
-        letter-spacing: 0px;
     }
     .card {
         width: 95%;
@@ -950,9 +939,6 @@
     .card-text {
         font-size: 1.3rem;
     }
-    .boton {
-        font-size: 22px;
-    }
     .espacioCard {
         margin-bottom: 2.8rem;
     }
@@ -960,7 +946,6 @@
     /* -------------------- Seccion Mision/Vision ----------------- */
     .imagenMV {
         width: 80%;
-        margin: 0 auto;
         display: flex;
     }
     .apostrofe {
@@ -984,9 +969,7 @@
         order: 1;
     }
     #control_map {
-        width: auto;
         margin-top: 3rem;
-        margin-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1001,7 +984,6 @@
         display: none;
     }
     .escudo {
-        margin-top: 6%;
         margin-left: 9%;
     }
     /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
@@ -1025,14 +1007,10 @@
         font-size: 18px;
     }
     .card {
-        margin: 3rem auto 3rem auto;
         width: 97%;
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
-    .imagenMV {
-        width: 100%;
-    }
     .imagenMVcustom {
         padding-top: 4%;
     }
@@ -1047,7 +1025,6 @@
         display: flex;
     }
     #control_map {
-        width: auto;
         margin-top: 8rem;
         margin-left: auto;
         margin-right: auto;
@@ -1058,7 +1035,6 @@
         margin-top: 14%;
     }
     #edo {
-        position: absolute;
         font-size: 2.3rem;
         width: 390px;
     }
@@ -1077,6 +1053,12 @@
     .container {
         margin-bottom: 11rem;
     }
+    /* -------------------- Seccion Zoom ----------------- */
+    .zoom img {
+        top: 3%;
+        width: 87rem;
+    }
+    /* -------------------- FIN Seccion Zoom ----------------- */
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1680px) {
@@ -1093,9 +1075,6 @@
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
-    .imagenMV {
-        width: 100%;
-    }
     .imagenMVcustom {
         padding-top: 4%;
     }
@@ -1110,7 +1089,6 @@
         display: flex;
     }
     #control_map {
-        width: auto;
         margin-top: 8rem;
         margin-left: auto;
         margin-right: auto;
