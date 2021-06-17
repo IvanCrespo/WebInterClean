@@ -118,6 +118,15 @@
     width: 100%;
 }
 
+.fInicio {
+    background-image: url('../img/fondo/fondo-inicio_interclean.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: right;
+    background-position-y: -7px;
+    width: 100%;
+}
+
 
 /* ----------------------------- Titulos --------------------------------- */
 
@@ -679,8 +688,10 @@
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Nosotros ----------------- */
-    .fNosotros {
+    .fNosotros,
+    .fCobertura {
         background-image: none;
+        display: unset;
     }
     .textoIC {
         padding: 1rem 0 0 0;
@@ -724,9 +735,6 @@
     }
     /* -------------------- FIN Seccion Vision/Mision ----------------- */
     /* -------------------- Seccion Cobertura Nacional ----------------- */
-    .fCobertura {
-        background-image: none;
-    }
     .map_ID {
         width: 100%;
     }
@@ -828,7 +836,8 @@
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Nosotros ----------------- */
-    .fNosotros {
+    .fNosotros,
+    .fCobertura {
         background-image: none;
         display: unset;
     }
@@ -867,9 +876,6 @@
     }
     #posicionTitulo {
         order: 1;
-    }
-    .fCobertura {
-        background-image: none;
     }
     #edo {
         position: absolute;
