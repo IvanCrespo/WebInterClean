@@ -20,28 +20,10 @@
 
 .imghojaMov{
     display: none;
-}
-
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.container-fluid{
-    /* padding-right: 0px; */
-    padding-left: 0px;  
-      
-}
-
-
-    
-#TelMailContactCotizMov{
+}    
+#TelMailContactCotizMov,#ContactosFormCotizDesk,#contactosFormCotizTabl,#ContactosFormCotiz{
     display: none;
 }
-
 .TextoTamañoEmpl {
     font-size: 39px;
     padding-top: 5.5px;
@@ -75,15 +57,12 @@
     width: 20%;
     height: auto;
 }
-
 #imghoja{
     width: auto;
 }
-
 #textTelCotiz{
     font-weight: bold;
 }
-
 #imgcemp {
     width: 58%;
     height: auto;
@@ -152,13 +131,6 @@
     margin-top: -14%;
     font-weight: bold;
 }
-
-#ContactosFormCotiz{
-    display: block;
-}
-#ContactosFormCotizDesk{
-    display: none;
-}
 .titempleo {
     width: 27rem;
     height: 5.2rem;
@@ -168,15 +140,13 @@
     color: #fff;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    /*font-size: 58px;*/
+    font-size: 14px;   
     margin-right: 5%;
     border-radius: 2rem 0rem 2rem 0rem;
     box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
     -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
     -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
 }
-
 .LH1 {
     border-top: 14px solid rgb(127, 164, 57);
     max-width: 450px;
@@ -190,15 +160,13 @@
     margin: 0px auto 0 auto;
     border-radius: 10px;
 }
-
 .LHCOTIZ{
 border-top: 14px solid rgb(127, 164, 57);
 max-width: 475px;
 margin: 0px -8px 0 auto;  
 border-radius: 10px; 
 }
-
-#empleos {
+#empleos{
     background-color: rgb(127, 164, 57);
     border-color: rgb(127, 164, 57);
     font-family: 'Poppins', sans-serif;
@@ -207,8 +175,7 @@ border-radius: 10px;
     margin-top: 23px;
     margin-left: 170px;
 }
-
-#cotizaciones {
+#cotizaciones{
     background-color: rgb(127, 164, 57);
     border-color: rgb(127, 164, 57);
     font-family: 'Poppins', sans-serif;
@@ -217,7 +184,6 @@ border-radius: 10px;
     margin-top: 23px;
     margin-left: 250px;
 }
-
 #empleocotize{
     background-color: rgb(247, 247, 247);
     border-color: #1A455D;
@@ -231,7 +197,6 @@ border-radius: 10px;
     width: 203px;
     font-size: 18px;
 }
-
 .fondoEmp{
     width: 99vw;
     height: 70vh;
@@ -242,10 +207,8 @@ border-radius: 10px;
     width: auto;
     height: 70vh;
      background-image: linear-gradient( rgb(255, 255, 255), rgba(0, 0, 0, 0) ), 
-     url(../img/empleo/fondocotizacionesinterclean.jpeg);
-     
+     url(../img/empleo/fondocotizacionesinterclean.jpeg);     
 }
-
 .coticeahora {
 	position:relative;
 	background: url('../img/empleo/hombrelimpiandointerclean.jpeg') no-repeat fixed;
@@ -256,7 +219,6 @@ border-radius: 10px;
 	background-size: cover;
 	min-height: 370px;	
 }
-
 #telefonoIconFormCotz{
     width: 15%;
     margin-left: 73%;
@@ -265,13 +227,11 @@ border-radius: 10px;
 .LH1{
     margin-left: -22%;
 }
-
 #MailIconFormCotz{
     width: 48px;
     margin-left: 74%;
     margin-top: -11%;
 }
-
 .tituloservlimp{
 	color: #fff;
     font-size: 36px;
@@ -284,19 +244,11 @@ border-radius: 10px;
     left: 50%;
     margin-left: -400px;
     opacity: 0.9;
-
 }
-
 .imghoja{
     width: auto;
-    margin-left: 0%;   
-
+    margin-left: 0%;
 }
-
-#contactosFormCotizTabl{
-    display: none;
-}
-
 .tituloPrinc{
 	color: #1A455D;
     font-size: 36px;
@@ -309,12 +261,10 @@ border-radius: 10px;
     left: 50%;
     margin-left: -400px;
     opacity: 0.9;
-
 }
 .fcotizaciones{
     margin-top: 5%;
 }
-
 .formcot{   
         width: 108%;        
         margin-top: 9%;
@@ -391,16 +341,12 @@ border-radius: 10px;
     -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
     -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
 }
-.textTelCotiz{
-    font-weight: bold;
+.textTelCotiz{  
     line-height: 45px;
-
 }
-
 .textMailCotiz{
     line-height: 45px;
 }
-
 #btnSubir {
     background-color: #1A455D;
     color: white;
@@ -411,7 +357,6 @@ border-radius: 10px;
     margin-top: 0rem;
     font-size: 73%;
 }
-
 .TextoCotizacion {
     font-size: 42px;
     padding-top: 2rem;
@@ -421,11 +366,9 @@ border-radius: 10px;
 .formularioEmp{
     height: calc(2em + 0.75rem + 2px);   
 }
-
 .formularioCotz{
     height: calc(3em + 0.75rem + 2px);   
 }
-
 main {
     position: absolute;
     height: 100%;
@@ -434,22 +377,18 @@ main {
 .carousel-inner img{
     width: 100%;
     max-height: 575px;
-} 
-
+}
 #secFormEmpl {
     margin-top: 4%;
 }
-
  .carousel-control-prev{
     width: 10%;
     max-height: 600px;
 }
-
 .carousel-control-next{
     width: 10%;
     max-height: 600px;
-} 
-
+}
  .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
@@ -457,29 +396,23 @@ main {
   background-size: 100%, 100%; 
   background-image: none;
 }
-
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 55px;
-  
+  font-size: 55px;  
   color: #1A455D;
 }
-
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
   color: #1A455D;
-}   
-
+}
 .opacity-100 {
     opacity: 0.6;
 }
-
 .w-100 {
     width: 100% !important;
 }
-
 .btnverm{
     margin-left: 60%;
     margin-top: -12%;
@@ -487,28 +420,19 @@ main {
 .btnverm{
     margin-top: -9%;
 }
-
-
-
 .carousel .carousel-indicators li {background-color: #1A455D }
 .carousel .carousel-indicators li.active {background-color: #32769b}
-
 .Seleccionado-Boton{
     box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);
     -webkit-box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);;
 }
-
-
 @media (min-width: 320px) and (max-width: 500px) {
     .carousel-inner img{
         width: 100%;        
         height: 90vh;
         max-height: 595px;
-    }
-    
-    .boton{
-        /* margin-left: -57%; */
-        /* margin-top: 36%; */
+    }    
+    .boton{      
         font-size: 10px;
     }
     .TextoTamañoMap {
@@ -521,21 +445,11 @@ main {
     .titemapsub{
         width: 95%;
         height: auto;
-        margin-left: 14px;
-        background-color: #1A455D;
-        color: #fff;
-        font-weight: 700;
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
+        margin-left: 14px;        
         margin-right: 10%;
-        border-radius: 1.5rem 0rem 0.4rem 0rem;
-        box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-        -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-        -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+        border-radius: 1.5rem 0rem 0.4rem 0rem;        
     }
-
     .d-none{
-
         display: block !important
     }
     .tituloempl1 {
@@ -571,12 +485,10 @@ main {
         width: 44% !important;
         height: auto !important;
         margin-top: -30px;
-    }
-    
+    }    
     #columimagtitlemp{
         height: 351px;
-    }   
-
+    }
     .titempleo {
         width: 18rem;
         height: 4.2rem;
@@ -589,7 +501,6 @@ main {
         padding-top: 12.5px;
         margin-left: 10%;
     }
-
     .imghojaFormeEM{
         width: 10%;
     }
@@ -599,18 +510,15 @@ main {
     .LH1 {
         display: none;
     }
-
     #imghoja{
         width: 13%;
         height: 13%;
     }
-
     .titledatosEmpl{
         font-size: 37px;
         margin-left: 0px;        
         margin-top: 8%;
     }
-
     .tituloservlimp{
         color: #fff;
         font-size: 36px;
@@ -622,12 +530,9 @@ main {
         opacity: 0.9;
         left: 0;
         width: 300px;
-
-
     }
     #img-cot {
         display: none;
-
     }
     .titecotize{
         width: 19rem;      
@@ -650,10 +555,7 @@ main {
         margin-top: -38%;
         margin-left:0em;
         font-weight: bold;
-
     }
-
-
     #empleocotize{
         background-color: rgb(247, 247, 247);
         border-color: #1A455D;
@@ -682,40 +584,23 @@ main {
         color: #1A455D;
         margin-left:0%;
     }
-
     .LH2 {
         margin-top:8%
     }
-
     .divSubtLin{
         margin-top: 4%;
     }
-
     .coticeahora{
         margin-top: 8%;
     }
     #secFormEmpl {
         margin-top: 13%;
     }
-
-
     .titecotiza {
-    width: 19rem;
-    height: 6.2rem;
-    margin-left: -0.3rem;
-    background-color: #1A455D;
-    color: #fff;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    margin-right: 5%;
-    border-radius: 2rem 0rem 2rem 0rem !important;
-    box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-    -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-    -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    width: 19rem;    
+    border-radius: 2rem 0rem 2rem 0rem !important;   
     margin: 0 auto;
 }
-
 .formcot{
     width: 86%;
     margin-top: 9%;
@@ -739,18 +624,9 @@ main {
 .titecotizaContactanos {
     width: 19rem;
     height: 4rem;
-    margin-left: -1.3rem;
-    background-color: #1A455D;
-    color: #fff;
-    margin-top: 2px !important;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    margin-right: 5%;
-    border-radius: 0rem 3rem 0rem 0rem;
-    box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-    -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
-    -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
+    margin-left: -2.3rem;    
+    margin-top: 2px !important;  
+    margin-right: 5%;   
 }
 .TextoCotizacion{
     font-size: 28px;
@@ -799,7 +675,6 @@ main {
     display: initial;
     text-align: center;
 }
-
 #ContactosFormCotiz{
     display: none;
 }
@@ -812,31 +687,22 @@ main {
 #textTelCotiz{
     text-align: center;
 }
-
 #textMailCotiz{
     text-align: center;
 }
 #textMailCotiz{
     text-align: center;
 }
-
-.boton vermas{
+.boton {
     margin-left: -59%;
 }
-
 .btnverm{
     margin-left: 60%;
     margin-top: 0%;
 }
-
 .vermas{
     margin-left: -65%;
 }
-
-
-
-
-
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .carousel-inner img{
@@ -876,7 +742,7 @@ main {
     }
     #textTelCotiz{
         margin-left: -53%;
-        font-weight: bold;        
+        /*font-weight: bold;*/
     }
     .titemapsub{
         width: 47rem;
@@ -978,8 +844,7 @@ main {
         margin-left:0%;    
     }
     .TextoTamañoMap{
-        font-size: 35px;
-        padding-top: 26.5px;
+        font-size: 35px;       
         margin-left: 2%;
     }
     .titecotize2{
@@ -994,7 +859,7 @@ main {
     }
     #ContactosFormCotizDesk{
         display: none;
-    }    
+    }
 }
 @media (min-width: 1025px) and (max-width: 1366px){
     .carousel-inner img{
@@ -1005,8 +870,7 @@ main {
     #imghoja{
         width: 8%;
         height: 8%;
-    }   
-    
+    }
     .tituloempl1{
         font-size: 50px;
     }
@@ -1030,8 +894,7 @@ main {
     #cotizaciones{
         margin: 0 auto;
     }
-    #textTelCotiz{
-        font-weight: bold;
+    #textTelCotiz{        
         line-height: 45px;
         margin-left: -25%;
     }    
@@ -1066,9 +929,7 @@ main {
         margin-left:6%;
         padding: 1rem;
     }
-    #TitleHoraCont{
-        font-weight: bold;
-        line-height: 45px;
+    #TitleHoraCont{       
         font-size: 78%;
     }
     .titempleo{
@@ -1116,20 +977,15 @@ main {
         width: 72%;
         margin-left: 51%;
     }
-    .LHCOTIZ {
-        border-top: 14px solid rgb(127, 164, 57);
+    .LHCOTIZ {        
         max-width: 370px;
-        margin: 0px -129px 0 auto;
-        border-radius: 10px;
+        margin: 0px -129px 0 auto;        
     }
     .TextoCotizacion{
         font-size: 54px;
         padding-top: 1.6rem;
         margin-left: 3%;
-    }
-    #textTelCotiz{
-        font-weight: bold;       
-    }
+    }   
     .titemapsub{
         margin-right: -1%;
     }
@@ -1171,9 +1027,6 @@ main {
     
     .container{
         max-width: 100%;
-    }   
-    .formcot{
-        margin-left: -16.3rem;
     }
     .titecotiza{
         margin-left:0rem;
