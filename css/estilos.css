@@ -805,7 +805,6 @@
     }
     .zoom img {
         top: 14%;
-        left: 50%;
         width: 44rem;
     }
     /* -------------------- FIN Seccion Zoom ----------------- */
@@ -844,9 +843,6 @@
     .fNosotros {
         background-image: none;
         display: unset;
-    }
-    .textoIC {
-        padding: 2rem 1rem 0.2rem 1rem;
     }
     .cursor,
     .cursor2 {
@@ -935,8 +931,6 @@
     }
     .zoom img {
         top: 5%;
-        left: 50%;
-        max-width: 200%;
         width: 87rem;
     }
     /* -------------------- FIN Seccion Zoom ----------------- */
