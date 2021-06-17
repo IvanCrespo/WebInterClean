@@ -942,6 +942,12 @@
         margin-bottom: 2.8rem;
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
+    /* -------------------- Seccion Nosotros ----------------- */
+    .fNosotros {
+        background-image: none;
+        display: unset;
+    }
+    /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
     .imagenMV {
         width: 80%;
@@ -984,6 +990,10 @@
     }
     .escudo {
         margin-left: 9%;
+    }
+    .fCobertura {
+        background-image: none;
+        display: unset;
     }
     /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
 }
