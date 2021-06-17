@@ -431,7 +431,7 @@ main {
         width: 100%;        
         height: 90vh;
         max-height: 595px;
-    }    
+    }
     .boton{      
         font-size: 10px;
     }
@@ -548,6 +548,14 @@ main {
         -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);       
         margin: 0 auto;
     }
+
+    #cotbtn{
+        margin-left: inherit;
+    }
+
+    #btnFormEmp{
+        margin-left: initial;
+    }
     .titecotize2{      
         color: #1A455D;      
         font-family: 'Poppins', sans-serif;
@@ -572,7 +580,6 @@ main {
         margin: 0 auto;
         margin-left:auto;
     }
-
     .tituloDivEmpl{
         display: flex;
         justify-content: center;
@@ -741,8 +748,7 @@ main {
         margin-left: -53%;
     }
     #textTelCotiz{
-        margin-left: -53%;
-        /*font-weight: bold;*/
+        margin-left: -53%;       
     }
     .titemapsub{
         width: 47rem;
@@ -807,8 +813,6 @@ main {
     .TextoCotizacion{
         padding-top: 1rem;
     }
-    
-
 }
 @media (min-width: 991px) and (max-width: 1024px){
     .carousel-inner img{
@@ -820,7 +824,6 @@ main {
         width: 8%;
         height: 8%;
     }
-
     .titecotiza{
         width: 34rem;
         margin-left: -0.3rem;
@@ -1009,7 +1012,9 @@ main {
     #ContactosFormCotiz{
         display: none;
     }
-
+    #textTelCotiz{
+        margin-top: -6%;
+    }
 }
 @media (min-width: 1681px) and (max-width: 1920px){
     .carousel-inner img{
@@ -1023,8 +1028,7 @@ main {
     }
     .boton{
         margin-left: 6%;
-    }
-    
+    }    
     .container{
         max-width: 100%;
     }
@@ -1065,7 +1069,6 @@ main {
         padding-top: 5.5px;
         margin-left: 4%;
     }
-
     #imgcemp {        
         width: 41%;
         height: auto;
@@ -1081,33 +1084,25 @@ main {
         left: 15%;
         margin-left: auto;
     }
-
     #ContactosFormCotiz{
         display: inline-flex;
     }
-
     .TextoCotizacion{
         font-size: 50px;
         padding-top: 1rem;
         left: 25%;
         margin-left: 12%;
     }
-
     .titecotizaContactanos{
         margin-left: -5.3rem;
     }
-
     #textTelCotiz{
         margin-top: -6%;
     }
-
     #ContactosFormCotizDesk{
         display: flex;
     }
-
     #ContactosFormCotiz{
         display: none;
     }
-    
-
 }
