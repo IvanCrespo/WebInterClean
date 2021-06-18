@@ -211,6 +211,7 @@ border-radius: 10px;
      url(../img/empleo/fondocotizacionesinterclean.jpeg);     
 }
 .coticeahora {
+    margin-top: 8%;
 	position:relative;
 	background: url('../img/empleo/hombrelimpiandointerclean.jpeg') no-repeat fixed;
 	background-position: center center;
@@ -777,8 +778,7 @@ main {
     }
 }
 @media (min-width: 991px) and (max-width: 1024px){
-    .carousel-inner img{
-        width: 100%;
+    .carousel-inner img{       
         height: 130vh;
         max-height: 640px;
     }
@@ -826,8 +826,7 @@ main {
     }
 }
 @media (min-width: 1025px) and (max-width: 1366px){
-    .carousel-inner img{
-        width: 100%;        
+    .carousel-inner img{      
         height: 85rem;
         max-height: 640px;
     }
@@ -919,8 +918,7 @@ main {
     }
 }
 @media (min-width: 1367px) and (max-width: 1680px){
-    .carousel-inner img{
-        width: 100%;        
+    .carousel-inner img{         
         height: auto;
         max-height: 622px;
     }
@@ -977,7 +975,6 @@ main {
 }
 @media (min-width: 1681px) and (max-width: 1920px){
     .carousel-inner img{
-        width: 100%;        
         height: auto;
         max-height: 617px;
     }
