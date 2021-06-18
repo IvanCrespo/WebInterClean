@@ -1070,6 +1070,14 @@ div .LimpiezaT {
 /*Telefono*/
 
 @media only screen and (min-width: 320px) and (max-width: 500px) {
+
+  
+
+    .posicion-btn-carousel{
+        margin-left: 27%;
+    }
+
+
     .cursor,
     .cursor2 {
         display: none;
