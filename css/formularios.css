@@ -1,23 +1,14 @@
 
 /* ---------------------------------- COLORES FORMULARIOS --------------------------------- */
 #nomemp::placeholder {color:white;} #nomemp::-webkit-input-placeholder {color: white;} #nomemp::-moz-placeholder {color: white;} #nomemp:-ms-input-placeholder {color: white;} #nomemp:-moz-placeholder {color: white;} #nomemp::placeholder {color:white;}
- 
 #telemp::-webkit-input-placeholder {color: white;} #telemp::-moz-placeholder {color: white;} #telemp:-ms-input-placeholder {color: white;} #telemp:-moz-placeholder {color: white;}
- 
 #ciudademp::-webkit-input-placeholder {color: white;} #ciudademp::-moz-placeholder {color: white;} #ciudademp:-ms-input-placeholder {color: white;} #ciudademp:-moz-placeholder {color: white;}
- 
 #estadoemp::-webkit-input-placeholder {color: white;} #estadoemp::-moz-placeholder {color: white;} #estadoemp:-ms-input-placeholder {color: white;} #estadoemp:-moz-placeholder {color: white;}
- 
 #antemp::-webkit-input-placeholder {color: white;} #antemp::-moz-placeholder {color: white;} #antemp:-ms-input-placeholder {color: white;} #antemp:-moz-placeholder {color: white;}
- 
 #nombre::-webkit-input-placeholder {color: white;} #nombre::-moz-placeholder {color: white;} #nombre:-ms-input-placeholder {color: white;} #nombre:-moz-placeholder {color: white;}
- 
 #correo::-webkit-input-placeholder {color: white;} #correo::-moz-placeholder {color: white;} #correo:-ms-input-placeholder {color: white;} #correo:-moz-placeholder {color: white;}
-
 #telefono::-webkit-input-placeholder {color: white;} #telefono::-moz-placeholder {color: white;} #telefono:-ms-input-placeholder {color: white;} #telefono:-moz-placeholder {color: white;}
-
 #mensaje::-webkit-input-placeholder {color: white;} #mensaje::-moz-placeholder {color: white;} #mensaje:-ms-input-placeholder {color: white;} #mensaje:-moz-placeholder {color: white;}
-
 .imghojaMov{
     display: none;
 }    
@@ -226,7 +217,6 @@ border-radius: 10px;
     margin-left: 73%;
     margin-top: -11%;    
 }
-
 #MailIconFormCotz{
     width: 48px;
     margin-left: 74%;
@@ -582,100 +572,100 @@ main {
     width: 19rem;    
     border-radius: 2rem 0rem 2rem 0rem !important;   
     margin: 0 auto;
-}
-.formcot{
-    width: 86%;   
-}
-.TextoTamañoCotiza {
-    font-size: 31px;
-    padding-top: 16.5px;
-    margin-left: 1%;
-}
-#cotizaciones {  
-    margin: 0 auto;
-}
-.titecotizaContactanos {
-    width: 19rem;
-    height: 4rem;
-    margin-left: -2.3rem;    
-    margin-top: 2px !important;  
-    margin-right: 5%;   
-}
-.TextoCotizacion{
-    font-size: 28px;
-    padding-top: 4%;
-    left: 15%;
-    margin-left: 5%;
-}
-.posicion-hoja{
-    width: 28px;
-    margin-left: 10px;
-}
-#cotizacontacto{
-    margin-top: 15%;
-    color: #1A455D;
-    font-family: 'Poppins', sans-serif;  
-}
-.imghojaMov {
-    width: 30% !important;
-    height: auto !important;
-    margin-top: -30px;
-}
-.imghojaMov1 {
-    width: 70% !important;
-    height: auto !important;
-    margin-top: -40px;
-}
-#imgcalendar{
-    margin-left: -4%;
-    height: 67%;
-    width: 19%;
-}
-#telefonoIconFormCotz{
-    width: 14%;
-    margin-left: 41%;
-    margin-top: 0%;
-}
-#MailIconFormCotz{
-    width: 58px;
-    margin-left: 41%;
-    margin-top: 0%;
-}     
-.file-chosen{
-    font-size: 2rem !important;
-}
-#contactosFormCotizTabl{
-    display: initial;
-    text-align: center;
-}
-#ContactosFormCotiz{
-    display: none;
-}
-#TelMailContactCotiz{
-    display: none;
-}
-#TelMailContactCotizMov{
-    display: block;
-}
-#textTelCotiz{
-    text-align: center;
-}
-#textMailCotiz{
-    text-align: center;
-}
-#textMailCotiz{
-    text-align: center;
-}
-.boton {
-    margin-left: -59%;
-}
-.btnverm{
-    margin-left: 60%;
-    margin-top: 0%;
-}
-.vermas{
-    margin-left: -65%;
-}
+    }
+    .formcot{
+        width: 86%;   
+    }
+    .TextoTamañoCotiza {
+        font-size: 31px;
+        padding-top: 16.5px;
+        margin-left: 1%;
+    }
+    #cotizaciones {  
+        margin: 0 auto;
+    }
+    .titecotizaContactanos {
+        width: 19rem;
+        height: 4rem;
+        margin-left: -2.3rem;    
+        margin-top: 2px !important;  
+        margin-right: 5%;   
+    }
+    .TextoCotizacion{
+        font-size: 28px;
+        padding-top: 4%;
+        left: 15%;
+        margin-left: 5%;
+    }
+    .posicion-hoja{
+        width: 28px;
+        margin-left: 10px;
+    }
+    #cotizacontacto{
+        margin-top: 15%;
+        color: #1A455D;
+        font-family: 'Poppins', sans-serif;  
+    }
+    .imghojaMov {
+        width: 30% !important;
+        height: auto !important;
+        margin-top: -30px;
+    }
+    .imghojaMov1 {
+        width: 70% !important;
+        height: auto !important;
+        margin-top: -40px;
+    }
+    #imgcalendar{
+        margin-left: -4%;
+        height: 67%;
+        width: 19%;
+    }
+    #telefonoIconFormCotz{
+        width: 14%;
+        margin-left: 41%;
+        margin-top: 0%;
+    }
+    #MailIconFormCotz{
+        width: 58px;
+        margin-left: 41%;
+        margin-top: 0%;
+    }     
+    .file-chosen{
+        font-size: 2rem !important;
+    }
+    #contactosFormCotizTabl{
+        display: initial;
+        text-align: center;
+    }
+    #ContactosFormCotiz{
+        display: none;
+    }
+    #TelMailContactCotiz{
+        display: none;
+    }
+    #TelMailContactCotizMov{
+        display: block;
+    }
+    #textTelCotiz{
+        text-align: center;
+    }
+    #textMailCotiz{
+        text-align: center;
+    }
+    #textMailCotiz{
+        text-align: center;
+    }
+    .boton {
+        margin-left: -59%;
+    }
+    .btnverm{
+        margin-left: 60%;
+        margin-top: 0%;
+    }
+    .vermas{
+        margin-left: -65%;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .carousel-inner img{      
