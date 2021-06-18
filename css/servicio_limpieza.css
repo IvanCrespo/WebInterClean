@@ -1086,19 +1086,19 @@ div .LimpiezaT {
         -webkit-text-stroke: 0.4px rgb(255, 255, 255);
         background-color: rgb(0 0 0 / 50%);
     }
-    .Diseño-Letras-M {
-        font-size: 31px;
-        padding: 1rem;
-        margin: 0rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 0.4px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
+.Diseño-Letras-M {
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 0rem;
+    font-weight: 800;
+    border-radius: 2rem;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #1A455D;
+    -webkit-text-stroke: 0.4px rgb(255, 255, 255);
+    background-color: rgb(0 0 0 / 50%);
+}
     h3.card-title {
         font-weight: 800;
         color: #1A455D;
@@ -1166,15 +1166,14 @@ div .LimpiezaT {
     }
     .Diseño-Letras-limpieza {
         padding: 1rem;
-        font-size: 50px;
+        margin: 1rem;
+        font-size: 2.5rem;
         font-weight: 800;
         border-radius: 1rem;
-        letter-spacing: 8.2px;
+        letter-spacing: 0px;
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
         -webkit-text-stroke: 0.7px rgb(255, 255, 255);
         background-color: rgb(0 0 0 / 50%);
     }
