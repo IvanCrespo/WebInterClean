@@ -118,11 +118,11 @@
 }
 
 .fCobertura {
-    background-image: url('../img/fondo/fondo-cobertura_interclean.png');
+    background-image: url('../img/fondo/cobertura\ nacional\ LETRAS.svg');
     background-repeat: no-repeat;
-    background-size: 89%;
+    background-size: 120%;
     background-position-x: right;
-    background-position-y: -7px;
+    background-position-y: 6.2rem;
     width: 100%;
 }
 

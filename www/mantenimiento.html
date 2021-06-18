@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css//menu.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/formularios.css">
 
     <!-- AOS: animacion CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -113,58 +114,48 @@
 <main role="main">
 
 <!-- =============  CARRUSEL  ============== -->
-      <section id="carrusel">
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
+<section class = "section" id="carousel">
+    <div class=""> 
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
-                    <div class="carousel-inner" >
-                        <div class="carousel-item active" data-interval="3000">
-                            <img src="../img/MantenimientoInterclean/MantenimientoInterclean.png" class="opacity-100" alt="_01-Mantenimiento">
-                        
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img src="../img/MantenimientoInterclean/MantenimientoInterclean2.png" class="opacity-100" alt="_02-Mantenimiento">
-                        
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img    src="../img/MantenimientoInterclean/MantenimientoInterclean3.png" class="opacity-100" alt="_01-Mantenimiento">
-                        
-                        </div>
-
-                            <div class="carousel-caption d-none d-md-block">
-                                <div class="MantenimientoT">
-                                    <h1 class="Diseño-Letras-M">Mantenimiento</h1>
-                                </div>
-
-                                <p class="FormatoLetras-Carrete">
-                                    <!-- Lorem ipsum dolor sit Catamet ALAN consectetur CARLOS adipisicing elit. Labs rem quis ipsam IVAN repellat aspernatur FER harum
-                                     Lorem ipsum dolor sit  -->
-                                  </p>
-                                  <a role="button" href="#1" class="btnServicios" > <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                                  </svg> </i> </a>
-                            </div>
+            </ol>
+            <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/MantenimientoInterclean/MantenimientoInterclean.png" class="opacity-100 w-100" alt="...">                            
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/MantenimientoInterclean/MantenimientoInterclean2.png" class="opacity-100 w-100" alt="...">                            
+                    </div>
+                    <div class="carousel-item " >
+                        <img    src="../img/MantenimientoInterclean/MantenimientoInterclean3.png" class="opacity-100 w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="row justify-content-center align-items-center" id = "columimagtitlemp">
+                            <div class = "col-xl-12">
+                                <h1  data-aos="fade-up"  data-aos-duration="2600">
+                                    <div class="tituloempl">
+                                        Mantenimiento
+                                    </div>
+                                </h1>
+                            </div>                                 
+                        </div>                                
                     </div>
             </div>
-
-
-            <div class="ColorIzq">
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" id="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Atras</span>
-                </a>
-            </div>
-            <div class="ColorDer">
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" id="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Siguiente</span>
-                </a>
-            </div>
-        </section>
+    </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" id="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Atras</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" id="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+        <div class="espaciado"></div>
+    </div>
+</section>
 <!-- ============= FIN CARRUSEL// ============== -->
 
 
@@ -306,7 +297,7 @@
             </div>
      </div>
 </section>
-</main>
+
 
 
 <!-- SECCION FOOTER -->
@@ -366,7 +357,7 @@
 </div>
 </footer>
 
-
+</main>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
