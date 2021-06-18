@@ -948,7 +948,8 @@
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Nosotros ----------------- */
-    .fNosotros {
+    .fNosotros,
+    .fCobertura {
         background-image: none;
         display: unset;
     }
@@ -982,9 +983,6 @@
         margin-top: 3rem;
         margin-left: auto;
         margin-right: auto;
-    }
-    .fCobertura {
-        background-image: none;
     }
     #edo {
         padding-top: 10%;
@@ -1117,6 +1115,10 @@
         width: 480px;
         margin-left: 23%;
     }
+    .fCobertura {
+        background-size: 75%;
+        background-position-y: 0px;
+    }
     /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
 }
 
@@ -1167,6 +1169,12 @@
         height: 32px;
     }
     /* -------------------- FIN Seccion Mision/Vision ----------------- */
+    /* -------------------- Seccion Cobertura Nacional ----------------- */
+    .fCobertura,
+    .fNosotros {
+        background-size: 77rem;
+    }
+    /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
     /* -------------------- Seccion Contador ----------------- */
     .container-NR {
         max-width: 88%;
@@ -1214,6 +1222,10 @@
     .textoIC {
         font-size: 1.8rem;
         line-height: 2.7rem;
+    }
+    .fCobertura,
+    .fNosotros {
+        background-size: 80rem;
     }
     /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
