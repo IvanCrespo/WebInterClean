@@ -80,20 +80,6 @@ div .MantenimientoT {
     margin-left: 18%;
 }
 
-.Diseño-Letras-M {
-    font-size: 60px;
-    padding: 1rem;
-    margin: 1rem;
-    font-weight: 800;
-    border-radius: 2rem;
-    letter-spacing: 6.2px;
-    font-family: 'Poppins';
-    font-variant: small-caps;
-    text-transform: capitalize;
-    color: #1A455D;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    background-color: rgb(0 0 0 / 50%);
-}
 
 .Diseño-Letras-DSF {
     font-size: 60px;
@@ -102,7 +88,6 @@ div .MantenimientoT {
     font-weight: 800;
     border-radius: 2rem;
     letter-spacing: 6.2px;
-    font-family: 'Poppins';
     font-variant: small-caps;
     text-transform: capitalize;
     color: #1A455D;
@@ -117,7 +102,6 @@ div .MantenimientoT {
     font-weight: 800;
     border-radius: 2rem;
     letter-spacing: 9.2px;
-    font-family: 'Poppins';
     font-variant: small-caps;
     text-transform: capitalize;
     color: #1A455D;
@@ -131,7 +115,6 @@ div .MantenimientoT {
     border-radius: 4rem;
     letter-spacing: 10.2px;
     font-style: normal;
-    font-family: 'Poppins';
     font-variant: small-caps;
     text-transform: capitalize;
     color: #1A455D;
@@ -409,7 +392,7 @@ div .LimpiezaT {
 
 /*FIN CLASES SIN MEDIAS*/
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) {
     .container {
         margin-bottom: 5rem;
     }
@@ -430,7 +413,6 @@ div .LimpiezaT {
         border-radius: 4rem;
         letter-spacing: 10.2px;
         font-style: normal;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -448,7 +430,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 9.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -476,7 +457,6 @@ div .LimpiezaT {
         border-radius: 4rem;
         letter-spacing: 10.2px;
         font-style: normal;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -507,7 +487,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 9.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -538,7 +517,6 @@ div .LimpiezaT {
         border-radius: 4rem;
         letter-spacing: 10.2px;
         font-style: normal;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -564,7 +542,6 @@ div .LimpiezaT {
         border-radius: 2rem;
         letter-spacing: 4.2px;
         line-height: 39px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -578,7 +555,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 6.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -597,7 +573,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 4rem;
         letter-spacing: 12.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         color: #1A455D;
         margin-left: auto;
@@ -648,7 +623,6 @@ div .LimpiezaT {
         border-radius: 2rem;
         letter-spacing: 4.2px;
         line-height: 39px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -662,7 +636,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 6.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -692,7 +665,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 4rem;
         letter-spacing: 12.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         color: #1A455D;
         margin-left: auto;
@@ -709,7 +681,6 @@ div .LimpiezaT {
         border-radius: 2rem;
         letter-spacing: 4.2px;
         line-height: 39px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -723,7 +694,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 6.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -818,7 +788,6 @@ div .LimpiezaT {
         border-radius: 4rem;
         letter-spacing: 5.2px;
         font-style: normal;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -833,7 +802,6 @@ div .LimpiezaT {
         border-radius: 2rem;
         letter-spacing: 4.2px;
         line-height: 39px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -847,7 +815,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 6.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -859,7 +826,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 12.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         color: #1A455D;
         margin-left: auto;
@@ -961,8 +927,7 @@ div .LimpiezaT {
         font-size: 50px;
         font-weight: 800;
         border-radius: 1rem;
-        letter-spacing: 8.2px;
-        font-family: 'Poppins';
+        letter-spacing: 8.2px; 
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -1026,7 +991,6 @@ div .LimpiezaT {
         border-radius: 2rem;
         letter-spacing: 4.2px;
         line-height: 39px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -1041,7 +1005,6 @@ div .LimpiezaT {
         border-radius: 2rem;
         letter-spacing: 4.2px;
         line-height: 39px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -1117,7 +1080,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 4.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -1131,7 +1093,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 2rem;
         letter-spacing: 4.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -1140,7 +1101,6 @@ div .LimpiezaT {
     }
     h3.card-title {
         font-weight: 800;
-        font-family: 'Poppins';
         color: #1A455D;
     }
     /*Titulos*/
@@ -1210,7 +1170,6 @@ div .LimpiezaT {
         font-weight: 800;
         border-radius: 1rem;
         letter-spacing: 8.2px;
-        font-family: 'Poppins';
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
