@@ -757,6 +757,20 @@ div .LimpiezaT {
         letter-spacing: 1px;
         line-height: 25px;
     }
+    .btnServicios {
+        font-size: 700;
+        font-weight: bolder;
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 10px #eee;
+        border-radius: 4rem;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
+    }
 }
 
 
