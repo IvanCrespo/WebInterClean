@@ -253,6 +253,8 @@ div .MantenimientoT {
     border-radius: 1rem;
 }
 
+
+
 .card-img,
 .card-img-bottom,
 .card-img-top {
@@ -263,11 +265,21 @@ div .MantenimientoT {
 }
 
 
+
+
+.color-degradiente{
+
+    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
+    text-transform: uppercase;
+    color: #ffff;
+}
+
 /*BTN FINAL*/
 
 .btn-preg {
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
     text-transform: uppercase;
+    color: #ffff;
     transition: 0.5s;
     background-size: 200% auto;
     box-shadow: 0 0 20px #eee;
@@ -277,7 +289,6 @@ div .MantenimientoT {
     justify-content: center;
     border-radius: 50px;
     background-color: #1A455D;
-    color: #ffff;
     font-size: 30px;
     margin: 1rem;
     padding: 1rem;
