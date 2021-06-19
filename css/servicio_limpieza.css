@@ -8,13 +8,13 @@
     width: auto;
     margin-left: 0%;
 }
-/* .pleca-limpieza{
-background-color: black;
-border-radius: 2rem;
-padding: 1rem;
-margin: 0;
-margin
-} */
+
+.pleca-limpieza{
+    color: white !important;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #1A455D 0px 0px 20px, #1A455D 0px 0px 30px, #1A455D 0px 0px 40px, #1A455D 0px 0px 50px, #1A455D 0px 0px 75px;
+}
+
 .tituloempl {
     color: #1A455D;
     font-weight: 697;
@@ -268,41 +268,59 @@ div .MantenimientoT {
 
 
 .color-degradiente{
-
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
+    border: 1px inset #119ae4;
+    box-shadow: 0 0 20px #eee;
+    background-color: #1A455D;
+    background-size: 200% auto;
     text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: 0.5s;
     color: #ffff;
 }
 
+.color-degradiente:hover{
+    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
+    background-position: right center;
+    border: 1px inset #72a512;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 50px;
+    color: #fff;
+}
 /*BTN FINAL*/
 
 .btn-preg {
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
-    text-transform: uppercase;
-    color: #ffff;
-    transition: 0.5s;
-    background-size: 200% auto;
-    box-shadow: 0 0 20px #eee;
-    display: flex;
-    font-weight: bolder;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    background-color: #1A455D;
-    font-size: 30px;
-    margin: 1rem;
-    padding: 1rem;
     border: 6px inset #1A455D;
+    box-shadow: 0 0 20px #eee;
+    background-color: #1A455D;
+    background-size: 200% auto;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-size: 30px;
+    color: #ffff;
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    
 }
 
 .btn-preg:hover {
+    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
     background-position: right center;
-    color: #fff;
+    border: 6px inset #7FA439;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 50px;
-    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
-    border: 6px inset #7FA439;
+    color: #fff;
 }
 
 
