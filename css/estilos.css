@@ -368,7 +368,9 @@
     color: #1A455D;
     font-weight: 700;
     font-size: 26px;
-    margin: 0 auto;
+    margin: 0px auto 1.5rem auto;
+    display: flex;
+    justify-content: center;
 }
 
 .botones {
