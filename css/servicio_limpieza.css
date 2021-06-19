@@ -10,9 +10,16 @@
 }
 
 .pleca-limpieza{
-    color: white !important;
-    background: #333333;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #1A455D 0px 0px 20px, #1A455D 0px 0px 30px, #1A455D 0px 0px 40px, #1A455D 0px 0px 50px, #1A455D 0px 0px 75px;
+    color: #1A455D !important;
+    text-shadow:
+     #FFF 0px 0px 5px,
+     #FFF 0px 0px 10px,
+      #FFF 0px 0px 15px,
+       #1A455D 0px 0px 20px,
+        #1A455D 0px 0px 30px,
+         #1A455D 0px 0px 40px,
+          #1A455D 0px 0px 50px,
+           #1A455D 0px 0px 75px;
 }
 
 .tituloempl {
