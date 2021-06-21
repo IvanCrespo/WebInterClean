@@ -400,7 +400,7 @@ main {
 
     
     .tituloempl {
-        margin-left: 25%;        
+        margin-left:0%;        
         font-weight: 693;       
         font-size: 33px;
     }
@@ -430,8 +430,9 @@ main {
     }
     .TextoTamañoEmpl{
         font-size: 23px;
-        padding-top: 12.5px;
-        margin-left: 10%;
+        /*padding-top: 12.5px;
+        margin-left: 10%;*/
+        text-align: center;
     }  
     #imgcemp {
         display: none;
@@ -560,6 +561,10 @@ main {
     }     
     .file-chosen{
         font-size: 2rem !important;
+    }
+
+    .imghojaFormeEM{
+        width: 13%;
     }
     #contactosFormCotizTabl{
         display: initial;
@@ -939,7 +944,7 @@ main {
         margin-left: 17%;
     }
     .LH1{
-        margin-left: -1%;
+        margin-left: auto;
         margin-top: 0%;
     }
     #imgcot{
@@ -956,7 +961,7 @@ main {
     }
     .titempleo {
         width: 40rem;
-        margin-left: -0.1rem;
+        margin-left: 8.9rem;
     }
     .TextoTamañoEmpl{
         font-size: 47px;
@@ -966,13 +971,13 @@ main {
     #imgcemp {        
         width: 41%;
         height: auto;
-        margin-left: auto;
+        margin-left: 27%;
         margin-right: auto;
     }
     .formemp{
         margin-top: 39px;
         width: 62%;
-        margin-left: 19%;
+        margin-left: 11%;
     }
     .tituloservlimp{
         left: 15%;
@@ -998,5 +1003,14 @@ main {
     }
     #ContactosFormCotiz{
         display: none;
+    }
+    .titledatosEmpl {
+        margin-left: -19%;
+    }
+    .subtitledatosEmpl{
+        margin-left: -19%
+    }
+    .LH2{
+        margin-left: 26%;
     }
 }
