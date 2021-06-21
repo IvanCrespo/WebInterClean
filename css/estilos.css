@@ -1062,6 +1062,14 @@
         width: 97%;
         margin-bottom: 11%;
     }
+    .hoja {
+        margin: -22px 0.5rem auto auto;
+        width: 2.4rem;
+        height: auto;
+    }
+    .textoIC {
+        margin-bottom: 0rem;
+    }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
     .imagenMVcustom {
