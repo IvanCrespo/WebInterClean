@@ -17,6 +17,23 @@
     padding-top: 5.5px;
     margin-left: 3%;
 }
+.contactLabHora1{
+    font-weight: normal;
+    line-height: 45px;
+    font-size: 99%;        
+}
+.contFomLabCotiz2{
+    line-height: 45px;
+    margin-left: -19px;
+    max-height: 25px;
+    font-size: 1.2rem;
+}
+.contacLabHora2{
+font-weight: normal;
+line-height: 45px;
+font-size: 101%;
+}
+
 .TextoTamañoCotiza {
     font-size: 45px;
     padding-top: 14.5px;
@@ -29,11 +46,13 @@
 .TextoTamañoMap {
     font-size: 36px;
     padding-top: 26.5px;
-    margin-left: 9%;
+    /* margin-left: 9%; */
+    text-align: center;
+
 }
 #imgcalendar{
     margin-left: 43%;
-    height: 87%;
+    height: 66%;
 }
 #cotizacontacto{
     margin-top: 7%;
@@ -162,14 +181,14 @@ border-radius: 10px;
 	min-height: 370px;	
 }
 #telefonoIconFormCotz{
-    width: 15%;
+    width: 4rem;
     margin-left: 73%;
-    margin-top: -11%;    
+    margin-top: -16%;    
 }
 #MailIconFormCotz{
-    width: 48px;
+    width: 70px;
     margin-left: 74%;
-    margin-top: -11%;
+    margin-top: -8%;
 }
 .tituloservlimp{
 	color: #fff;
@@ -282,8 +301,11 @@ border-radius: 10px;
 .TextoCotizacion {
     font-size: 42px;
     padding-top: 2rem;
-    left: 25%;
-    margin-left: 12%;
+    /*left: 25%;*/
+    margin-left: auto;
+    text-align: center;
+
+    
 }
 .formularioEmp{
     height: calc(2em + 0.75rem + 2px);   
@@ -371,10 +393,12 @@ main {
         display: block !important
     }
     .tituloempl1 {
-        margin-left: 16%;
-        font-weight: 700;       
-        font-size: 29px;
+        margin-left: -5%;
+        font-weight: 699;
+        font-size: 30px;
     }
+
+    
     .tituloempl {
         margin-left: 25%;        
         font-weight: 693;       
@@ -749,7 +773,7 @@ main {
         margin-right: -1%;
     }
     .TextoTamañoMap{
-        font-size:34px;
+        font-size:33px;
         padding: 1rem;
         margin-left: 0%;
     }
@@ -758,7 +782,7 @@ main {
         height: 80%;
     }
     #telefonoIconFormCotz{
-        width: 21%;
+        width: 4rem;
         margin-left: 63%;
         margin-top: -11%;   
     }
@@ -768,7 +792,7 @@ main {
     }
     .TextoCotizacion{
         margin-left:6%;
-        padding: 1rem;
+        padding: 1.5rem;
     }
     #TitleHoraCont{       
         font-size: 78%;
@@ -793,6 +817,24 @@ main {
     }
     .titecotizaContactanos{
         margin-left: -5.3rem;
+    }
+    .contFomLabCotiz1{
+        font-size: 97%;
+        font-weight: bold;
+        line-height: 45px
+    }
+}
+@media (min-width: 1025px) and (max-width: 1087px){
+    .contFomLabCotiz2{        
+        margin-left: -38px;                
+    }
+
+    .contFomLabCotiz1{
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: -11%;
+        line-height: 45px;
+        font-weight: bold;
     }
 }
 @media (min-width: 1367px) and (max-width: 1680px){
@@ -850,6 +892,23 @@ main {
     #textTelCotiz{
         margin-top: -6%;
     }
+    .contactLabHora1{
+        font-weight: normal;
+        line-height: 45px;
+        font-size: 93%;
+        margin-left: -22%;
+    }
+
+    .contacLabHora2{
+        font-weight: normal;
+        line-height: 45px;
+        font-size: 93%;
+        margin-left: -4%;
+    }
+
+   
+    
+
 }
 @media (min-width: 1681px) and (max-width: 1920px){
     .carousel-inner img{
@@ -867,12 +926,12 @@ main {
         max-width: 100%;
     }
     .titecotiza{
-        margin-left:0rem;
-        width: 45rem;
+        margin-left: 8rem;
+        width: 44rem;
     }
     .formcot{
-        margin-left: 0%;
-        width: 85%;
+        margin-left: 16%;
+        width: max-content;
     }
     .TextoTamañoCotiza{
         font-size: 45px;
@@ -885,11 +944,12 @@ main {
     }
     #imgcot{
         width: 55%;
-        margin-left: 40%;
+        /* margin-left: 40%; */
     }
-    .LHCOTIZ{
-        max-width: 575px;
-        margin: 0px 20px 0 auto;
+    .LHCOTIZ{        
+        max-width: 653px;
+        /* margin: 0px 20px 0 auto; */
+        margin-left: 25%;
     }
     .titemapsub{
         margin-right: -1%;
