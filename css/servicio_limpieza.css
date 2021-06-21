@@ -12,26 +12,13 @@
     font-weight: 800;
     border-radius: 4rem;
     letter-spacing: 12.2px;
-    font-variant: small-caps;
-    color: #1A455D;
+    color: #ffffff;
+    text-shadow: 8px 8px 0 #1A455D, 8px 8px 0 #1A455D;
     margin-left: auto;
     margin-right: auto;
     padding: 20% 1rem;
 }
 
-.tamaño-logo-ic {
-    width: 220;
-    height: auto;
-}
-
-#tel-mov.tamaño-tel {
-    width: 75px !important;
-    height: 75px !important;
-}
-
-.letras-size {
-    font-size: 2rem !important;
-}
 
 
 /* --------------------------- Estilos Carrusel ---------------------------------- */
@@ -409,8 +396,6 @@
         font-weight: 800;
         border-radius: 1rem;
         letter-spacing: 1px;
-        font-variant: small-caps;
-        text-transform: capitalize;
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
@@ -438,18 +423,16 @@
     .cursor2 {
         display: none;
     }
-    .TitulosCarrusel {
-        padding: 50% 1rem;
-        font-size: 50px;
-        font-weight: 800;
-        border-radius: 1rem;
-        letter-spacing: 8.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.TitulosCarrusel {
+    padding: 50% 1rem;
+    font-size: 50px;
+    font-weight: 800;
+    border-radius: 1rem;
+    letter-spacing: 8.2px;
+    color: #1A455D;
+    margin-left: auto;
+    margin-right: auto;
+}
     .d-md-block {
         display: block!important;
         margin: 0;
@@ -506,8 +489,6 @@
         font-weight: 800;
         border-radius: 1rem;
         letter-spacing: 8.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
@@ -564,7 +545,6 @@
         font-weight: 800;
         border-radius: 4rem;
         letter-spacing: 12.2px;
-        font-variant: small-caps;
         color: rgb(26, 69, 93);
         margin-left: auto;
         margin-right: auto;
@@ -613,7 +593,6 @@
         font-weight: 800;
         border-radius: 4rem;
         letter-spacing: 12.2px;
-        font-variant: small-caps;
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
@@ -644,7 +623,6 @@
         font-weight: 800;
         border-radius: 4rem;
         letter-spacing: 12.2px;
-        font-variant: small-caps;
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
@@ -681,37 +659,9 @@
         border-radius: 3rem;
         letter-spacing: 0.2px;
         font-style: normal;
-        font-variant: small-caps;
-        text-transform: capitalize;
     }
-    .navbar-expand-xl .navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem;
-        font-size: 30px;
-    }
-    .tamaño-logo-ic {
-        width: 300px !important;
-        height: auto !important;
-    }
-    #tel-mov.tamaño-tel {
-        width: 105px !important;
-        height: 105px !important;
-    }
-    .letras-size {
-        font-size: 2.5rem !important;
-    }
-    .btn-group-sm>.btn,
-    .btn-sm {
-        padding: 1.25rem 4.5rem !important;
-        font-size: .875rem !important;
-        line-height: 0.5 !important;
-        border-radius: 2rem !important;
-        font-size: 3rem !important;
-    }
-    .row {
-        justify-content: center;
-        align-items: center;
-    }
+
+
 }
 
 
