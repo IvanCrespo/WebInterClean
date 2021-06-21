@@ -157,7 +157,7 @@
 .letraTitulo {
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     margin: 0.7rem auto 0.4rem auto;
 }
 
@@ -858,6 +858,11 @@
     .cursor2 {
         display: none;
     }
+    .hoja {
+        margin: -22px 0.5rem auto auto;
+        width: 2.3rem;
+        height: auto;
+    }
     /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Vision/Mision ----------------- */
     .imagenMV {
@@ -872,6 +877,15 @@
     }
     .espacioMVTitulo {
         margin-top: 2%;
+    }
+    .imagenMVcustom {
+        order: 2;
+    }
+    .contentdatosMV {
+        order: 1;
+    }
+    .logoMV {
+        display: none;
     }
     /* -------------------- FIN Seccion Vision/Mision ----------------- */
     /* -------------------- Seccion Cobertura Nacional ----------------- */
@@ -965,10 +979,15 @@
         background-image: none;
         display: unset;
     }
+    .hoja {
+        margin: -22px 0.5rem auto auto;
+        width: 2.3rem;
+        height: auto;
+    }
     /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
     .imagenMV {
-        width: 80%;
+        width: 68%;
         display: flex;
     }
     .apostrofe {
@@ -979,6 +998,15 @@
     }
     .espacioMVTitulo {
         margin-top: 2%;
+    }
+    .imagenMVcustom {
+        order: 2;
+    }
+    .contentdatosMV {
+        order: 1;
+    }
+    .logoMV {
+        display: none;
     }
     /* -------------------- FIN Seccion Mision/Vision ----------------- */
     /* -------------------- Seccion Cobertura Nacional ----------------- */
