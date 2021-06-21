@@ -19,6 +19,17 @@
     padding: 20% 1rem;
 }
 
+.tamaño-logo-ic {
+    width:220; 
+    height:auto;
+}
+#tel-mov.tamaño-tel {
+    width:75px !important; 
+    height: 75px !important;
+}
+.letras-size{
+    font-size: 2rem!important;
+}
 
 /* --------------------------- Estilos Carrusel ---------------------------------- */
 
@@ -81,7 +92,10 @@
     max-height: 100vh;
 }
 
-
+.letras-btn-conocer{
+    color: white;
+     font-size: 80%;
+}
 /* --------------------------- Estilos Contenido Servicios Limpieza ---------------------------------- */
 
 
@@ -641,9 +655,6 @@
     .imgMantenimiento {
         width: 40%;
     }
-    .contenedorDesinfeccion {
-        max-width: 80%;
-    }
 }
 
 @media only screen and (min-width: 1681px) and (max-width: 1920px) {
@@ -653,12 +664,25 @@
     .TitulosCarrusel {
         font-size: 100px;
         font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 10.2px;
+        border-radius: 3rem;
+        letter-spacing: 0.2px;
         font-style: normal;
         font-variant: small-caps;
         text-transform: capitalize;
     }
+
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        font-size: 30px;
+    }
+    .tamaño-logo-ic {
+        width:320px; 
+        height:auto;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
 
     .btn-group-sm>.btn, .btn-sm {
         padding: 0.25rem 3.5rem !important;
