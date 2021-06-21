@@ -217,14 +217,9 @@ border-radius: 10px;
     -webkit-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
     -moz-box-shadow: 23px 20px 31px 6px rgba(0,0,0,0.17);
 }
-/* .imghojaMov1 {
-    width: 10% !important;
-    height: 14px !important;
-    padding: 100px !important;
-} */
 .titecotizaContactanos {
-    width: 80%;
-    height: 15vh;
+    width: 50rem;
+    height: 7.2rem;
     margin-top: -32px !important;
     margin-left: -5.3rem;
     background-color: #1A455D;
@@ -350,7 +345,7 @@ main {
     box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);
     -webkit-box-shadow: 7px 4px 8px 0px rgba(0,0,0,0.55);;
 }
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 500px){
     .carousel-inner img{           
         height: 90vh;
         max-height: 595px;
@@ -385,18 +380,13 @@ main {
         font-weight: 693;       
         font-size: 33px;
     }
-    .carousel-caption{
+    /* .carousel-caption{
         left: -9%;
-    }   
+    }    */
     .imghoja{
         width: 10%;
         height: 17%;
-    }
-    /* .imghoja1{
-        padding-right: 0%;
-        width: 5%;
-        height:20px;
-    } */
+    }    
     .imghojaMov{
         display: block;
     }
@@ -418,10 +408,7 @@ main {
         font-size: 23px;
         padding-top: 12.5px;
         margin-left: 10%;
-    }
-    .imghojaFormeEM{
-        width: 10%;
-    }
+    }  
     #imgcemp {
         display: none;
     }
@@ -531,12 +518,7 @@ main {
         width: 30% !important;
         height: auto !important;
         margin-top: -30px;
-    }
-    /* .imghojaMov1 {
-        width: 70% !important;
-        height: auto !important;
-        margin-top: -40px;
-    } */
+    }   
     #imgcalendar{
         margin-left: -4%;
         height: 67%;
@@ -646,8 +628,7 @@ main {
         width: 51px;
         margin-left: 30%;
         margin-top: 1%;
-    }
-   
+    }   
     #contactosFormCotizTabl{
         display: block;
         text-align: center;
@@ -942,9 +923,9 @@ main {
     }
     .TextoCotizacion{
         font-size: 50px;
-        padding-top: 1rem;
+        padding-top: 26.5px;
         left: 25%;
-        margin-left: 12%;
+        margin-left: 15%;
     }
     .titecotizaContactanos{
         margin-left: -5.3rem;
