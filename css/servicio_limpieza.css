@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 .row {
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -16,14 +17,9 @@
     font-variant: small-caps;
     text-transform: capitalize;
     color: #1A455D;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    background-color: rgb(0 0 0 / 50%);
 }
 
-div .marginTituloCarrusel {
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 
 /* --------------------------- Estilos Carrusel ---------------------------------- */
@@ -206,7 +202,6 @@ div .marginTituloCarrusel {
 .color-degradiente{
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
     border: 1px inset #119ae4;
-    box-shadow: 0 0 5px #eee;
     background-color: #1A455D;
     background-size: 200% auto;
     text-transform: uppercase;
@@ -215,7 +210,7 @@ div .marginTituloCarrusel {
     font-weight: bolder;
     border-radius: 50px;
     transition: 0.5s;
-    color: #ffff;
+    color: #ffff !important;
 }
 
 .color-degradiente:hover{
@@ -225,7 +220,7 @@ div .marginTituloCarrusel {
     text-decoration: none;
     font-weight: bolder;
     border-radius: 50px;
-    color: #fff;
+    color: rgb(255, 255, 255) !important;
 }
 /*BTN FINAL*/
 
@@ -359,6 +354,12 @@ div .marginTituloCarrusel {
         margin-left: 10%;
         border-radius: 2rem;
     }
+    .posicion-btn{
+        display: flex;
+        justify-content: center;
+        margin: 0.4em;
+        padding: 0.8rem;
+    }
     .btn-preg {
         background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
         text-transform: uppercase;
@@ -381,10 +382,7 @@ div .marginTituloCarrusel {
         font-weight: 800;
         color: #1A455D;
     }
-    div .marginTituloCarrusel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
     .carousel-control-prev,
     .carousel-control-next {
         max-height: 89vh;
@@ -397,10 +395,9 @@ div .marginTituloCarrusel {
         opacity: rgba(255, 255, 255, 0.953);
     }
     .carousel-inner img {
-        width: 100%;
-        min-width: 100vh;
-        height: 99vh;
-        max-height: 100vh;
+        width: 90%;
+        height: 100%;
+        max-height: 575px;
     }
     .d-md-block {
         display: block !important;
@@ -416,8 +413,6 @@ div .marginTituloCarrusel {
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
     .carousel-inner.carousel-item IMG {
         background-color: green;
@@ -448,6 +443,12 @@ div .marginTituloCarrusel {
         display: block;
         background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
     }
+    .posicion-btn {
+        display: flex;
+        justify-content: center;
+        margin: 0.4em;
+        padding: 0.8rem;
+    }
     .btn-posicion {
         margin-top: 0%;
         padding: 3rem;
@@ -465,8 +466,6 @@ div .marginTituloCarrusel {
         margin-left: auto;
         margin-right: auto;
         padding: 0.1rem;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
     .saniti {
         width: 75%;
@@ -491,10 +490,7 @@ div .marginTituloCarrusel {
         height: 72vh;
         max-height: 100vh;
     }
-    div .marginTituloCarrusel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -502,10 +498,7 @@ div .marginTituloCarrusel {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    div .marginTituloCarrusel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
     .TitulosCarrusel {
         font-size: 65px;
         font-weight: 800;
@@ -515,8 +508,6 @@ div .marginTituloCarrusel {
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
 }
 
@@ -535,13 +526,8 @@ div .marginTituloCarrusel {
         margin-left: auto;
         margin-right: auto;
         padding: 0.1rem;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
-    div .marginTituloCarrusel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
     .carousel-control-prev,
     .carousel-control-next {
         max-height: 60vh;
@@ -566,10 +552,7 @@ div .marginTituloCarrusel {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    div .marginTituloCarrusel {
-        margin-right: 18%;
-        margin-left: 18%;
-    }
+
     .TitulosCarrusel {
         font-size: 60px;
         font-weight: 800;
@@ -580,8 +563,6 @@ div .marginTituloCarrusel {
         margin-left: auto;
         margin-right: auto;
         padding: 0.1rem;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
 }
 
@@ -590,10 +571,7 @@ div .marginTituloCarrusel {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    div .marginTituloCarrusel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
     .TitulosCarrusel {
         font-size: 75px;
         font-weight: 800;
@@ -603,8 +581,6 @@ div .marginTituloCarrusel {
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
     .carousel-control-prev,
     .carousel-control-next {
@@ -630,13 +606,8 @@ div .marginTituloCarrusel {
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
-    div .marginTituloCarrusel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
 }
 
 @media only screen and (max-width: 767px) and (min-width: 501px) {
@@ -655,13 +626,8 @@ div .marginTituloCarrusel {
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
-    div .marginTituloCarrusel {
-        margin-right: auto;
-        margin-left: auto;
-    }
+
     .d-md-block {
         display: block!important;
         margin: 0;

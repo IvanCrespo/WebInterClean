@@ -331,8 +331,11 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         text-decoration: none;
     }
     .navbar-collapse {
-        border: 4px solid #7fa439;
+        border: 2px solid #9e9e9e;
         border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: white;
     }
 
     .TamañoIconoSW {
@@ -345,22 +348,18 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         margin-left: 46px;
         border: none;
     }
-    .navbar-collapse {
-        border: 4px solid #7fa439;
-        border-radius: 1rem;
-        margin: -2rem 7rem -25rem 7rem;
-    }
+
     .navbar-nav .nav-link {
         padding: 57px -29px 40px 59px;
         margin: 1px 100px 2px 36px;
     }
     .show {
         border-radius: 2rem;
-        background-color: white;
+        background-color: white !important;
     }
     .Contenedor-Telefono {
         border-radius: 0rem 0rem 0.8rem 0.8rem;
-        background-color: white;
+        background-color: white !important;
         text-align: center;
     }
 }
@@ -373,6 +372,7 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         margin-left: 46px;
         border: none;
     }
+    
     .Social-Net {
         display: contents !important;
     }
@@ -393,8 +393,8 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         border-radius: .8rem 0.8rem 0rem 0rem;
     }
     .show {
-        border-radius: 0rem;
-        background-color: white;
+        border-radius: 2rem;
+        background-color: white !important;
     }
     .navbar-nav .nav-link {
         padding: 0px -10px 0px 0px;
@@ -424,9 +424,11 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         text-decoration: none;
     }
     .navbar-collapse {
-        border: 4px solid #7fa439;
+        border: 2px solid #9e9e9e;
         border-radius: 1rem;
-        margin: -2rem 7rem -25rem 7rem;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: white;
     }
     .navbar-nav .nav-link {
         padding: 57px -29px 40px 59px;
@@ -435,12 +437,17 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
 }
 
 @media only screen and (max-width: 767px) and (min-width: 501px) {
+    .Linea_Menu li {
+        margin-right: 50px;
+        padding: 1rem 0rem 0rem 6rem;
+        list-style-type: none;
+    }
     .bg-light {
         background-image: linear-gradient(to right, #2a79a1 0%, #304a59 51%, #2798ce 100%);
     }
     .show {
         border-radius: 0rem;
-        background-color: white;
+        background-color: white !important;
     }
     .bg-light {
         padding: 10px 10px;
@@ -458,8 +465,11 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         text-decoration: none;
     }
     .navbar-collapse {
-        border: 4px solid #7fa439;
+        border: 2px solid #9e9e9e;
         border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: white;
     }
 }
 
@@ -481,15 +491,13 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         padding: 11px 0px 4px 14px;
         margin-left: 31px;
     }
-    .navbar-collapse {
-        border: 6px solid #7FA439;
-    }
+
     .collapse {
-        border: 6px solid #7FA439;
+        border: 2px solid #7FA439;
     }
     .show {
         border-radius: 1rem;
-        background-color: rgb(255, 255, 255);
+        background-color: white !important;
     }
     .Contenedor-Logo {
         margin-left: -34px
@@ -534,8 +542,11 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         text-decoration: none;
     }
     .navbar-collapse {
-        border: 4px solid #7fa439;
+        border: 2px solid #9e9e9e;
         border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: white;
     }
     .container-fluid {
         margin-top: 1rem;
