@@ -32,7 +32,6 @@ div .marginTituloCarrusel {
     margin-top: 10%;
     padding: 1rem;
     margin: 0.5rem;
-    border: 6px solid #1A455D;
     border-radius: 2rem;
 }
 
@@ -207,7 +206,7 @@ div .marginTituloCarrusel {
 .color-degradiente{
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
     border: 1px inset #119ae4;
-    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 0 5px #eee;
     background-color: #1A455D;
     background-size: 200% auto;
     text-transform: uppercase;
@@ -232,7 +231,7 @@ div .marginTituloCarrusel {
 
 .btn-preg {
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
-    border: 6px inset #1A455D;
+    border: 6px inset #036ca5;
     box-shadow: 0 0 20px #eee;
     background-color: #1A455D;
     background-size: 200% auto;
@@ -358,7 +357,6 @@ div .marginTituloCarrusel {
         padding: 1rem;
         margin: 0;
         margin-left: 10%;
-        border: 3px solid #1A455D;
         border-radius: 2rem;
     }
     .btn-preg {
@@ -455,7 +453,6 @@ div .marginTituloCarrusel {
         padding: 3rem;
         margin: 0;
         margin-left: 18%;
-        border: 6px solid #1A455D;
         border-radius: 2rem;
     }
     .TitulosCarrusel {
