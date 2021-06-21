@@ -257,7 +257,7 @@
 .circulo-fum {
     width: 15rem;
     height: 15rem;
-    border-radius: 10rem;
+    border-radius: 20rem;
     margin: 2rem auto;
     box-shadow: 2px 2px 5px #999;
     display: flex;
@@ -358,7 +358,7 @@
         border: 3px inset #1A455D;
     }
     h3.card-title {
-        font-weight: 800;
+        font-weight: 700;
         color: #1A455D;
     }
     .carousel-control-prev,
@@ -393,13 +393,16 @@
         height: 100vh;
     }
     .saniti {
-        width: 100%;
+        width: 85%;
         display: flex;
         margin-right: auto;
         margin-left: auto;
     }
     .imgMantenimiento {
         width: 60%;
+    }
+    .espacioCirculos {
+        margin-top: 2rem;
     }
 }
 
@@ -441,9 +444,8 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
     .saniti {
-        width: 75%;
+        width: 50%;
         display: flex;
         margin-right: auto;
         margin-left: auto;
@@ -527,6 +529,9 @@
         margin-top: 4rem;
         margin-bottom: 1rem;
         max-width: 75%;
+    }
+    .saniti {
+        width: 55%;
     }
 }
 
@@ -612,6 +617,13 @@
         text-transform: capitalize;
         color: #1A455D;
     }
+    .saniti {
+        width: 60%;
+    }
+    .row {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 501px) {
@@ -619,18 +631,18 @@
     .cursor2 {
         display: none;
     }
-.TitulosCarrusel {
-    padding: 50% 1rem;
-    font-size: 50px;
-    font-weight: 800;
-    border-radius: 1rem;
-    letter-spacing: 8.2px;
-    font-variant: small-caps;
-    text-transform: capitalize;
-    color: #1A455D;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .TitulosCarrusel {
+        padding: 50% 1rem;
+        font-size: 50px;
+        font-weight: 800;
+        border-radius: 1rem;
+        letter-spacing: 8.2px;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .d-md-block {
         display: block!important;
         margin: 0;
