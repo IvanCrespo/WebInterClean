@@ -157,7 +157,7 @@
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 5px;
-    margin: 0.8rem;
+    margin: 0.7rem auto 0.4rem auto;
 }
 
 .hoja {
@@ -366,7 +366,7 @@
 
 .logo {
     /* color: #1A455D;  */
-     color: #bfbfbf;
+    color: #bfbfbf;
     font-weight: 700;
     font-size: 26px;
     margin: 0px auto 1.5rem auto;
@@ -705,8 +705,9 @@
         font-size: 38px;
     }
     .hoja {
-        width: 9%;
-        
+        width: 2rem;
+        height: auto;
+        margin: -0.5rem 0.3rem auto auto;
     }
     .cursor,
     .cursor2 {
@@ -735,13 +736,22 @@
     .boton-mv {
         padding: 10px;
     }
+    .logoMV {
+        display: none;
+    }
+    .imagenMVcustom {
+        order: 2;
+    }
+    .contentdatosMV {
+        order: 1;
+    }
     /* -------------------- FIN Seccion Vision/Mision ----------------- */
     /* -------------------- Seccion Cobertura Nacional ----------------- */
     .map_ID {
         width: 100%;
     }
     #control_map {
-        margin-top: 60px;
+        margin-top: 2px;
         margin-bottom: 0px;
         margin-left: auto;
         margin-right: auto;
