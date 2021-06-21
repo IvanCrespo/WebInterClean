@@ -562,6 +562,16 @@
         height: 79vh !important;
         opacity: rgba(255, 255, 255, 0.953);
     }
+    .imgSecciones {
+        width: 85%;
+    }
+    .row {
+        justify-content: center;
+        align-items: center;
+    }
+    .coticeSeccion {
+        margin-bottom: 4rem;
+    }
 }
 
 
