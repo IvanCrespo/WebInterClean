@@ -598,6 +598,9 @@
     .imgMantenimiento {
         width: 40%;
     }
+    .contenedorDesinfeccion {
+        max-width: 80%;
+    }
 }
 
 
@@ -623,6 +626,9 @@
     .row {
         justify-content: center;
         align-items: center;
+    }
+    .contenedorDesinfeccion {
+        max-width: 80%;
     }
 }
 
