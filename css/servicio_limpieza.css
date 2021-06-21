@@ -370,11 +370,11 @@
         display: block !important;
     }
     .TitulosCarrusel {
-        padding: 1rem;
-        font-size: 50px;
+        padding: 50% 1rem;
+        font-size: 40px;
         font-weight: 800;
         border-radius: 1rem;
-        letter-spacing: 8.2px;
+        letter-spacing: 1px;
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -420,15 +420,16 @@
         border-radius: 2rem;
     }
     .TitulosCarrusel {
-        font-size: 60px;
+        padding: 40% 1rem;
+        font-size: 6.7vh;
         font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 12.2px;
+        border-radius: 1rem;
+        letter-spacing: 8.2px;
         font-variant: small-caps;
+        text-transform: capitalize;
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
-        padding: 0.1rem;
     }
     .saniti {
         width: 75%;
@@ -587,18 +588,18 @@
     .cursor2 {
         display: none;
     }
-    .TitulosCarrusel {
-        padding: 1rem;
-        font-size: 50px;
-        font-weight: 800;
-        border-radius: 1rem;
-        letter-spacing: 8.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.TitulosCarrusel {
+    padding: 50% 1rem;
+    font-size: 50px;
+    font-weight: 800;
+    border-radius: 1rem;
+    letter-spacing: 8.2px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #1A455D;
+    margin-left: auto;
+    margin-right: auto;
+}
     .d-md-block {
         display: block!important;
         margin: 0;
