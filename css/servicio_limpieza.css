@@ -296,7 +296,8 @@
 /* UL Servicios */
 
 .opcionesTexto {
-    margin-bottom: 0rem;
+    display: flex;
+    margin: 0rem 0rem 0rem 2rem;
 }
 
 
