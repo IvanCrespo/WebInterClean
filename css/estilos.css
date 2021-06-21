@@ -979,11 +979,6 @@
         background-image: none;
         display: unset;
     }
-    .hoja {
-        margin: -22px 0.5rem auto auto;
-        width: 2.3rem;
-        height: auto;
-    }
     /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
     .imagenMV {
@@ -1062,14 +1057,6 @@
         width: 97%;
         margin-bottom: 11%;
     }
-    .hoja {
-        margin: -22px 0.5rem auto auto;
-        width: 2.4rem;
-        height: auto;
-    }
-    .textoIC {
-        margin-bottom: 0rem;
-    }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
     .imagenMVcustom {
@@ -1114,6 +1101,14 @@
     .containerAltura {
         margin-bottom: 11rem;
     }
+    .hoja {
+        margin: -22px 0.5rem auto auto;
+        width: 2.4rem;
+        height: auto;
+    }
+    .textoIC {
+        margin-bottom: 0rem;
+    }
     /* -------------------- Seccion Zoom ----------------- */
     .zoom img {
         top: -6%;
@@ -1133,6 +1128,14 @@
     .card {
         width: 97.6%;
         margin: 3rem auto 2.5rem auto;
+    }
+    .hoja {
+        margin: -22px 0.5rem auto auto;
+        width: 2.4rem;
+        height: auto;
+    }
+    .textoIC {
+        margin-bottom: 0rem;
     }
     /* -------------------- FIN Seccion Servicios ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
@@ -1199,6 +1202,12 @@
     .textoIC {
         font-size: 1.75rem;
         line-height: 2.7rem;
+        margin-bottom: 0rem;
+    }
+    .hoja {
+        margin: -22px 0.8rem auto auto;
+        width: 2.7rem;
+        height: auto;
     }
     /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
@@ -1274,6 +1283,11 @@
     .fCobertura,
     .fNosotros {
         background-size: 80rem;
+    }
+    .hoja {
+        margin: -22px 0.9rem auto auto;
+        width: 2.9rem;
+        height: auto;
     }
     /* -------------------- FIN Seccion Nosotros ----------------- */
     /* -------------------- Seccion Mision/Vision ----------------- */
