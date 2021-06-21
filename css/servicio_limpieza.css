@@ -1,35 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 .row {
     overflow-x: hidden;
 }
 
 
-/* --------------------------- Estilos Servicios ---------------------------------- */
-.imghoja{
-    width: auto;
-    margin-left: 0%;
-}
+/* --------------------------- Estilos Letras Titulos Carrusel ----------------------------- */
 
-.pleca-limpieza{
-    color: #1A455D !important;
-    text-shadow:
-     #FFF 0px 0px 5px,
-     #FFF 0px 0px 10px,
-      #FFF 0px 0px 15px,
-       #1A455D 0px 0px 20px,
-        #1A455D 0px 0px 30px,
-         #1A455D 0px 0px 40px,
-          #1A455D 0px 0px 50px,
-           #1A455D 0px 0px 75px;
-}
-
-.tituloempl {
-    color: #1A455D;
-    font-weight: 697;
-    font-family: 'Poppins', sans-serif;
-    font-size: 65px;
-    background: #00000042;
+.TitulosCarrusel {
+    font-size: 90px;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 800;
     border-radius: 2rem;
+    letter-spacing: 7px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #1A455D;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    background-color: rgb(0 0 0 / 50%);
 }
+
+div .marginTituloCarrusel {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* --------------------------- Estilos Carrusel ---------------------------------- */
+
 .btn-posicion {
     margin-top: 10%;
     padding: 1rem;
@@ -38,31 +36,12 @@
     border-radius: 2rem;
 }
 
-.letraTitulo-Carousel {
-    font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 5px;
-    margin: 0 auto;
-    color: #1A455D;
-}
-
-.Fondo-Titulo {
-    background-color: #ffffff65;
-    border-radius: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-}
-
 .carousel {
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .btnServicios {
-    font-size: 700;
-    font-weight: bolder;
-    text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
@@ -74,9 +53,12 @@
 
 .btnServicios:hover {
     background-position: right center;
-    /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+}
+
+.carousel {
+    background-color: rgba(4, 4, 4, 0.699);
 }
 
 .carousel-control-next,
@@ -97,86 +79,6 @@
     opacity: .5;
     margin-top: 5rem;
     transition: opacity .15s ease;
-}
-
-div .MantenimientoT {
-    margin-right: 18%;
-    margin-left: 18%;
-}
-
-
-.Diseño-Letras-DSF {
-    font-size: 60px;
-    padding: 1rem;
-    margin: 1rem;
-    font-weight: 800;
-    border-radius: 2rem;
-    letter-spacing: 6.2px;
-    font-variant: small-caps;
-    text-transform: capitalize;
-    color: #1A455D;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    background-color: rgb(0 0 0 / 50%);
-}
-
-.Diseño-Letras-M {
-    padding: 1rem;
-    margin: 1rem;
-    font-size: 75px;
-    font-weight: 800;
-    border-radius: 2rem;
-    letter-spacing: 9.2px;
-    font-variant: small-caps;
-    text-transform: capitalize;
-    color: #1A455D;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    background-color: rgb(0 0 0 / 50%);
-}
-
-.Diseño-Letras-limpieza {
-    font-size: 85px;
-    font-weight: 800;
-    border-radius: 4rem;
-    letter-spacing: 10.2px;
-    font-style: normal;
-    font-variant: small-caps;
-    text-transform: capitalize;
-    color: #1A455D;
-    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-    background-color: rgb(0 0 0 / 50%);
-}
-
-.card {
-    margin: 1rem;
-}
-
-.btn-cotice {
-    margin: 20px 20px 20px 20px;
-    padding: 10px 30px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 3rem;
-    display: block;
-    -webkit-box-shadow: 8px 11px 12px 0px rgb(0 0 0 / 50%);
-    box-shadow: 8px 11px 12px 0px rgb(0 0 0 / 50%);
-}
-
-
-/*FOOTER PREVIO*/
-
-
-/*==== TAMAÑO CARRUSEL ====*/
-
-.carousel {
-    background-color: rgba(4, 4, 4, 0.699);
-}
-
-.carousel-control-prev,
-.carousel-control-next {
     max-height: 86vh;
     opacity: rgba(63, 63, 63, 0.137);
 }
@@ -187,45 +89,68 @@ div .MantenimientoT {
     max-height: 100vh;
 }
 
+
+/* --------------------------- Estilos Contenido Servicios Limpieza ---------------------------------- */
+
+
+/* Container Custom */
+
+.container-width {
+    max-width: 94%;
+    margin: 6rem auto 1rem auto;
+}
+
+
+/* Tamaño imagenes secciones */
+
+.imgSecciones {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* Lineas páginas secciones */
+
+.linea_izquierda hr {
+    height: 5px;
+    margin-left: 0%;
+    margin-right: 5%;
+    background-color: #7FA439;
+}
+
+.linea_derecha hr {
+    height: 5px;
+    margin-left: 5%;
+    margin-right: 0%;
+    background-color: #7FA439;
+}
+
+.linea_centrada hr {
+    height: 5px;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: #7FA439;
+}
+
 .sombreadoLineas {
     border-bottom: 1px solid #557813;
     box-shadow: 0 20px 20px -20px #78aa1b;
 }
+
+
+/* Opacidad en carrusel */
 
 .opacity-100 {
     opacity: 0.6;
 }
 
 
-/*==== FIN TAMAÑO CARRUSEL ====*/
+/* Clase card mantenimiento para cartas de img */
 
-.TextoCarousel {
-    visibility: hidden;
-    margin-top: -15rem;
+.card {
+    margin: 1rem;
 }
-
-.container-fluid {
-    margin-top: 2rem;
-    margin-block-end: 2rem;
-}
-
-.Tamaño-Icono-Limpieza {
-    width: 70%;
-    height: auto;
-    border-radius: 2rem !important;
-    margin-top: 4rem;
-}
-
-
-/*==== Img Sanitizante ====*/
-
-.saniti {
-    width: 70%;
-    margin-left: 5rem;
-}
-
-
-/*Card Mantenimiento*/
 
 .card,
 .M {
@@ -241,16 +166,6 @@ div .MantenimientoT {
 
 .card-group>.card:not(:last-child) {
     border-radius: 1rem;
-}
-
-.card-text1 {
-    font-family: 'Poppins';
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: justified;
 }
 
 .card-group>.card {
@@ -272,6 +187,21 @@ div .MantenimientoT {
 }
 
 
+/* Titulo de las cards */
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px!important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #1A455D;
+}
+
+
+/* Boton de cotizar footer */
 
 
 .color-degradiente{
@@ -331,61 +261,9 @@ div .MantenimientoT {
 }
 
 
-/*BTN FINAL*/
+/* Cuadrodo placa de Cotice */
 
-
-/*==== FIN Img Sanitizante ====*/
-
-.linea_izquierda hr {
-    height: 5px;
-    margin-left: 0%;
-    margin-right: 5%;
-    background-color: #7FA439;
-}
-
-.linea_derecha hr {
-    height: 5px;
-    margin-left: 5%;
-    margin-right: 0%;
-    background-color: #7FA439;
-}
-
-.linea_centrada hr {
-    height: 5px;
-    margin-left: 7%;
-    margin-right: 7%;
-    background-color: #7FA439;
-}
-
-
-/*Carrusel contenido*/
-
-div .LimpiezaT {
-    margin-right: 18%;
-    margin-left: 18%;
-}
-
-.FormatoLetras-Carrete {
-    margin: 5rem;
-    padding: 1rem;
-    justify-content: center;
-    text-align: justify;
-    border-radius: 2rem;
-    font-size: 30px;
-    background-color: #00000000;
-    letter-spacing: -1px;
-    line-height: 37px;
-}
-
-
-/*Carrusel contenido*/
-
-.TextoTamaño {
-    padding-top: 0.5rem;
-    margin-left: 1rem;
-}
-
-.Fondo-Nesecita {
+.cuadradoPlacaCotice {
     justify-content: center;
     width: 90%;
     height: auto;
@@ -397,6 +275,19 @@ div .LimpiezaT {
     display: inline-block;
     text-align: center;
 }
+
+
+/* Posicion img desinfeccion */
+
+.saniti {
+    width: 70%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Circulos img desinfeccion */
 
 .circulo-fum {
     width: 15rem;
@@ -416,247 +307,92 @@ div .LimpiezaT {
     border-top: 3px solid #7FA439;
 }
 
-.zoom1 {
+.zoomCirculos {
     transition: 1s ease;
     -moz-transition: 1s ease;
-    /* Firefox */
     -webkit-transition: 1.5s ease;
-    /* Chrome - Safari */
     -o-transition: 1.5s ease;
-    /* Opera */
 }
 
-.zoom1:hover {
+.zoomCirculos:hover {
     transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
 
-.card-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 29px!important;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: -2px;
-    text-align: center;
-    color: #1A455D;
+
+/* Container Fluid */
+
+.container-fluid {
+    margin-top: 2rem;
+    margin-block-end: 2rem;
 }
 
 
-/*FIN CLASES SIN MEDIAS*/
+/* --------------------------- FIN Estilos Contenido Servicios Limpieza ---------------------------------- */
 
-@media only screen and (max-width: 1920px) {
-    .container {
-        margin-bottom: 5rem;
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* -------------------------------- Medias Query ------------------------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .cursor,
+    .cursor2 {
+        display: none;
     }
-    .FormatoLetras-Carrete {
-        margin: 9%;
-        padding: 1rem;
-        justify-content: center;
-        text-align: justify;
-        border-radius: 2rem;
-        font-size: 35px;
-        background-color: #00000000;
-        letter-spacing: -1px;
-        line-height: 49px;
-    }
-    .Diseño-Letras-limpieza {
-        font-size: 100px;
-        font-weight: 800;
+    .btnServicios {
+        font-weight: bolder;
+        text-align: center;
+        transition: all 0.5s ease 0s;
+        background-size: 200%;
+        color: white;
+        box-shadow: rgb(238 238 238) 0px 0px 10px;
         border-radius: 4rem;
-        letter-spacing: 10.2px;
-        font-style: normal;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
+        display: block;
+        margin: 1px 31% 15px 31%;
+        background-image: linear-gradient(to right, rgb(49, 71, 85) 0%, rgb(38, 160, 218) 51%, rgb(49, 71, 85) 100%);
     }
-    div .LimpiezaT {
-        margin-right: 18%;
-        margin-left: 18%;
-    }
-    .Diseño-Letras-M {
+    .btn-posicion {
+        margin-top: 10%;
         padding: 1rem;
-        margin: 1rem;
-        font-size: 100px;
-        font-weight: 800;
+        margin: 0;
+        margin-left: 10%;
+        border: 3px solid #1A455D;
         border-radius: 2rem;
-        letter-spacing: 9.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
+    }
+    .btn-preg {
+        background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        box-shadow: 0 0 20px #eee;
+        display: flex;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        background-color: #1A455D;
+        color: #ffff;
+        font-size: 21px;
+        margin: 1rem;
+        padding: 1rem;
+        border: 3px inset #1A455D;
+    }
+    h3.card-title {
+        font-weight: 800;
         color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
     }
-}
-
-@media only screen and (min-width: 1367px) and (max-width: 1680px) {
-    .container {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    div .MantenimientoT {
+    div .marginTituloCarrusel {
         margin-right: auto;
         margin-left: auto;
-    }
-    div .LimpiezaT {
-        margin-right: 18%;
-        margin-left: 18%;
-    }
-    .Diseño-Letras-limpieza {
-        font-size: 75px;
-        font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 10.2px;
-        font-style: normal;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .FormatoLetras-Carrete {
-        margin: 10%;
-        padding: 1rem;
-        justify-content: center;
-        text-align: justify;
-        border-radius: 2rem;
-        font-size: 27px;
-        background-color: #00000000;
-        letter-spacing: -1px;
-        line-height: 37px;
     }
     .carousel-control-prev,
     .carousel-control-next {
-        max-height: 80vh;
+        max-height: 89vh;
         height: 79vh !important;
         opacity: rgba(255, 255, 255, 0.953);
     }
-    .Diseño-Letras-M {
-        padding: 1rem;
-        margin: 1rem;
-        font-size: 80px;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 9.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-}
-
-
-/*TABLETS GRANDES Y PC */
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    .container {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    div .MantenimientoT {
-        margin-right: auto;
-        margin-left: auto;
-    }
-    div .LimpiezaT {
-        margin-right: 18%;
-        margin-left: 18%;
-    }
-    .Diseño-Letras-limpieza {
-        font-size: 65px;
-        font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 10.2px;
-        font-style: normal;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .FormatoLetras-Carrete {
-        margin: 4rem;
-        padding: 1rem;
-        justify-content: center;
-        text-align: justify;
-        border-radius: 2rem;
-        font-size: 23px;
-        background-color: #00000000;
-        letter-spacing: -1px;
-        line-height: 37px;
-    }
-    .Diseño-Letras-DSF {
-        font-size: 37px;
-        padding: 1rem;
-        margin: -1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        line-height: 39px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .Diseño-Letras-M {
-        font-size: 60px;
-        padding: 1rem;
-        margin: 1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 6.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
-    .container {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    .Diseño-Letras-limpieza {
-        font-size: 60px;
-        font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 12.2px;
-        font-variant: small-caps;
-        color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0.1rem;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .FormatoLetras-Carrete {
-        margin: 5rem;
-        padding: 1rem;
-        justify-content: center;
-        text-align: justify;
-        border-radius: 2rem;
-        font-size: 20px;
-        background-color: #00000000;
-        letter-spacing: 1px;
-        line-height: 25px;
-    }
-    div .LimpiezaT {
-        margin-right: 18%;
-        margin-left: 18%;
-    }
-    /*Carrusel*/
-    .carousel-control-prev,
-    .carousel-control-next {
-        max-height: 60vh;
-        height: 79vh !important;
-        opacity: rgba(255, 255, 255, 0.953);
-    }
-    /*Servicios Limpieza*/
     .carousel-control-prev,
     .carousel-control-next {
         height: 95vh;
@@ -665,108 +401,42 @@ div .LimpiezaT {
     .carousel-inner img {
         width: 100%;
         min-width: 100vh;
-        height: 72vh;
+        height: 99vh;
         max-height: 100vh;
     }
-    .Diseño-Letras-DSF {
-        font-size: 45px;
+    .d-md-block {
+        display: block !important;
+    }
+    .TitulosCarrusel {
         padding: 1rem;
-        margin: -1rem;
+        font-size: 50px;
         font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        line-height: 39px;
+        border-radius: 1rem;
+        letter-spacing: 8.2px;
         font-variant: small-caps;
         text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .Diseño-Letras-M {
-        font-size: 60px;
-        padding: 1rem;
-        margin: 1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 6.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-}
-
-
-/*MEDIDAS VARIADAS TABLET Y LAPTOP CON BAJA RESOLUCION*/
-
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
-    .cursor,
-    .cursor2 {
-        display: none;
-    }
-    .container {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    div .LimpiezaT {
-        margin-right: 18%;
-        margin-left: 18%;
-    }
-    .Diseño-Letras-limpieza {
-        font-size: 60px;
-        font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 12.2px;
-        font-variant: small-caps;
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
-        padding: 0.1rem;
         -webkit-text-stroke: 0.7px rgb(255, 255, 255);
         background-color: rgb(0 0 0 / 50%);
     }
-    .Diseño-Letras-DSF {
-        font-size: 50px;
-        padding: 1rem;
-        margin: -1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        line-height: 39px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
+    .carousel-inner.carousel-item IMG {
+        background-color: green;
+        height: 100vh;
     }
-    .Diseño-Letras-M {
-        font-size: 60px;
-        padding: 1rem;
-        margin: 1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 6.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
+    .saniti {
+        width: 100%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
-
-
-
-/*Tableta*/
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .cursor,
     .cursor2 {
         display: none;
-    }
-    div .MantenimientoT {
-        margin-right: auto;
-        margin-left: auto;
     }
     .btnServicios {
         font-size: 700;
@@ -788,53 +458,7 @@ div .LimpiezaT {
         border: 6px solid #1A455D;
         border-radius: 2rem;
     }
-    .Fondo-Titulo {
-        background-color: #ffffff65;
-        border-radius: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1rem;
-    }
-    .Diseño-Letras-M {
-        font-size: 72px;
-        font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 5.2px;
-        font-style: normal;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgba(238, 238, 238, 0.192);
-    }
-    .Diseño-Letras-DSF {
-        font-size: 37px;
-        padding: 1rem;
-        margin: -1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        line-height: 39px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .Diseño-Letras-M {
-        font-size: 60px;
-        padding: 1rem;
-        margin: 1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 6.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .Diseño-Letras-limpieza {
+    .TitulosCarrusel {
         font-size: 60px;
         font-weight: 800;
         border-radius: 2rem;
@@ -849,16 +473,16 @@ div .LimpiezaT {
     }
     .saniti {
         width: 75%;
-        margin-left: 5rem;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
     }
-    /*Carrusel*/
     .carousel-control-prev,
     .carousel-control-next {
         max-height: 60vh;
         height: 79vh !important;
         opacity: rgba(255, 255, 255, 0.953);
     }
-    /*Servicios Limpieza*/
     .carousel-control-prev,
     .carousel-control-next {
         height: 95vh;
@@ -870,60 +494,165 @@ div .LimpiezaT {
         height: 72vh;
         max-height: 100vh;
     }
-    .FormatoLetras-Carrete {
-        margin: 16%;
-        padding: 1rem;
-        justify-content: center;
-        text-align: justify;
-        border-radius: 2rem;
-        font-size: 20px;
-        background-color: #00000000;
-        letter-spacing: 1px;
-        line-height: 25px;
+    div .marginTituloCarrusel {
+        margin-right: auto;
+        margin-left: auto;
     }
-    div .LimpiezaT {
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    .container-width {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    div .marginTituloCarrusel {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .TitulosCarrusel {
+        font-size: 65px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 10.2px;
+        font-style: normal;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .container-width {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .TitulosCarrusel {
+        font-size: 60px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 12.2px;
+        font-variant: small-caps;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.1rem;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    div .marginTituloCarrusel {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        max-height: 60vh;
+        height: 79vh !important;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 95vh;
+        opacity: rgba(255, 255, 255, 0.953);
+    }
+    .carousel-inner img {
+        width: 100%;
+        min-width: 100vh;
+        height: 72vh;
+        max-height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .container-width {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    div .marginTituloCarrusel {
         margin-right: 18%;
         margin-left: 18%;
     }
-    .Posicion-Icono-Limpieza,
-    .Tamaño-Icono-Limpieza {
-        display: block !important;
+    .TitulosCarrusel {
+        font-size: 60px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 12.2px;
+        font-variant: small-caps;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.1rem;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
     }
-    .desaparecer-icono {
-        visibility: hidden;
-        position: fixed;
-        z-index: -999;
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+    .container-width {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    div .marginTituloCarrusel {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .TitulosCarrusel {
+        font-size: 75px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 10.2px;
+        font-style: normal;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        max-height: 80vh;
+        height: 79vh !important;
+        opacity: rgba(255, 255, 255, 0.953);
     }
 }
 
 
-/*Iphone X*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 
+@media only screen and (min-width: 1920px) {
+    .container-width {
+        margin-bottom: 5rem;
+    }
+    .TitulosCarrusel {
+        font-size: 100px;
+        font-weight: 800;
+        border-radius: 4rem;
+        letter-spacing: 10.2px;
+        font-style: normal;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+        background-color: rgb(0 0 0 / 50%);
+    }
+    div .marginTituloCarrusel {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 
 @media only screen and (max-width: 767px) and (min-width: 501px) {
-
-    .tituloempl {
-        color: #1A455D;
-        font-weight: 697;
-        font-family: 'Poppins', sans-serif;
-        font-size: 65px;
-        border-radius: 2rem;
-        background: #00000045;
-    }
     .cursor,
     .cursor2 {
         display: none;
     }
-    div .MantenimientoT {
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .Diseño-Letras-limpieza {
+    .TitulosCarrusel {
         padding: 1rem;
         font-size: 50px;
         font-weight: 800;
         border-radius: 1rem;
-        letter-spacing: 8.2px; 
+        letter-spacing: 8.2px;
         font-variant: small-caps;
         text-transform: capitalize;
         color: #1A455D;
@@ -932,206 +661,21 @@ div .LimpiezaT {
         -webkit-text-stroke: 0.7px rgb(255, 255, 255);
         background-color: rgb(0 0 0 / 50%);
     }
-    div .LimpiezaT {
+    div .marginTituloCarrusel {
         margin-right: auto;
         margin-left: auto;
-    }
-    .letraTitulo-Carousel {
-        font-weight: 700;
-        font-size: 37px;
-        letter-spacing: 5px;
-        margin: 0 auto;
-        color: #1A455D;
-    }
-    .Fondo-Titulo {
-        background-color: #ffffff65;
-        border-radius: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1rem;
-    }
-    .FormatoLetras-Carrete {
-        margin: 30%;
-        padding: 1rem;
-        justify-content: center;
-        text-align: justify;
-        border-radius: 2rem;
-        font-size: 25px;
-        background-color: #00000000;
-        letter-spacing: 1px;
-        line-height: 25px;
     }
     .d-md-block {
         display: block!important;
         margin: 0;
         padding: 0;
     }
-    /*Carrusel*/
     .carousel-control-prev,
     .carousel-control-next {
         max-height: 89vh;
         height: 79vh !important;
         opacity: rgba(255, 255, 255, 0.953);
     }
-    /*Servicios Limpieza*/
-    .carousel-control-prev,
-    .carousel-control-next {
-        height: 95vh;
-        opacity: rgba(255, 255, 255, 0.953);
-    }
-    .Diseño-Letras-DSF {
-        font-size: 37px;
-        padding: 1rem;
-        margin: -1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        line-height: 39px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .Diseño-Letras-M {
-        font-size: 37px;
-        padding: 1rem;
-        margin: -1rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        line-height: 39px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 1px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .carousel-inner img {
-        width: 100%;
-        min-width: 100vh;
-        height: 99vh;
-        max-height: 100vh;
-    }
-}
-
-
-/*Telefono*/
-
-@media only screen and (min-width: 320px) and (max-width: 500px) {
-
-  
-
-    .posicion-btn-carousel{
-        margin-left: 27%;
-    }
-
-
-    .cursor,
-    .cursor2 {
-        display: none;
-    }
-
-    .tituloempl {
-        margin-left: 25%;
-        font-weight: 693;
-        font-size: 33px;
-        background: #0000005c;
-        border-radius: 2rem;
-    }
-
-
-    .btn-preg {
-        background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        box-shadow: 0 0 20px #eee;
-        display: flex;
-        font-weight: bolder;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50px;
-        background-color: #1A455D;
-        color: #ffff;
-        font-size: 21px;
-        margin: 1rem;
-        padding: 1rem;
-        border: 3px inset #1A455D;
-    }
-    .Fondo-Titulo {
-        background-color: #ffffff65;
-        border-radius: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 20px;
-        padding: 1rem;
-    }
-    .Diseño-Letras-DSF {
-        font-size: 31px;
-        padding: 1rem;
-        margin: 0rem;
-        font-weight: 800;
-        border-radius: 2rem;
-        letter-spacing: 4.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 0.4px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-.Diseño-Letras-M {
-    font-size: 1.6rem;
-    padding: 1rem;
-    margin: 0rem;
-    font-weight: 800;
-    border-radius: 2rem;
-    letter-spacing: 1px;
-    font-variant: small-caps;
-    text-transform: capitalize;
-    color: #1A455D;
-    -webkit-text-stroke: 0.4px rgb(255, 255, 255);
-    background-color: rgb(0 0 0 / 50%);
-}
-    h3.card-title {
-        font-weight: 800;
-        color: #1A455D;
-    }
-    /*Titulos*/
-    div .LimpiezaT {
-        /*Posicion*/
-        margin-right: auto;
-        margin-left: auto;
-    }
-    div .DesinfeccionT {
-        /*Posicion*/
-        margin-right: auto;
-        margin-left: auto;
-    }
-    div .MantenimientoT {
-        /*Posicion*/
-        margin-right: auto;
-        margin-left: auto;
-    }
-    /*Titulos*/
-    /*TELEFONO - LIMPIEZA*/
-    .Posicion-Icono-Limpieza,
-    .Tamaño-Icono-Limpieza {
-        display: block !important;
-    }
-    .Posicion-Icono-Mantenimiento,
-    .Tamaño-Icono-Mantenimiento {
-        display: block !important;
-    }
-    /*FIN TELEFONO - LIMPIEZA*/
-    /*Carrusel*/
-    .carousel-control-prev,
-    .carousel-control-next {
-        max-height: 89vh;
-        height: 79vh !important;
-        opacity: rgba(255, 255, 255, 0.953);
-    }
-    /*Servicios Limpieza*/
     .carousel-control-prev,
     .carousel-control-next {
         height: 95vh;
@@ -1142,57 +686,5 @@ div .LimpiezaT {
         min-width: 100vh;
         height: 99vh;
         max-height: 100vh;
-    }
-    .d-md-block {
-        display: block !important;
-    }
-    .FormatoLetras-Carrete {
-        margin: 46%;
-        padding: 1rem;
-        justify-content: center;
-        text-align: justify;
-        border-radius: 2rem;
-        font-size: 20px;
-        color: #ffffff;
-        background-color: #00000000;
-        letter-spacing: -1px;
-        line-height: 21px;
-    }
-    .Diseño-Letras-limpieza {
-        padding: 1rem;
-        margin: 1rem;
-        font-size: 2.5rem;
-        font-weight: 800;
-        border-radius: 1rem;
-        letter-spacing: 0px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-        background-color: rgb(0 0 0 / 50%);
-    }
-    .carousel-inner.carousel-item IMG {
-        background-color: green;
-        height: 100vh;
-    }
-    /*Carrusel*/
-    .titulosh3 {
-        font-weight: bolder;
-        text-align: center;
-    }
-    .desaparecer-icono {
-        visibility: hidden;
-        position: fixed;
-        z-index: -999;
-    }
-    .letraI {
-        color: #7FA439;
-        font-size: 2.5rem;
-    }
-    /*FORMATOS DE TITULO CON FONDO*/
-    /*Fin formatos de titulo con fondo*/
-    .saniti {
-        width: 100%;
-        margin-left: 0rem;
     }
 }
