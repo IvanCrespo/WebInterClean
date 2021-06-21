@@ -17,6 +17,18 @@
     padding-top: 5.5px;
     margin-left: 3%;
 }
+
+.titulosIC{
+    height: 80px; 
+    padding: 2%;
+    width: 105%;
+}
+
+
+.letraTitulo{
+    font-size: 36px;
+}
+
 .contactLabHora1{
     font-weight: normal;
     line-height: 45px;
@@ -304,7 +316,7 @@ border-radius: 10px;
     /*left: 25%;*/
     margin-left: auto;
     text-align: center;
-
+    
     
 }
 .formularioEmp{
@@ -797,7 +809,8 @@ main {
     }
     .TextoCotizacion{
         margin-left:6%;
-        padding: 1.5rem;
+        /* padding: 1.5rem; */
+        padding-top: 2rem
     }
     #TitleHoraCont{       
         font-size: 78%;
@@ -828,6 +841,7 @@ main {
         font-weight: bold;
         line-height: 45px
     }
+    
 }
 @media (min-width: 1025px) and (max-width: 1087px){
     .contFomLabCotiz2{        
@@ -911,8 +925,10 @@ main {
         margin-left: -4%;
     }
 
-   
-    
+    .titulosIC{
+        width: 126%;
+        margin-left: -10%
+    }
 
 }
 @media (min-width: 1681px) and (max-width: 1920px){
@@ -1013,4 +1029,12 @@ main {
     .LH2{
         margin-left: 26%;
     }
+    .titulosIC{
+        width: 89%;
+        margin-left: 14%
+    }
+    .letraTitulo {
+    font-size: 36px;
+    margin-top: 0%;
+}
 }
