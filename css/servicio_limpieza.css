@@ -452,7 +452,7 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
     .container-width {
-        margin-top: 1rem;
+        margin-top: 4rem;
         margin-bottom: 1rem;
     }
     .TitulosCarrusel {
@@ -465,13 +465,12 @@
         text-transform: capitalize;
         color: #1A455D;
     }
+    .coticeSeccion {
+        margin: 4rem auto 4rem auto;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
-    .container-width {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
     .TitulosCarrusel {
         font-size: 60px;
         font-weight: 800;
@@ -500,11 +499,22 @@
         height: 72vh;
         max-height: 100vh;
     }
+    .imgSecciones {
+        width: 46%;
+    }
+    .espacioPrimero {
+        margin-top: 4rem;
+    }
+    .container-width {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        max-width: 75%;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1366px) {
     .container-width {
-        margin-top: 1rem;
+        margin-top: 4rem;
         margin-bottom: 1rem;
     }
     .TitulosCarrusel {
@@ -518,12 +528,22 @@
         margin-right: auto;
         padding: 0.1rem;
     }
+    .coticeSeccion {
+        margin: 4rem auto 4rem auto;
+    }
+    .row {
+        justify-content: center;
+        align-items: center;
+    }
+    .imgSecciones {
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 1367px) and (max-width: 1680px) {
     .container-width {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-top: 4.2rem;
+        margin-bottom: 0.8rem;
     }
     .TitulosCarrusel {
         font-size: 75px;
