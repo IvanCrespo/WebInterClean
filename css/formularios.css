@@ -164,18 +164,6 @@
     padding-top: 5.5px;
     margin-left: 3%;
 }
-
-.titulosIC{
-    height: 80px; 
-    padding: 2%;
-    width: 105%;
-}
-
-
-.letraTitulo{
-    font-size: 36px;
-}
-
 .contactLabHora1{
     font-weight: normal;
     line-height: 45px;
@@ -499,7 +487,7 @@
     /*left: 25%;*/
     margin-left: auto;
     text-align: center;
-    
+
     
 }
 
@@ -1013,8 +1001,7 @@ main {
     }
     .TextoCotizacion{
         margin-left:6%;
-        /* padding: 1.5rem; */
-        padding-top: 2rem
+        padding: 1.5rem;
     }
     #TitleHoraCont {
         font-size: 78%;
@@ -1045,7 +1032,6 @@ main {
         font-weight: bold;
         line-height: 45px
     }
-    
 }
 
 @media (min-width: 1025px) and (max-width: 1087px) {
@@ -1129,10 +1115,8 @@ main {
         margin-left: -4%;
     }
 
-    .titulosIC{
-        width: 126%;
-        margin-left: -10%
-    }
+   
+    
 
 }
 
@@ -1234,12 +1218,4 @@ main {
     .LH2 {
         margin-left: 26%;
     }
-    .titulosIC{
-        width: 89%;
-        margin-left: 14%
-    }
-    .letraTitulo {
-    font-size: 36px;
-    margin-top: 0%;
-}
 }
