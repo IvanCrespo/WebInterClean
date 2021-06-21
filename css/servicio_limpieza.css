@@ -301,6 +301,13 @@
 }
 
 
+/* IMG mantenimiento */
+
+.imgMantenimiento {
+    width: 50%;
+}
+
+
 /* --------------------------- FIN Estilos Contenido Servicios Limpieza ---------------------------------- */
 
 
@@ -391,6 +398,9 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .imgMantenimiento {
+        width: 60%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -449,6 +459,9 @@
         height: 72vh;
         max-height: 100vh;
     }
+    .imgMantenimiento {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -468,6 +481,9 @@
     }
     .coticeSeccion {
         margin: 4rem auto 4rem auto;
+    }
+    .imgMantenimiento {
+        width: 40%;
     }
 }
 
@@ -571,6 +587,9 @@
     }
     .coticeSeccion {
         margin-bottom: 4rem;
+    }
+    .imgMantenimiento {
+        width: 40%;
     }
 }
 
