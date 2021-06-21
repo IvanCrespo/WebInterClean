@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <meta name = "viewport" content = "user-scalable=no, width=device-width">
-           <!-- Logo buscador -->
-   <link rel="icon" href="../img/logopng_interclean.png">
+    <meta name="viewport" content="user-scalable=no, width=device-width">
+    <!-- Logo buscador -->
+    <link rel="icon" href="../img/logopng_interclean.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="../css/estilos_principal.css">
     <link rel="stylesheet" href="../css/estilos.css">
@@ -24,345 +24,312 @@
     <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
     <title>InterClean</title>
 </head>
+
 <body>
     <div class="cursor"></div>
     <div class="cursor2"></div>
     <header>
         <!-- ============= MENU ============== -->
         <nav class="autohide navbar   navbar-expand-xl fondo-degradado-menu-blanco">
-                <div class="container-fluid">   
-                    <a class="Contenedor-Logo" role="button" href="../index.html" id="logo" title="INTERCLEAN">
-                        <img src="../img/logoletrasInterclean.png" width="220" height="auto" class="lgs menu-wrapper-icono " href="#inicio" />
-                    </a>
-                    <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container-fluid">
+                <a class="Contenedor-Logo" role="button" href="../index.html" id="logo" title="INTERCLEAN">
+                    <img src="../img/logoletrasInterclean.png" width="220" height="auto" class="lgs menu-wrapper-icono " href="#inicio" />
+                </a>
+                <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="main_nav">
-                        <ul class="navbar-nav mx-auto  Fondo-menu-central"> <!--mx-auto-->
-                            <div id="social-icon1">
-                                <ul class="Linea_Menu social-icons1"  data-animation="bonus">
-                                    <li class="nav-item">
-                                        <a class="nav-link Letras-Default-Menu Seleccionado  animacionMenu"  href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav mx-auto  Fondo-menu-central">
+                        <!--mx-auto-->
+                        <div id="social-icon1">
+                            <ul class="Linea_Menu social-icons1" data-animation="bonus">
+                                <li class="nav-item">
+                                    <a class="nav-link Letras-Default-Menu Seleccionado  animacionMenu" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="social-icon1">
+                            <ul class="Linea_Menu social-icons1" data-animation="bonus">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle Letras-Default-Menu Seleccionado" role="button" aria-haspopup="true" arial-expanded="false" href="#" data-toggle="dropdown"> Servicios </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="limpieza.html"> Limpieza </a>
+                                        <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="desinfeccion.html"> Desinfeccion</a>
+                                        <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="mantenimiento.html"> Mantenimiento</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="social-icon1">
+                            <ul class="Linea_Menu social-icons1" data-animation="bonus">
+                                <li class="nav-item ">
+                                    <!-- Para marcar Empleos poner activado activado2-->
+                                    <a class="nav-link Letras-Default-Menu Seleccionado Separacion-Menu" href="empleo.html"> Empleos </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="posicion-btn">
+                            <div dir="social-icons1">
+                                <ul class="social-icons1" data-animation="bonus">
+                                    <li class="nav-item" style="list-style:none;">
+                                        <a role="button" class="activebutton btn btn-lg color-degradiente Separacion-Menu" href="cotizaciones.html" style="color: white; font-size: 90%;"> Cotice ahora </a>
                                     </li>
                                 </ul>
-                            </div>                            
-                            <div id="social-icon1">
-                                <ul class="Linea_Menu social-icons1" data-animation="bonus">
-                                    <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle Letras-Default-Menu Seleccionado" role="button" aria-haspopup="true" arial-expanded="false" href="#"  data-toggle="dropdown"> Servicios </a>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado"  href="limpieza.html"> Limpieza </a> 
-                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="desinfeccion.html"> Desinfeccion</a>
-                                            <a class="dropdown-item Letras-Default-Menu-Dropdown Seleccionado" href="mantenimiento.html"> Mantenimiento</a> 
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>                            
-                            <div id="social-icon1">
-                                <ul class="Linea_Menu social-icons1" data-animation="bonus">
-                                        <li class="nav-item "> <!-- Para marcar Empleos poner activado activado2-->
-                                                <a class="nav-link Letras-Default-Menu Seleccionado Separacion-Menu" href="empleo.html"> Empleos </a>
-                                        </li>
-                                </ul>
                             </div>
-                            <div class="posicion-btn">
-                                <div dir="social-icons1">
-                                    <ul class="social-icons1" data-animation="bonus">
-                                        <li class="nav-item" style="list-style:none;">
-                                            <a role="button"  class="activebutton btn btn-lg color-degradiente Separacion-Menu" href="cotizaciones.html" style="color: white; font-size: 90%;" > Cotice ahora </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                    
-                        </ul>
-                        <div class="Contenedor-Telefono">
-                            <div class="Social-Net">
-                                <a href="https://www.facebook.com/Intercleanmx2020" title="Facebook"><img class="TamañoIconoSW" src="../botones/boton-fb-02.png"/> </a>
-                                <a href="https://twitter.com/Interclean_Mx" title="Twitter"><img class="TamañoIconoSW" src="../botones/boton-tw-02.png" /> </a> 
-                                <a href="" title=""><img class="TamañoIconoSW" src="../botones/boton-ig-02.png" /></a>
-                                <a href="https://www.youtube.com/channel/UCmK3psKZwhamHkEqNk3MhyA" title=""><img class="TamañoIconoSW" src="../botones/boton-yt-02.png" /></a> 
-                                <a href="mailto:contacto@interclean.mx" title=""><img class="TamañoIconoSW" src="../botones/boton-em-02.png" /></a>
-                                <a href="https://wa.me/525584690368" title=""><img" class="TamañoIconoSW" src="../botones/boton-wt-02.png" /></a>      
-                             </div>
-                             <a role="button" id="tel" href="tel:+52 2222 1807 04">
-                                <?xml version="1.0" encoding="UTF-8" ?>
-                               <p><img src="../img/telefono/Telefono_junto_Mesa_de_trabajo_1.svg"  width="75" height="75" alt="Estrella SVG"></p>
-                           </a>
-                    
-                        </div> 
+                        </div>
+
+                    </ul>
+                    <div class="Contenedor-Telefono">
+                        <div class="Social-Net">
+                            <a href="https://www.facebook.com/Intercleanmx2020" title="Facebook"><img class="TamañoIconoSW" src="../botones/boton-fb-02.png" /> </a>
+                            <a href="https://twitter.com/Interclean_Mx" title="Twitter"><img class="TamañoIconoSW" src="../botones/boton-tw-02.png" /> </a>
+                            <a href="" title=""><img class="TamañoIconoSW" src="../botones/boton-ig-02.png" /></a>
+                            <a href="https://www.youtube.com/channel/UCmK3psKZwhamHkEqNk3MhyA" title=""><img class="TamañoIconoSW" src="../botones/boton-yt-02.png" /></a>
+                            <a href="mailto:contacto@interclean.mx" title=""><img class="TamañoIconoSW" src="../botones/boton-em-02.png" /></a>
+                            <a href="https://wa.me/525584690368" title=""><img" class="TamañoIconoSW" src="../botones/boton-wt-02.png" /></a>
+                        </div>
+                        <a role="button" id="tel" href="tel:+52 2222 1807 04">
+                            <?xml version="1.0" encoding="UTF-8" ?>
+                            <p><img src="../img/telefono/Telefono_junto_Mesa_de_trabajo_1.svg" width="75" height="75" alt="Estrella SVG"></p>
+                        </a>
+
                     </div>
-                </div>    
+                </div>
+            </div>
         </nav>
         <!-- ============= FIN MENU// ============== -->
     </header>
-        <section class = "section">
-            <div class=""> 
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
+    <section class="section">
+        <div class="">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
                 <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../www/img_pruebas/carousel1.png" class="opacity-100 w-100" alt="...">                            
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../www/img_pruebas/carousel2.png" class="opacity-100 w-100" alt="...">                            
-                        </div>
-                        <div class="carousel-item " >
-                            <img    src="../www/img_pruebas/carousel3.png" class="opacity-100 w-100" alt="...">
-                        </div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="row justify-content-center align-items-center" id = "columimagtitlemp">
-                                <div class = "col-xl-12">
-                                    <h1  data-aos="fade-up"  data-aos-duration="2600">
-                                        <div class="tituloempl1">
-                                            <img class="img-fluid imghoja"  id = "imghoja"  src="../img/hojachica_interclean.png">Cotizaciones
-                                        </div>
-                                    </h1>
-                                </div>
-                            </div>  
-                        </div>
-                </div>
-               </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" id="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Atrás</span>
-                 </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" id="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Siguiente</span>
-                </a>
-                <div class="espaciado"></div>
-            </div>
-        </section>
-        <section class="section" style="margin-top: 5%;">            
-            <div class="container">
-                <div class="fcotizaciones" data-aos="fade-right" data-aos-duration="3000">
-                  <div class="row justify-content-center align-items-center" >
-                    <div class="col-md-6 col-xs-12" id = "formcot">                
-                        <!-- <h1 class = "titecotiza">
-                            <div class="TextoTamañoCotiza">
-                                <img class="img-fluid-flor-cot" src="../img/hojachica_interclean.png">COTIZACIONES
+                    <div class="carousel-item active">
+                        <img src="../www/img_pruebas/carousel1.png" class="opacity-100 w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../www/img_pruebas/carousel2.png" class="opacity-100 w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../www/img_pruebas/carousel3.png" class="opacity-100 w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="row justify-content-center align-items-center" id="columimagtitlemp">
+                            <div class="col-xl-12">
+                                <h1 data-aos="fade-up" data-aos-duration="2600">
+                                    <div class="tituloempl1">
+                                        <img class="img-fluid imghoja" id="imghoja" src="../img/hojachica_interclean.png">Cotizaciones
+                                    </div>
+                                </h1>
                             </div>
-                        </h1> -->
-                        <div class="titulosIC">
-                            <h1 class="letraTitulo">
-                            <img src="../img/hojachica_interclean.png" class="img-fluid hoja">
-                               COTIZACIONES                            
-                             </h1>                                
                         </div>
-                        <form class ="formcot">
+                    </div>
+                </div>
+            </div>
+
                             <div class="form-groupFroms">
                                 <input type="text" class="form-control formularioCotz" placeholder="Nombre Completo" id="nombre" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
                             </div>
                             <div class="form-row">
                                 <div class="form-groupFroms col-md-6">
-                                <input type="email" class="form-control formularioCotz"  placeholder="Email" id="correo" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
+                                    <input type="email" class="form-control formularioCotz" placeholder="Email" id="correo" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
                                 </div>
                                 <div class="form-groupFroms col-md-6">
-                                <input class="form-control formularioCotz"  type="text" placeholder="Teléfono" id="telefono" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
+                                    <input class="form-control formularioCotz" type="text" placeholder="Teléfono" id="telefono" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
                                 </div>
                             </div>
-                            <div class="form-groupFroms" style="text-align: left;">                    
-                                <input type="file" id="actual-btn" hidden/>                     
-                                <label id = "btnSubir" for="actual-btn" role="button">Subir archivo</label>                       
+                            <div class="form-groupFroms" style="text-align: left;">
+                                <input type="file" id="actual-btn" hidden/>
+                                <label id="btnSubir" for="actual-btn" role="button">Subir archivo</label>
                                 <span id="file-chosen">Ningún archivo seleccionado</span>
                             </div>
                             <div class="form-groupFroms">
-                                <textarea class="form-control formularioCotz"  id="mensaje" placeholder="Mensaje" rows="4" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;"></textarea>
+                                <textarea class="form-control formularioCotz" id="mensaje" placeholder="Mensaje" rows="4" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;"></textarea>
                             </div>
                             <div style=" margin-left: 0%; margin-top: 0;">
-                                <a href="./www/limpieza.html" class="boton vermas" id = "cotbtn" type="submit" style="width: 50%;">Enviar Cotización</a>
+                                <a href="./www/limpieza.html" class="boton vermas" id="cotbtn" type="submit" style="width: 50%;">Enviar Cotización</a>
                                 <!-- <button type="submit" id="empleocotize" class="btn btn-primary" >Cotice ahora!</button> -->
-                            </div>  
+                            </div>
                         </form>
                     </div>
                     <div class="col-md-6" id="img-cot" data-aos="fade-left" data-aos-duration="2600">
                         <img id="imgcot" class="img-fluid" src="../img/servicios/cotizaciones_interclean.png">
                         <hr class="LHCOTIZ">
                     </div>
-                  </div>
-               </div>
-           </div>    
-        </section>
-        <section class = "section" style="margin-top: 5%;">
-            <div class = "container-fluid">
-               <div class = "row">
-                   <div class="col-md-12 col-xs-12" id = "formcot">
-                       <div class = "col-md-12">
-                            <h1 class = "titecotizaContactanos" style="margin-top: -21%;">
-                                <div class = "TextoCotizacion"> 
-                                    <img class="img-fluid hoja" src="../img/hojachica_interclean.png">Contáctanos...         
-                                </div> 
-                            </h1>
-                       </div>                            
-                       <div class = "col-md-12">                                                    
-                       </div>
-                    <div class="row" id = "cotizacontacto">
-                        <div class = "col-md-6">
-                            <div class = "row" id = "contactosFormCotizTabl">
+
                                 <div class="col">
-                                    <img class="img-fluid-flor-cot" id = "imgcalendar"  src="../img/empleo/calendariointerclean.png">    
+                                    <img class="img-fluid-flor-cot" id="imgcalendar" src="../img/empleo/calendariointerclean.png">
                                 </div>
-                                <div class="col" id = "TitleHoraCont" >LUNES - VIERNES</div>
+                                <div class="col" id="TitleHoraCont">LUNES - VIERNES</div>
                                 <div class="col" style="line-height: 45px;">9:00 am - 6:00 pm</div>
-                                <div class="col" id = "TitleHoraCont">Sábado</div>
+                                <div class="col" id="TitleHoraCont">Sábado</div>
                                 <div class="col" style="line-height: 45px;">9:00 am - 3:00pm</div>
-                            </div>                          
-                            <div class = "row" id = "ContactosFormCotiz">
+                            </div>
+                            <div class="row" id="ContactosFormCotiz">
                                 <div class="col-md-4">
-                                    <img class="img-fluid-flor-cot" id = "imgcalendar"  src="../img/empleo/calendariointerclean.png">    
+                                    <img class="img-fluid-flor-cot" id="imgcalendar" src="../img/empleo/calendariointerclean.png">
                                 </div>
-                                <div class="col-md-4" id = "TitleHoraCont" >
-                                    <h3 class = "contFomLabCotiz1"> 
+                                <div class="col-md-4" id="TitleHoraCont">
+                                    <h3 class="contFomLabCotiz1">
                                         LUNES - VIERNES SÁBADO
-                                    </h3>                                    
+                                    </h3>
                                 </div>
                                 <div class="col-md-4" style="line-height: 45px;">
-                                    <h3 class = "contFomLabCotiz2">
+                                    <h3 class="contFomLabCotiz2">
                                         9:00 am-6:00 pm 9:00 am-3:00 pm
-                                    </h3>                                    
+                                    </h3>
                                 </div>
                             </div>
                             <div class="row" id="ContactosFormCotizDesk">
-                                <div class = "col-md-12">
+                                <div class="col-md-12">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <img class="img-fluid-flor-cot" id="imgcalendar" src="../img/empleo/calendariointerclean.png">    
+                                            <img class="img-fluid-flor-cot" id="imgcalendar" src="../img/empleo/calendariointerclean.png">
                                         </div>
-                                        <div class="col-md-4" >
+                                        <div class="col-md-4">
                                             <h4 style="font-weight: bold;line-height: 45px;">
                                                 LUNES - VIERNES SABADO
-                                            </h4>                                            
+                                            </h4>
                                         </div>
                                         <div class="col-md-2">
-                                            <h4 class = "contactLabHora1">
+                                            <h4 class="contactLabHora1">
                                                 9:00 am - 9:00 am -
                                             </h4>
                                         </div>
                                         <div class="col-md-2" style="margin-left: -4%;">
-                                            <h4 class = "contacLabHora2"  style="">
-                                                6:00 pm  3:00 pm
+                                            <h4 class="contacLabHora2" style="">
+                                                6:00 pm 3:00 pm
                                             </h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class = "col-md-6" style="line-height: 64px;">
-                            <div class = "row" id = "TelMailContactCotiz">
-                                <div class = "col-md-6">
-                                    <img class="img-fluid-flor-cot" id = "telefonoIconFormCotz" src="../img/empleo/telefonocontactointerclean.png" >
-                                    <img class="img-fluid-flor-cot" id = "MailIconFormCotz" src="../img/empleo/emailinterclean.png" >
+                        <div class="col-md-6" style="line-height: 64px;">
+                            <div class="row" id="TelMailContactCotiz">
+                                <div class="col-md-6">
+                                    <img class="img-fluid-flor-cot" id="telefonoIconFormCotz" src="../img/empleo/telefonocontactointerclean.png">
+                                    <img class="img-fluid-flor-cot" id="MailIconFormCotz" src="../img/empleo/emailinterclean.png">
                                 </div>
-                                <div class = "col-md-6">                                    
-                                        <div class="col-md-6" id = "textTelCotiz" >2222.18.07.04</div>
-                                        <div class="col-md-6" id = "textMailCotiz" >contacto@interclean.mx</div>
-                                </div>        
+                                <div class="col-md-6">
+                                    <div class="col-md-6" id="textTelCotiz">2222.18.07.04</div>
+                                    <div class="col-md-6" id="textMailCotiz">contacto@interclean.mx</div>
+                                </div>
                             </div>
                             <div class="row" id="TelMailContactCotizMov">
                                 <div class="col-md-6">
                                     <img class="img-fluid-flor-cot" id="telefonoIconFormCotz" src="../img/empleo/telefonocontactointerclean.png">
                                     <div class="col-md-6" id="textTelCotiz">2222.18.07.04</div>
                                 </div>
-                                <div class="col-md-6">                                        
-                                    <img class="img-fluid-flor-cot" id="MailIconFormCotz" src="../img/empleo/emailinterclean.png"><div class="col-md-6" id="textMailCotiz">contacto@interclean.mx</div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid-flor-cot" id="MailIconFormCotz" src="../img/empleo/emailinterclean.png">
+                                    <div class="col-md-6" id="textMailCotiz">contacto@interclean.mx</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-               </div>
-            </div>    
-        </section>
-        <section class="section" style="margin-top: 5%;">
-            <div class="container-fluid" id = "corizacionesmap">
-               <div class = "row">
-                   <div class = "col-lg-4"></div>                    
-                   <div class = "col-lg-8">
-                        <h1 class = "titemapsub">
-                            <div class="TextoTamañoMap col-xs-6">
-                                <img class="img-fluid-flor-cot" src="../img/hojachica_interclean.png">Nos encontramos ubicados en... 
-                            </div>
-                        </h1>                        
-                   </div>                                           
-               </div>
-               <div class = "row">
-                <div class = "col-lg-12" >
-                     <iframe class="col-lg-12 col-md-12 col-sm-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.108497685314!2d-98.2541164!3d19.062544999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e2f546cbfab923a!2sCentro%20Mayor!5e0!3m2!1ses-419!2smx!4v1622655035545!5m2!1ses-419!2smx" width="1250" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
-                 </div>
-            </div>               
             </div>
-        </section>      
-        <footer class="footer pt-4">
-            <div class="container-fluid text-center text-md-left">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-4">
-                        <div class="logo"><img class="logletrasIC" src="../img/logoletrasInterclean.png"></div>
-                    </div>
-                    <div class="col-md-4 offset-md-4">
-                        <div class="texto-logo"></div>
-                    </div>
-                </div>
-                <hr class="dividor">
-                <div class="row justify-content-center">
-                    <div class="col-md-3 ml-5">
-                        <h5 class="titulosFooter text-uppercase mt-3 mb-4">Compañía</h5>
-                        <ul class="efectoLink subtitulosFooter list-unstyled">
-                            <li>
-                                <a class="linksFooter" href="../index.html">Acerca de nosotros</a>
-                            </li>
-                            <li>
-                                <a class="linksFooter" href="cotizaciones.html">Contáctanos</a>
-                            </li>
-                            <li>
-                                <a class="linksFooter" href="empleo.html">Empleo</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 ml-5">
-                        <h5 class="titulosFooter text-uppercase mt-3 mb-4">Servicios</h5>
-                        <ul class="efectoLink subtitulosFooter list-unstyled">
-                            <li>
-                                <a class="linksFooter" href="desinfeccion.html">Desinfección</a>
-                            </li>
-                            <li>                                
-                                <a class="linksFooter" href="limpieza.html">Limpieza</a>
-                            </li>
-                            <li>
-                                <a class="linksFooter" href="mantenimiento.html">Mantenimiento</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 ml-5">
-                        <h5 class="titulosFooter text-uppercase mt-3 mb-4">Más información</h5>
-                        <ul class="efectoLink subtitulosFooter list-unstyled">
-                            <li>
-                                <a class="linksFooter" href="#!">Política de privacidad</a>
-                            </li>
-                        </ul>
-                    </div>
+        </div>
+    </section>
+    <section class="section" style="margin-top: 5%;">
+        <div class="container-fluid" id="corizacionesmap">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-8">
+                    <h1 class="titemapsub">
+                        <div class="TextoTamañoMap col-xs-6">
+                            <img class="img-fluid-flor-cot" src="../img/hojachica_interclean.png">Nos encontramos ubicados en...
+                        </div>
+                    </h1>
                 </div>
             </div>
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">©2020 <img class="hojaFooter img-fluid" src="../img/hojachica_interclean.png" alt="">InterClean. Todos los derechos reservados.
+            <div class="row">
+                <div class="col-lg-12">
+                    <iframe class="col-lg-12 col-md-12 col-sm-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.108497685314!2d-98.2541164!3d19.062544999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e2f546cbfab923a!2sCentro%20Mayor!5e0!3m2!1ses-419!2smx!4v1622655035545!5m2!1ses-419!2smx"
+                        width="1250" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
-        </footer>    
+        </div>
+    </section>
+    <footer class="footer pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4">
+                    <div><img class="logletrasIC" src="../img/logoletrasInterclean.png"></div>
+                </div>
+                <div class="col-md-4 offset-md-4">
+                    <div class="texto-logo"></div>
+                </div>
+            </div>
+            <hr class="dividor">
+            <div class="row justify-content-center">
+                <div class="col-md-3 ml-5">
+                    <h5 class="titulosFooter text-uppercase mt-3 mb-4">Compañia</h5>
+                    <ul class="efectoLink subtitulosFooter list-unstyled">
+                        <li>
+                            <a class="linksFooter" href="#2">Acerca de nosotros</a>
+                        </li>
+                        <li>
+                            <a class="linksFooter" href="#!">Contáctanos</a>
+                        </li>
+                        <li>
+                            <a class="linksFooter" href="#!">Empleo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 ml-5">
+                    <h5 class="titulosFooter text-uppercase mt-3 mb-4">Servicios</h5>
+                    <ul class="efectoLink subtitulosFooter list-unstyled">
+                        <li>
+                            <a class="linksFooter" href="./www/desinfeccion.html">Desinfección</a>
+                        </li>
+                        <li>
+                            <a class="linksFooter" href="./www/limpieza.html">Limpieza</a>
+                        </li>
+                        <li>
+                            <a class="linksFooter" href="./www/mantenimiento.html">Mantenimiento</a>
+                            <a class="linksFooter" href="#!">Desinfección</a>
+                        </li>
+                        <li>
+                            <a class="linksFooter" href="#!">Limpieza</a>
+                        </li>
+                        <li>
+                            <a class="linksFooter" href="#!">Mantenimiento</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 ml-5">
+                    <h5 class="titulosFooter text-uppercase mt-3 mb-4">Más información</h5>
+                    <ul class="efectoLink subtitulosFooter list-unstyled">
+                        <li>
+                            <a class="linksFooter" href="#!">Política de privacidad</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">©2020 <img class="hojaFooter img-fluid" src="img/hojachica_interclean.png" alt="">InterClean. Todos los derechos reservados.
+        </div>
+    </footer>
+
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="../js/cursor/cursor.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
-   <!--Menu Oculto-->
-   <script src="../js/Menu/Hide.js"></script>
-   <!-- Configuraciones de carrusel -->
-   <script src = "../js/CarruselConf/carruselConf.js"></script>  
+    <!--Menu Oculto-->
+    <script src="../js/Menu/Hide.js"></script>
+    <!-- Configuraciones de carrusel -->
+    <script src="../js/CarruselConf/carruselConf.js"></script>
     <!-- Hidde menu-->
 </body>
+
 </html>
