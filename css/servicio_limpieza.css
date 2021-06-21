@@ -20,16 +20,19 @@
 }
 
 .tamaño-logo-ic {
-    width:220; 
-    height:auto;
+    width: 220;
+    height: auto;
 }
+
 #tel-mov.tamaño-tel {
-    width:75px !important; 
+    width: 75px !important;
     height: 75px !important;
 }
-.letras-size{
+
+.letras-size {
     font-size: 2rem !important;
 }
+
 
 /* --------------------------- Estilos Carrusel ---------------------------------- */
 
@@ -92,10 +95,12 @@
     max-height: 100vh;
 }
 
-.letras-btn-conocer{
+.letras-btn-conocer {
     color: white;
-     font-size: 80%;
+    font-size: 80%;
 }
+
+
 /* --------------------------- Estilos Contenido Servicios Limpieza ---------------------------------- */
 
 
@@ -322,6 +327,14 @@
 }
 
 
+/* Color LI */
+
+
+/* .colorli {
+    background-color: #7FA439;
+} */
+
+
 /* --------------------------- FIN Estilos Contenido Servicios Limpieza ---------------------------------- */
 
 
@@ -419,23 +432,24 @@
         margin-top: 2rem;
     }
 }
+
 @media only screen and (max-width: 767px) and (min-width: 501px) {
     .cursor,
     .cursor2 {
         display: none;
     }
-.TitulosCarrusel {
-    padding: 50% 1rem;
-    font-size: 50px;
-    font-weight: 800;
-    border-radius: 1rem;
-    letter-spacing: 8.2px;
-    font-variant: small-caps;
-    text-transform: capitalize;
-    color: #1A455D;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .TitulosCarrusel {
+        padding: 50% 1rem;
+        font-size: 50px;
+        font-weight: 800;
+        border-radius: 1rem;
+        letter-spacing: 8.2px;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .d-md-block {
         display: block!important;
         margin: 0;
@@ -670,31 +684,35 @@
         font-variant: small-caps;
         text-transform: capitalize;
     }
-
     .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem;
         font-size: 30px;
     }
     .tamaño-logo-ic {
-        width: 300px !important; 
-        height:auto !important;
+        width: 300px !important;
+        height: auto !important;
     }
     #tel-mov.tamaño-tel {
-        width:105px !important; 
+        width: 105px !important;
         height: 105px !important;
     }
-    .letras-size{
+    .letras-size {
         font-size: 2.5rem !important;
     }
-    .btn-group-sm >.btn, .btn-sm {
+    .btn-group-sm>.btn,
+    .btn-sm {
         padding: 1.25rem 4.5rem !important;
         font-size: .875rem !important;
         line-height: 0.5 !important;
         border-radius: 2rem !important;
         font-size: 3rem !important;
     }
+    .row {
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-
-
