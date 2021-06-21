@@ -175,12 +175,44 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
     z-index: 10;
 }
 
-.activebutton {
-    color: #FFFFFF;
-    border: 3px inset #7FA439;
-    background-image: linear-gradient(90deg, rgba(106, 134, 52, 1) 0%, rgba(127, 164, 57, 1) 35%, rgba(141, 185, 58, 1) 100%);
+
+/*BOTON COTICE AHORA*/
+.color-degradiente{
+    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
+    border: 1px inset #119ae4;
+    background-color: #1A455D;
+    background-size: 200% auto;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #ffff !important;
 }
 
+.color-degradiente:hover{
+    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
+    background-position: right center;
+    border: 1px inset #72a512;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 50px;
+    color: rgb(255, 255, 255) !important;
+}
+.activebutton {
+    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
+    border: 1px inset #72a512;
+    background-size: 200% auto;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #ffff !important;
+}
+/*FIN BOTON COTICE AHORA*/
 
 /*ANIMACION MENU*/
 
@@ -372,7 +404,12 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
         margin-left: 46px;
         border: none;
     }
-    
+    .posicion-btn {
+        display: flex;
+        justify-content: center;
+        margin: 0.4em;
+        padding: 0.8rem;
+    }
     .Social-Net {
         display: contents !important;
     }
@@ -476,6 +513,12 @@ box-shadow: 0px 10px 13px -7px #000000, 1px 16px 10px 2px rgba(0,0,0,0); */
 /* Para 480px */
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
+    .posicion-btn{
+        display: flex;
+        justify-content: center;
+        margin: 0.4em;
+        padding: 0.8rem;
+    }
     .navbar-nav .nav-link {
         padding-right: 71px;
         padding-left: 0;

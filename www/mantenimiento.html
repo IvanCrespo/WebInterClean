@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css//menu.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/formularios.css">
 
     <!-- AOS: animacion CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -79,13 +78,16 @@
                                 </li>
                             </ul>
                         </div>
-                        <div dir="social-icons1">
-                            <ul class="social-icons1" data-animation="bonus">
-                                <li class="nav-item" style="list-style:none;">
-                                    <a class="nav-link Seleccionado-Boton Separacion-Menu" href="cotizaciones.html"> Cotice Ahora</a>
-                                </li>
-                            </ul>
+                        <div class="posicion-btn">
+                            <div dir="social-icons1">
+                                <ul class="social-icons1" data-animation="bonus">
+                                    <li class="nav-item" style="list-style:none;">
+                                        <a role="button"  class="btn btn-lg color-degradiente Separacion-Menu" href="cotizaciones.html" style="color: white; font-size: 90%;" > Cotice ahora </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+    
 
                     </ul>
                     <div class="Contenedor-Telefono">
@@ -137,19 +139,15 @@
 
                     </div>
 
-                    <div class="carousel-caption d-none d-md-block">
-                        <div class="marginTituloCarrusel">
-                            <h1 class="TitulosCarrusel">Mantenimiento</h1>
-                        </div>
+                    <div class="carousel-caption d-none d-md-block justify-content-center align-items-center">
+                     
+                        <h1 class="TitulosCarrusel">Mantenimiento</h1>
 
-                        <p class="FormatoLetras-Carrete">
-                            <!-- Lorem ipsum dolor sit Catamet ALAN consectetur CARLOS adipisicing elit. Labs rem quis ipsam IVAN repellat aspernatur FER harum
-                                     Lorem ipsum dolor sit  -->
-                        </p>
-                        <a role="button" href="#1" class="btnServicios"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                                  </svg> </i>
-                        </a>
+                            <div class="posicion-btn-carousel">
+                                <button type="button"  class="btn btn-sm color-degradiente">
+                                    <a href="#1" style="color: white; font-size: 90%;" >  Conocer mas </a>
+                                </button>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -172,10 +170,10 @@
 
 
         <section id="1">
-            <div class="container-fluid" style="margin-top: 5rem;">
+            <div class="container" style="margin-top: 5rem;">
                 <div class="row justify-content-center" style="overflow-y: hidden;">
 
-                    <div class="col-xl-12">
+                    <div class="col-xl-6 offset-xl-1">
 
                         <div class="titulosIC" data-aos="fade-right" data-aos-duration="2600">
                             <h1 class="letraTitulo">
@@ -184,12 +182,14 @@
                         </div>
 
                     </div>
-                    <div class="col-xl-12 ">
+                    <div class="col-xl-6 offset-xl-1">
                         <p class="textoIC">
-                            <span style="font-size: 25px; color: #7FA439;">E</span>l servicio de prevención y mantenimiento de tus áreas, contamos con personal altamente capacitado para realizar el servicio que sea solicitado.
+                        El servicio de prevención y mantenimiento de tus áreas,
+                         contamos con personal altamente capacitado para realizar
+                          el servicio que sea solicitado.
                         </p>
                     </div>
-                    <div class="col-xl-12">
+                    <div class="col-xl-6 offset-xl-1">
                         <div class="row justify-content-center align-self-center" data-aos="fade-left">
                             <img style="width: 30%; height: auto;" src="../img/servicios/mantenimiento-preventivo_interclean.png" alt="mantenimiento">
                         </div>
@@ -205,80 +205,17 @@
 
 
         <section id="2">
-            <div data-aos="fade-down">
-                <div class="container">
-                    <div class="card-deck">
-                        <div class="card-group">
-                            <div class="card M">
-                                <img src="https://mx.habcdn.com/files/dynamic_content/pequenos-trabajos-y-arreglos-663369_gallery.jpg" class="Cerrajeria" alt="Cerrajeria">
-                                <div class="card-body-M">
-                                    <div class="FormatoLetras">
-                                        <h5 class="card-title">Albañileria</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card M">
-                                <img src="https://cdn.homedepot.com.mx/contentMarketing/Proyectos/261_Plomeria/P_D261_01/images/P_D261_01.jpg" class="Plomeria" alt="Plomeria">
-                                <div class="card-body-M">
-                                    <div class="FormatoLetras">
-                                        <h5 class="card-title">Plomeria</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card M">
-                                <img src="https://www.yoaprendomas.cl/estudiante/621/articles-34320_imagen_portada.thumb_iCuadrada.jpg" class="Plomeria" alt="Plomeria">
-                                <div class="card-body-M">
-                                    <div class="FormatoLetras">
-                                        <h5 class="card-title">Electricidad</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      
 
         </section>
 
         <section id="3">
-            <div data-aos="fade-down">
-                <div class="container">
-                    <div class="card-deck">
-                        <div class="card-group">
-                            <div class="card M">
-                                <img src="https://cerrajerodemadrid24hs.files.wordpress.com/2020/05/cerrajero-de-madrid.jpg" class="Cerrajeria" alt="Cerrajeria">
-                                <div class="card-body-M">
-                                    <div class="FormatoLetras">
-                                        <h5 class="card-title">Cerrajeria</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card M">
-                                <img src="https://http2.mlstatic.com/D_NQ_NP_605516-MLV46301291248_062021-C.jpg" class="Construccion" alt="Construccion">
-                                <div class="card-body-M">
-                                    <div class="FormatoLetras">
-                                        <h5 class="card-title">Construccion / Remodelacion</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card M">
-                                <img src="https://mx.habcdn.com/photos/business/gallery/muro-de-tablaroca-en-local-comercial-guadalajara-jalisco_4116.jpg" class="Tabla_Roca" alt="Tabla_Roca">
-                                <div class="card-body-M">
-                                    <div class="FormatoLetras">
-                                        <h5 class="card-title">Tabla Roca</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          
         </section>
 
 
         <section id="6">
-            <div class="container" style="margin-top: 3rem;">
+            <div class="container" style="margin-top: 3rem; margin-bottom: 3rem;">
                 <div class="row" style="overflow-y: hidden;">
                     <div class="col-lg-7 order0  order-lg-0">
                         <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
