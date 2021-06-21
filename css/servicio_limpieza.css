@@ -8,15 +8,15 @@
 /* --------------------------- Estilos Letras Titulos Carrusel ----------------------------- */
 
 .TitulosCarrusel {
-    font-size: 90px;
-    padding: 1rem;
-    margin: 1rem;
+    font-size: 60px;
     font-weight: 800;
-    border-radius: 2rem;
-    letter-spacing: 7px;
+    border-radius: 4rem;
+    letter-spacing: 12.2px;
     font-variant: small-caps;
-    text-transform: capitalize;
     color: #1A455D;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20% 1rem;
 }
 
 
@@ -89,7 +89,7 @@
 
 .container-width {
     max-width: 94%;
-    margin: 6rem auto 5rem auto;
+    margin: 6rem auto 1rem auto;
 }
 
 
@@ -430,7 +430,7 @@
         border-radius: 2rem;
     }
     .TitulosCarrusel {
-        padding: 40% 1rem;
+        padding: 35% 1rem;
         font-size: 6.7vh;
         font-weight: 800;
         border-radius: 1rem;
@@ -441,6 +441,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
     .saniti {
         width: 75%;
         display: flex;
@@ -494,10 +495,10 @@
         border-radius: 4rem;
         letter-spacing: 12.2px;
         font-variant: small-caps;
-        color: #1A455D;
+        color: rgb(26, 69, 93);
         margin-left: auto;
         margin-right: auto;
-        padding: 0.1rem;
+        padding: 17% 1rem;
     }
     .carousel-control-prev,
     .carousel-control-next {
@@ -543,7 +544,7 @@
         color: #1A455D;
         margin-left: auto;
         margin-right: auto;
-        padding: 0.1rem;
+        padding: 20% 1rem;
     }
     .coticeSeccion {
         margin: 4rem auto 4rem auto;
@@ -563,14 +564,15 @@
         margin-bottom: 0.8rem;
     }
     .TitulosCarrusel {
-        font-size: 75px;
+        font-size: 60px;
         font-weight: 800;
         border-radius: 4rem;
-        letter-spacing: 10.2px;
-        font-style: normal;
+        letter-spacing: 12.2px;
         font-variant: small-caps;
-        text-transform: capitalize;
         color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20% 1rem;
     }
     .carousel-control-prev,
     .carousel-control-next {
@@ -598,9 +600,7 @@
 
 @media only screen and (min-width: 1920px) {
     .container-width {
-        margin-top: 5rem;
-        margin-bottom: 3rem;
-        max-width: 85%;
+        margin-bottom: 5rem;
     }
     .TitulosCarrusel {
         font-size: 100px;
@@ -612,13 +612,6 @@
         text-transform: capitalize;
         color: #1A455D;
     }
-    .imgSecciones {
-        width: 85%;
-    }
-    .row {
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 501px) {
@@ -626,18 +619,18 @@
     .cursor2 {
         display: none;
     }
-    .TitulosCarrusel {
-        padding: 50% 1rem;
-        font-size: 50px;
-        font-weight: 800;
-        border-radius: 1rem;
-        letter-spacing: 8.2px;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.TitulosCarrusel {
+    padding: 50% 1rem;
+    font-size: 50px;
+    font-weight: 800;
+    border-radius: 1rem;
+    letter-spacing: 8.2px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: #1A455D;
+    margin-left: auto;
+    margin-right: auto;
+}
     .d-md-block {
         display: block!important;
         margin: 0;
