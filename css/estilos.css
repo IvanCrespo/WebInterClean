@@ -165,6 +165,21 @@
 /* ----------------------------- FIN Titulos --------------------------------- */
 
 
+/* ----------------------------- Titulos Cotice Ahora --------------------------------- */
+
+.TituloCoticeServicios {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0.7rem auto 0.4rem auto;
+    color: #1A455D;
+}
+
+
+/* ----------------------------- FIN Titulos Cotice Ahora --------------------------------- */
+
+
 /* ------------------------------- MOUSE --------------------------------- */
 
 .cursor {
