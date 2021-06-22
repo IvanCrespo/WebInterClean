@@ -107,7 +107,7 @@ nav>.container-fluid {
 
 .fondo-degradado-menu-blanco {
     background-color: #6a6a6a;
-    background-image: linear-gradient(315deg, #b5b5b5 0%, #f5f7fa 84%);
+    background-image: linear-gradient(340deg, #b5b5b5 0%, #f5f7fa 24%);
     z-index: 100;
 }
 
