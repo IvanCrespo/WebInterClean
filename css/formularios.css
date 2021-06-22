@@ -425,7 +425,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     margin: -1px;
-    border-radius: 0rem 3rem 0rem 0rem;
+    border-radius: 0rem 0rem 3rem;
     box-shadow: 23px 20px 31px 6px rgb(0 0 0 / 17%);
     -webkit-box-shadow: 23px 20px 31px 6px rgb(0 0 0 / 17%);
     -moz-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
@@ -570,6 +570,7 @@ main {
     ;
 }
 
+
 @media (min-width: 320px) and (max-width: 500px) {
     .carousel-inner img {
         height: 90vh;
@@ -579,14 +580,14 @@ main {
         font-size: 10px;
     }
     .TextoTamañoMap {
-        font-size: 17px;
+        font-size: 20px;
         padding: 12px;
-        font-size: 23px;
-        margin-left: -25px;
+        font-size: 20px;
+        margin-left: auto;
         text-align: center;
     }
     .titemapsub {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin-left: 14px;
         margin-right: 10%;
@@ -798,8 +799,45 @@ main {
     .vermas {
         margin-left: -65%;
     }
+    .letraTitulo {
+        font-size: 35px;
+    }
 }
+@media (min-width: 364px) and (max-width: 420px) {
+    .titemapsub{
+        margin-left: 15px;
+        width: 107%;
+    }
+    .TextoTamañoMap{
+        padding: 12px;
+        font-size: 20px;
+        margin-left: -3%;
+        text-align: center;
+    }
+    .TextoTamañoMap{
+        font-size: 18px;
+        margin-left: -2%;
+    }
+    .hoja{
+        width: 1.5rem;
+    }
 
+
+}
+@media (min-width: 320px) and (max-width: 363px) {
+    .titemapsub{
+        width: 110%;
+        margin-left: -8px;
+    }
+    .TextoTamañoMap{
+        margin-left: -2%;
+        font-size: 17px;
+    }
+    .hoja{
+        width: 0.9rem;
+    }
+
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .carousel-inner img {
         height: 130vh;
@@ -889,7 +927,41 @@ main {
     }
     .TextoCotizacion {
         padding-top: 1rem;
+        margin-left: 16%;
     }
+    .letraTitulo{
+        font-size: 26px;  
+    }
+
+    .hoja{
+        width: 2.0rem;
+    }
+    .titulosIC{
+        margin-left: -5%;
+        width: 105%;
+    }
+    .LH1{
+        max-width: 78%;
+        margin-left: auto;
+    }
+    #imgcemp{
+        margin-left: 61px;
+    }    
+    .formemp{
+        margin-left: auto;
+    }
+    #telefonoIconFormCotz{
+        margin-top: -3%;
+    }
+
+    .TextoCotizacion{
+        padding-top: 2.7rem;
+    }
+
+    .titecotizaContactanos{
+        width: 29rem;
+    }
+   
 }
 
 @media (min-width: 991px) and (max-width: 1024px) {
@@ -935,6 +1007,21 @@ main {
     }
     #ContactosFormCotizDesk {
         display: none;
+    }
+
+    .hoja{
+        width: 1.7rem;
+    }
+
+    #imgcemp{
+        margin-left: 64px;
+    }
+    .LH1{
+        margin-left: auto;
+    }
+
+    .letraTitulo{
+        font-size: 36px;
     }
 }
 
@@ -999,8 +1086,8 @@ main {
         margin-top: -15%
     }
     .TextoCotizacion {
-        margin-left: 6%;
-        padding: 1.5rem;
+        margin-left: auto;
+        padding: 3.0rem;
     }
     #TitleHoraCont {
         font-size: 78%;
@@ -1025,14 +1112,57 @@ main {
     }
     .titecotizaContactanos {
         margin-left: -5.3rem;
+        width: 35rem;
     }
     .contFomLabCotiz1 {
         font-size: 97%;
         font-weight: bold;
         line-height: 45px
     }
+    .titulosIC{
+        width: 105%;
+        height: 72px;
+    }
+    .letraTitulo{
+        font-size: 41px
+    }
+    .hoja{
+        width: 2.3rem;  
+    }
+    #imgcemp{
+        margin-left: 92px;
+    }
+    .LH1{
+        margin-left: auto;
+    }
+    #telefonoIconFormCotz{
+        margin-top: 1%;
+    }
+    .contFomLabCotiz2{
+        margin-top: -26%;
+    }
+
+    #telefonoIconFormCotz{
+        width: 3.5rem;
+        margin-top: -4%;
+    }
+    #MailIconFormCotz{
+        margin-left: 64%;
+        margin-top: -11%;
+        width: 65px;
+    }
+
+  
+
+
+
 }
 
+@media (min-width: 1025px) and (max-width: 1199px){
+    .contFomLabCotiz2{
+        margin-top: 0%;
+    }    
+}
 @media (min-width: 1025px) and (max-width: 1087px) {
     .contFomLabCotiz2 {
         margin-left: -38px;
@@ -1072,7 +1202,7 @@ main {
     }
     .TextoCotizacion {
         font-size: 54px;
-        padding-top: 1.6rem;
+        padding-top: 2.5rem;
         margin-left: 3%;
     }
     .titemapsub {
@@ -1091,6 +1221,8 @@ main {
     }
     .titecotizaContactanos {
         margin-left: -2.3rem;
+        width: 40rem;
+        height: 7.2rem;
     }
     #ContactosFormCotizDesk {
         display: flex;
@@ -1113,6 +1245,15 @@ main {
         font-size: 93%;
         margin-left: -4%;
     }
+
+    #telefonoIconFormCotz{
+        margin-top: -1%;
+    }
+
+    #MailIconFormCotz{
+        margin-top: -2%;
+    }
+
 }
 
 @media (min-width: 1681px) and (max-width: 1920px) {
@@ -1188,12 +1329,13 @@ main {
     }
     .TextoCotizacion {
         font-size: 50px;
-        padding-top: 26.5px;
+        padding-top: 40.5px;
         left: 25%;
-        margin-left: 15%;
+        margin-left: auto;
     }
     .titecotizaContactanos {
         margin-left: -5.3rem;
+        width: 45rem;
     }
     #textTelCotiz {
         margin-top: -6%;
@@ -1213,4 +1355,13 @@ main {
     .LH2 {
         margin-left: 26%;
     }
+
+    #telefonoIconFormCotz{
+        margin-top: 0%;
+    }
+
+    #MailIconFormCotz{
+        margin-top: 1%;
+    }
+
 }
