@@ -71,8 +71,7 @@
     font-size: 15px;
     background: linear-gradient(90deg, rgba(21, 47, 61, 1) 0%, rgba(22, 55, 73, 1) 41%, rgba(60, 139, 182, 1) 100%);
     color: #fff;
-    border-radius: 15px 15px 0px 0px;
-    ;
+    /* border-radius: 15px 15px 0px 0px; */
 }
 
 .hojaFooter {
