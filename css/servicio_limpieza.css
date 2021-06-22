@@ -51,13 +51,13 @@
     text-decoration: none;
 }
 
-.estilos-boton-carousel{
+.estilos-boton-carousel {
     color: white;
     font-size: 90%;
     text-decoration: none;
-    
 }
-.estilos-boton-carousel:hover{
+
+.estilos-boton-carousel:hover {
     color: white;
 }
 
@@ -261,7 +261,7 @@
 /* Posicion img desinfeccion */
 
 .saniti {
-    width: 70%;
+    width: 66%;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -341,7 +341,6 @@
 /* -------------------------------- Medias Query ------------------------------- */
 
 @media only screen and (min-width: 320px) and (max-width: 500px) {
-    
     .TitulosCarrusel {
         padding: 50% 1rem;
         font-size: 1.7rem;
@@ -408,7 +407,6 @@
     .d-md-block {
         display: block !important;
     }
-
     .carousel-inner.carousel-item IMG {
         background-color: green;
         height: 100vh;
@@ -432,13 +430,13 @@
     .cursor2 {
         display: none;
     }
-.TitulosCarrusel {
-    padding: 50% 1rem;
-    font-size: 40px;
-    font-weight: 800;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .TitulosCarrusel {
+        padding: 50% 1rem;
+        font-size: 40px;
+        font-weight: 800;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .d-md-block {
         display: block!important;
         margin: 0;
@@ -524,7 +522,6 @@
         margin-top: 4rem;
         margin-bottom: 1rem;
     }
-
     .coticeSeccion {
         margin: 4rem auto 4rem auto;
     }
@@ -585,7 +582,6 @@
         margin-top: 4rem;
         margin-bottom: 1rem;
     }
-
     .coticeSeccion {
         margin: 4rem auto 4rem auto;
     }
@@ -622,7 +618,7 @@
         opacity: rgba(255, 255, 255, 0.953);
     }
     .imgSecciones {
-        width: 85%;
+        width: 76%;
     }
     .row {
         justify-content: center;

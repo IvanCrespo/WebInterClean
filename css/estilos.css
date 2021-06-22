@@ -154,7 +154,7 @@
 
 .letraTitulo {
     font-weight: 700;
-    font-size: 46px;
+    font-size: 44px;
     letter-spacing: 2px;
     margin: 0.7rem auto 0.4rem auto;
 }
@@ -334,7 +334,7 @@
     background-color: #00000003;
     color: rgb(26, 69, 93);
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: justify;
 }
 
@@ -1179,7 +1179,7 @@
         font-size: 36px;
     }
     .card-text {
-        font-size: 24px;
+        font-size: 22.4px;
     }
     .card {
         margin: 3rem auto 3rem auto;
@@ -1191,10 +1191,10 @@
         max-width: 88%;
     }
     .letraTitulo {
-        font-size: 64px;
+        font-size: 50px;
     }
     .textoIC {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
         line-height: 2.7rem;
         margin-bottom: 0rem;
     }
@@ -1268,10 +1268,10 @@
         max-width: 88%;
     }
     .letraTitulo {
-        font-size: 67px;
+        font-size: 52px;
     }
     .textoIC {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 2.7rem;
     }
     .fCobertura,
