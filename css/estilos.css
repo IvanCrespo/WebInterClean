@@ -78,8 +78,6 @@
 }
 
 
-
-
 /* --------------------------- Letra de color verde ------------------------------- */
 
 
@@ -793,7 +791,6 @@
     }
     /* -------------------- FIN Seccion Contador ----------------- */
     /* -------------------- Seccion Redes Sociales ----------------- */
-
     #social-icons {
         display: none !important;
     }
@@ -928,7 +925,6 @@
         width: 60px!important;
         height: auto !important;
     }
-
     /* -------------------- FIN Seccion Redes Sociales ----------------- */
     /* -------------------- Seccion Zoom ----------------- */
     .zoom {
