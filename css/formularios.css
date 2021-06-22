@@ -433,7 +433,7 @@
 
 .titemapsub {
     width: 49rem;
-    height: 7.2rem;
+    height: auto;
     margin-left: auto;
     background-color: #1A455D;
     color: #fff;
@@ -876,8 +876,9 @@ main {
         margin-left: -53%;
     }
     .titemapsub {
-        width: 47rem;
-        margin-right: 0%
+        width: 44rem;
+        margin-right: 0%;
+        height: 6.0rem;
     }
     .titecotizaContactanos {
         margin-left: -5.3rem;
@@ -981,7 +982,7 @@ main {
         margin-left: 13%;
     }
     .titemapsub {
-        margin-left: -17%;
+        /* margin-left: -17%; */
     }
     .LHCOTIZ {
         max-width: 323px;
@@ -993,7 +994,7 @@ main {
     }
     .TextoTamañoMap {
         font-size: 35px;
-        margin-left: 2%;
+        margin-left: -10%;
     }
     .titecotize2 {
         margin-left: -21.1rem;
@@ -1175,6 +1176,18 @@ main {
         font-weight: bold;
     }
 }
+@media (min-width: 1088px) and (max-width: 1199px){
+    .titemapsub{
+        width: 89%;
+    }
+}
+@media (min-width: 1199px) and (max-width: 1366px){
+    .titemapsub{
+        width: 83%;
+    }
+}
+
+
 
 @media (min-width: 1367px) and (max-width: 1680px) {
     .carousel-inner img {
@@ -1207,6 +1220,8 @@ main {
     }
     .titemapsub {
         margin-right: -1%;
+        height: auto;
+        /* width: 83%; */
     }
     .titecotize {
         width: 75rem;
@@ -1253,6 +1268,11 @@ main {
     #MailIconFormCotz{
         margin-top: -2%;
     }
+    .TextoTamañoMap{
+        padding: 1rem;
+    }
+
+
 
 }
 
@@ -1299,6 +1319,7 @@ main {
     }
     .titemapsub {
         margin-right: -1%;
+        height: 78px;
     }
     .titempleo {
         width: 40rem;
@@ -1362,6 +1383,9 @@ main {
 
     #MailIconFormCotz{
         margin-top: 1%;
+    }
+    .TextoTamañoMap{
+        padding-top: 1.3rem;
     }
 
 }
