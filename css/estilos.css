@@ -156,7 +156,7 @@
 
 .letraTitulo {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 46px;
     letter-spacing: 2px;
     margin: 0.7rem auto 0.4rem auto;
 }
@@ -336,7 +336,7 @@
     background-color: #00000003;
     color: rgb(26, 69, 93);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
@@ -703,7 +703,7 @@
         font-size: 0.9rem;
     }
     .letraTitulo {
-        font-size: 38px;
+        font-size: 36px;
     }
     .hoja {
         width: 2rem;
