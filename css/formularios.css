@@ -340,7 +340,7 @@
 }
 
 .coticeahora {
-    margin-top: 8%;
+    margin-top: 5%;
     position: relative;
     background: url('../img/TrabajoEnEquipoInterclean.png') no-repeat fixed;
     background-position: center center;
@@ -348,7 +348,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 470px;
+    min-height: 50vh;
 }
 
 #telefonoIconFormCotz {
