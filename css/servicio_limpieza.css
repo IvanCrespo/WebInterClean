@@ -462,9 +462,17 @@
         height: 99vh;
         max-height: 100vh;
     }
+    .social-icons li {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .social-icons li {
+        display: block;
+        margin: 12px 0px;
+        border-radius: 100px;
+    }
     .cursor,
     .cursor2 {
         display: none;
