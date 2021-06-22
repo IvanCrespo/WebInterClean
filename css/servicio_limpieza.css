@@ -326,10 +326,13 @@
 
 /* Color LI */
 
+.colorli {
+    color: #7FA439;
+}
 
-/* .colorli {
-    background-color: #7FA439;
-} */
+.textoli {
+    color: #1A455D;
+}
 
 
 /* --------------------------- FIN Estilos Contenido Servicios Limpieza ---------------------------------- */
@@ -571,10 +574,6 @@
     .saniti {
         width: 55%;
     }
-
-
-
-    
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1366px) {
