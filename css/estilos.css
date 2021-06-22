@@ -77,9 +77,7 @@
     display: none !important;
 }
 
-.Social-Net {
-    display: none !important;
-}
+
 
 
 /* --------------------------- Letra de color verde ------------------------------- */
@@ -795,9 +793,7 @@
     }
     /* -------------------- FIN Seccion Contador ----------------- */
     /* -------------------- Seccion Redes Sociales ----------------- */
-    .Social-Net {
-        display: contents !important;
-    }
+
     #social-icons {
         display: none !important;
     }
@@ -932,9 +928,7 @@
         width: 60px!important;
         height: auto !important;
     }
-    .Social-Net {
-        display: contents!important;
-    }
+
     /* -------------------- FIN Seccion Redes Sociales ----------------- */
     /* -------------------- Seccion Zoom ----------------- */
     .zoom {

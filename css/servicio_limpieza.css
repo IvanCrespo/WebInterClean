@@ -344,7 +344,7 @@
     
     .TitulosCarrusel {
         padding: 50% 1rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: 800;
         margin-left: auto;
         margin-right: auto;
@@ -533,7 +533,7 @@
     }
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
     .TitulosCarrusel {
         font-size: 60px;
         font-weight: 800;
@@ -574,6 +574,10 @@
     .saniti {
         width: 55%;
     }
+
+
+
+    
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1366px) {
