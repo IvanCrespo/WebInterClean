@@ -11,9 +11,10 @@
     font-size: 60px;
     font-weight: 800;
     border-radius: 4rem;
-    letter-spacing: 12.2px;
+    letter-spacing: 1px;
     color: #ffffff;
     text-shadow: 8px 8px 0 #1A455D, 8px 8px 0 #1A455D;
+    /* text-shadow: 2px 0px 4px rgba(26,69,93,1); */
     margin-left: auto;
     margin-right: auto;
     padding: 20% 1rem;
@@ -48,6 +49,16 @@
     background-position: right center;
     color: #fff;
     text-decoration: none;
+}
+
+.estilos-boton-carousel{
+    color: white;
+    font-size: 90%;
+    text-decoration: none;
+    
+}
+.estilos-boton-carousel:hover{
+    color: white;
 }
 
 .carousel {
@@ -330,6 +341,14 @@
 /* -------------------------------- Medias Query ------------------------------- */
 
 @media only screen and (min-width: 320px) and (max-width: 500px) {
+    
+    .TitulosCarrusel {
+        padding: 50% 1rem;
+        font-size: 2rem;
+        font-weight: 800;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .cursor,
     .cursor2 {
         display: none;
@@ -389,16 +408,7 @@
     .d-md-block {
         display: block !important;
     }
-    .TitulosCarrusel {
-        padding: 50% 1rem;
-        font-size: 40px;
-        font-weight: 800;
-        border-radius: 1rem;
-        letter-spacing: 1px;
-        color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
     .carousel-inner.carousel-item IMG {
         background-color: green;
         height: 100vh;
@@ -422,16 +432,13 @@
     .cursor2 {
         display: none;
     }
-    .TitulosCarrusel {
-        padding: 50% 1rem;
-        font-size: 50px;
-        font-weight: 800;
-        border-radius: 1rem;
-        letter-spacing: 8.2px;
-        color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.TitulosCarrusel {
+    padding: 50% 1rem;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
     .d-md-block {
         display: block!important;
         margin: 0;
@@ -483,12 +490,9 @@
         border-radius: 2rem;
     }
     .TitulosCarrusel {
-        padding: 35% 1rem;
+        padding: 38% 1rem;
         font-size: 6.7vh;
         font-weight: 800;
-        border-radius: 1rem;
-        letter-spacing: 8.2px;
-        color: #1A455D;
         margin-left: auto;
         margin-right: auto;
     }
@@ -520,16 +524,7 @@
         margin-top: 4rem;
         margin-bottom: 1rem;
     }
-    .TitulosCarrusel {
-        font-size: 65px;
-        font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 10.2px;
-        font-style: normal;
-        font-variant: small-caps;
-        text-transform: capitalize;
-        color: #1A455D;
-    }
+
     .coticeSeccion {
         margin: 4rem auto 4rem auto;
     }
@@ -542,9 +537,8 @@
     .TitulosCarrusel {
         font-size: 60px;
         font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 12.2px;
-        color: rgb(26, 69, 93);
+        color: #ffffff;
+        text-shadow: 8px 8px 0 #1A455D, 8px 8px 0 #1A455D;
         margin-left: auto;
         margin-right: auto;
         padding: 17% 1rem;
@@ -587,16 +581,7 @@
         margin-top: 4rem;
         margin-bottom: 1rem;
     }
-    .TitulosCarrusel {
-        font-size: 60px;
-        font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 12.2px;
-        color: #1A455D;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20% 1rem;
-    }
+
     .coticeSeccion {
         margin: 4rem auto 4rem auto;
     }
@@ -620,9 +605,8 @@
     .TitulosCarrusel {
         font-size: 60px;
         font-weight: 800;
-        border-radius: 4rem;
-        letter-spacing: 12.2px;
-        color: #1A455D;
+        color: #ffffff;
+        text-shadow: 8px 8px 0 #1A455D, 8px 8px 0 #1A455D;
         margin-left: auto;
         margin-right: auto;
         padding: 20% 1rem;
@@ -658,9 +642,8 @@
     .TitulosCarrusel {
         font-size: 100px;
         font-weight: 800;
-        border-radius: 3rem;
-        letter-spacing: 0.2px;
-        font-style: normal;
+        color: #ffffff;
+        text-shadow: 8px 8px 0 #1A455D, 8px 8px 0 #1A455D;
     }
     .row {
         justify-content: center;
