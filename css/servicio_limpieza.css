@@ -20,7 +20,6 @@
 }
 
 
-
 /* --------------------------- Estilos Carrusel ---------------------------------- */
 
 .btn-posicion {
@@ -423,16 +422,16 @@
     .cursor2 {
         display: none;
     }
-.TitulosCarrusel {
-    padding: 50% 1rem;
-    font-size: 50px;
-    font-weight: 800;
-    border-radius: 1rem;
-    letter-spacing: 8.2px;
-    color: #1A455D;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .TitulosCarrusel {
+        padding: 50% 1rem;
+        font-size: 50px;
+        font-weight: 800;
+        border-radius: 1rem;
+        letter-spacing: 8.2px;
+        color: #1A455D;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .d-md-block {
         display: block!important;
         margin: 0;
@@ -647,6 +646,9 @@
     .imgMantenimiento {
         width: 40%;
     }
+    .contenedorDesinfeccion {
+        max-width: 80%;
+    }
 }
 
 @media only screen and (min-width: 1681px) and (max-width: 1920px) {
@@ -660,8 +662,13 @@
         letter-spacing: 0.2px;
         font-style: normal;
     }
-
-
+    .row {
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorDesinfeccion {
+        max-width: 80%;
+    }
 }
 
 
