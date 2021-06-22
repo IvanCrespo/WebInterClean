@@ -344,7 +344,6 @@
 
 .textoIC {
     padding: 2rem;
-    background-color: #00000003;
     color: rgb(26, 69, 93);
     font-weight: 400;
     font-size: 1.3rem;
@@ -1094,6 +1093,9 @@
     .escudo {
         margin-top: 4%;
         margin-left: 1%;
+    }
+    .fCobertura {
+        background-size: 80%;
     }
     /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
 }
