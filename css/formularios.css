@@ -1344,8 +1344,8 @@ main {
         width: 44rem;
     }
     .formcot {
-        margin-left: 16%;
-        width: max-content;
+        margin-left: 0%;
+        width: 100%;
     }
     .TextoTamañoCotiza {
         font-size: 45px;
@@ -1361,9 +1361,13 @@ main {
         /* margin-left: 40%; */
     }
     .LHCOTIZ {
-        max-width: 653px;
+        /*max-width: 653px;*/
         /* margin: 0px 20px 0 auto; */
-        margin-left: 25%;
+        /*margin-left: 25%;*/
+        max-width: 600px;
+        margin: 0px auto 0 auto;
+
+
     }
     .titemapsub {
         margin-right: 2%;
