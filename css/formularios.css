@@ -525,7 +525,7 @@ main {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    height: 100px;
+    height: auto;
     width: 100px;
     background-size: 100%, 100%;
     background-image: none;
@@ -568,6 +568,10 @@ main {
     box-shadow: 7px 4px 8px 0px rgba(0, 0, 0, 0.55);
     -webkit-box-shadow: 7px 4px 8px 0px rgba(0, 0, 0, 0.55);
     ;
+}
+
+.container-formularios{
+    max-width: 93%;
 }
 
 
@@ -1061,12 +1065,12 @@ main {
     }
     #textMailCotiz {
         line-height: 45px;
-        margin-left: -26%;
+        margin-left: -77%;
     }
     .titemapsub {
         width: 98%;
         height: auto;
-        margin-right: -1%;
+        margin-right: 2%;
     }
     .TextoTamañoMap {
         font-size: 33px;
@@ -1077,10 +1081,10 @@ main {
         margin-left: 23%;
         height: 80%;
     }
-    #telefonoIconFormCotz {
-        width: 4rem;
-        margin-left: 63%;
-        margin-top: -11%;
+    #telefonoIconFormCotz {        
+        margin-left: 0%;       
+        width: 3.5rem;
+        margin-top: -24%;
     }
     #MailIconFormCotz {
         margin-left: 64%;
