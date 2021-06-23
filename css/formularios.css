@@ -462,9 +462,9 @@
     font-size: 16px;
     margin-right: 5%;
     border-radius: 3rem 0rem 0rem 0rem;
-    box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
-    -webkit-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
+    box-shadow: 23px 20px 31px -20px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 23px 20px 31px -20px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow:23px 20px 31px -20px rgba(0, 0, 0, 0.17);
 }
 
 .titecontactanos {
@@ -824,7 +824,10 @@ main {
         margin-left: -65%;
     }
     .letraTitulo {
-        font-size: 35px;
+        font-size: 25px;
+    }
+    #cotbtn{
+        width: 51%;
     }
 }
 @media (min-width: 364px) and (max-width: 420px) {
@@ -1067,11 +1070,12 @@ main {
     }
     #imgcot {
         width: 62%;
-        margin-left: 45%;
+        margin-left: 30%;
     }
     .LHCOTIZ {
-        max-width: 382px;
-        margin: 0px -41px 0 auto;
+        max-width: 20rem;
+        margin: 0px 24px 0 auto;
+
     }
     .titecotiza {
         width: 39rem;
@@ -1093,7 +1097,7 @@ main {
         margin-right: 2%;
     }
     .TextoTamañoMap {
-        font-size: 33px;
+        font-size: 31px;
         padding: 1rem;
         margin-left: 0%;
     }
@@ -1149,10 +1153,11 @@ main {
         height: 72px;
     }
     .letraTitulo{
-        font-size: 35px
+        font-size: 30px;
+        padding: 0.5rem;
     }
     .hoja{
-        width: 2.3rem;  
+        width: 2.0rem;  
     }
     #imgcemp{
         margin-left: 92px;
@@ -1234,19 +1239,19 @@ main {
         height: 5%;
     }
     .formcot {
-        width: 125%;
-        margin-left: -11%;
+        width: 100%;
+        margin-left: 0%;
     }
     .titecotiza {
         margin-left: -6.3rem;
     }
     #imgcot {
         width: 72%;
-        margin-left: 51%;
+        margin-left: 30%;
     }
     .LHCOTIZ {
         max-width: 370px;
-        margin: 0px -129px 0 auto;
+        margin: 0px 26px 0 auto;
     }
     .TextoCotizacion {
         font-size: 54px;
@@ -1254,9 +1259,9 @@ main {
         margin-left: 3%;
     }
     .titemapsub {
-        margin-right: -1%;
+        margin-right: 2%;
         height: auto;
-        /* width: 83%; */
+         width: 83%;
     }
     .titecotize {
         width: 75rem;
@@ -1361,7 +1366,7 @@ main {
         margin-left: 25%;
     }
     .titemapsub {
-        margin-right: -1%;
+        margin-right: 2%;
         height: 78px;
     }
     .titempleo {
