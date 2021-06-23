@@ -1095,7 +1095,8 @@
         margin-left: 1%;
     }
     .fCobertura {
-        background-size: 80%;
+        background-size: 87%;
+        background-position-y: 4rem;
     }
     /* -------------------- FIN Seccion Cobertura Nacional ----------------- */
 }
