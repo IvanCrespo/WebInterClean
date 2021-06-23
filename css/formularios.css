@@ -165,6 +165,15 @@
     margin-left: 3%;
 }
 
+
+#telmailscontact{
+    margin-left: -15%;
+}
+
+#horarioFormCot{
+    margin-left: -5%;
+}
+
 .contactLabHora1 {
     font-weight: normal;
     line-height: 45px;
@@ -182,6 +191,10 @@
     font-weight: normal;
     line-height: 45px;
     font-size: 101%;
+}
+#imgcalendario{
+    width: 40%;
+    margin-left: 51%;
 }
 
 .TextoTamañoCotiza {
@@ -297,6 +310,13 @@
     margin-left: -31.1rem;
     margin-top: -14%;
     font-weight: bold;
+}
+
+#telContFormu{
+    width: 15%;
+}
+#emailContForm{
+    width: 16%;
 }
 
 .titempleo {
@@ -1061,7 +1081,7 @@ main {
     }
     #textTelCotiz {
         line-height: 45px;
-        margin-left: -25%;
+        margin-left: -78%;
     }
     #textMailCotiz {
         line-height: 45px;
@@ -1129,7 +1149,7 @@ main {
         height: 72px;
     }
     .letraTitulo{
-        font-size: 41px
+        font-size: 35px
     }
     .hoja{
         width: 2.3rem;  
@@ -1146,20 +1166,15 @@ main {
     .contFomLabCotiz2{
         margin-top: -26%;
     }
-
     #telefonoIconFormCotz{
-        width: 3.5rem;
-        margin-top: -4%;
+        width: 3.0rem;
+        margin-top: -24%;        
     }
     #MailIconFormCotz{
-        margin-left: 64%;
-        margin-top: -11%;
-        width: 65px;
+        margin-left: -54px;
+        margin-top: 21%;
+        width: 56px;
     }
-
-  
-
-
 
 }
 
@@ -1179,6 +1194,22 @@ main {
         line-height: 45px;
         font-weight: bold;
     }
+}
+@media (min-width: 768px) and (max-width: 1199px){
+    #telmailscontact{
+        margin-left:-2%;
+    }
+    #imgcalendario{
+        margin-left: 38%;
+        width: 18%;
+    }
+    #telContFormu{
+        width: 10%;
+    }
+    #emailContForm{
+        width: 11%;
+    }
+
 }
 @media (min-width: 1088px) and (max-width: 1199px){
     .titemapsub{
@@ -1251,6 +1282,10 @@ main {
     }
     #textTelCotiz {
         margin-top: -6%;
+        margin-left: -30%;
+    }
+    #textMailCotiz{
+        margin-left: -31%;
     }
     .contactLabHora1 {
         font-weight: normal;
@@ -1267,13 +1302,17 @@ main {
 
     #telefonoIconFormCotz{
         margin-top: -1%;
+        margin-left: 41%;
     }
-
     #MailIconFormCotz{
         margin-top: -2%;
+        margin-left: 38%;
     }
     .TextoTamañoMap{
         padding: 1rem;
+    }
+    .letraTitulo{
+        font-size: 40px;
     }
 
 
@@ -1293,7 +1332,7 @@ main {
         margin-left: 6%;
     }
     .container-formularios {
-        max-width: 100%;
+        max-width: 96%;
     }
     .titecotiza {
         margin-left: 8rem;
@@ -1375,7 +1414,7 @@ main {
         margin-left: -19%;
     }
     .subtitledatosEmpl {
-        margin-left: -19%
+        margin-left: -20%
     }
     .LH2 {
         margin-left: 26%;
