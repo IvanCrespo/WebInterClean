@@ -991,7 +991,6 @@ main {
     }
    
 }
-
 @media (min-width: 991px) and (max-width: 1024px) {
     .carousel-inner img {
         height: 130vh;
@@ -1052,7 +1051,6 @@ main {
         font-size: 36px;
     }
 }
-
 @media (min-width: 1025px) and (max-width: 1366px) {
     .carousel-inner img {
         height: 85rem;
@@ -1073,9 +1071,8 @@ main {
         margin-left: 30%;
     }
     .LHCOTIZ {
-        max-width: 20rem;
-        margin: 0px 24px 0 auto;
-
+        max-width: 18rem;
+        margin: 0px 51px 0 auto;
     }
     .titecotiza {
         width: 39rem;
@@ -1182,7 +1179,6 @@ main {
     }
 
 }
-
 @media (min-width: 1025px) and (max-width: 1199px){
     .contFomLabCotiz2{
         margin-top: 0%;
@@ -1226,9 +1222,6 @@ main {
         width: 83%;
     }
 }
-
-
-
 @media (min-width: 1367px) and (max-width: 1680px) {
     .carousel-inner img {
         height: auto;
@@ -1323,7 +1316,6 @@ main {
 
 
 }
-
 @media (min-width: 1681px) and (max-width: 1920px) {
     .carousel-inner img {
         height: auto;
