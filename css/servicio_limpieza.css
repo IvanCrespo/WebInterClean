@@ -84,8 +84,9 @@
     transition: opacity .15s ease;
     max-height: 86vh;
     opacity: rgba(63, 63, 63, 0.137);
-    margin: 1rem 7rem 3.9rem 6rem;
+    margin: 1rem 6rem 2rem 5rem;
 }
+
 .carousel-inner img {
     width: 100%;
     max-height: 100vh;
@@ -275,8 +276,8 @@
     display: flex;
     justify-content: center;
     position: relative;
-    width: 14rem;
-    height: 14rem;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 50%;
 }
