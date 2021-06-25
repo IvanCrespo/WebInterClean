@@ -370,6 +370,17 @@
     background-size: cover;
     min-height: 50vh;
 }
+.coticeahora2 {
+    margin-top: 5%;
+    position: relative;
+    background: url('../img/cotizacion/interclean_edificio_cotizacion.png') no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 80vh;
+}
 
 #telefonoIconFormCotz {
     width: 4rem;
@@ -727,6 +738,10 @@ main {
     .coticeahora {
         margin-top: 8%;
     }
+    .coticeahora2 {
+        margin-top: 8%;
+    }
+
     #secFormEmpl {
         margin-top: 13%;
     }
