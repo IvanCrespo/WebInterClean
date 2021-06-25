@@ -295,7 +295,7 @@
     transition: 0.5s;
     background-size: 200% auto;
     box-shadow: 0 0 20px #eee;
-    -webkit-box-shadow: 0 0 20px #eee;
+    /* -webkit-box-shadow: 0 0 20px #eee; */
     display: flex;
     align-items: center;
     justify-content: center;
