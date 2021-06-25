@@ -295,6 +295,7 @@
     transition: 0.5s;
     background-size: 200% auto;
     box-shadow: 0 0 20px #eee;
+    -webkit-box-shadow: 0 0 20px #eee;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -407,7 +408,8 @@
     box-shadow: 2px 2px 5px #999;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
     width: 39px;
     height: 51px;
 }
