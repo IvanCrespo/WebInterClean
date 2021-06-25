@@ -295,7 +295,7 @@
     transition: 0.5s !important;
     background-size: 200% auto !important;
     box-shadow: 0 0 20px #eee !important;
-    /* -webkit-box-shadow: 0 0 20px #eee; */
+    -webkit-box-shadow: 0 0 20px #eee;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -321,7 +321,7 @@
     transition: 0.5s !important;
     background-size: 200% auto !important;
     box-shadow: 0 0 20px #eee !important;
-    /* -webkit-box-shadow: 0 0 20px #eee; */
+    -webkit-box-shadow: 0 0 20px #eee;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -347,7 +347,7 @@
     transition: 0.5s !important;
     background-size: 200% auto !important;
     box-shadow: 0 0 20px #eee !important;
-    /* -webkit-box-shadow: 0 0 20px #eee; */
+    -webkit-box-shadow: 0 0 20px #eee;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
