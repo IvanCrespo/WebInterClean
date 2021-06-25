@@ -1,26 +1,26 @@
 /*______________________________________________________*/
-.animacionTel{
+
+.animacionTel {
     height: 100%;
     width: 100%;
     background: url("../img/telefono/Telefono_junto_Mesa_de_trabajo_1.svg");
     margin: 0 auto;
-    animation:  sonar 1s steps(6) infinite;
-
+    animation: sonar 1s steps(6) infinite;
 }
+
 @keyframes sonar {
     0% {
         background-position: 0px;
     }
-    100%{
-
+    100% {
         background-position: -672px
     }
 }
 
 
-
-
 /*______________________________________________________*/
+
+
 /* Index*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
@@ -43,9 +43,11 @@ body {
     position: absolute;
     border-radius: 1.5rem;
 }
+
 .Social-Net {
     display: none !important;
 }
+
 nav>.container-fluid {
     margin-top: 0rem;
     margin-block-end: 0rem;
@@ -108,7 +110,7 @@ nav>.container-fluid {
 .fondo-degradado-menu-blanco {
     background-color: #6a6a6a;
     background-image: linear-gradient(340deg, #b5b5b5 0%, #f5f7fa 1%);
-    z-index: 100;
+    z-index: 99;
 }
 
 .fondo-degradado-menu-negro {
@@ -169,7 +171,8 @@ nav>.container-fluid {
 
 
 /*BOTON COTICE AHORA*/
-.color-degradiente{
+
+.color-degradiente {
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
     border: 2px inset #119ae4;
     background-color: #1A455D;
@@ -184,7 +187,7 @@ nav>.container-fluid {
     color: #ffff !important;
 }
 
-.color-degradiente:hover{
+.color-degradiente:hover {
     background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
     background-position: right center;
     border: 1px inset #72a512;
@@ -193,6 +196,7 @@ nav>.container-fluid {
     border-radius: 50px;
     color: rgb(255, 255, 255) !important;
 }
+
 .activebutton {
     background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
     border: 1px inset #72a512;
@@ -205,7 +209,10 @@ nav>.container-fluid {
     transition: 0.5s;
     color: #ffff !important;
 }
+
+
 /*FIN BOTON COTICE AHORA*/
+
 
 /*ANIMACION MENU*/
 
@@ -291,6 +298,7 @@ nav>.container-fluid {
     color: red !important;
     background-color: darkviolet !important;
 }
+
 .navbar-expand-xl .navbar-nav .dropdown-menu {
     border: 2px solid #8d8d8d;
     position: absolute;
@@ -298,26 +306,26 @@ nav>.container-fluid {
     padding: 1rem;
     margin: 18px -28px 0rem 0rem;
 }
+
 .Letras-Default-Menu-Dropdown:hover {
-  background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 
-.btn-group-sm>.btn, .btn-sm {
+.btn-group-sm>.btn,
+.btn-sm {
     padding: 0.25rem 3.5rem;
     font-size: .875rem;
     line-height: 1.5;
     border-radius: 2rem;
     font-size: 1.2rem;
 }
+
+
 /* Para 480px Tablets 10p */
 
-
-
-
-
-
-@media only screen and (min-width: 1025px)  and  (max-width: 1199px){
-    .btn-group-sm >.btn, .btn-sm {
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .btn-group-sm>.btn,
+    .btn-sm {
         padding: 0.25rem 2.5rem;
         font-size: .875rem;
         line-height: 1.5;
@@ -347,7 +355,7 @@ nav>.container-fluid {
         display: contents !important;
     }
     .TamañoIconoSW {
-       width: 60% !important;
+        width: 60% !important;
     }
     .TamañoIconoSW {
         width: 70%;
@@ -355,7 +363,6 @@ nav>.container-fluid {
         justify-content: center;
         margin: 1px;
     }
-
     .Contenedor-Telefono {
         border-radius: 0rem 0rem 0.8rem 0.8rem;
         background-color: white;
@@ -365,18 +372,16 @@ nav>.container-fluid {
     .Fondo-menu-central {
         background-color: rgb(255, 255, 255);
         border-radius: .8rem 0.8rem 0rem 0rem;
-    } 
+    }
     .show {
         border-radius: 2rem;
         background-color: white !important;
     }
-
-   .Seleccionado-Boton {
+    .Seleccionado-Boton {
         margin-left: 27px;
         margin-right: 40px;
         margin-top: 10px;
     }
-  
     .bg-light {
         background-image: linear-gradient(to right, #2a79a1 0%, #304a59 51%, #2798ce 100%);
     }
@@ -401,7 +406,7 @@ nav>.container-fluid {
         padding: 3rem 0rem 3rem 0rem;
         margin: 0rem 15rem 1rem 18rem;
         background-color: white;
-    } 
+    }
     .navbar-nav .nav-link {
         padding-right: 2rem;
         padding-left: 2rem;
@@ -409,17 +414,18 @@ nav>.container-fluid {
         margin: -9px 2px 16px 39px;
     }
 }
+
+
 /* Para 480px Tablets 10p */
 
-
-@media only screen and (min-width: 768px) and  (max-width: 1024px)  {
-    .btn-group-sm >.btn, .btn-sm {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn-group-sm>.btn,
+    .btn-sm {
         padding: 0.25rem 2.5rem;
         font-size: .875rem;
         line-height: 1.5;
         border-radius: 2rem;
         font-size: 1.5rem;
-        
     }
     .Social-Net {
         display: contents!important;
@@ -447,7 +453,7 @@ nav>.container-fluid {
         display: contents !important;
     }
     .TamañoIconoSW {
-       width: 60% !important;
+        width: 60% !important;
     }
     .navbar-nav .nav-link {
         padding-right: 3rem;
@@ -476,7 +482,6 @@ nav>.container-fluid {
         margin-right: 40px;
         margin-top: 10px;
     }
-  
     .bg-light {
         background-image: linear-gradient(to right, #2a79a1 0%, #304a59 51%, #2798ce 100%);
     }
@@ -506,11 +511,11 @@ nav>.container-fluid {
         padding: 57px -29px 40px 59px;
         margin: 1px 100px 2px 36px;
     }
- 
 }
 
-@media only screen and (min-width: 501px) and  (max-width: 767px){
-    .btn-group-sm>.btn, .btn-sm {
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    .btn-group-sm>.btn,
+    .btn-sm {
         padding: 0.25rem 2.5rem;
         font-size: .875rem;
         line-height: 1.5;
@@ -552,7 +557,7 @@ nav>.container-fluid {
         margin: 1rem 4rem -27rem 5rem;
         background-color: white;
     }
-    .Contenedor-Telefono{
+    .Contenedor-Telefono {
         display: flex;
         justify-content: center;
     }
@@ -562,20 +567,21 @@ nav>.container-fluid {
         margin: 0.4em;
         padding: 0.8rem;
     }
-    .Social-Net{
+    .Social-Net {
         display: contents !important;
     }
-    .TamañoIconoSW{
+    .TamañoIconoSW {
         width: 80% !important;
         margin: 0%;
         padding: 0%;
     }
 }
 
+
 /* Para 480px */
 
-@media only screen and (min-width: 320px)  and (max-width: 500px) {
-    .posicion-btn{
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .posicion-btn {
         display: flex;
         justify-content: center;
         margin: 0.4em;
@@ -608,7 +614,6 @@ nav>.container-fluid {
     .Contenedor-Logo {
         margin-left: -34px
     }
- 
     .Fondo-menu-central {
         background-color: rgb(255, 255, 255);
         border-radius: 0.8rem;
@@ -616,7 +621,6 @@ nav>.container-fluid {
     .logoZoom {
         visibility: hidden;
     }
- 
     .Seleccionado-Boton {
         margin-left: 27px;
         margin-right: 40px;

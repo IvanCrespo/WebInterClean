@@ -9,6 +9,27 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="user-scalable=no, width=device-width">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KHWM9VC');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
     <!-- Logo buscador -->
     <link rel="icon" href="img/logopng_interclean.png">
 
@@ -38,6 +59,12 @@
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHWM9VC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="preloader"></div>
     <!-- FIN LOADER -->
 
@@ -605,7 +632,22 @@
             </div>
         </div>
 
+
+        <!-- Cookies -->
+        <div class="aviso-cookies" id="aviso-cookies">
+            <img class="galleta" src="img/logopng_interclean.png" alt="Galleta">
+            <h3 class="TituloCookie">Cookies</h3>
+            <p class="parrafo">
+                Utilizamos cookies propias y de terceros para mejorar nuestros servicios.
+            </p>
+            <button class="botonCookie" id="btn-aceptar-cookies">De acuerdo</button>
+            <a class="enlace" href="">Aviso de Cookies</a>
+        </div>
+        <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
     </main>
+
+
 
 
     <!-- Mapa JS -->
@@ -624,6 +666,7 @@
 
     <!-- JS de la Web -->
     <!-- <script src="js/loader/loader.js"></script> -->
+    <script src="js/cookies/cookies.js"></script>
     <script src="js/cursor/cursor.js"></script>
     <script src="js/contador/contador.js"></script>
     <script src="js/zoom/zoom.js"></script>
