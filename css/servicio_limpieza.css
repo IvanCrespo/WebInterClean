@@ -65,8 +65,7 @@
     background-color: rgba(4, 4, 4, 0.699);
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.carousel-control-next, .carousel-control-prev {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -77,14 +76,15 @@
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 13%;
+    width: 8%;
     color: #fff;
     text-align: center;
     opacity: .5;
-    margin-top: 5rem;
+    margin-top: 2.7rem;
     transition: opacity .15s ease;
     max-height: 86vh;
     opacity: rgba(63, 63, 63, 0.137);
+    margin: 1rem 6rem 2rem 5rem;
 }
 
 .carousel-inner img {

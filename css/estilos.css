@@ -407,10 +407,9 @@
     box-shadow: 2px 2px 5px #999;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    width: 25px;
-    height: 25px;
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 39px;
+    height: 51px;
 }
 
 
