@@ -316,7 +316,7 @@
 }
 
 .boton {
-    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%) !important;
+    /* background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%) !important;
     border: 4px inset #7FA439 !important;
     box-shadow: 0 0 20px #eee !important;
     background-color: #7FA439 !important;
@@ -331,7 +331,23 @@
     font-size: 22px !important;
     color: #ffff !important;
     display: flex !important;
-    padding: 8px !important;
+    padding: 8px !important; */
+    padding: 9px 60px;
+    overflow: hidden;
+    background-color: #3fc2f0;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0 2px 5px #19748f;
+    -moz-box-shadow: 0 2px 5px #19748f;
+    box-shadow: 0 2px 5px #19748f;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    align-content: center;
+    position: relative;
+    border: 1px solid #CCC;
+    margin: auto;
 }
 
 .boton:hover {
@@ -781,7 +797,6 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
-    
     /* -------------------- Seccion Servicios ----------------- */
     .containerAltura {
         padding-top: 6rem;
