@@ -2518,6 +2518,7 @@
             
                 
                 $estados.innerHTML = "<option>Estado</option><option disabled></option>";
+                $municipios.innerHTML = "<option>Ciudad</option><option disabled></option>";
 
                 for(var code_estado in estados){
                     var option_estado = document.createElement("option");
