@@ -141,11 +141,16 @@
                             <div class="form-groupFroms">
                                 <input type="text" class="form-control formularioEmp" placeholder="Teléfono*" id="telemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
                             </div>
-                            <div class="form-groupFroms">
-                                <input type="text" class="form-control formularioEmp" placeholder="Ciudad" id="ciudademp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
-                            </div>
-                            <div class="form-groupFroms">
-                                <input type="text" class="form-control formularioEmp" placeholder="Estado" id="estadoemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+
+                            <div class="js-estados-e-municipios">
+                                <div class="form-groupFroms">
+                                    <!-- <input type="text" class="form-control formularioEmp" placeholder="Ciudad" id="ciudademp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true"> -->
+                                    <select class="js-estados form-control formularioEmp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" data-value=""></select>
+                                </div>
+                                <div class="form-groupFroms">
+                                    <select class="js-municipios form-control formularioEmp"  style="background-color: #1A455D;color: white;border-radius: 10px;border: none;"data-value=""></select>
+                                    <!-- <input type="text" class="form-control formularioEmp" placeholder="Estado" id="estadoemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true"> -->
+                                </div>
                             </div>
                             <div class="form-groupFroms">
                                 <!-- <input type="text" class="form-control formularioEmp" placeholder="Vacante" id="antemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true"> -->
@@ -162,10 +167,16 @@
                                 <!-- <button type="submit" id="empleocotize" class="btn btn-primary" >Cotice ahora!</button> -->
                             </div>
                         </form>
+
+                        <!-- <div class="js-estados-e-municipios">
+                            <label>Estado: <select class="js-estados" data-value=""></select></label>
+                            <label>Município: <select class="js-municipios" data-value=""></select></label>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <div style="margin-top: 2rem;"></div>
@@ -265,6 +276,7 @@
     <script src="../js/Menu/Hide.js"></script>
     <!-- Configuraciones de carrusel -->
     <script src="../js/CarruselConf/carruselConf.js"></script>
+    <script src="../js/bdestados/estados-e-municipios.js"></script>
 </body>
 
 </html>
