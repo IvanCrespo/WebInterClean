@@ -291,48 +291,48 @@
 
 .boton {
     background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%) !important;
-    text-transform: uppercase !important;
-    transition: 0.5s !important;
-    background-size: 200% auto !important;
-    box-shadow: 0 0 20px #eee !important;
-    -webkit-box-shadow: 0 0 20px #eee;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    border-radius: 50px !important;
-    background-color: #7FA439 !important;
-    color: #ffff !important;
-    padding: 8px !important;
-    text-decoration: none !important;
-    font-size: 18px !important;
     border: 4px inset #7FA439 !important;
+    box-shadow: 0 0 20px #eee !important;
+    background-color: #7FA439 !important;
+    background-size: 200% auto !important;
+    text-transform: uppercase !important;
+    -webkit-box-shadow: 0 0 20px #eee;
+    justify-content: center !important;
+    text-decoration: none !important;
+    align-items: center !important;
+    border-radius: 50px !important;
+    transition: 0.5s !important;
+    font-size: 22px !important;
+    color: #ffff !important;
+    display: flex !important;
+    padding: 8px !important;
 }
 
 .boton:hover {
-    background-position: right center !important;
     color: #fff !important;
     text-decoration: none !important;
-    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%) !important;
     border: 4px inset #0986c9 !important;
+    background-position: right center !important;
+    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%) !important;
 }
 
 .boton1 {
     background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%) !important;
-    text-transform: uppercase !important;
-    transition: 0.5s !important;
-    background-size: 200% auto !important;
-    box-shadow: 0 0 20px #eee !important;
-    -webkit-box-shadow: 0 0 20px #eee;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    border-radius: 50px !important;
+    border: 4px inset #7FA439 !important;
     background-color: #7FA439 !important;
+    box-shadow: 0 0 20px #eee !important;
+    text-transform: uppercase !important;
+    background-size: 200% auto !important;
+    justify-content: center !important;
+    -webkit-box-shadow: 0 0 20px #eee;
+    text-decoration: none !important;
+    align-items: center !important;
+    border-radius: 50px !important;
+    transition: 0.5s !important;
+    display: flex !important;
     color: #ffff !important;
     padding: 8px !important;
-    text-decoration: none !important;
     font-size: 22px !important;
-    border: 4px inset #7FA439 !important;
 }
 
 .boton1:hover {
