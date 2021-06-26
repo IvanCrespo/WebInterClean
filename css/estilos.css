@@ -176,7 +176,53 @@
     color: #1A455D;
 }
 
+.coloreado {background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%)}
+.coloreado {
+   margin: 10px;
+   padding: 10px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 2rem;
+   display: flex;
+   justify-content: center;
+ }
 
+ .coloreado:hover {
+   background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%) !important;
+   color: #fff;
+   border: 4px inset #0986c9 !important;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   border-radius: 2rem;
+ }
+
+/* .coloreado{
+   
+    border-radius: 2rem;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    border: 4px inset #7FA439 !important;
+    background-position: right center !important;
+    background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
+}
+.coloreado:hover{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff !important;
+    text-decoration: none !important;
+    border: 4px inset #0986c9 !important;
+    background-position: right center !important;
+    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%) !important;
+} */
 /* ----------------------------- FIN Titulos Cotice Ahora --------------------------------- */
 
 
