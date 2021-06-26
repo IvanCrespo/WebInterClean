@@ -403,11 +403,11 @@
         font-weight: 700;
         color: #1A455D;
     }
-    .carousel-control-prev,
-    .carousel-control-next {
-        max-height: 89vh;
-        height: 55vh !important;
+    .carousel-control-prev, .carousel-control-next {
+        max-height: 122vh;
+        height: 65vh !important;
         opacity: rgba(255, 255, 255, 0.953);
+        margin: 1rem;
     }
     .carousel-inner img {
         position: relative;
