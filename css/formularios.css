@@ -1,13 +1,16 @@
 /* ---------------------------------- COLORES FORMULARIOS --------------------------------- */
 
 .selectForm {
-    background-image: #1A455D;
     background-color: #1A455D;
-    background-size: 200% auto;
-    justify-content: center;
-    align-items: center;
     border-radius: 10px;
     color: #fff;
+}
+
+.styleForm {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
 }
 
 #nomemp::placeholder {
