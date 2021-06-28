@@ -476,6 +476,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .cover-header.bg-attachment-fixed {
+        background-attachment: scroll;
+      }
     .social-icons li {
         display: block;
         margin: 12px 0px;
