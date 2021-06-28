@@ -409,10 +409,16 @@
     }
     .carousel-inner img {
         position: relative;
-        width: 100% !important;
-        height: 35rem !important;
+        width: 313%;
+        margin-inline-start: -13rem;
+        height: 40rem !important;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        margin-inline-start: -32rem;
     }
+    
+    
     .d-md-block {
         display: block !important;
     }
