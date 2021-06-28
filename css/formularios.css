@@ -1,16 +1,13 @@
 /* ---------------------------------- COLORES FORMULARIOS --------------------------------- */
 
 .selectForm {
-    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
-    border: 2px inset #119ae4;
+    background-image: linear-gradient( to right, #1A455D 0%, #1A455D 51%, #1A455D 100%);
+    border: 0;
     background-color: #1A455D;
     background-size: 200% auto;
-    text-transform: uppercase;
     justify-content: center;
     align-items: center;
-    font-weight: bolder;
     border-radius: 10px;
-    transition: 0.9s;
     color: #ffff;
 }
 
