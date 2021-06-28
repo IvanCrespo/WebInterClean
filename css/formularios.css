@@ -382,6 +382,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-y: scroll;
     min-height: 80vh;
 }
 
@@ -394,6 +395,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-y: scroll;
     min-height: 80vh;
 }
 
@@ -1016,7 +1018,7 @@ main {
     }
 }
 
-@media (min-width: 991px) and (max-width: 1024px) {
+@media (min-width: 991px) and (max-width: 1024px) {c
     .carousel-inner img {
         height: 130vh;
         max-height: 640px;
