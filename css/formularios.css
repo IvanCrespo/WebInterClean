@@ -6,13 +6,6 @@
     color: #fff;
 }
 
-.styleForm {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-repeat: no-repeat;
-}
-
 #nomemp::placeholder {
     color: white;
 }
@@ -1018,8 +1011,8 @@ main {
     }
 }
 
-@media (min-width: 991px) and (max-width: 1024px) {c
-    .carousel-inner img {
+@media (min-width: 991px) and (max-width: 1024px) {
+    c .carousel-inner img {
         height: 130vh;
         max-height: 640px;
     }
