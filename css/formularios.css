@@ -1,6 +1,8 @@
 /* ---------------------------------- COLORES FORMULARIOS --------------------------------- */
 
 .selectForm {
+    background-image: linear-gradient( to right, #1A455D 0%, #1A455D 51%, #1A455D 100%);
+    border: 0;
     background-color: #1A455D;
     background-size: 200% auto;
     justify-content: center;
@@ -372,24 +374,26 @@
 .coticeahora {
     margin-top: 5%;
     position: relative;
-    background: url('../img/TrabajoEnEquipoInterclean.png') no-repeat fixed;
+    background: url('../img/TrabajoEnEquipoInterclean.png') no-repeat fixed !important;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-y: scroll;
     min-height: 80vh;
 }
 
 .coticeahora2 {
     margin-top: 5%;
     position: relative;
-    background: url('../img/cotizacion/interclean_edificio_cotizacion.png') no-repeat fixed;
+    background: url('../img/cotizacion/interclean_edificio_cotizacion.png') no-repeat fixed !important;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-y: scroll;
     min-height: 80vh;
 }
 
@@ -747,13 +751,9 @@ main {
     }
     .coticeahora {
         margin-top: 8%;
-        position:sticky;
-        background-position: center center;
     }
     .coticeahora2 {
         margin-top: 8%;
-        position: fixed !important;
-        background-position: center center;
     }
     #secFormEmpl {
         margin-top: 13%;
@@ -1017,7 +1017,7 @@ main {
 }
 
 @media (min-width: 991px) and (max-width: 1024px) {
-    .carousel-inner img {
+    c .carousel-inner img {
         height: 130vh;
         max-height: 640px;
     }
