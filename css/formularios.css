@@ -746,14 +746,18 @@ main {
         margin-top: 4%;
     }
     .coticeahora {
-        margin-top: 8%;
-        position:sticky;
+        width: 100%;
+        margin-top: auto;
+        position: static !important;
         background-position: center center;
+        height: 90vh;
     }
     .coticeahora2 {
-        margin-top: 8%;
-        position: fixed !important;
+        width: 100%;
+        margin-top: auto;
+        position: static !important;
         background-position: center center;
+        height: 90vh;
     }
     #secFormEmpl {
         margin-top: 13%;
