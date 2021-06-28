@@ -7,6 +7,8 @@
     align-items: center;
     border-radius: 10px;
     color: #ffff !important;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 #nomemp::placeholder {
