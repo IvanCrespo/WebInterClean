@@ -369,7 +369,7 @@
 .coticeahora {
     margin-top: 5%;
     position: relative;
-    background: url('../img/TrabajoEnEquipoInterclean.png') no-repeat fixed;
+    background: url('../img/TrabajoEnEquipoInterclean.png') no-repeat fixed !important;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -382,7 +382,7 @@
 .coticeahora2 {
     margin-top: 5%;
     position: relative;
-    background: url('../img/cotizacion/interclean_edificio_cotizacion.png') no-repeat fixed;
+    background: url('../img/cotizacion/interclean_edificio_cotizacion.png') no-repeat fixed !important;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
