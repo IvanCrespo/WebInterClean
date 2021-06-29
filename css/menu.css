@@ -190,7 +190,7 @@ nav>.container-fluid {
 .color-degradiente:hover {
     background-image: linear-gradient(to right, #3a5531 10%, #7FA439 51%, #315531 100%);
     background-position: right center;
-    border: 1px inset #72a512;
+    border: 2px inset #72a512;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 50px;
