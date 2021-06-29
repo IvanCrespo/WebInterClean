@@ -36,8 +36,8 @@
                 <a class="Contenedor-Logo" role="button" href="../index.html" id="logo" title="INTERCLEAN">
                     <img src="../img/logoletrasInterclean.png" class="tamaño-logo-ic lgs menu-wrapper-icono " />
                 </a>
-                <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler navbar-dark bg-light" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav mx-auto  Fondo-menu-central">
@@ -111,9 +111,19 @@
         </div>
     </section>
     <!--Paralax-->
+    <style>
+        body{
+            background: url('../img/TrabajoEnEquipoInterclean.png');
+            background-attachment: fixed;
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
 
-
-    <section class="section" id="secFormEmpl">
+    <section class="section" id="secFormEmpl" style=" padding: 2rem 1rem 1rem 1rem; margin-top: 5%; background-color: white; margin-top: 5%; background-color: white;">
         <div class="container container-formularios">
             <div class="formempleo">
                 <div class="row justify-content-center align-items-center">
@@ -162,17 +172,14 @@
                                         <option value="v4">Cajero</option>
                                 </select>
                             </div>
-                            <div style=" margin-left: 25%; margin-top: 0;">
-                                <a href="./www/limpieza.html" id="btnFormEmp" class="activebutton btn btn-lg color-degradiente Separacion-Menu" type="submit" style="width: 70%;"> Postularme</a>
-                                <!-- <button type="submit" id="empleocotize" class="btn btn-primary" >Cotice ahora!</button> --webkit-appearance: none;->
+                            <div class="container">
+                                <div class="row justify-content-center ">
+                                    <div class="col text-center">
+                                            <a href="./www/limpieza.html" id="btnFormEmp" class="activebutton btn btn-lg color-degradiente Separacion-Menu" type="submit"> Postularme</a>
+                                    </div>
+                                </div>
                             </div>
-                        
 
-                         <div class="js-estados-e-municipios">
-                            <label>Estado: <select class="js-estados" data-value=""></select></label>
-                            <label>Município: <select class="js-municipios" data-value=""></select></label>
-                        </div> -->
-                            </div>
                         </form>
                     </div>
                 </div>
@@ -180,7 +187,8 @@
         </div>        
     </section>
 
-    <div style="margin-top: 2rem;"></div>
+    <div style="margin-top: 2rem; background-color: white;">
+    </div>
     <!-- SECCION FOOTER -->
     <footer class="footer pt-4">
         <div class="container text-center text-md-left">
