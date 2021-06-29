@@ -389,7 +389,6 @@
     position: relative;
     background: url() no-repeat fixed;
     background-position: center center;
-  
     overflow-y: hidden;
     min-height: 80vh;
 }
@@ -1423,7 +1422,7 @@ main {
     }
     .TextoCotizacion {
         font-size: 50px;
-        padding-top: 40.5px;
+        padding-top: 49.5px;
         left: 25%;
         margin-left: auto;
     }
