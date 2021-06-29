@@ -397,13 +397,13 @@
 section.parallax-image4 {
     background: url('../img/cotizacion/interclean_edificio_cotizacion.png');
     overflow-y: hidden;
-  }
-  .sticky {
-    height: 80vh;
-    position: -webkit-sticky; 
-    position: sticky;
-  }
+}
 
+.sticky {
+    height: 80vh;
+    position: -webkit-sticky;
+    position: sticky;
+}
 
 #telefonoIconFormCotz {
     width: 4rem;
@@ -480,9 +480,8 @@ section.parallax-image4 {
     font-size: 16px;
     margin: -1px;
     border-radius: 0rem 0rem 3rem;
-    box-shadow: 23px 20px 31px 6px rgb(0 0 0 / 17%);
-    -webkit-box-shadow: 23px 20px 31px 6px rgb(0 0 0 / 17%);
-    -moz-box-shadow: 23px 20px 31px 6px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgb(0 0 0 / 0%);
 }
 
 .titemapsub {
@@ -757,9 +756,8 @@ main {
     .divSubtLin {
         margin-top: 4%;
     }
-    .coticeahora  img{
+    .coticeahora img {
         margin-top: 8%;
-    
     }
     .coticeahora2 {
         margin-top: 8%;
