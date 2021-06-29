@@ -11,6 +11,22 @@
     color: #ffff;
 }
 
+.textoContactoC {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.1rem;
+    text-align: justify;
+    color: #1A455D;
+}
+
+.titulotexContactoC {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 2.1rem;
+    text-align: justify;
+    color: #1A455D;
+}
+
 #nomemp::placeholder {
     color: white;
 }
@@ -232,7 +248,7 @@
 }
 
 #cotizacontacto {
-    margin-top: 7%;
+    margin-top: 3%;
     color: #1A455D;
     font-family: 'Poppins', sans-serif;
 }
@@ -621,6 +637,19 @@ main {
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
+    .imagenContactoC {
+        margin: 2.5rem auto 1rem auto;
+        display: flex;
+        width: 30%;
+    }
+    .titulotexContactoC {
+        font-size: 18px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 16px;
+        text-align: center;
+    }
     .carousel-inner img {
         height: 90vh;
         max-height: 595px;
@@ -789,7 +818,7 @@ main {
         margin-left: 10px;
     }
     #cotizacontacto {
-        margin-top: 15%;
+        margin-top: 3%;
         color: #1A455D;
         font-family: 'Poppins', sans-serif;
     }
@@ -894,6 +923,19 @@ main {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .imagenContactoC {
+        margin: 2.5rem auto 1rem auto;
+        display: flex;
+        width: 40%;
+    }
+    .titulotexContactoC {
+        font-size: 20px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 18px;
+        text-align: center;
+    }
     .carousel-inner img {
         height: 130vh;
         max-height: 640px;
@@ -1072,6 +1114,19 @@ main {
     .letraTitulo {
         font-size: 36px;
     }
+    .imagenContactoC {
+        margin: 2.5rem auto 1rem auto;
+        display: flex;
+        width: 40%;
+    }
+    .titulotexContactoC {
+        font-size: 20px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 18px;
+        text-align: center;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1366px) {
@@ -1200,11 +1255,37 @@ main {
         margin-top: 21%;
         width: 56px;
     }
+    .imagenContactoC {
+        margin: 1rem auto 1rem auto;
+        display: flex;
+        width: 40%;
+    }
+    .titulotexContactoC {
+        font-size: 20px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 18px;
+        text-align: center;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1199px) {
     .contFomLabCotiz2 {
         margin-top: 0%;
+    }
+    .imagenContactoC {
+        margin: 2.5rem auto 1rem auto;
+        display: flex;
+        width: 40%;
+    }
+    .titulotexContactoC {
+        font-size: 20px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 18px;
+        text-align: center;
     }
 }
 
@@ -1218,6 +1299,19 @@ main {
         margin-left: -11%;
         line-height: 45px;
         font-weight: bold;
+    }
+    .imagenContactoC {
+        margin: 2.5rem auto 1rem auto;
+        display: flex;
+        width: 40%;
+    }
+    .titulotexContactoC {
+        font-size: 20px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 18px;
+        text-align: center;
     }
 }
 
@@ -1234,6 +1328,19 @@ main {
     }
     #emailContForm {
         width: 11%;
+    }
+    .imagenContactoC {
+        margin: 2.5rem auto 1rem auto;
+        display: flex;
+        width: 40%;
+    }
+    .titulotexContactoC {
+        font-size: 20px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 18px;
+        text-align: center;
     }
 }
 
@@ -1337,6 +1444,16 @@ main {
     }
     .letraTitulo {
         font-size: 40px;
+    }
+    .imagenContactoC {
+        width: 55%;
+    }
+    .titulotexContactoC {
+        font-size: 21px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 19px;
     }
 }
 
@@ -1450,5 +1567,15 @@ main {
     }
     .TextoTamañoMap {
         padding-top: 1.3rem;
+    }
+    .imagenContactoC {
+        width: 60%;
+    }
+    .titulotexContactoC {
+        font-size: 24px;
+        text-align: inherit;
+    }
+    .textoContactoC {
+        font-size: 22px;
     }
 }
