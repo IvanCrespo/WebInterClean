@@ -15,7 +15,7 @@
     color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    padding: 10% 1rem;
+    padding: 15% 1rem;
 }
 
 
@@ -63,11 +63,8 @@
     background-color: rgba(4, 4, 4, 0.699);
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.carousel-control-next, .carousel-control-prev {
     position: absolute;
-    top: 0;
-    bottom: 0;
     z-index: 1;
     display: -ms-flexbox;
     display: flex;
@@ -79,11 +76,11 @@
     color: #fff;
     text-align: center;
     opacity: 0.6;
-    margin-top: 3.7rem !important;
+    margin-top: 6.7rem !important;
     transition: opacity .15s ease;
-    max-height: 86vh;
+    max-height: 77vh;
     opacity: rgba(63, 63, 63, 0.137);
-    margin: 1rem 6rem 2rem 5rem;
+    margin: 1rem 7rem 1rem 3rem;
 }
 
 .carousel-inner img {
