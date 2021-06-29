@@ -177,7 +177,6 @@
 }
 
 
-
 /* ----------------------------- FIN Titulos Cotice Ahora --------------------------------- */
 
 
@@ -291,15 +290,7 @@
 }
 
 .boton {
-    background-image:
-    
-     linear-gradient( 
-         to right,
-      #3a5531 10%, 
-      #7FA439 51%, 
-      #315531 100%) !important;
-
-
+    background-image: linear-gradient( to right, #3a5531 10%, #7FA439 51%, #315531 100%) !important;
     border: 4px inset #7FA439 !important;
     background-size: 200% auto !important;
     text-transform: uppercase !important;
@@ -317,16 +308,8 @@
     text-decoration: none !important;
     border: 4px inset #0986c9 !important;
     background-position: right center !important;
-    background-image: linear-gradient(
-         to right,
-          #314755 0%,
-           #26a0da 51%,
-            #314755 100%) !important;
+    background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%) !important;
 }
-
-
-
-
 
 .hr-servicios {
     border-top: 3px solid #7FA439;
@@ -371,6 +354,7 @@
     height: auto;
     width: 100%;
     margin: 0 auto;
+    border-radius: 20px;
 }
 
 
@@ -420,6 +404,7 @@
     text-decoration: none;
     box-shadow: 2px 2px 5px #999;
 }
+
 .color-degradiente-mv {
     background-image: linear-gradient( to right, #314755 0%, #26a0da 51%, #314755 100%);
     border: 2px inset #119ae4;
@@ -436,6 +421,7 @@
     text-decoration: none;
     font-weight: bolder;
 }
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     width: 39px;
