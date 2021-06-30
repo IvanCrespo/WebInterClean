@@ -403,7 +403,6 @@
 
 .coticeahora2 {
     background: url('../img/cotizacion/interclean_edificio_cotizacion.png');
-    background-attachment: fixed;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -412,13 +411,12 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+    background-attachment: fixed;
+    
     background-size: cover;
 }
 
-section.parallax-image4 {
-    background: url('../img/cotizacion/interclean_edificio_cotizacion.png');
-    overflow-y: hidden;
-}
 
 .sticky {
     height: 80vh;
