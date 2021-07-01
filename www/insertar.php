@@ -1,10 +1,11 @@
 <?php
 //Conexion
 $conexion = mysqli_connect("localhost", "intercle_admin", "Soporte=2020-2", "intercle_intranet");
-//Datos Personales
+//Form Empleado
 $nombreCompleto = $_POST["nombreCompleto"];
 $telefono = $_POST["telefono"];
-$vacantes = $_POST["vacantes"]; 
+$vacantes = $_POST["vacantes"];
+//Form Cotizacion 
 $correo= $_POST["correo"]; 
 $telefono= $_POST["telefono"]; 
 $archivo= $_POST["archivo"]; 
@@ -12,6 +13,7 @@ $mensaje= $_POST["mensaje"];
 
 
     //Insert DATA;
+    //Form Empleado
         $insertarSQL = "INSERT INTO WebInempleos(nombreCompleto, telefono, vacantes) VALUES ('$nombreCompleto', '$telefono', '$vacantes')";
         $resultado = mysqli_query($conexion, $insertarSQL);
         if ($resultado) {
@@ -23,6 +25,7 @@ $mensaje= $_POST["mensaje"];
         }
 
         //Insert DATA;
+        //Form Cotizacion 
         $insertarSQL = "INSERT INTO WebIncotizaciones(nombreCompleto, correo, telefono, archivo, mensaje) VALUES ('$nombreCompleto', '$telefono', '$archivo','$mensaje')";
         $resultado = mysqli_query($conexion, $insertarSQL);
         if ($resultado) {
