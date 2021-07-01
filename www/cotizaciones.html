@@ -124,25 +124,25 @@
                                 <img class="img-fluid hoja" src="../img/hojachica_interclean.png">Cotizaciones
                             </h1>
                         </div>
-                        <form class="formcot">
+                        <form action="/www/insertar.php" class="formcot">
                             <div class="form-groupFroms">
-                                <input type="text" class="form-control formularioCotz" placeholder="Nombre Completo" id="nombre" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
+                                <input type="text" class="form-control formularioCotz" placeholder="Nombre Completo" id="nombreCompleto" name="nombreCompleto" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
                             </div>
                             <div class="form-row">
                                 <div class="form-groupFroms col-md-6">
-                                    <input type="email" class="form-control formularioCotz" placeholder="Email" id="correo" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
+                                    <input type="email" class="form-control formularioCotz" placeholder="Email" id="correo" name="correo" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
                                 </div>
                                 <div class="form-groupFroms col-md-6">
-                                    <input class="form-control formularioCotz" type="text" placeholder="Teléfono" id="telefono" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
+                                    <input class="form-control formularioCotz" type="text" placeholder="Teléfono" id="telefono" name="telefono" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;">
                                 </div>
                             </div>
                             <div class="form-groupFroms" style="text-align: left;">
-                                <input type="file" id="actual-btn" hidden/>
+                                <input type="file" id="archivo" name="archivo" hidden/>
                                 <label id="btnSubir" for="actual-btn" role="button">Subir archivo</label>
                                 <span id="file-chosen">Ningún archivo seleccionado</span>
                             </div>
                             <div class="form-groupFroms">
-                                <textarea class="form-control formularioCotz" id="mensaje" placeholder="Mensaje" rows="4" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;"></textarea>
+                                <textarea class="form-control formularioCotz" id="mensaje" name="mensaje" placeholder="Mensaje" rows="4" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;"></textarea>
                             </div>
                             <div class="container">
                                 <div class="row justify-content-center">
