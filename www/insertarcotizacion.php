@@ -3,10 +3,10 @@
 $conexion = mysqli_connect("localhost", "intercle_admin", "Soporte=2020-2", "intercle_intranet");
 //Form Cotizacion 
 $nombreCompleto = $_POST["nombreCompleto"];
-$correo= $_POST["correo"]; 
+$correo = $_POST["correo"]; 
 $telefono= $_POST["telefono"]; 
-$archivo= $_POST["archivo"]; 
-$mensaje= $_POST["mensaje"];
+$archivo = $_POST["archivo"]; 
+$mensaje = $_POST["mensaje"];
 
 
         //Insert DATA;
@@ -14,7 +14,7 @@ $mensaje= $_POST["mensaje"];
         $insertarSQL = "INSERT INTO WebIncotizaciones(nombreCompleto, correo, telefono, archivo, mensaje) VALUES ('$nombreCompleto', '$correo', '$telefono', '$archivo', '$mensaje')";
         $resultado = mysqli_query($conexion, $insertarSQL);
         if ($resultado) {
-            echo '<script type="text/javascript">window.alert("se ha enviado correctamente");</script>';
+            echo '<script type="text/javascript">window.alert("se ha enviado correctamente");window.location.href="cotizaciones.html";</script>';
 
         } else{
             printf("Errormessage: %s\n", mysqli_error($conexion));
