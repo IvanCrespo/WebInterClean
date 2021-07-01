@@ -12,7 +12,7 @@ $vacantes = $_POST["vacantes"];
         $insertarSQL = "INSERT INTO WebInempleos(nombreCompleto, telefono, vacantes) VALUES ('$nombreCompleto', '$telefono', '$vacantes')";
         $resultado = mysqli_query($conexion, $insertarSQL);
         if ($resultado) {
-            echo '<script type="text/javascript">window.alert("se ha enviado correctamente");</script>';
+            echo '<script type="text/javascript">window.alert("se ha enviado correctamente"); window.location.href="./www/empleo.html";</script>';
 
         } else{
             printf("Errormessage: %s\n", mysqli_error($conexion));
