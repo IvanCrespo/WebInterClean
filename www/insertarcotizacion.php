@@ -11,7 +11,7 @@ $mensaje= $_POST["mensaje"];
 
         //Insert DATA;
         //Form Cotizacion 
-        $insertarSQL = "INSERT INTO WebIncotizaciones(nombreCompleto, correo, telefono, mensaje) VALUES ('$nombreCompleto', '$telefono','$mensaje')";
+        $insertarSQL = "INSERT INTO WebIncotizaciones(nombreCompleto, correo, telefono, mensaje) VALUES ('$nombreCompleto', '$correo', '$telefono','$mensaje')";
         $resultado = mysqli_query($conexion, $insertarSQL);
         if ($resultado) {
             echo '<script type="text/javascript">window.alert("se ha enviado correctamente");</script>';
