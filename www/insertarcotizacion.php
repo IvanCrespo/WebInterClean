@@ -5,13 +5,13 @@ $conexion = mysqli_connect("localhost", "intercle_admin", "Soporte=2020-2", "int
 $nombreCompleto = $_POST["nombreCompleto"];
 $correo= $_POST["correo"]; 
 $telefono= $_POST["telefono"]; 
-//$archivo= $_POST["archivo"]; 
+$archivo= $_POST["archivo"]; 
 $mensaje= $_POST["mensaje"];
 
 
         //Insert DATA;
         //Form Cotizacion 
-        $insertarSQL = "INSERT INTO WebIncotizaciones(nombreCompleto, correo, telefono, mensaje) VALUES ('$nombreCompleto', '$correo', '$telefono','$mensaje')";
+        $insertarSQL = "INSERT INTO WebIncotizaciones(nombreCompleto, correo, telefono, archivo, mensaje) VALUES ('$nombreCompleto', '$correo', '$telefono', '$archivo', '$mensaje')";
         $resultado = mysqli_query($conexion, $insertarSQL);
         if ($resultado) {
             echo '<script type="text/javascript">window.alert("se ha enviado correctamente");</script>';
