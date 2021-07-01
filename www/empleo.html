@@ -107,7 +107,8 @@
 
     <!--Paralax-->
     <section class="section" style="width: 100;">
-        <div class="coticeahora"></div> <!-- muestra la imagen -->
+        <div class="coticeahora"></div>
+        <!-- muestra la imagen -->
         <div class="img-estatica"></div>
     </section>
     <!--Paralax-->
@@ -134,12 +135,12 @@
                             <h4 class="subtitledatosEmpl text-center justify-content-center align-items-center">CAMPOS MARCADOS CON * SON REQUERIDOS</h4>
                             <!-- <hr class="LH2"> -->
                         </div>
-                        <form class="formemp">
+                        <form action="insertar.php" class="formemp" method="post" enctype="multipart/form-data">
                             <div class="form-groupFroms">
-                                <input type="text" class="form-control formularioEmp" placeholder="Nombre Completo*" id="nomemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+                                <input type="text" name="nombre" class="form-control formularioEmp" placeholder="Nombre Completo*" id="nomemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
                             </div>
                             <div class="form-groupFroms">
-                                <input type="text" class="form-control formularioEmp" placeholder="Teléfono*" id="telemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
+                                <input type="tel" name="telefono" class="form-control formularioEmp" placeholder="Teléfono*" id="telemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true">
                             </div>
 
                             <div class="js-estados-e-municipios">
@@ -156,16 +157,16 @@
                                 <!-- <input type="text" class="form-control formularioEmp" placeholder="Vacante" id="antemp" style="background-color: #1A455D;color: white;border-radius: 10px;border: none;" required="true"> -->
                                 <select class="form-control formularioEmp selectForm" name="vacante" id="vacante">
                                         <option value="">Vacantes</option>
-                                        <option value="v1">Lavador Vehicular</option>
-                                        <option value="v2">Auxiliar de Limpieza</option>
-                                        <option value="v3">Almacenista</option>
-                                        <option value="v4">Cajero</option>
+                                        <option value="Lavador Vehicular">Lavador Vehicular</option>
+                                        <option value="Auxiliar de Limpieza">Auxiliar de Limpieza</option>
+                                        <option value="Almacenista">Almacenista</option>
+                                        <option value="Cajero">Cajero</option>
                                 </select>
                             </div>
                             <div class="container">
                                 <div class="row justify-content-center ">
                                     <div class="col text-center">
-                                            <a href="./www/limpieza.html" id="btnFormEmp" class="activebutton btn btn-lg color-degradiente Separacion-Menu" type="submit"> Postularme</a>
+                                        <a href="./www/limpieza.html" id="btnFormEmp" class="activebutton btn btn-lg color-degradiente Separacion-Menu" type="submit"> Postularme</a>
                                     </div>
                                 </div>
                             </div>
@@ -174,12 +175,12 @@
                     </div>
                 </div>
             </div>
-        </div>        
-   
+        </div>
 
-    <div style="margin-top: 2rem; background-color: white;">
-    </div>
-</section>
+
+        <div style="margin-top: 2rem; background-color: white;">
+        </div>
+    </section>
     <!-- SECCION FOOTER -->
     <footer class="footer pt-4">
         <div class="container text-center text-md-left">
